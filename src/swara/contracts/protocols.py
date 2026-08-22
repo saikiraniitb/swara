@@ -39,6 +39,31 @@ class AudioTokenSpec:
     vocabulary_size: int
     frame_rate_hz: float
 
+    def __post_init__(self) -> None:
+        if not self.version:
+            raise ValueError("AudioTokenSpec.version must be non-empty")
+        if self.codebook_count <= 0 or self.vocabulary_size <= 0 or self.frame_rate_hz <= 0:
+            raise ValueError("AudioTokenSpec geometry must be positive")
+
+
+@dataclass(frozen=True, slots=True)
+class AudioTokenSequence:
+    """Framework-neutral discrete audio frames with no ML tensor dependency."""
+
+    frames: tuple[tuple[int, ...], ...]
+    spec_version: str
+
+    def validate_against(self, spec: AudioTokenSpec) -> None:
+        if self.spec_version != spec.version:
+            raise ValueError("Audio token spec version does not match")
+        if not self.frames:
+            raise ValueError("Audio token sequence must contain at least one frame")
+        for frame in self.frames:
+            if len(frame) != spec.codebook_count:
+                raise ValueError("Audio token frame has an unexpected codebook count")
+            if any(not isinstance(token, int) or token < 0 or token >= spec.vocabulary_size for token in frame):
+                raise ValueError("Audio token is outside the declared codebook vocabulary")
+
 
 @dataclass(frozen=True, slots=True)
 class GeneratedAudioTokens:
@@ -47,9 +72,12 @@ class GeneratedAudioTokens:
 
 
 @dataclass(frozen=True, slots=True)
-class Waveform:
+class AudioWaveform:
     samples: Sequence[float]
     sample_rate_hz: int
+
+
+Waveform = AudioWaveform
 
 
 @runtime_checkable
@@ -85,5 +113,6 @@ class SpeechGenerator(Protocol):
 
 @runtime_checkable
 class Codec(Protocol):
-    def decode(self, tokens: GeneratedAudioTokens, spec: AudioTokenSpec) -> Waveform: ...
+    def encode(self, waveform: AudioWaveform, spec: AudioTokenSpec) -> AudioTokenSequence: ...
 
+    def decode(self, tokens: AudioTokenSequence, spec: AudioTokenSpec) -> AudioWaveform: ...
