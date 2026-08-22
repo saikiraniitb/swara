@@ -61,12 +61,18 @@ LinguisticToken:
 
 `source_range` makes every rendered token traceable to original input; normalizer expansion (for example a number) uses generated tokens with the originating source range.
 
+## Coordinate system and normalization mapping
+
+Public text ranges are defined against `source_text` using Python Unicode string/code-point offsets (`[start, end)`). Normalized coordinates are internal and derived through `NormalizationMap`; they are never the primary external API.
+
+The M1 normalizer returns `NormalizedDocument(source_text, normalized_text, source_map)`. Its map records the source range that produced each normalized character and deterministically projects spans in either direction. A source span must fully contain every normalized-character origin it touches. If a conservative normalization collapse/composition makes a requested source span partial, empty, or ambiguous, projection raises a typed error rather than shifting the override.
+
 ## Compilation rules
 
 1. Preserve `source_text` unchanged.
 2. Normalize text into a canonical spoken form while retaining source ranges.
 3. Segment sentences, punctuation, and explicit/recognized language spans.
-4. Resolve matching overrides by priority; validate their language and token alphabet.
+4. Validate source-coordinate overrides, project them through `NormalizationMap`, then validate their language and token alphabet against the resulting normalized spans.
 5. Emit pronunciation tokens only for resolved override/lexicon/G2P spans; emit canonical grapheme tokens elsewhere in v0.
 6. Emit punctuation and sentence-boundary tokens explicitly. These are linguistic timing cues, not styling prompts.
 7. Fail closed on malformed overlaps or unsupported pronunciation-system versions; do not silently drop a user override.
