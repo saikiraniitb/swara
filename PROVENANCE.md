@@ -32,6 +32,28 @@ review:
 ```
 
 ```yaml
+component: data/m3_real_speech_v0
+component_version: 0.1.0
+classification: user-authorized experimental data
+status: prepared
+authors: [project user]
+upstreams: []
+model_weights: []
+datasets:
+  - name: m3_real_speech_v0
+    source: 20 self-recorded WAV files supplied by the project user
+    transcript_authority: sample.txt, ordered 001 through 020
+    speaker_id: m3_speaker_001
+    usage: bounded M3B real-speech overfit experiment only
+    ownership: user-authorized; not public or redistributable by default
+    preprocessing: mono 24 kHz PCM16 copies, M1 compilation, Qwen bootstrap codec tokenization
+modifications: Raw recordings remain untouched in Downloads; prepared copies and token arrays are gitignored.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: user authorization recorded for this experiment; separate release/distribution review required
+```
+
+```yaml
 component: swara.models.generator
 component_version: 0.1.0
 classification: independent
