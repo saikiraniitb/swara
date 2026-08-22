@@ -76,7 +76,7 @@ review:
 
 ```yaml
 component: swara.models.generator
-component_version: 0.1.0
+component_version: 2.0.0
 classification: independent
 status: implemented
 authors: [Swara]
@@ -87,8 +87,58 @@ upstreams:
     copied_code: false
 model_weights: []
 datasets: []
-modifications: Original Swara PyTorch implementation using conventional framework modules; no upstream generator source files are copied.
+modifications: Original Swara PyTorch Talker-parity implementation with active per-step linguistic states, full codec-frame history embeddings, and a causal within-frame residual predictor; no upstream generator source files are copied. Qwen Talker tensor-flow and staged scheduling are architectural inspiration only.
 review:
   license_reviewed_on: 2026-08-22
   commercial_status: Swara-owned implementation; external codec asset remains separately recorded above
+```
+
+```yaml
+component: qwen3-tts-0.6b-base-foundation
+component_version: m4a
+classification: external
+status: pretrained inference bootstrap
+upstreams:
+  - name: Qwen/Qwen3-TTS-12Hz-0.6B-Base
+    license: Apache-2.0
+    revision: main
+    model_sha256: 180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6
+    weights: external pretrained asset; not proprietary Swara IP
+  - name: Qwen/Qwen3-TTS-Tokenizer-12Hz
+    license: Apache-2.0
+    relationship: external bootstrap speech tokenizer/codec
+copied_code: false
+model_weights: external Qwen pretrained weights
+datasets: []
+modifications: Swara adapter is original code; Qwen runtime remains optional and isolated.
+```
+
+```yaml
+component: data/spicor_eng_m_spk001_v1
+component_version: 1.0.0
+classification: external dataset
+status: prepared experimental corpus
+authors: [Indian Institute of Science, Bengaluru / SPIRE Lab]
+upstreams: []
+model_weights: []
+datasets:
+  - name: SPICOR TTS 1.0 Corpus - English Male High-Confidence
+    catalogue_id: SPICOR_ENGLISH_M_HC
+    source_archive: /Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz
+    speaker_id: ENG_M_SPK001
+    speaker_tag: Spk0001
+    purpose: Indian-English single-speaker TTS research
+    license: CC-BY-4.0
+    copyright: Indian Institute of Science, Bengaluru
+    attribution_required: true
+    ownership: external; not proprietary Swara data
+    observed_source_format: 44100 Hz mono 16-bit PCM WAV
+    declared_readme_format: 48000 Hz mono 24-bit PCM (discrepancy recorded)
+    filtering: [exclude 29 empty transcripts, preserve source_text, conservative whitespace/NFKC normalization,
+      flag suspicious concatenations, keep duplicate groups within one split]
+    prepared_assets: 24 kHz mono PCM16 for nested debug/2-hour subsets only
+modifications: Source archive remains untouched; generated audio/token assets are gitignored.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: CC-BY-4.0 attribution obligations apply
 ```
