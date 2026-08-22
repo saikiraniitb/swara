@@ -66,12 +66,6 @@ class AudioTokenSequence:
 
 
 @dataclass(frozen=True, slots=True)
-class GeneratedAudioTokens:
-    frames: tuple[tuple[int, ...], ...]
-    spec_version: str
-
-
-@dataclass(frozen=True, slots=True)
 class AudioWaveform:
     samples: Sequence[float]
     sample_rate_hz: int
@@ -108,7 +102,7 @@ class SpeakerConditioner(Protocol):
 
 @runtime_checkable
 class SpeechGenerator(Protocol):
-    def generate(self, sequence: LinguisticSequence, speaker: SpeakerCondition, performance: PerformancePlan, generation: GenerationOptions, cache: object | None = None) -> GeneratedAudioTokens: ...
+    def generate(self, sequence: LinguisticSequence, speaker: SpeakerCondition, performance: PerformancePlan, generation: GenerationOptions, cache: object | None = None) -> AudioTokenSequence: ...
 
 
 @runtime_checkable

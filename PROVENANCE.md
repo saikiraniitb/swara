@@ -31,3 +31,21 @@ review:
   commercial_status: pending
 ```
 
+```yaml
+component: swara.models.generator
+component_version: 0.1.0
+classification: independent
+status: implemented
+authors: [Swara]
+upstreams:
+  - name: Swara Qwen/Dia architecture research
+    relationship: architectural inspiration only
+    files_or_concepts: [low-rate staged primary/residual token scheduling, explicit speaker conditioning boundary]
+    copied_code: false
+model_weights: []
+datasets: []
+modifications: Original Swara PyTorch implementation using conventional framework modules; no upstream generator source files are copied.
+review:
+  license_reviewed_on: 2026-08-22
+  commercial_status: Swara-owned implementation; external codec asset remains separately recorded above
+```
