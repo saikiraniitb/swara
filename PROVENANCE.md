@@ -32,6 +32,27 @@ review:
 ```
 
 ```yaml
+component: data/m3c_clean_speech_v0
+component_version: 0.1.0
+classification: project-owned self-recorded experimental data
+status: prepared
+authors: [project user]
+upstreams: []
+model_weights: []
+datasets:
+  - name: m3c_clean_speech_v0
+    source: New clean self-recorded AAC/M4A session supplied by the project user
+    transcript_authority: sample.txt, ordered 001 through 020
+    speaker_id: m3_speaker_002
+    ownership: PROJECT-OWNED / SELF-RECORDED FOR SWARA; not public or redistributable by default
+    preprocessing: Internal conversion to mono 24 kHz PCM WAV, M1 compilation, Qwen bootstrap codec tokenization
+modifications: Raw M4A recordings remain outside Git and untouched; prepared assets are gitignored.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: project-owned experiment data; separate release/distribution review required
+```
+
+```yaml
 component: data/m3_real_speech_v0
 component_version: 0.1.0
 classification: user-authorized experimental data

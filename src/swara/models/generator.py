@@ -186,6 +186,7 @@ class _GeneratorModule:  # composition keeps the public wrapper free of torch su
                 self.text_embedding = nn.Embedding(config.linguistic_vocab_size, dim, padding_idx=0)
                 self.speaker_embedding = nn.Embedding(config.speaker_count, dim)
                 self.audio_embedding = nn.Embedding(config.audio_spec.vocabulary_size + 1, dim)
+                self.text_position_embedding = nn.Embedding(config.max_text_tokens, dim)
                 self.position_embedding = nn.Embedding(config.max_audio_frames, dim)
                 layer = nn.TransformerEncoderLayer(
                     d_model=dim,
@@ -218,16 +219,25 @@ class _GeneratorModule:  # composition keeps the public wrapper free of torch su
                 batch, frames = primary_inputs.shape
                 if frames > config.max_audio_frames or text_ids.shape[1] > config.max_text_tokens:
                     raise ValueError("input exceeds configured sequence length")
-                text_vectors = self.text_embedding(text_ids)
+                text_length = text_ids.shape[1]
+                speaker = self.speaker_embedding(speaker_ids).unsqueeze(1)
+                text_positions = self.text_position_embedding(self.position_ids(text_length, text_ids.device)).unsqueeze(0)
+                audio_positions = self.position_embedding(self.position_ids(frames, primary_inputs.device)).unsqueeze(0)
+                # Text is a causal prefix, so every audio frame can attend to
+                # every linguistic kind/language/value token directly. This
+                # replaces the M2B smoke model's single pooled text vector,
+                # which a teacher-forced audio path could effectively ignore.
+                text_prefix = self.text_embedding(text_ids) + text_positions + speaker
+                audio_stream = self.audio_embedding(primary_inputs) + audio_positions + speaker
+                conditioned = self.cat((text_prefix, audio_stream), dim=1)
+                causal_mask = self.causal_mask(text_length + frames, primary_inputs.device)
                 if text_padding_mask is None:
-                    text_mask = (text_ids != 0).unsqueeze(-1)
+                    prefix_padding = text_ids == 0
                 else:
-                    text_mask = (~text_padding_mask).unsqueeze(-1)
-                text_summary = (text_vectors * text_mask).sum(dim=1) / text_mask.sum(dim=1).clamp_min(1)
-                positions = self.position_embedding(self.position_ids(frames, primary_inputs.device)).unsqueeze(0)
-                conditioned = self.audio_embedding(primary_inputs) + positions + text_summary.unsqueeze(1) + self.speaker_embedding(speaker_ids).unsqueeze(1)
-                causal_mask = self.causal_mask(frames, primary_inputs.device)
-                hidden = self.final_norm(self.transformer(conditioned, mask=causal_mask))
+                    prefix_padding = text_padding_mask
+                audio_padding = self.zeros((batch, frames), dtype=self.bool, device=primary_inputs.device)
+                padding_mask = self.cat((prefix_padding, audio_padding), dim=1)
+                hidden = self.final_norm(self.transformer(conditioned, mask=causal_mask, src_key_padding_mask=padding_mask))[:, text_length:]
                 primary_logits = self.primary_head(hidden)
                 residual_tokens = primary_tokens_for_residual if primary_tokens_for_residual is not None else primary_inputs.clamp_max(config.audio_spec.vocabulary_size - 1)
                 return primary_logits, self.residual_logits(hidden, residual_tokens), hidden
@@ -260,5 +270,20 @@ class _GeneratorModule:  # composition keeps the public wrapper free of torch su
             def stack(values: list[Any], dim: int) -> Any:
                 import torch
                 return torch.stack(values, dim=dim)
+
+            @staticmethod
+            def cat(values: tuple[Any, ...], dim: int) -> Any:
+                import torch
+                return torch.cat(values, dim=dim)
+
+            @staticmethod
+            def zeros(*shape: Any, **kwargs: Any) -> Any:
+                import torch
+                return torch.zeros(*shape, **kwargs)
+
+            @property
+            def bool(self) -> Any:
+                import torch
+                return torch.bool
 
         return Module()
