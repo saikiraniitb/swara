@@ -1,0 +1,62 @@
+{
+  "status": "complete_no_qualified_codec",
+  "scope": "source_and_provenance qualification only; no downloads or roundtrip execution",
+  "training_performed": false,
+  "swara_modified": false,
+  "candidates": {
+    "UniCodec": {
+      "repository": "https://github.com/Jiang-Yidi/UniCodec",
+      "checkpoint": "https://huggingface.co/Yidiii/UniCodec_ckpt",
+      "access": "public repository and public HF file; ungated indicator observed",
+      "representation": "single discrete domain-adaptive codebook; geometry not fully stated in README",
+      "roundtrip_api": true,
+      "code_license": "not found in inspected repository tree",
+      "checkpoint_license": "no model card/license",
+      "commercial_status": "COMMERCIAL_UNCLEAR",
+      "qualification": "BLOCKED"
+    },
+    "DistilCodec": {
+      "repository": "https://github.com/IDEA-Emdoor-Lab/DistilCodec",
+      "checkpoint": "https://huggingface.co/IDEA-Emdoor/DistilCodec-v1.0",
+      "access": "public HF repository; no gated indicator observed",
+      "representation": {"discrete": true, "codebooks": 1, "codebook_size": 32768, "sample_rate_hz": 24000, "tokens_per_second": 93},
+      "roundtrip_api": true,
+      "code_license": "repository terms point to CC BY-NC-ND 4.0",
+      "checkpoint_license": "CC BY-NC-4.0 as shown by HF model metadata",
+      "commercial_status": "NON_COMMERCIAL",
+      "qualification": "FAIL"
+    },
+    "SDPCodec": {
+      "repository": "https://github.com/hanshounsu/sdpcodec-open",
+      "checkpoint": "Google Drive link in official README (SDPCodec-24-S)",
+      "access": "public link is advertised; checksum/version and direct retrieval were not verified",
+      "representation": {"discrete": true, "codebooks": "RVQ stream", "codebook_size": 300, "sample_rate_hz": 24000, "frame_rate_hz": 50, "content": "VQ-Wav2Vec", "f0": true, "speaker": "WavLM Large/reference"},
+      "roundtrip_api": true,
+      "code_license": "Apache-2.0",
+      "checkpoint_license": "unresolved",
+      "commercial_status": "COMMERCIAL_UNCLEAR",
+      "qualification": "BLOCKED"
+    },
+    "StableCodec": {
+      "repository": "https://github.com/Stability-AI/stable-codec",
+      "checkpoint": "https://huggingface.co/stabilityai/stable-codec-speech-16k",
+      "access": "public HF model page; CUDA/FlashAttention required by README",
+      "representation": {"posthoc_presets": ["1x46656_400bps", "2x15625_700bps", "4x729_1000bps"]},
+      "roundtrip_api": true,
+      "code_license": "MIT",
+      "checkpoint_license": "Stability AI Community License",
+      "commercial_status": "COMMERCIAL_UNCLEAR",
+      "qualification": "FAIL"
+    }
+  },
+  "qualified_codecs": [],
+  "recommended_roundtrip_codec": null,
+  "sources": [
+    "https://github.com/Jiang-Yidi/UniCodec",
+    "https://huggingface.co/Yidiii/UniCodec_ckpt",
+    "https://github.com/IDEA-Emdoor-Lab/DistilCodec",
+    "https://huggingface.co/IDEA-Emdoor/DistilCodec-v1.0",
+    "https://github.com/hanshounsu/sdpcodec-open",
+    "https://github.com/Stability-AI/stable-codec"
+  ]
+}

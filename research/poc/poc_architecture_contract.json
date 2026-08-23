@@ -1,0 +1,166 @@
+{
+  "contract_version": 1,
+  "status": "PRE_IMPLEMENTATION_REVIEW",
+  "primary_goal": "unseen_text_to_recognizable_legitimate_speech",
+  "primary_human_gate": {
+    "panel_size": 10,
+    "minimum_recognizable_content_matching_outputs": 3,
+    "mandatory": true
+  },
+  "locked": {
+    "frontend": "swara.linguistic.v0",
+    "language": "en-IN",
+    "alignment": "explicit_learned_or_constrained_duration_monotonic_expansion",
+    "acoustic_continuity": "causal_previous_neucodec_tokens",
+    "acoustic_target": "flat_65536_way_distill_neucodec_id",
+    "codec_model": "neuphonic/distill-neucodec",
+    "codec_revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+    "reference_prefix_required": false,
+    "trainable_parameter_range_millions": [10, 20],
+    "minimum_fair_generalization_rung": "30_minutes"
+  },
+  "special_ids": {
+    "codec_min": 0,
+    "codec_max": 65535,
+    "acoustic_bos": 65536,
+    "input_vocabulary_size": 65537,
+    "output_vocabulary_size": 65536,
+    "eos_used": false
+  },
+  "linguistic": {
+    "width": 160,
+    "value_composition": {
+      "grapheme": "64d_character_embedding_plus_one_layer_bidirectional_gru_80_per_direction",
+      "pronunciation": "independent_swara_phones_v0_lookup",
+      "punctuation": "independent_lookup",
+      "boundary": "independent_lookup",
+      "bpe": false,
+      "automatic_g2p": false
+    },
+    "encoder_layers": 3,
+    "heads": 4,
+    "ffn_dim": 640,
+    "dropout": 0.1,
+    "position": "separate_deterministic_sinusoidal_text_positions",
+    "max_units": 256,
+    "validation_word_types": 515,
+    "validation_word_types_unseen_in_train": 295
+  },
+  "duration_supervision": {
+    "recommended_method": "exact_transcript_ctc_forced_alignment",
+    "alignment_model": "facebook/wav2vec2-base-960h",
+    "model_license": "Apache-2.0",
+    "model_revision": "PIN_BEFORE_PREPROCESSING",
+    "input_sample_rate_hz": 16000,
+    "transcript_rewriting_allowed": false,
+    "target": "integer_neucodec_frames_per_alignment_unit",
+    "exact_sum_required": true,
+    "manual_review_rows_minimum": 30,
+    "all_selected_rows_must_align": true,
+    "known_risk": "LibriSpeech_accent_model_on_Indian_English"
+  },
+  "duration_model": {
+    "type": "two_layer_fastspeech_style_conv_predictor",
+    "channels": 160,
+    "kernel_size": 3,
+    "target_transform": "log1p_frames",
+    "loss": "mean_smooth_l1",
+    "lexical_minimum_frames": 1,
+    "punctuation_boundary_minimum_frames": 0,
+    "inference_rounding": "round_expm1_after_clamp"
+  },
+  "expansion": {
+    "algorithm": "repeat_interleave_once_from_immutable_integer_duration_plan",
+    "output_shape": "B,T_audio,160",
+    "training_durations": "ground_truth",
+    "inference_durations": "predicted",
+    "partial_full_prefix_must_match": true
+  },
+  "acoustic_model": {
+    "type": "pre_norm_causal_transformer",
+    "width": 160,
+    "layers": 5,
+    "heads": 4,
+    "ffn_dim": 640,
+    "dropout": 0.1,
+    "position": "separate_deterministic_sinusoidal_audio_positions",
+    "max_frames": 2048,
+    "input_at_t": ["shifted_previous_token_or_BOS", "aligned_linguistic_state_t", "audio_position_t"],
+    "direct_aligned_conditioning_each_layer": true,
+    "fusion": {
+      "independent_layer_norms": true,
+      "acoustic_gate_init": 0.3,
+      "linguistic_gate_init": 1.0
+    },
+    "embedding_output_weight_tied": true,
+    "generation_length": "sum_predicted_durations"
+  },
+  "parameter_estimate": {
+    "linguistic_value_and_type_embeddings_millions": 0.11,
+    "linguistic_encoder_millions": 0.93,
+    "duration_predictor_millions": 0.16,
+    "tied_acoustic_embedding_head_millions": 10.55,
+    "causal_acoustic_decoder_millions": 1.55,
+    "conditioning_norms_gates_millions": 0.16,
+    "estimated_total_millions": 13.46,
+    "frozen_codec_parameters_excluded": true
+  },
+  "loss": {
+    "duration": "mean_SmoothL1_predicted_log1p_vs_target_log1p",
+    "acoustic": "mean_cross_entropy_over_valid_flat_ids",
+    "duration_weight": 1.0,
+    "acoustic_weight": 1.0,
+    "additional_losses": []
+  },
+  "self_conditioning": {
+    "enabled_after_teacher_forcing_warmup": true,
+    "method": "two_pass_detached_argmax_history_replacement",
+    "minimum_teacher_forcing_probability": 0.25,
+    "backprop_through_sampled_ids": false
+  },
+  "training_ladder": {
+    "P0": {"data": "synthetic_plus_one_real_batch", "optimizer_steps": 0, "gate": "all_contract_and_forward_backward_smokes_pass"},
+    "P1": {"data": "two_deterministic_training_utterances", "max_steps": 300, "listening": "both_full_pipeline_outputs_recognizable"},
+    "P2": {"data": "existing_32_train_8_validation_five_minute_panel", "max_steps": 1000, "purpose": "plumbing_rollout_and_catastrophic_collapse"},
+    "P3": {"data": "267_train_45_validation_thirty_minute_panel", "max_steps": 3000, "purpose": "first_fair_generalization", "listening_gate": "at_least_3_of_10_unseen_content_matching"}
+  },
+  "catastrophic_token_gates": {
+    "max_nonself_similarity": 0.9,
+    "minimum_text_swap_changed_ratio": 0.25,
+    "valid_id_range_required": true,
+    "broad_shared_prefix_allowed": false,
+    "pathological_loops_allowed": false
+  },
+  "duration_gates_P3": {
+    "median_total_length_relative_error_max": 0.15,
+    "p90_total_length_relative_error_max": 0.25,
+    "monotonicity_violations": 0
+  },
+  "oracle_controls": [
+    "ground_truth_codec_decode",
+    "ground_truth_duration_plus_predicted_acoustics",
+    "predicted_duration_plus_resampled_ground_truth_aligned_acoustics_diagnostic",
+    "full_predicted_pipeline"
+  ],
+  "future_inactive_interfaces": {
+    "duration": ["pace_intention", "explicit_pause", "emphasis_timing"],
+    "acoustic": ["speaker_state", "style_prosody_state", "emotion_realization"],
+    "user_raw_f0_energy_controls": false,
+    "optional_reference_control": "R2_fixed_non_target_same_speaker_three_second_prefix"
+  },
+  "planned_files": [
+    "src/swara/alignment/contracts.py",
+    "src/swara/alignment/ctc_forced.py",
+    "src/swara/alignment/frame_mapping.py",
+    "src/swara/models/linguistic_composer.py",
+    "src/swara/models/speech_poc_v1.py",
+    "src/swara/training/speech_poc_dataset.py",
+    "src/swara/training/speech_poc_objective.py",
+    "src/swara/evaluation/speech_poc.py",
+    "scripts/prepare_spicor_poc_alignments.py",
+    "scripts/encode_spicor_neucodec_30min.py",
+    "scripts/run_swara_speech_poc_v1.py",
+    "scripts/evaluate_swara_speech_poc_v1.py"
+  ],
+  "authorized_actions": []
+}

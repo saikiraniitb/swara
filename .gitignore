@@ -3,20 +3,29 @@
 __pycache__/
 *.pyc
 .env
+*.ses
 
 data/
 models/
 !src/swara/models/
 !src/swara/models/**
+# The source-tree exception above must never re-include interpreter bytecode.
+**/__pycache__/
+**/*.pyc
 checkpoints/
 runs/
 outputs/
 wandb/
+dist/
+evaluations/
 
 *.pth
 *.pt
 *.ckpt
 *.safetensors
 *.onnx
+*.npy
+*.npz
+*.tgz
 *.wav
 *.mp3

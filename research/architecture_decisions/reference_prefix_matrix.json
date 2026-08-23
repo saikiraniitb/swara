@@ -1,0 +1,128 @@
+{
+  "decision_version": 1,
+  "decision": "REFERENCE_PREFIX_OPTIONAL",
+  "required_for_basic_poc_generation": false,
+  "locked_context": {
+    "alignment": "hybrid_explicit_learned_or_constrained_alignment_plus_causal_history",
+    "acoustic_target": "flat_distill_neucodec_id",
+    "codec": "frozen_distill_neucodec",
+    "parameter_budget_millions": [10, 20],
+    "minimum_fair_data_rung": "30_minutes"
+  },
+  "systems": {
+    "NeuTTS": {
+      "representation": "real_neucodec_ids_in_same_causal_context",
+      "reference_required_by_public_inference": true,
+      "zero_reference_public_mode": "unsupported",
+      "public_finetune_has_separate_reference_prefix": false,
+      "recommended_reference_seconds": [3, 15],
+      "inspected_bundled_reference_token_range": [175, 653],
+      "confirmed_roles": ["voice_cloning", "style_demonstration"],
+      "inferred_roles": ["codec_manifold_anchoring", "continuation_context"],
+      "unknown": ["foundation_pretraining_reference_mixture", "reference_positions_loss_policy_in_pretraining"]
+    },
+    "Pocket_TTS": {
+      "representation": "continuous_mimi_prompt_compiled_to_cached_flowlm_state",
+      "raw_reference_required": false,
+      "voice_state_required_by_public_generation": true,
+      "default_or_predefined_voice_state_available": true,
+      "confirmed_roles": ["speaker", "style", "prosody", "voice_cloning", "audio_continuation"],
+      "inferred_roles": ["manifold_anchoring"]
+    },
+    "Qwen3_TTS": {
+      "representation": "optional_reference_codes_and_transcript_plus_separate_1024d_xvector",
+      "acoustic_prefix_universally_required": false,
+      "non_prefix_modes": ["x_vector_only", "CustomVoice_named_speaker", "VoiceDesign"],
+      "confirmed_roles": ["speaker_identity", "icl_acoustic_and_prosodic_demonstration"],
+      "inferred_roles": ["manifold_anchoring"]
+    },
+    "smalltts_VibeVoice": {
+      "representation": "64d_reference_latent_sequence_through_style_encoder",
+      "causal_acoustic_prefix": false,
+      "reference_dropout_in_training": true,
+      "supported_zero_reference_inference": "unknown",
+      "confirmed_roles": ["speaker_style_memory"],
+      "inferred_roles": ["manifold_anchoring"]
+    },
+    "Kokoro_StyleTTS2": {
+      "representation": "voice_pack_or_style_vector",
+      "causal_acoustic_prefix": false,
+      "voice_style_state_required": true,
+      "confirmed_roles": ["speaker_style", "duration_prosody_conditioning", "vocoder_conditioning"],
+      "inferred_roles": []
+    }
+  },
+  "first_token_audit": {
+    "dataset": "existing_neucodec_five_minute_cache",
+    "utterances": 40,
+    "frames": 14578,
+    "first_token_entropy_bits": 4.615311532225102,
+    "first_token_unique": 28,
+    "first_token_top_share": 0.1,
+    "position_1_entropy_bits": 4.7628148954723555,
+    "position_2_to_5_entropy_bits": 5.221928094887363,
+    "position_24_and_49_entropy_bits": 5.321928094887363,
+    "later_pooled_marginal_entropy_bits": 13.201751291489844,
+    "later_pooled_unique": 10795,
+    "empirical_next_given_previous_entropy_bits": 0.6232901435313061,
+    "repeated_context_ge_2_entropy_bits": 1.4745959490086682,
+    "repeated_context_ge_5_entropy_bits": 2.835089448428785,
+    "limitation": "conditional estimates are downward-biased by sparse 65536-state observations",
+    "finding": "first token is not empirically more ambiguous than later fixed positions"
+  },
+  "conditioning_methods": {
+    "learned_fixed_speaker_embedding": {
+      "identity": "high",
+      "style": "low",
+      "literal_transition_anchor": false,
+      "parameter_cost": "tiny"
+    },
+    "reference_acoustic_prefix": {
+      "identity": "medium_high",
+      "style": "high",
+      "literal_transition_anchor": true,
+      "risks": ["content_leakage", "prosody_copying", "context_cost", "unrelated_utterance_boundary"]
+    },
+    "reference_style_encoder": {
+      "identity": "high",
+      "style": "high",
+      "literal_transition_anchor": false,
+      "parameter_cost": "medium_to_high"
+    }
+  },
+  "prefix_lengths_at_50hz": {
+    "1_frame_seconds": 0.02,
+    "5_frames_seconds": 0.1,
+    "10_frames_seconds": 0.2,
+    "25_frames_seconds": 0.5,
+    "50_frames_seconds": 1.0,
+    "recommended_real_reference_frames": 150,
+    "recommended_real_reference_seconds": 3.0,
+    "reason": "shortest source-supported NeuTTS guidance; tiny seeds are diagnostics rather than voice references"
+  },
+  "scientific_comparison": {
+    "R0": "target_text_alignment_plus_acoustic_BOS_only",
+    "R1": "true_target_prefix_invalid_as_primary_tts_gate_due_to_target_leakage",
+    "R2": "fixed_three_second_non_target_same_speaker_training_prefix_with_explicit_boundary",
+    "reference_transcript_in_R2": false,
+    "reference_target_loss": false,
+    "same_model_parameters": true,
+    "same_dataset_split": true
+  },
+  "predeclared_comparative_gates": {
+    "first_token": "R2 at least 10 percent lower CE or 5 percentage points higher accuracy without worse sequence CE",
+    "validation_ce": "R2 at least 5 percent lower than R0",
+    "max_nonself_similarity": "below 0.90",
+    "text_swap_changed_ratio": "at least 0.25 for every pair",
+    "real_bigram_overlap": "R2 at least 10 absolute percentage points above R0 without entropy collapse",
+    "human_listening": "recognizable majority and at least two more recognizable clips than R0 without reference leakage or broad prosody copying"
+  },
+  "poc_complexity": {
+    "no_reference": {"complexity": "low", "parameter_cost": "none", "failure_isolation": "high", "fits_budget": true},
+    "short_acoustic_prefix": {"complexity": "low_medium", "parameter_cost": "near_zero_with_shared_embedding", "failure_isolation": "medium", "fits_budget": true},
+    "style_speaker_embedding": {"complexity": "medium", "parameter_cost": "tiny_fixed_id_or_substantial_reference_encoder", "failure_isolation": "medium", "fits_budget": "fixed_embedding_yes_reference_encoder_uncertain"}
+  },
+  "future_roles": ["voice_cloning", "character_reanchoring", "optional_style_demonstration", "local_edit_boundary_context", "long_form_consistency"],
+  "next_step": "poc_architecture_contract_and_review",
+  "authorized_actions": []
+}

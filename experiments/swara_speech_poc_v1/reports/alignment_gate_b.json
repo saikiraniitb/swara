@@ -1,0 +1,864 @@
+{
+  "schema_version": "swara.alignment_gate_b.v1",
+  "status": "human_review_required",
+  "aligner": {
+    "model_id": "facebook/wav2vec2-base-960h",
+    "revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+    "license": "Apache-2.0"
+  },
+  "codec": {
+    "model_id": "neuphonic/distill-neucodec",
+    "revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+    "cache_report": "experiments/swara_speech_poc_v1/reports/neucodec_30min_cache_report.json"
+  },
+  "transcript_rewriting": "none",
+  "mapping_version": "swara.ctc.characters.v1+swara.neucodec.frames.v1",
+  "audit": {
+    "train": {
+      "rows_attempted": 267,
+      "rows_aligned": 267,
+      "rows_failed": 0,
+      "lexical_word_count": 4729,
+      "confidence": {
+        "count": 4729,
+        "mean": 0.9206651256737709,
+        "median": 0.9846490059118956,
+        "p10": 0.7263919645718189,
+        "p5": 0.5707579715565754,
+        "minimum": 1.196348455596664e-06
+      },
+      "unsupported_character_count": 0,
+      "zero_frame_lexical_count": 0,
+      "monotonicity_failures": 0,
+      "exact_sum_failures": 0,
+      "suspicious_duration_count": 11
+    },
+    "val": {
+      "rows_attempted": 45,
+      "rows_aligned": 45,
+      "rows_failed": 0,
+      "lexical_word_count": 794,
+      "confidence": {
+        "count": 794,
+        "mean": 0.9234087750102923,
+        "median": 0.9852234957927987,
+        "p10": 0.7453604541938005,
+        "p5": 0.6082117922334881,
+        "minimum": 6.332326139191695e-06
+      },
+      "unsupported_character_count": 0,
+      "zero_frame_lexical_count": 0,
+      "monotonicity_failures": 0,
+      "exact_sum_failures": 0,
+      "suspicious_duration_count": 0
+    },
+    "combined": {
+      "rows_attempted": 312,
+      "rows_aligned": 312,
+      "rows_failed": 0,
+      "lexical_word_count": 5523,
+      "confidence": {
+        "count": 5523,
+        "mean": 0.9210595594186919,
+        "median": 0.9847185762732518,
+        "p10": 0.7290929045216965,
+        "p5": 0.5769392977893656,
+        "minimum": 1.196348455596664e-06
+      },
+      "unsupported_character_count": 0,
+      "zero_frame_lexical_count": 0,
+      "monotonicity_failures": 0,
+      "exact_sum_failures": 0,
+      "suspicious_duration_count": 11
+    }
+  },
+  "failures": [],
+  "risk_bucket_definitions": {
+    "A": "confidence <0.20",
+    "B": "0.20 <= confidence <0.30",
+    "C": "0.30 <= confidence <0.40",
+    "D": "lexical duration <=2 NeuCodec frames",
+    "E": "lexical duration >75 frames (1.5s nominal)",
+    "F": "punctuation/silence structural duration >75 frames",
+    "G": "unsupported or mapping failure",
+    "H": "curated auditable Indian name/location match"
+  },
+  "risk_buckets": {
+    "A_confidence_below_0_20": 39,
+    "B_confidence_0_20_to_0_30": 22,
+    "C_confidence_0_30_to_0_40": 44,
+    "D_lexical_duration_le_2_frames": 6,
+    "E_lexical_duration_over_75_frames": 0,
+    "F_punctuation_or_silence_over_75_frames": 0,
+    "G_unsupported_or_mapping_failures": 0,
+    "H_indian_name_or_location_units": 51,
+    "H_rows_with_indian_name_or_location": 26
+  },
+  "lowest_confidence_words": [
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5946",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "able",
+      "confidence": 1.196348455596664e-06,
+      "start_seconds": 1.7651472303206996,
+      "end_seconds": 1.8754689322157434,
+      "frames": 5,
+      "context_words": "Apple is able to bring",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5946",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "to",
+      "confidence": 2.3178798621949017e-06,
+      "start_seconds": 1.8754689322157434,
+      "end_seconds": 1.9356444059766764,
+      "frames": 3,
+      "context_words": "is able to bring in",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_190",
+      "split": "val",
+      "domain": "POLITICS",
+      "word": "R",
+      "confidence": 6.332326139191695e-06,
+      "start_seconds": 4.4376645916334665,
+      "end_seconds": 4.578224103585658,
+      "frames": 7,
+      "context_words": "T F R",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_7466",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "C",
+      "confidence": 0.00013396978470012446,
+      "start_seconds": 0.22028253424657535,
+      "end_seconds": 0.4305522260273973,
+      "frames": 11,
+      "context_words": "C I T",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ018-0287",
+      "split": "train",
+      "domain": "LJSPEECH",
+      "word": "Row",
+      "confidence": 0.00014245620679430835,
+      "start_seconds": 3.4686178836633665,
+      "end_seconds": 3.5688669554455448,
+      "frames": 5,
+      "context_words": "in Saville Row",
+      "category": "other"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3543",
+      "split": "val",
+      "domain": "WEATHER",
+      "word": "Sabha",
+      "confidence": 0.0016871898110834207,
+      "start_seconds": 0.4609932939914163,
+      "end_seconds": 0.6714467542918455,
+      "frames": 11,
+      "context_words": "Lok Sabha elections in",
+      "category": "other"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_828",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "H",
+      "confidence": 0.003913289624159884,
+      "start_seconds": 1.382610969387755,
+      "end_seconds": 1.5930082908163266,
+      "frames": 11,
+      "context_words": "Bhatnagar P H C Chouldari",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2785",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "C",
+      "confidence": 0.004899060839421463,
+      "start_seconds": 2.9313093629343623,
+      "end_seconds": 3.071851592664092,
+      "frames": 7,
+      "context_words": "B S C in favour",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3619",
+      "split": "train",
+      "domain": "WEATHER",
+      "word": "Q",
+      "confidence": 0.005078173976469925,
+      "start_seconds": 0.7925982581967213,
+      "end_seconds": 1.1036178278688524,
+      "frames": 15,
+      "context_words": "China's Q four economic",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2415",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "P",
+      "confidence": 0.006039044541278349,
+      "start_seconds": 6.227498332162922,
+      "end_seconds": 6.357864641853933,
+      "frames": 7,
+      "context_words": "complaint S P said",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ028-0360",
+      "split": "train",
+      "domain": "LJSPEECH",
+      "word": "C",
+      "confidence": 0.006372367429482981,
+      "start_seconds": 4.621010491071429,
+      "end_seconds": 4.801440401785714,
+      "frames": 9,
+      "context_words": "four B C he captured",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1372",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "C",
+      "confidence": 0.006753257788961813,
+      "start_seconds": 2.856101728723405,
+      "end_seconds": 3.0364871010638304,
+      "frames": 9,
+      "context_words": "grapes dismisses C E O",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_828",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "C",
+      "confidence": 0.010644817011561414,
+      "start_seconds": 1.5930082908163266,
+      "end_seconds": 1.703216411564626,
+      "frames": 5,
+      "context_words": "P H C Chouldari discussed",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1630",
+      "split": "train",
+      "domain": "ENTERTAINMENT",
+      "word": "A",
+      "confidence": 0.012161064590729591,
+      "start_seconds": 2.0502832914572866,
+      "end_seconds": 2.251291457286432,
+      "frames": 10,
+      "context_words": "of C A in nation",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2829",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "C",
+      "confidence": 0.017203554897168176,
+      "start_seconds": 0.22021831854043394,
+      "end_seconds": 0.3203175542406312,
+      "frames": 5,
+      "context_words": "C B S",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1137",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "hai",
+      "confidence": 0.027151854994075922,
+      "start_seconds": 6.539228669241573,
+      "end_seconds": 6.669412394662921,
+      "frames": 7,
+      "context_words": "se jita hai",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_560",
+      "split": "val",
+      "domain": "ENTERTAINMENT",
+      "word": "A",
+      "confidence": 0.029312791928291046,
+      "start_seconds": 4.074046875,
+      "end_seconds": 4.264235795454545,
+      "frames": 9,
+      "context_words": "and Suresh A Shroff advised",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_2936",
+      "split": "train",
+      "domain": "FOOD",
+      "word": "Y",
+      "confidence": 0.03375267929016296,
+      "start_seconds": 2.3300432900432897,
+      "end_seconds": 2.5108225108225106,
+      "frames": 9,
+      "context_words": "in E Y Tax and",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1372",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "Teji",
+      "confidence": 0.03489903599716309,
+      "start_seconds": 3.487450531914894,
+      "end_seconds": 3.9384139627659582,
+      "frames": 22,
+      "context_words": "E O Teji Singh",
+      "category": "other"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_831",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "C",
+      "confidence": 0.03693045642975587,
+      "start_seconds": 3.6144957456683167,
+      "end_seconds": 3.7847074566831678,
+      "frames": 8,
+      "context_words": "Loya's E C G and",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_7397",
+      "split": "val",
+      "domain": "FOOD",
+      "word": "C",
+      "confidence": 0.050507708027281016,
+      "start_seconds": 2.0234237288135595,
+      "end_seconds": 2.1836949152542373,
+      "frames": 8,
+      "context_words": "P M C Bank on",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_159",
+      "split": "val",
+      "domain": "FOOD",
+      "word": "C",
+      "confidence": 0.05526730060674843,
+      "start_seconds": 0.40077461389961383,
+      "end_seconds": 0.5610844594594594,
+      "frames": 8,
+      "context_words": "O C A Credit",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1945",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "her",
+      "confidence": 0.0724200701592488,
+      "start_seconds": 4.575372152453271,
+      "end_seconds": 4.685501460280374,
+      "frames": 6,
+      "context_words": "jibe at her husband Hiten",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1826",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "C",
+      "confidence": 0.07318710167478687,
+      "start_seconds": 1.7139583333333335,
+      "end_seconds": 1.874328703703704,
+      "frames": 8,
+      "context_words": "with Apple C E O",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1137",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "keh",
+      "confidence": 0.08190159704362966,
+      "start_seconds": 2.493519048455056,
+      "end_seconds": 2.7138299683988762,
+      "frames": 11,
+      "context_words": "said Itna keh sakta hun",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2785",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "S",
+      "confidence": 0.1056629575484862,
+      "start_seconds": 2.7706896718146714,
+      "end_seconds": 2.9313093629343623,
+      "frames": 8,
+      "context_words": "U B S C in",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_6881",
+      "split": "train",
+      "domain": "FOOD",
+      "word": "A",
+      "confidence": 0.105875514528267,
+      "start_seconds": 2.792973980402542,
+      "end_seconds": 2.973165850105932,
+      "frames": 9,
+      "context_words": "at various A T Ms",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_1832",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "T",
+      "confidence": 0.10780319458223421,
+      "start_seconds": 0.22039198490230907,
+      "end_seconds": 0.3205701598579041,
+      "frames": 5,
+      "context_words": "T D P's",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_3292",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "J",
+      "confidence": 0.1123867339486927,
+      "start_seconds": 0.33078316627358495,
+      "end_seconds": 0.4811391509433963,
+      "frames": 7,
+      "context_words": "B J P believes",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_2413",
+      "split": "train",
+      "domain": "FOOD",
+      "word": "D",
+      "confidence": 0.11506241490544976,
+      "start_seconds": 3.996083238636363,
+      "end_seconds": 4.146311931818182,
+      "frames": 8,
+      "context_words": "profits H D F C",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4917",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "P",
+      "confidence": 0.12158128217897039,
+      "start_seconds": 0.781346708261618,
+      "end_seconds": 1.0217610800344237,
+      "frames": 12,
+      "context_words": "Domestic P E fund",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ026-0015",
+      "split": "train",
+      "domain": "LJSPEECH",
+      "word": "a",
+      "confidence": 0.12217869372935877,
+      "start_seconds": 6.048082114361701,
+      "end_seconds": 6.128189162234042,
+      "frames": 4,
+      "context_words": "covered with a cellulose wall",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1093",
+      "split": "train",
+      "domain": "OTHERS",
+      "word": "with",
+      "confidence": 0.12325194721086981,
+      "start_seconds": 4.998340843023255,
+      "end_seconds": 5.198675145348837,
+      "frames": 10,
+      "context_words": "says Amrutha with a laugh",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_560",
+      "split": "val",
+      "domain": "ENTERTAINMENT",
+      "word": "C",
+      "confidence": 0.1249920721194153,
+      "start_seconds": 6.676632102272727,
+      "end_seconds": 7.067019886363635,
+      "frames": 20,
+      "context_words": "I D C on the",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2366",
+      "split": "val",
+      "domain": "HEALTH",
+      "word": "A",
+      "confidence": 0.1302419000763489,
+      "start_seconds": 1.0424880382775121,
+      "end_seconds": 1.1126555023923446,
+      "frames": 4,
+      "context_words": "Cancer A fun loving",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_831",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "E",
+      "confidence": 0.1397952059222261,
+      "start_seconds": 3.4042342202970293,
+      "end_seconds": 3.6144957456683167,
+      "frames": 11,
+      "context_words": "Judge Loya's E C G",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_159",
+      "split": "val",
+      "domain": "FOOD",
+      "word": "A",
+      "confidence": 0.14064185260639372,
+      "start_seconds": 0.5610844594594594,
+      "end_seconds": 0.7414330357142855,
+      "frames": 9,
+      "context_words": "O C A Credit provides",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_2534",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "bhai",
+      "confidence": 0.15895514232459615,
+      "start_seconds": 1.903514476102941,
+      "end_seconds": 2.204069393382353,
+      "frames": 15,
+      "context_words": "up Hameed bhai and two",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ041-0065",
+      "split": "train",
+      "domain": "LJSPEECH",
+      "word": "quote",
+      "confidence": 0.19344026340362838,
+      "start_seconds": 2.2433641791044776,
+      "end_seconds": 2.5037546641791044,
+      "frames": 13,
+      "context_words": "Oswald seemed quote always to",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_1832",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "Y",
+      "confidence": 0.20393063712363202,
+      "start_seconds": 8.595287411190053,
+      "end_seconds": 8.795643761101243,
+      "frames": 10,
+      "context_words": "Rao and Y Ramakrishnudu attended",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_890",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "A",
+      "confidence": 0.21222157037483796,
+      "start_seconds": 5.143094227099237,
+      "end_seconds": 5.273426049618321,
+      "frames": 6,
+      "context_words": "M L A Bandipora have",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_488",
+      "split": "val",
+      "domain": "OTHERS",
+      "word": "C",
+      "confidence": 0.21455826180563836,
+      "start_seconds": 0.44219589552238814,
+      "end_seconds": 0.6632938432835822,
+      "frames": 11,
+      "context_words": "N C sabotaged my",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3160",
+      "split": "train",
+      "domain": "AGRICULTURE",
+      "word": "would",
+      "confidence": 0.2225973360873128,
+      "start_seconds": 2.9947158111285264,
+      "end_seconds": 3.1850154780564264,
+      "frames": 9,
+      "context_words": "combining them would create complications",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LIBR_3374-298026-0002",
+      "split": "train",
+      "domain": "LIBRI",
+      "word": "vague",
+      "confidence": 0.23502131786069774,
+      "start_seconds": 5.127435267857143,
+      "end_seconds": 5.458561224489796,
+      "frames": 17,
+      "context_words": "weak and vague",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_6434",
+      "split": "train",
+      "domain": "FOOD",
+      "word": "P",
+      "confidence": 0.2358321597670108,
+      "start_seconds": 4.952019464720195,
+      "end_seconds": 5.092360097323601,
+      "frames": 7,
+      "context_words": "B Y P M J",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_5226",
+      "split": "train",
+      "domain": "POLITICS",
+      "word": "awareness",
+      "confidence": 0.2383676891078444,
+      "start_seconds": 1.7349022775423728,
+      "end_seconds": 2.2363191207627118,
+      "frames": 25,
+      "context_words": "conducted an awareness drive at",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4513",
+      "split": "val",
+      "domain": "WEATHER",
+      "word": "Ujh",
+      "confidence": 0.23875505083951878,
+      "start_seconds": 0.3613836206896551,
+      "end_seconds": 0.5420754310344826,
+      "frames": 9,
+      "context_words": "Ujh Barrage has",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_828",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "C",
+      "confidence": 0.2465112934743338,
+      "start_seconds": 0.5009460034013605,
+      "end_seconds": 0.6512298044217687,
+      "frames": 8,
+      "context_words": "Doctor P C Bhatnagar P",
+      "category": "acronym/single letter"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_1393",
+      "split": "train",
+      "domain": "FOOD",
+      "word": "year",
+      "confidence": 0.24676048351507957,
+      "start_seconds": 9.499362071078432,
+      "end_seconds": 9.729588970588235,
+      "frames": 12,
+      "context_words": "a full year",
+      "category": "ordinary English"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_924",
+      "split": "train",
+      "domain": "HEALTH",
+      "word": "Dum",
+      "confidence": 0.2526394102859568,
+      "start_seconds": 3.8120248422712932,
+      "end_seconds": 3.982562795741324,
+      "frames": 9,
+      "context_words": "Ghat Aarakshan Dum Maaro Dum",
+      "category": "other"
+    }
+  ],
+  "speaking_rate": {
+    "words_per_second": {
+      "mean": 2.6505159738268773,
+      "median": 2.6440545954230887,
+      "p10": 2.19368666570398,
+      "p90": 3.14123005231334,
+      "min": 1.6414011884375912,
+      "max": 3.653802237953871
+    },
+    "characters_per_second": {
+      "mean": 12.59829123379579,
+      "median": 12.686709822785858,
+      "p10": 10.619198229756494,
+      "p90": 14.220112148110317,
+      "min": 8.372011899109506,
+      "max": 16.38655462184874
+    },
+    "neucodec_frames_per_word": {
+      "mean": 19.312911033106353,
+      "median": 18.944927536231884,
+      "p10": 15.950000000000001,
+      "p90": 22.855000000000004,
+      "min": 13.736842105263158,
+      "max": 30.53846153846154
+    },
+    "median_lexical_word_duration": {
+      "mean": 0.30127328900064526,
+      "median": 0.3003157757242626,
+      "p10": 0.22063570921230186,
+      "p90": 0.39077577982957995,
+      "min": 0.18044832920792087,
+      "max": 0.5914983386075949
+    },
+    "utterance_duration_seconds": {
+      "mean": 6.77796734775641,
+      "median": 6.6100625,
+      "p10": 4.33000625,
+      "p90": 9.295056250000002,
+      "min": 2.3100625,
+      "max": 12.7500625
+    },
+    "fastest_rows": [
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2785",
+        "words_per_second": 3.653802237953871,
+        "transcript": "It wouldn't come as shock if Apple switches to U B S C in favour of the Lightning connector"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2140",
+        "words_per_second": 3.643125498083564,
+        "transcript": "This isn't the right time to check into the Lemon Tree stock"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_LIBR_8425-287387-0030",
+        "words_per_second": 3.6124424010426823,
+        "transcript": "and pregnant sense of the word and when he began to think and to think long and often of cornelie de retz"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_2276",
+        "words_per_second": 3.532992194775396,
+        "transcript": "The leader of the Opposition Ajay Bhatt retorted that the State Government has been trying to fool the people for a long time"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1630",
+        "words_per_second": 3.4999453133544787,
+        "transcript": "A panel discussion on the ‘Role of C A in nation building’ was held"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1093",
+        "words_per_second": 3.4825509685844884,
+        "transcript": "But she will still keep asking me why I am referring to a girl as bro, says Amrutha with a laugh"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_LIBR_328-129766-0074",
+        "words_per_second": 3.4786389824980977,
+        "transcript": "the company beginning to wear away at the bath he talked of going away"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ011-0166",
+        "words_per_second": 3.451370193967005,
+        "transcript": "The road taken was via Manchester, where the servant said a Doctor Hull was to be picked up to go on with them to Shrigley"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_6052",
+        "words_per_second": 3.4482420822680027,
+        "transcript": "When we took up the issue with the M L A he said he does not know, says Shamsher Singh of Birpur"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3364",
+        "words_per_second": 3.4175016948208135,
+        "transcript": "Shahnawaz promised to take me for a long walk the following morning but who knew we were not destined to meet after that?"
+      }
+    ],
+    "slowest_rows": [
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_268",
+        "words_per_second": 1.6414011884375912,
+        "transcript": "This corroborates existing research which suggests that terrorist attacks can spur entrepreneurial activities"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_7084",
+        "words_per_second": 1.737619461337967,
+        "transcript": "Among these, trees of Ashok, Kachnaar, Amaltaash, Neem, Australian Babul, Kaner, Sheesham, Sagaun, Mango, Pomegranate, Papaya can also be found"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ007-0130",
+        "words_per_second": 1.7441649204830367,
+        "transcript": "are all huddled together without discrimination, oversight, or control"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1175",
+        "words_per_second": 1.8087709240073966,
+        "transcript": "Thus, instead of being guided by curatorial preoccupations, visitors experienced a constellation of conversations"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_2546",
+        "words_per_second": 1.8348492341654663,
+        "transcript": "Entrepreneur Dekyi Yangtso Chawla shares some mustdo activities in the fascinating land of Che Guevara, Cuba"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6302",
+        "words_per_second": 1.8604470886910012,
+        "transcript": "Ford Endeavour And Anhui Zotye Join Hands To Produce EVs in China"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ028-0137",
+        "words_per_second": 1.8616711823274215,
+        "transcript": "Perhaps Herodotus had never been in Babylon"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6335",
+        "words_per_second": 1.8897451796734284,
+        "transcript": "Research shows that neurotransmitters called endorphins are released by women during orgasm"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_5898",
+        "words_per_second": 1.919980800191998,
+        "transcript": "Nunes said Republican Representative Mike Conaway would now lead the committee's investigation"
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3619",
+        "words_per_second": 1.9607642895803759,
+        "transcript": "China's Q four economic growth likely to slow amid debt, pollution battle"
+      }
+    ]
+  },
+  "review_panel": {
+    "seed": 20260823,
+    "rows": 30,
+    "categories": {
+      "lowest_confidence": 5,
+      "indian_name_location": 5,
+      "fastest_speaking_rate": 5,
+      "slowest_speaking_rate": 5,
+      "punctuation_silence_heavy": 5,
+      "ordinary_random_control": 5
+    },
+    "manifest": "experiments/swara_speech_poc_v1/alignment_gate_b_review/review_manifest.json"
+  },
+  "alignment_manifest": "experiments/swara_speech_poc_v1/data/alignment_manifest.jsonl",
+  "runtime": {
+    "device": "cpu",
+    "wall_seconds": 214.0468454590009
+  },
+  "human_review_required": true
+}

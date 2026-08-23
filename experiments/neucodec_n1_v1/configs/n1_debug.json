@@ -1,0 +1,11 @@
+{
+  "seed": 20260823,
+  "d_model": 128,
+  "layers": 4,
+  "heads": 4,
+  "ffn_dim": 512,
+  "max_frames": 4096,
+  "token_cardinality": 65536,
+  "fsq_levels": [4, 4, 4, 4, 4, 4, 4, 4],
+  "training": {"status": "not_started", "future_step_budget": "same for N1-A and N1-B"}
+}

@@ -71,3 +71,37 @@ class GeneratorTests(unittest.TestCase):
         self.assertEqual(len(first.frames), 2)
         with self.assertRaises(ValueError):
             self.conditioner.resolve("unknown")
+
+    def test_cross_attention_text_memory_changes_primary_logits(self) -> None:
+        self.generator.eval()
+        targets = self._targets()
+        text_ids = self.generator.encode_linguistic(self.sequence)
+        altered_ids = text_ids.flip(dims=[1])
+        speakers = torch.tensor([0], dtype=torch.long)
+        inputs = self.generator.teacher_forcing_inputs(targets)
+        first, _, _ = self.generator.forward(text_ids, speakers, inputs, primary_tokens_for_residual=targets[:, :, 0])
+        second, _, _ = self.generator.forward(altered_ids, speakers, inputs, primary_tokens_for_residual=targets[:, :, 0])
+        self.assertFalse(torch.allclose(first, second))
+
+    def test_residual_predictor_is_causal_within_frame(self) -> None:
+        self.generator.eval()
+        targets = self._targets()
+        text_ids = self.generator.encode_linguistic(self.sequence)
+        speakers = torch.tensor([0], dtype=torch.long)
+        inputs = self.generator.teacher_forcing_inputs(targets)
+        _, first, hidden = self.generator.forward(
+            text_ids, speakers, inputs,
+            primary_tokens_for_residual=targets[:, :, 0],
+            residual_targets_for_prediction=targets[:, :, 1:],
+        )
+        altered = targets.clone()
+        altered[:, :, 2] = (altered[:, :, 2] + 17) % 2048
+        _, second, _ = self.generator.forward(
+            text_ids, speakers, inputs,
+            primary_tokens_for_residual=targets[:, :, 0],
+            residual_targets_for_prediction=altered[:, :, 1:],
+        )
+        self.assertTrue(torch.allclose(first[:, :, 0], second[:, :, 0]))
+        self.assertTrue(torch.allclose(first[:, :, 1], second[:, :, 1]))
+        self.assertFalse(torch.allclose(first[:, :, 2], second[:, :, 2]))
+        self.assertEqual(tuple(hidden.shape), (1, 3, 64))

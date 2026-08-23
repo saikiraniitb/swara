@@ -1,0 +1,370 @@
+{
+  "baseline": {
+    "free": [
+      {
+        "first_mismatch": 319,
+        "correct_prefix": 319,
+        "target_at_mismatch": null,
+        "predicted_at_mismatch": null,
+        "next20_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+        "stats": {
+          "length": 319,
+          "unique": 317,
+          "entropy_bits": 8.304873428811892,
+          "top_share": 0.006269592476489028
+        }
+      },
+      {
+        "first_mismatch": 0,
+        "correct_prefix": 0,
+        "target_at_mismatch": 40354,
+        "predicted_at_mismatch": 52650,
+        "next20_accuracy": 0.0,
+        "overall_accuracy": 0.002036659877800407,
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+        "stats": {
+          "length": 491,
+          "unique": 389,
+          "entropy_bits": 8.456284955692514,
+          "top_share": 0.012219959266802444
+        }
+      }
+    ]
+  },
+  "schedule": {
+    "1": {
+      "teacher_forcing_probability": 1.0,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.004959566984325647,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.04176660254597664,
+          "accuracy": 0.9979633401221996
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 0,
+          "correct_prefix": 0,
+          "target_at_mismatch": 40354,
+          "predicted_at_mismatch": 52650,
+          "next20_accuracy": 0.0,
+          "overall_accuracy": 0.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 372,
+            "entropy_bits": 8.360522124717658,
+            "top_share": 0.012219959266802444
+          }
+        }
+      ]
+    },
+    "50": {
+      "teacher_forcing_probability": 1.0,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.002322528976947069,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.001961461501196027,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    },
+    "100": {
+      "teacher_forcing_probability": 0.9,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.0003683334798552096,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.000491362705361098,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    },
+    "150": {
+      "teacher_forcing_probability": 0.75,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.0002011954493355006,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.00024884147569537163,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    },
+    "200": {
+      "teacher_forcing_probability": 0.5,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.0001392408594256267,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.00017779295740183443,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    },
+    "250": {
+      "teacher_forcing_probability": 0.25,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 0.00010413554991828278,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.0001358299923595041,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    },
+    "300": {
+      "teacher_forcing_probability": 0.25,
+      "train_tf": [
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "ce": 8.150236681103706e-05,
+          "accuracy": 1.0
+        },
+        {
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "ce": 0.00010766155901364982,
+          "accuracy": 1.0
+        }
+      ],
+      "free": [
+        {
+          "first_mismatch": 319,
+          "correct_prefix": 319,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028
+          }
+        },
+        {
+          "first_mismatch": 491,
+          "correct_prefix": 491,
+          "target_at_mismatch": null,
+          "predicted_at_mismatch": null,
+          "next20_accuracy": 1.0,
+          "overall_accuracy": 1.0,
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222
+          }
+        }
+      ]
+    }
+  },
+  "steps": 300,
+  "training_method": "sequence-level detached self-conditioning; predicted previous tokens replace teacher-forced history according to schedule",
+  "wall_seconds": 216.65882095799316
+}

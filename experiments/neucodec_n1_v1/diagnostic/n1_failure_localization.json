@@ -1,0 +1,514 @@
+{
+  "checkpoint": "runs/neucodec_n1_v1/n1_0_A/best.pt and n1_0_B/best.pt",
+  "training_performed": false,
+  "architecture_modified": false,
+  "codec_modified": false,
+  "oracle": {
+    "IISc_SPICORProject_EN_M_AGRI_1143": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/01_IISc_SPICORProject_EN_M_AGRI_1143.wav",
+      "samples": 153120,
+      "duration_seconds": 6.38,
+      "rms": 0.135520339012146,
+      "peak": 1.081257939338684,
+      "finite": true,
+      "non_silent": true
+    },
+    "IISc_SPICORProject_EN_M_AGRI_1222": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/02_IISc_SPICORProject_EN_M_AGRI_1222.wav",
+      "samples": 235680,
+      "duration_seconds": 9.82,
+      "rms": 0.11323487013578415,
+      "peak": 0.9088311791419983,
+      "finite": true,
+      "non_silent": true
+    },
+    "IISc_SPICORProject_EN_M_AGRI_116": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/03_IISc_SPICORProject_EN_M_AGRI_116.wav",
+      "samples": 102240,
+      "duration_seconds": 4.26,
+      "rms": 0.12678557634353638,
+      "peak": 0.9155387878417969,
+      "finite": true,
+      "non_silent": true
+    },
+    "IISc_SPICORProject_EN_M_AGRI_256": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/04_IISc_SPICORProject_EN_M_AGRI_256.wav",
+      "samples": 147840,
+      "duration_seconds": 6.16,
+      "rms": 0.11446646600961685,
+      "peak": 0.8778972625732422,
+      "finite": true,
+      "non_silent": true
+    },
+    "IISc_SPICORProject_EN_M_AGRI_2592": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/05_IISc_SPICORProject_EN_M_AGRI_2592.wav",
+      "samples": 140160,
+      "duration_seconds": 5.84,
+      "rms": 0.11615569144487381,
+      "peak": 0.9147390723228455,
+      "finite": true,
+      "non_silent": true
+    },
+    "IISc_SPICORProject_EN_M_AGRI_4068": {
+      "path": "experiments/neucodec_n1_v1/diagnostic/oracle_ground_truth/06_IISc_SPICORProject_EN_M_AGRI_4068.wav",
+      "samples": 148800,
+      "duration_seconds": 6.2,
+      "rms": 0.10766100138425827,
+      "peak": 0.8642351627349854,
+      "finite": true,
+      "non_silent": true
+    }
+  },
+  "models": {
+    "A": {
+      "overfit": {
+        "IISc_SPICORProject_EN_M_AGRI_1143": {
+          "free_accuracy": 1.0,
+          "free_first_mismatch": 319,
+          "free_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "teacher_forced_accuracy": 1.0,
+          "teacher_forced_first_mismatch": 319
+        },
+        "IISc_SPICORProject_EN_M_AGRI_1222": {
+          "free_accuracy": 1.0,
+          "free_first_mismatch": 491,
+          "free_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "teacher_forced_accuracy": 1.0,
+          "teacher_forced_first_mismatch": 491
+        }
+      },
+      "teacher_forced": {
+        "IISc_SPICORProject_EN_M_AGRI_1143": {
+          "accuracy": 1.0,
+          "first_mismatch": 319,
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_1222": {
+          "accuracy": 1.0,
+          "first_mismatch": 491,
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_116": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 213,
+            "unique": 197,
+            "entropy_bits": 7.564452988739966,
+            "top_share": 0.018779342723004695,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 213,
+            "unique": 212,
+            "entropy_bits": 7.725319948864334,
+            "top_share": 0.009389671361502348,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_256": {
+          "accuracy": 0.003246753246753247,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 308,
+            "unique": 249,
+            "entropy_bits": 7.753840316930677,
+            "top_share": 0.032467532467532464,
+            "change_rate": 0.9804560260586319
+          },
+          "target_stats": {
+            "length": 308,
+            "unique": 306,
+            "entropy_bits": 8.25379952770789,
+            "top_share": 0.006493506493506494,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_2592": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 292,
+            "unique": 256,
+            "entropy_bits": 7.884908249155167,
+            "top_share": 0.023972602739726026,
+            "change_rate": 0.9725085910652921
+          },
+          "target_stats": {
+            "length": 292,
+            "unique": 288,
+            "entropy_bits": 8.162427298606046,
+            "top_share": 0.00684931506849315,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_4068": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 310,
+            "unique": 266,
+            "entropy_bits": 7.9506603633723625,
+            "top_share": 0.01935483870967742,
+            "change_rate": 0.9838187702265372
+          },
+          "target_stats": {
+            "length": 310,
+            "unique": 308,
+            "entropy_bits": 8.263221179467784,
+            "top_share": 0.0064516129032258064,
+            "change_rate": 1.0
+          }
+        }
+      },
+      "manifold": {
+        "validation_free_running": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_116",
+            "stats": {
+              "length": 213,
+              "unique": 197,
+              "entropy_bits": 7.564452988739966,
+              "top_share": 0.018779342723004695,
+              "change_rate": 1.0
+            },
+            "seen_in_cached_train_val": 1.0,
+            "bigram_overlap_with_cached_train_val": 0.42924528301886794,
+            "free_target_similarity": 0.0
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_256",
+            "stats": {
+              "length": 308,
+              "unique": 249,
+              "entropy_bits": 7.753840316930677,
+              "top_share": 0.032467532467532464,
+              "change_rate": 0.9804560260586319
+            },
+            "seen_in_cached_train_val": 1.0,
+            "bigram_overlap_with_cached_train_val": 0.3517915309446254,
+            "free_target_similarity": 0.003246753246753247
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2592",
+            "stats": {
+              "length": 292,
+              "unique": 256,
+              "entropy_bits": 7.884908249155167,
+              "top_share": 0.023972602739726026,
+              "change_rate": 0.9725085910652921
+            },
+            "seen_in_cached_train_val": 1.0,
+            "bigram_overlap_with_cached_train_val": 0.3848797250859107,
+            "free_target_similarity": 0.0
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4068",
+            "stats": {
+              "length": 310,
+              "unique": 266,
+              "entropy_bits": 7.9506603633723625,
+              "top_share": 0.01935483870967742,
+              "change_rate": 0.9838187702265372
+            },
+            "seen_in_cached_train_val": 1.0,
+            "bigram_overlap_with_cached_train_val": 0.37540453074433655,
+            "free_target_similarity": 0.0
+          }
+        ]
+      },
+      "prefix_forcing": "NOT_APPLICABLE: N1 backbone has no acoustic-history input; generate() is text-only frame rollout."
+    },
+    "B": {
+      "overfit": {
+        "IISc_SPICORProject_EN_M_AGRI_1143": {
+          "free_accuracy": 1.0,
+          "free_first_mismatch": 319,
+          "free_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "teacher_forced_accuracy": 1.0,
+          "teacher_forced_first_mismatch": 319
+        },
+        "IISc_SPICORProject_EN_M_AGRI_1222": {
+          "free_accuracy": 1.0,
+          "free_first_mismatch": 491,
+          "free_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "teacher_forced_accuracy": 1.0,
+          "teacher_forced_first_mismatch": 491
+        }
+      },
+      "teacher_forced": {
+        "IISc_SPICORProject_EN_M_AGRI_1143": {
+          "accuracy": 1.0,
+          "first_mismatch": 319,
+          "stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 319,
+            "unique": 317,
+            "entropy_bits": 8.304873428811892,
+            "top_share": 0.006269592476489028,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_1222": {
+          "accuracy": 1.0,
+          "first_mismatch": 491,
+          "stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 491,
+            "unique": 481,
+            "entropy_bits": 8.897308567670773,
+            "top_share": 0.006109979633401222,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_116": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 213,
+            "unique": 204,
+            "entropy_bits": 7.646658505192206,
+            "top_share": 0.014084507042253521,
+            "change_rate": 0.9952830188679245
+          },
+          "target_stats": {
+            "length": 213,
+            "unique": 212,
+            "entropy_bits": 7.725319948864334,
+            "top_share": 0.009389671361502348,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_256": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 308,
+            "unique": 287,
+            "entropy_bits": 8.12307010398552,
+            "top_share": 0.00974025974025974,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 308,
+            "unique": 306,
+            "entropy_bits": 8.25379952770789,
+            "top_share": 0.006493506493506494,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_2592": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 292,
+            "unique": 286,
+            "entropy_bits": 8.136366886022357,
+            "top_share": 0.017123287671232876,
+            "change_rate": 1.0
+          },
+          "target_stats": {
+            "length": 292,
+            "unique": 288,
+            "entropy_bits": 8.162427298606046,
+            "top_share": 0.00684931506849315,
+            "change_rate": 1.0
+          }
+        },
+        "IISc_SPICORProject_EN_M_AGRI_4068": {
+          "accuracy": 0.0,
+          "first_mismatch": 0,
+          "stats": {
+            "length": 310,
+            "unique": 305,
+            "entropy_bits": 8.241431219783387,
+            "top_share": 0.00967741935483871,
+            "change_rate": 0.9935275080906149
+          },
+          "target_stats": {
+            "length": 310,
+            "unique": 308,
+            "entropy_bits": 8.263221179467784,
+            "top_share": 0.0064516129032258064,
+            "change_rate": 1.0
+          }
+        }
+      },
+      "manifold": {
+        "validation_free_running": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_116",
+            "stats": {
+              "length": 213,
+              "unique": 204,
+              "entropy_bits": 7.646658505192206,
+              "top_share": 0.014084507042253521,
+              "change_rate": 0.9952830188679245
+            },
+            "seen_in_cached_train_val": 0.30985915492957744,
+            "bigram_overlap_with_cached_train_val": 0.018867924528301886,
+            "free_target_similarity": 0.0
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_256",
+            "stats": {
+              "length": 308,
+              "unique": 287,
+              "entropy_bits": 8.12307010398552,
+              "top_share": 0.00974025974025974,
+              "change_rate": 1.0
+            },
+            "seen_in_cached_train_val": 0.32142857142857145,
+            "bigram_overlap_with_cached_train_val": 0.003257328990228013,
+            "free_target_similarity": 0.0
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2592",
+            "stats": {
+              "length": 292,
+              "unique": 286,
+              "entropy_bits": 8.136366886022357,
+              "top_share": 0.017123287671232876,
+              "change_rate": 1.0
+            },
+            "seen_in_cached_train_val": 0.2945205479452055,
+            "bigram_overlap_with_cached_train_val": 0.0,
+            "free_target_similarity": 0.0
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4068",
+            "stats": {
+              "length": 310,
+              "unique": 305,
+              "entropy_bits": 8.241431219783387,
+              "top_share": 0.00967741935483871,
+              "change_rate": 0.9935275080906149
+            },
+            "seen_in_cached_train_val": 0.2806451612903226,
+            "bigram_overlap_with_cached_train_val": 0.0,
+            "free_target_similarity": 0.0
+          }
+        ]
+      },
+      "prefix_forcing": "NOT_APPLICABLE: N1 backbone has no acoustic-history input; generate() is text-only frame rollout."
+    }
+  },
+  "alignment": {
+    "IISc_SPICORProject_EN_M_AGRI_1143": {
+      "linguistic_tokens": 17,
+      "codec_frames": 319,
+      "frame_to_linguistic_positions": [
+        0,
+        0,
+        0,
+        0,
+        16
+      ],
+      "train_generation_schedule_parity": "PASS: fixed frame budget is supplied to both forward and generate; no N1 variable-denominator remapping."
+    },
+    "IISc_SPICORProject_EN_M_AGRI_116": {
+      "linguistic_tokens": 12,
+      "codec_frames": 213,
+      "frame_to_linguistic_positions": [
+        0,
+        0,
+        0,
+        0,
+        11
+      ],
+      "train_generation_schedule_parity": "PASS: fixed frame budget is supplied to both forward and generate; no N1 variable-denominator remapping."
+    }
+  },
+  "prefix_forcing": {},
+  "decision": "MULTIPLE_CONFIRMED: teacher-forced/2-example overfit behavior is not free-running reproduction; generated sequences are off-manifold. Codec oracle passes. N1 generate has no acoustic-history/prefix interface, so prefix exposure cannot be tested in this architecture."
+}

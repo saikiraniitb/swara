@@ -1,0 +1,948 @@
+{
+  "schema_version": "swara.alignment_review.v1",
+  "seed": 20260823,
+  "question": "Does the alignment correctly correspond to the spoken words and silence?",
+  "rows": [
+    {
+      "review_index": 1,
+      "selection_category": "lowest_confidence",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5946",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_5946.wav",
+      "transcript": "All these things if Apple is able to bring in India, will certainly drive footfalls and walkins from all consumer segments",
+      "audit": {
+        "word_count": 21,
+        "character_count": 101,
+        "confidence_mean": 0.8733390321563322,
+        "confidence_median": 0.9889530745315527,
+        "confidence_min": 1.196348455596664e-06,
+        "words_per_second": 3.0522978533988607,
+        "characters_per_second": 14.680099199680235,
+        "neucodec_frames_per_word": 16.428571428571427,
+        "median_lexical_word_duration": 0.2607603862973762,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 1.1232755102040821,
+        "punctuation_silence_score": 1.273275510204082,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "India"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "able",
+          "unit_index": 6,
+          "confidence": 1.196348455596664e-06,
+          "start_seconds": 1.7651472303206996,
+          "end_seconds": 1.8754689322157434,
+          "frames": 5
+        },
+        {
+          "word": "to",
+          "unit_index": 7,
+          "confidence": 2.3178798621949017e-06,
+          "start_seconds": 1.8754689322157434,
+          "end_seconds": 1.9356444059766764,
+          "frames": 3
+        }
+      ],
+      "alignment_json": "01_IISc_SPICORProject_EN_M_AGRI_5946.json"
+    },
+    {
+      "review_index": 2,
+      "selection_category": "lowest_confidence",
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_190",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_190.wav",
+      "transcript": "Primary health and education has played an important role in bringing down their T F R",
+      "audit": {
+        "word_count": 16,
+        "character_count": 71,
+        "confidence_mean": 0.9162252892842797,
+        "confidence_median": 0.9888633061498735,
+        "confidence_min": 6.332326139191695e-06,
+        "words_per_second": 3.1745638074924662,
+        "characters_per_second": 14.08712689574782,
+        "neucodec_frames_per_word": 15.8125,
+        "median_lexical_word_duration": 0.26103909362549804,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.7027975597609559,
+        "punctuation_silence_score": 0.7027975597609559,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "R",
+          "unit_index": 15,
+          "confidence": 6.332326139191695e-06,
+          "start_seconds": 4.4376645916334665,
+          "end_seconds": 4.578224103585658,
+          "frames": 7
+        }
+      ],
+      "alignment_json": "02_IISc_SPICORProject_EN_M_POLI_190.json"
+    },
+    {
+      "review_index": 3,
+      "selection_category": "lowest_confidence",
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_7466",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_7466.wav",
+      "transcript": "C I T U dips its red flag in memory of Comrade Tapan Bepari, a release from CITY said here today",
+      "audit": {
+        "word_count": 21,
+        "character_count": 75,
+        "confidence_mean": 0.8940905554254088,
+        "confidence_median": 0.9881050758141714,
+        "confidence_min": 0.00013396978470012446,
+        "words_per_second": 2.873022659256092,
+        "characters_per_second": 10.260795211628901,
+        "neucodec_frames_per_word": 17.428571428571427,
+        "median_lexical_word_duration": 0.2703467465753424,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 1.121438356164384,
+        "punctuation_silence_score": 1.2714383561643838,
+        "suspicious_duration_count": 1,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "C",
+          "unit_index": 0,
+          "confidence": 0.00013396978470012446,
+          "start_seconds": 0.22028253424657535,
+          "end_seconds": 0.4305522260273973,
+          "frames": 11
+        },
+        {
+          "word": "a",
+          "unit_index": 15,
+          "confidence": 0.9907714228699928,
+          "start_seconds": 5.1666267123287675,
+          "end_seconds": 5.216690924657534,
+          "frames": 2
+        }
+      ],
+      "alignment_json": "03_IISc_SPICORProject_EN_M_POLI_7466.json"
+    },
+    {
+      "review_index": 4,
+      "selection_category": "lowest_confidence",
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ018-0287",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ018-0287.wav",
+      "transcript": "to which he was introduced by a well-known tailor in Saville Row",
+      "audit": {
+        "word_count": 13,
+        "character_count": 52,
+        "confidence_mean": 0.8616911631794351,
+        "confidence_median": 0.9845330953705975,
+        "confidence_min": 0.00014245620679430835,
+        "words_per_second": 3.209827008842456,
+        "characters_per_second": 12.839308035369823,
+        "neucodec_frames_per_word": 15.615384615384615,
+        "median_lexical_word_duration": 0.18044832920792087,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 0.7418431311881188,
+        "punctuation_silence_score": 0.8918431311881189,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "Row",
+          "unit_index": 13,
+          "confidence": 0.00014245620679430835,
+          "start_seconds": 3.4686178836633665,
+          "end_seconds": 3.5688669554455448,
+          "frames": 5
+        }
+      ],
+      "alignment_json": "04_IISc_SPICORProject_EN_M_LJSP_LJ018-0287.json"
+    },
+    {
+      "review_index": 5,
+      "selection_category": "lowest_confidence",
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3543",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3543.wav",
+      "transcript": "Lok Sabha elections in Punjab are due in one phase on April thirty",
+      "audit": {
+        "word_count": 13,
+        "character_count": 54,
+        "confidence_mean": 0.8283054110121137,
+        "confidence_median": 0.9355982003958893,
+        "confidence_min": 0.0016871898110834207,
+        "words_per_second": 2.7836886551304185,
+        "characters_per_second": 11.56301441361866,
+        "neucodec_frames_per_word": 18.0,
+        "median_lexical_word_duration": 0.24051824034334768,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.7015115343347638,
+        "punctuation_silence_score": 0.7015115343347638,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "Sabha",
+          "unit_index": 1,
+          "confidence": 0.0016871898110834207,
+          "start_seconds": 0.4609932939914163,
+          "end_seconds": 0.6714467542918455,
+          "frames": 11
+        }
+      ],
+      "alignment_json": "05_IISc_SPICORProject_EN_M_WEAT_3543.json"
+    },
+    {
+      "review_index": 6,
+      "selection_category": "indian_name_location",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4837",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_4837.wav",
+      "transcript": "Models Imran Khan and Prince Khurrana wearing outfits from Mint Blush, Siddhartha Tytler, Pawan Sachdeva and Dhruv Vaish",
+      "audit": {
+        "word_count": 18,
+        "character_count": 101,
+        "confidence_mean": 0.7759954572985933,
+        "confidence_median": 0.9357705340672808,
+        "confidence_min": 0.3185127546299982,
+        "words_per_second": 2.16084813289216,
+        "characters_per_second": 12.124758967894898,
+        "neucodec_frames_per_word": 23.166666666666668,
+        "median_lexical_word_duration": 0.3354051607572115,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.501814152644231,
+        "punctuation_silence_score": 1.801814152644231,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Imran",
+          "Khan",
+          "Khurrana",
+          "Siddhartha",
+          "Pawan",
+          "Sachdeva",
+          "Dhruv",
+          "Vaish"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "06_IISc_SPICORProject_EN_M_AGRI_4837.json"
+    },
+    {
+      "review_index": 7,
+      "selection_category": "indian_name_location",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1222.wav",
+      "transcript": "Production at Noida plant in U P and Telangana will start within next two quarters, Karbonn Mobiles executive director Shashin Devsare says",
+      "audit": {
+        "word_count": 22,
+        "character_count": 117,
+        "confidence_mean": 0.9141440511171811,
+        "confidence_median": 0.9658556830428366,
+        "confidence_min": 0.6858317588740059,
+        "words_per_second": 2.2425952943724874,
+        "characters_per_second": 11.926529520071863,
+        "neucodec_frames_per_word": 22.318181818181817,
+        "median_lexical_word_duration": 0.4104209821428572,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 1.1011294642857141,
+        "punctuation_silence_score": 1.251129464285714,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Noida",
+          "Telangana",
+          "Shashin",
+          "Devsare"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "07_IISc_SPICORProject_EN_M_AGRI_1222.json"
+    },
+    {
+      "review_index": 8,
+      "selection_category": "indian_name_location",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_560",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_560.wav",
+      "transcript": "Limited and law firm Amarchand and Mangaldas and Suresh A Shroff advised W B I D C on the sale of its stake in H P L",
+      "audit": {
+        "word_count": 27,
+        "character_count": 90,
+        "confidence_mean": 0.825287538050427,
+        "confidence_median": 0.938429547325371,
+        "confidence_min": 0.029312791928291046,
+        "words_per_second": 2.6653339996668333,
+        "characters_per_second": 8.884446665556112,
+        "neucodec_frames_per_word": 18.77777777777778,
+        "median_lexical_word_duration": 0.2902883522727273,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.820815340909092,
+        "punctuation_silence_score": 0.820815340909092,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Amarchand",
+          "Mangaldas",
+          "Suresh",
+          "Shroff"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "A",
+          "unit_index": 9,
+          "confidence": 0.029312791928291046,
+          "start_seconds": 4.074046875,
+          "end_seconds": 4.264235795454545,
+          "frames": 9
+        },
+        {
+          "word": "C",
+          "unit_index": 16,
+          "confidence": 0.1249920721194153,
+          "start_seconds": 6.676632102272727,
+          "end_seconds": 7.067019886363635,
+          "frames": 20
+        },
+        {
+          "word": "P",
+          "unit_index": 25,
+          "confidence": 0.25600754781423796,
+          "start_seconds": 9.139078124999997,
+          "end_seconds": 9.379316761363635,
+          "frames": 12
+        }
+      ],
+      "alignment_json": "08_IISc_SPICORProject_EN_M_ENTE_560.json"
+    },
+    {
+      "review_index": 9,
+      "selection_category": "indian_name_location",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_260",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_260.wav",
+      "transcript": "Consider Kadhai Murg, North Indian Tomato Chicken Curry, which combines the traditional version with a contemporary update",
+      "audit": {
+        "word_count": 17,
+        "character_count": 104,
+        "confidence_mean": 0.8361707426546492,
+        "confidence_median": 0.9678314505784072,
+        "confidence_min": 0.33533601165845334,
+        "words_per_second": 2.2818600515096352,
+        "characters_per_second": 13.959614432764827,
+        "neucodec_frames_per_word": 21.941176470588236,
+        "median_lexical_word_duration": 0.3204327956989248,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.542082829301075,
+        "punctuation_silence_score": 1.8420828293010751,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Kadhai",
+          "Murg",
+          "Indian"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "09_IISc_SPICORProject_EN_M_AGRI_260.json"
+    },
+    {
+      "review_index": 10,
+      "selection_category": "indian_name_location",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4138",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_4138.wav",
+      "transcript": "The District Horticulture Officer had written umpteenth time requesting D M of Mathura, Commissioner Agra and seniors in lucknow to get the area vacated",
+      "audit": {
+        "word_count": 24,
+        "character_count": 128,
+        "confidence_mean": 0.9132510472469181,
+        "confidence_median": 0.9853411406620596,
+        "confidence_min": 0.5769094863161138,
+        "words_per_second": 2.4096234335878917,
+        "characters_per_second": 12.851324979135423,
+        "neucodec_frames_per_word": 20.791666666666668,
+        "median_lexical_word_duration": 0.39078716046277684,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 1.0621394617706237,
+        "punctuation_silence_score": 1.2121394617706236,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Mathura",
+          "Agra",
+          "lucknow"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "10_IISc_SPICORProject_EN_M_AGRI_4138.json"
+    },
+    {
+      "review_index": 11,
+      "selection_category": "fastest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2785",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_2785.wav",
+      "transcript": "It wouldn't come as shock if Apple switches to U B S C in favour of the Lightning connector",
+      "audit": {
+        "word_count": 19,
+        "character_count": 73,
+        "confidence_mean": 0.8375324284180334,
+        "confidence_median": 0.9679525696430978,
+        "confidence_min": 0.004899060839421463,
+        "words_per_second": 3.653802237953871,
+        "characters_per_second": 14.038292808980662,
+        "neucodec_frames_per_word": 13.736842105263158,
+        "median_lexical_word_duration": 0.19073588320463308,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.8633308397683401,
+        "punctuation_silence_score": 0.8633308397683401,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "S",
+          "unit_index": 11,
+          "confidence": 0.1056629575484862,
+          "start_seconds": 2.7706896718146714,
+          "end_seconds": 2.9313093629343623,
+          "frames": 8
+        },
+        {
+          "word": "C",
+          "unit_index": 12,
+          "confidence": 0.004899060839421463,
+          "start_seconds": 2.9313093629343623,
+          "end_seconds": 3.071851592664092,
+          "frames": 7
+        }
+      ],
+      "alignment_json": "11_IISc_SPICORProject_EN_M_AGRI_2785.json"
+    },
+    {
+      "review_index": 12,
+      "selection_category": "fastest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_2140",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_2140.wav",
+      "transcript": "This isn't the right time to check into the Lemon Tree stock",
+      "audit": {
+        "word_count": 12,
+        "character_count": 49,
+        "confidence_mean": 0.9334672320924321,
+        "confidence_median": 0.9877866838578311,
+        "confidence_min": 0.40728989646034697,
+        "words_per_second": 3.643125498083564,
+        "characters_per_second": 14.87609578384122,
+        "neucodec_frames_per_word": 13.75,
+        "median_lexical_word_duration": 0.24101524390243878,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.622622713414634,
+        "punctuation_silence_score": 0.622622713414634,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "12_IISc_SPICORProject_EN_M_AGRI_2140.json"
+    },
+    {
+      "review_index": 13,
+      "selection_category": "fastest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_LIBR_8425-287387-0030",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LIBR_8425-287387-0030.wav",
+      "transcript": "and pregnant sense of the word and when he began to think and to think long and often of cornelie de retz",
+      "audit": {
+        "word_count": 22,
+        "character_count": 84,
+        "confidence_mean": 0.9484685620954644,
+        "confidence_median": 0.9820514434471103,
+        "confidence_min": 0.5004034263820241,
+        "words_per_second": 3.6124424010426823,
+        "characters_per_second": 13.79296189489024,
+        "neucodec_frames_per_word": 13.863636363636363,
+        "median_lexical_word_duration": 0.2003310032894734,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.821357113486842,
+        "punctuation_silence_score": 0.821357113486842,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "13_IISc_SPICORProject_EN_M_LIBR_8425-287387-0030.json"
+    },
+    {
+      "review_index": 14,
+      "selection_category": "fastest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_2276",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_2276.wav",
+      "transcript": "The leader of the Opposition Ajay Bhatt retorted that the State Government has been trying to fool the people for a long time",
+      "audit": {
+        "word_count": 23,
+        "character_count": 103,
+        "confidence_mean": 0.9243609886935684,
+        "confidence_median": 0.9888522414585623,
+        "confidence_min": 0.2933809711038289,
+        "words_per_second": 3.532992194775396,
+        "characters_per_second": 15.82166069834199,
+        "neucodec_frames_per_word": 14.173913043478262,
+        "median_lexical_word_duration": 0.22034057692307663,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.7611765384615387,
+        "punctuation_silence_score": 0.7611765384615387,
+        "suspicious_duration_count": 0,
+        "indian_terms": [
+          "Bhatt"
+        ],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "Ajay",
+          "unit_index": 5,
+          "confidence": 0.2933809711038289,
+          "start_seconds": 1.4522447115384616,
+          "end_seconds": 1.7727400961538462,
+          "frames": 16
+        }
+      ],
+      "alignment_json": "14_IISc_SPICORProject_EN_M_POLI_2276.json"
+    },
+    {
+      "review_index": 15,
+      "selection_category": "fastest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1630",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_1630.wav",
+      "transcript": "A panel discussion on the ‘Role of C A in nation building’ was held",
+      "audit": {
+        "word_count": 14,
+        "character_count": 52,
+        "confidence_mean": 0.802494465987083,
+        "confidence_median": 0.9605250096532858,
+        "confidence_min": 0.012161064590729591,
+        "words_per_second": 3.4999453133544787,
+        "characters_per_second": 12.999796878173777,
+        "neucodec_frames_per_word": 14.357142857142858,
+        "median_lexical_word_duration": 0.18593255339195958,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 0.9045367462311558,
+        "punctuation_silence_score": 1.2045367462311558,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "A",
+          "unit_index": 9,
+          "confidence": 0.012161064590729591,
+          "start_seconds": 2.0502832914572866,
+          "end_seconds": 2.251291457286432,
+          "frames": 10
+        }
+      ],
+      "alignment_json": "15_IISc_SPICORProject_EN_M_ENTE_1630.json"
+    },
+    {
+      "review_index": 16,
+      "selection_category": "slowest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_268",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_268.wav",
+      "transcript": "This corroborates existing research which suggests that terrorist attacks can spur entrepreneurial activities",
+      "audit": {
+        "word_count": 13,
+        "character_count": 97,
+        "confidence_mean": 0.9616089067962913,
+        "confidence_median": 0.9875358382894842,
+        "confidence_min": 0.643120286700454,
+        "words_per_second": 1.6414011884375912,
+        "characters_per_second": 12.247378098342027,
+        "neucodec_frames_per_word": 30.53846153846154,
+        "median_lexical_word_duration": 0.5914983386075949,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.7418792721518986,
+        "punctuation_silence_score": 0.7418792721518986,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "16_IISc_SPICORProject_EN_M_ENTE_268.json"
+    },
+    {
+      "review_index": 17,
+      "selection_category": "slowest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_7084",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_7084.wav",
+      "transcript": "Among these, trees of Ashok, Kachnaar, Amaltaash, Neem, Australian Babul, Kaner, Sheesham, Sagaun, Mango, Pomegranate, Papaya can also be found",
+      "audit": {
+        "word_count": 20,
+        "character_count": 113,
+        "confidence_mean": 0.8673376334565781,
+        "confidence_median": 0.9528602607024597,
+        "confidence_min": 0.5036889697875196,
+        "words_per_second": 1.737619461337967,
+        "characters_per_second": 9.817549956559514,
+        "neucodec_frames_per_word": 28.8,
+        "median_lexical_word_duration": 0.31026956521739146,
+        "punctuation_unit_count": 11,
+        "structural_seconds": 4.964313043478258,
+        "punctuation_silence_score": 6.614313043478258,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "17_IISc_SPICORProject_EN_M_AGRI_7084.json"
+    },
+    {
+      "review_index": 18,
+      "selection_category": "slowest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ007-0130",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ007-0130.wav",
+      "transcript": "are all huddled together without discrimination, oversight, or control",
+      "audit": {
+        "word_count": 9,
+        "character_count": 60,
+        "confidence_mean": 0.9789415389318603,
+        "confidence_median": 0.9923539604054074,
+        "confidence_min": 0.9089097911294133,
+        "words_per_second": 1.7441649204830367,
+        "characters_per_second": 11.627766136553577,
+        "neucodec_frames_per_word": 28.77777777777778,
+        "median_lexical_word_duration": 0.42163934824902727,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.6062451361867707,
+        "punctuation_silence_score": 1.9062451361867707,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "18_IISc_SPICORProject_EN_M_LJSP_LJ007-0130.json"
+    },
+    {
+      "review_index": 19,
+      "selection_category": "slowest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1175",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1175.wav",
+      "transcript": "Thus, instead of being guided by curatorial preoccupations, visitors experienced a constellation of conversations",
+      "audit": {
+        "word_count": 14,
+        "character_count": 98,
+        "confidence_mean": 0.9872227164979118,
+        "confidence_median": 0.9974212695477731,
+        "confidence_min": 0.8910220986213129,
+        "words_per_second": 1.8087709240073966,
+        "characters_per_second": 12.661396468051777,
+        "neucodec_frames_per_word": 27.714285714285715,
+        "median_lexical_word_duration": 0.3609355569948187,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.6041580310880832,
+        "punctuation_silence_score": 1.9041580310880832,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "19_IISc_SPICORProject_EN_M_WEAT_1175.json"
+    },
+    {
+      "review_index": 20,
+      "selection_category": "slowest_speaking_rate",
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_2546",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_2546.wav",
+      "transcript": "Entrepreneur Dekyi Yangtso Chawla shares some mustdo activities in the fascinating land of Che Guevara, Cuba",
+      "audit": {
+        "word_count": 16,
+        "character_count": 92,
+        "confidence_mean": 0.8796374645260775,
+        "confidence_median": 0.9660227729121836,
+        "confidence_min": 0.4772582627805835,
+        "words_per_second": 1.8348492341654663,
+        "characters_per_second": 10.550383096451432,
+        "neucodec_frames_per_word": 27.3125,
+        "median_lexical_word_duration": 0.5412452586206896,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 0.9421676724137926,
+        "punctuation_silence_score": 1.0921676724137925,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "20_IISc_SPICORProject_EN_M_WEAT_2546.json"
+    },
+    {
+      "review_index": 21,
+      "selection_category": "punctuation_silence_heavy",
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3667",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_3667.wav",
+      "transcript": "Four Pain that is constant, not relieved by emesis, antacids, defecation, flatus, or positional changes, and sometimes accompanied by diaphoresis, nausea, and vomiting",
+      "audit": {
+        "word_count": 23,
+        "character_count": 137,
+        "confidence_mean": 0.9478696891806334,
+        "confidence_median": 0.9702056370762335,
+        "confidence_min": 0.7290495784683405,
+        "words_per_second": 1.9607738662944036,
+        "characters_per_second": 11.679392160101449,
+        "neucodec_frames_per_word": 25.52173913043478,
+        "median_lexical_word_duration": 0.40034343003412953,
+        "punctuation_unit_count": 8,
+        "structural_seconds": 3.122678754266213,
+        "punctuation_silence_score": 4.322678754266213,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "21_IISc_SPICORProject_EN_M_HEAL_3667.json"
+    },
+    {
+      "review_index": 22,
+      "selection_category": "punctuation_silence_heavy",
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_4782",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_4782.wav",
+      "transcript": "If you get issued a Zeta card from your corporate, you can use that on P O S machines, online, N F C, online payments, U P I etc",
+      "audit": {
+        "word_count": 29,
+        "character_count": 95,
+        "confidence_mean": 0.9062498151441749,
+        "confidence_median": 0.9836291776241509,
+        "confidence_min": 0.4336569264602092,
+        "words_per_second": 2.916826442540405,
+        "characters_per_second": 9.55512110487374,
+        "neucodec_frames_per_word": 17.17241379310345,
+        "median_lexical_word_duration": 0.25056231098790294,
+        "punctuation_unit_count": 5,
+        "structural_seconds": 2.9867027469758067,
+        "punctuation_silence_score": 3.7367027469758067,
+        "suspicious_duration_count": 1,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [
+        {
+          "word": "C",
+          "unit_index": 25,
+          "confidence": 0.7624199738485351,
+          "start_seconds": 6.6248675025201615,
+          "end_seconds": 6.674979964717742,
+          "frames": 2
+        }
+      ],
+      "alignment_json": "22_IISc_SPICORProject_EN_M_FOOD_4782.json"
+    },
+    {
+      "review_index": 23,
+      "selection_category": "punctuation_silence_heavy",
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2829",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2829.wav",
+      "transcript": "JUGNEETA SUDAN ‘Egon Schiele: Death and the Maiden’, the most haunting painting of the twentieth century, hangs in the Baroque Belvedere Palace in Vienna",
+      "audit": {
+        "word_count": 24,
+        "character_count": 125,
+        "confidence_mean": 0.9166388204998093,
+        "confidence_median": 0.9747477195978539,
+        "confidence_min": 0.4892999324923248,
+        "words_per_second": 2.0869451796457628,
+        "characters_per_second": 10.869506143988348,
+        "neucodec_frames_per_word": 24.0,
+        "median_lexical_word_duration": 0.380664089721255,
+        "punctuation_unit_count": 5,
+        "structural_seconds": 2.704718532229967,
+        "punctuation_silence_score": 3.454718532229967,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "23_IISc_SPICORProject_EN_M_HEAL_2829.json"
+    },
+    {
+      "review_index": 24,
+      "selection_category": "punctuation_silence_heavy",
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_5053",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_5053.wav",
+      "transcript": "The City of violets, pansies, wallflowers, narcissus, crocuses and daisies, is fast sinking into a morass of ugliness",
+      "audit": {
+        "word_count": 18,
+        "character_count": 95,
+        "confidence_mean": 0.9058217314392178,
+        "confidence_median": 0.9696325128053851,
+        "confidence_min": 0.5300072153957887,
+        "words_per_second": 2.137767220902613,
+        "characters_per_second": 11.282660332541568,
+        "neucodec_frames_per_word": 23.444444444444443,
+        "median_lexical_word_duration": 0.33579761904761884,
+        "punctuation_unit_count": 5,
+        "structural_seconds": 2.3856666666666673,
+        "punctuation_silence_score": 3.1356666666666673,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "24_IISc_SPICORProject_EN_M_WEAT_5053.json"
+    },
+    {
+      "review_index": 25,
+      "selection_category": "punctuation_silence_heavy",
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ036-0024",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ036-0024.wav",
+      "transcript": "on a trip which passed a checkpoint at Saint Paul and Elm Streets at twelve thirty-six p m , November twenty-two, nineteen sixty-three",
+      "audit": {
+        "word_count": 25,
+        "character_count": 107,
+        "confidence_mean": 0.979020266020116,
+        "confidence_median": 0.9865732174732862,
+        "confidence_min": 0.9167170497455265,
+        "words_per_second": 2.343004082684614,
+        "characters_per_second": 10.028057473890149,
+        "neucodec_frames_per_word": 21.36,
+        "median_lexical_word_duration": 0.3603398217636027,
+        "punctuation_unit_count": 5,
+        "structural_seconds": 1.8817746247654772,
+        "punctuation_silence_score": 2.631774624765477,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "25_IISc_SPICORProject_EN_M_LJSP_LJ036-0024.json"
+    },
+    {
+      "review_index": 26,
+      "selection_category": "ordinary_random_control",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6302",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6302.wav",
+      "transcript": "Ford Endeavour And Anhui Zotye Join Hands To Produce EVs in China",
+      "audit": {
+        "word_count": 12,
+        "character_count": 54,
+        "confidence_mean": 0.8719848201203594,
+        "confidence_median": 0.940199007637351,
+        "confidence_min": 0.4774054587239543,
+        "words_per_second": 1.8604470886910012,
+        "characters_per_second": 8.372011899109506,
+        "neucodec_frames_per_word": 26.916666666666668,
+        "median_lexical_word_duration": 0.5358359375000002,
+        "punctuation_unit_count": 0,
+        "structural_seconds": 0.7211249999999996,
+        "punctuation_silence_score": 0.7211249999999996,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "26_IISc_SPICORProject_EN_M_AGRI_6302.json"
+    },
+    {
+      "review_index": 27,
+      "selection_category": "ordinary_random_control",
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2405",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2405.wav",
+      "transcript": "However, Ebola's effect on economic activity can be much more devastating than the damage SARS caused",
+      "audit": {
+        "word_count": 16,
+        "character_count": 85,
+        "confidence_mean": 0.9368767589564759,
+        "confidence_median": 0.9741289438910474,
+        "confidence_min": 0.5716170081874173,
+        "words_per_second": 2.3633459809270594,
+        "characters_per_second": 12.555275523675004,
+        "neucodec_frames_per_word": 21.1875,
+        "median_lexical_word_duration": 0.32548377403846174,
+        "punctuation_unit_count": 1,
+        "structural_seconds": 1.2017862426035502,
+        "punctuation_silence_score": 1.35178624260355,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "27_IISc_SPICORProject_EN_M_HEAL_2405.json"
+    },
+    {
+      "review_index": 28,
+      "selection_category": "ordinary_random_control",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1587",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_1587.wav",
+      "transcript": "The march past , according to a Sangh spokesperson, is usually organised after the conclusion of its training courses",
+      "audit": {
+        "word_count": 18,
+        "character_count": 97,
+        "confidence_mean": 0.9327477456221559,
+        "confidence_median": 0.9911507590062973,
+        "confidence_min": 0.4961592660272448,
+        "words_per_second": 2.7993507061556557,
+        "characters_per_second": 15.085389916505477,
+        "neucodec_frames_per_word": 17.88888888888889,
+        "median_lexical_word_duration": 0.2754310260903426,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.322068925233645,
+        "punctuation_silence_score": 1.622068925233645,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "28_IISc_SPICORProject_EN_M_ENTE_1587.json"
+    },
+    {
+      "review_index": 29,
+      "selection_category": "ordinary_random_control",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6883",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_6883.wav",
+      "transcript": "But the Government stopped imports of watches, and Etienne shifted to other pursuits- learning Hindi in Paris, for instance",
+      "audit": {
+        "word_count": 19,
+        "character_count": 102,
+        "confidence_mean": 0.9234725660138089,
+        "confidence_median": 0.9671048451248149,
+        "confidence_min": 0.5052924901075393,
+        "words_per_second": 2.571020204497594,
+        "characters_per_second": 13.80231899256603,
+        "neucodec_frames_per_word": 19.473684210526315,
+        "median_lexical_word_duration": 0.3004090447154466,
+        "punctuation_unit_count": 3,
+        "structural_seconds": 1.622208841463415,
+        "punctuation_silence_score": 2.072208841463415,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "29_IISc_SPICORProject_EN_M_ENTE_6883.json"
+    },
+    {
+      "review_index": 30,
+      "selection_category": "ordinary_random_control",
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_420",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_420.wav",
+      "transcript": "I'm leaving Melbourne empty handed, just as I came here empty handed, he said",
+      "audit": {
+        "word_count": 14,
+        "character_count": 62,
+        "confidence_mean": 0.961029591840151,
+        "confidence_median": 0.9942867518185535,
+        "confidence_min": 0.7720038447046292,
+        "words_per_second": 2.7131454318625012,
+        "characters_per_second": 12.015358341105363,
+        "neucodec_frames_per_word": 18.5,
+        "median_lexical_word_duration": 0.28109289883268485,
+        "punctuation_unit_count": 2,
+        "structural_seconds": 1.5259328793774316,
+        "punctuation_silence_score": 1.8259328793774317,
+        "suspicious_duration_count": 0,
+        "indian_terms": [],
+        "lexical_zero_frames": 0
+      },
+      "flagged_units": [],
+      "alignment_json": "30_IISc_SPICORProject_EN_M_OTHE_420.json"
+    }
+  ]
+}

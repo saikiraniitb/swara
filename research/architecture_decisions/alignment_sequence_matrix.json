@@ -1,0 +1,36 @@
+{
+  "decision_version": 1,
+  "decision": "C_HYBRID_EXPLICIT_ALIGNMENT_PLUS_CAUSAL_ACOUSTIC_STATE",
+  "scope_excludes": ["reference_audio", "acoustic_target_choice", "voice_cloning", "emotion_architecture", "production_model_size"],
+  "poc_parameter_range_millions": [10, 20],
+  "minimum_fair_data_rung": "30_minutes",
+  "options": {
+    "A_unified_causal_lm": {
+      "description": "unified text/control/speech causal sequence with implicit alignment",
+      "scores": {"poc_simplicity":4,"quality_ceiling":5,"data_efficiency":2,"alignment_robustness":3,"acoustic_continuity":5,"director_compatibility":3,"deterministic_controls":2,"long_form":4,"local_regeneration":2,"model_size_fit":3,"training_complexity":3,"failure_isolation":2,"research_novelty":2},
+      "total": 40
+    },
+    "B_explicit_duration": {
+      "description": "linguistic encoder, learned duration/alignment, frame expansion, acoustic generator",
+      "scores": {"poc_simplicity":3,"quality_ceiling":4,"data_efficiency":4,"alignment_robustness":5,"acoustic_continuity":2,"director_compatibility":5,"deterministic_controls":5,"long_form":3,"local_regeneration":5,"model_size_fit":4,"training_complexity":3,"failure_isolation":4,"research_novelty":3},
+      "total": 50
+    },
+    "C_hybrid": {
+      "description": "explicit learned/constrained alignment plus causal previous acoustic state",
+      "scores": {"poc_simplicity":2,"quality_ceiling":5,"data_efficiency":3,"alignment_robustness":5,"acoustic_continuity":5,"director_compatibility":5,"deterministic_controls":5,"long_form":5,"local_regeneration":5,"model_size_fit":3,"training_complexity":2,"failure_isolation":5,"research_novelty":4},
+      "total": 54
+    }
+  },
+  "control_scores": {
+    "A": {"pace":"MEDIUM","pause":"MEDIUM","emphasis":"MEDIUM","local_regeneration":"LOW","determinism":"MEDIUM","long_form":"HIGH"},
+    "B": {"pace":"HIGH","pause":"HIGH","emphasis":"HIGH","local_regeneration":"HIGH","determinism":"HIGH","long_form":"MEDIUM"},
+    "C": {"pace":"HIGH","pause":"HIGH","emphasis":"HIGH","local_regeneration":"HIGH","determinism":"HIGH","long_form":"HIGH"}
+  },
+  "evidence": {
+    "n1": "fixed text-frame position without acoustic history produced off-manifold unintelligible validation audio",
+    "n2": "causal acoustic history helped memorization and rollout but did not generalize on the five-minute set",
+    "references": ["NeuTTS unified causal sequence", "Kokoro and StyleTTS2 explicit duration", "Qwen causal full-frame state", "Pocket streaming continuous acoustic state"]
+  },
+  "next_unresolved_variable": "acoustic_target_representation",
+  "recommended_action": "REVIEW_DECISION_BEFORE_EXPERIMENT_DESIGN"
+}

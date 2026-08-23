@@ -1,0 +1,21 @@
+{
+  "n1_a": {
+    "previous_codec_history": false,
+    "params": 9836032,
+    "validation_bigram_overlap": "approximately 0.35-0.43",
+    "validation_audio": "disturbance/no recognizable voice"
+  },
+  "n2": {
+    "previous_codec_history": true,
+    "reference_audio": false,
+    "params": 9506304,
+    "n2_0_train_steps": 300,
+    "n2_0_free_running_accuracy": {
+      "IISc_SPICORProject_EN_M_AGRI_1143": 1.0,
+      "IISc_SPICORProject_EN_M_AGRI_1222": 0.002036659877800407
+    },
+    "n2_1": "not run because N2.0 gate failed",
+    "decoded_audio": "finite and non-silent; intelligibility gate failed/not established"
+  },
+  "conclusion": "history improves the mechanism enough to memorize one example, but is not sufficient for the bounded N2.0 gate"
+}

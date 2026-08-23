@@ -94,6 +94,92 @@ review:
 ```
 
 ```yaml
+component: swara.models.generator_v3
+component_version: 3.0.0-debug
+classification: independent
+status: implemented; 30-minute SPICOR debug training pending GPU execution
+authors: [Swara]
+upstreams:
+  - name: Qwen3-TTS Talker architecture research
+    relationship: targeted architectural inspiration only
+    copied_code: false
+    source_repository: /Users/saikiran/Documents/tts-reference/qwen3-tts
+model_weights: []
+datasets:
+  - data/spicor_eng_m_spk001_v1 debug train/validation manifests and cached codec tokens
+modifications: Original Swara implementation of scheduled typed linguistic/control states,
+  full 16-codebook frame history, and causal primary/residual prediction. Qwen generator
+  source and weights are not vendored or invoked.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: independent Swara code; dataset and external codec obligations remain separate
+```
+
+```yaml
+component: swara.models.generator_v3_1
+component_version: 3.1.0-debug
+classification: independent
+status: implementation correction; corpus retraining pending CUDA execution
+authors: [Swara]
+upstreams:
+  - name: Qwen3-TTS Talker architecture research
+    relationship: architectural inspiration only
+    copied_code: false
+model_weights: []
+datasets:
+  - data/spicor_eng_m_spk001_v1 debug train/validation manifests and cached codec tokens
+modifications: Fixed utterance-wide text-frame scheduling and explicit primary-token
+  conditioning of residual codebook prediction. No external generator source or weights used.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: independent Swara code; external dataset/codec obligations remain separate
+```
+
+```yaml
+component: swara.models.generator_v3_2
+component_version: 3.2.0-debug
+classification: independent
+status: implemented; 30-minute corpus training deferred to Colab
+authors: [Swara]
+upstreams:
+  - name: Swara Generator v3.1
+    relationship: retained schedule, decoder, codec history, and residual path
+  - name: Qwen/Dia architecture research
+    relationship: architectural inspiration only
+    copied_code: false
+model_weights: []
+datasets:
+  - data/spicor_eng_m_spk001_v1 debug train/validation manifests and cached codec tokens
+modifications: Single normalized gated fusion intervention. Acoustic and aligned
+  linguistic paths use independent LayerNorms and learned scalar gates initialized
+  to 0.3 and 1.0. No external generator source or weights used.
+review:
+  provenance_recorded_on: 2026-08-22
+  commercial_status: independent Swara code; external dataset/codec obligations remain separate
+```
+
+```yaml
+component: swara.models.generator_v3_3
+component_version: 3.3.0-debug
+classification: independent
+status: implemented; 30-minute corpus training deferred to Colab
+authors: [Swara]
+upstreams:
+  - name: Swara Generator v3.2
+    relationship: retained primary/gated fusion and shared residual recurrence
+    copied_code: false
+model_weights: []
+datasets:
+  - data/spicor_eng_m_spk001_v1 debug train/validation manifests and cached codec tokens
+modifications: Replaced the shared residual output projection with 15 independent
+  Linear(d, 2048) heads, one per residual codebook. No external generator source
+  or weights used.
+review:
+  provenance_recorded_on: 2026-08-23
+  commercial_status: independent Swara code; external dataset/codec obligations remain separate
+```
+
+```yaml
 component: qwen3-tts-0.6b-base-foundation
 component_version: m4a
 classification: external

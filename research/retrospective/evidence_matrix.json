@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "poc_parameter_policy": {"target_millions": [10, 20], "primary_bottleneck": false},
+  "experiments": [
+    {"id":"qwen_v3","data":"SPICOR 30m","params":31356544,"result":"failed","evidence":["train primary 0.9986","validation primary about 0.09","residual validation about 0.012","trajectory similarity about 0.99"]},
+    {"id":"qwen_v3_1","data":"SPICOR 30m","params":32142976,"result":"partial","evidence":["schedule parity pass","max nonself similarity 0.075","text swap gate fail","residual about 0.012-0.015"]},
+    {"id":"qwen_v3_2","data":"SPICOR 30m","result":"primary_pass_residual_fail","evidence":["history/text sensitivity baseline 14.606","primary plus ground-truth residual intelligible","generated residual no voice","CB1 teacher-forced 0.0645"]},
+    {"id":"qwen_v3_3","params":43183234,"result":"failed","evidence":["independent residual heads","validation residual about 0.013"]},
+    {"id":"distill_neucodec_roundtrip","clips":20,"result":"pass","evidence":["20/20 encode","20/20 decode","no corruption","human listening pass"]},
+    {"id":"n1_a","params":9836032,"data":"32 train / 8 val","result":"failed","evidence":["two-item exact memorization","best val exact 0","human listening no recognizable voice","bigram overlap 0.35-0.43"]},
+    {"id":"n1_b","params":1386016,"data":"32 train / 8 val","result":"failed","evidence":["full FSQ bijection","two-item exact memorization","best val exact 0","human listening no recognizable voice"]},
+    {"id":"n2_history","params":9506304,"data":"2 utterances","result":"partial","evidence":["teacher-forced 0.999","free exact 1.0 and 0.00204"]},
+    {"id":"n2_rollout","params":9506304,"data":"2 utterances","result":"pass_debug_only","evidence":["detached self-conditioning","free exact 1.0 and 1.0"]},
+    {"id":"n2_5min","params":9506304,"data":"32 train / 8 val","result":"failed","evidence":["best val bits/frame 22.1535","val accuracy 0.00108","max nonself 1.0","bigram overlap 0-0.15"]}
+  ],
+  "confirmed_foundations":["M1 typed linguistic contract","Qwen codec adapter","SPICOR preparation","Distill-NeuCodec provenance/roundtrip/listening","FSQ bijection"],
+  "top_open_questions":["unified causal text+speech versus explicit alignment","reference acoustic prefix necessity","flat discrete versus continuous acoustic target"]
+}

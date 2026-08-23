@@ -1,0 +1,23 @@
+{
+  "study": "Swara architecture landscape",
+  "source_commits": {
+    "neutts": "ac69851f28fc63a487917e7c2e27f0d75c759cba",
+    "pocket_tts": "891886a61a1ed45fd429a0a63bd96181e6cff637",
+    "smalltts": "9ececbda023ba95a1138e265819e494900d63bf5",
+    "kokoro": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+    "kittentts": "be5758500b731b8fc674acc62ea480d3022b7ebe",
+    "qwen": "022e286b98fbec7e1e916cb940cdf532cd9f488e"
+  },
+  "systems": [
+    {"name":"NeuTTS/NeuCodec","codec":"discrete_single_FSQ","rate_hz":50,"sample_rate_in":16000,"sample_rate_out":24000,"codebooks":1,"codebook_size":65536,"bits_per_token":16,"bitrate_kbps":0.8,"generator":"causal_LM","params_reported":"120M-360M active","frontend":"phoneme_or_BPE","clone":"reference_codec_prefix","license":"NeuCodec Apache-2.0; NeuTTS model-specific"},
+    {"name":"Pocket TTS","codec":"continuous_Mimi","rate_hz":12.5,"sample_rate":24000,"latent_dim":32,"generator":"streaming_transformer_conditional_flow","params_reported":"100M","frontend":"SentencePiece_4000","clone":"cached_voice_state","license":"MIT code; model/voice terms separate"},
+    {"name":"smalltts","codec":"continuous_VibeVoice","rate_hz":7.5,"sample_rate":24000,"latent_dim":64,"generator":"DiT_flow_DMD2","params_reported":"not printed","frontend":"phonemes","clone":"style_encoder","license":"MIT code; CC-BY-NC weights"},
+    {"name":"Kokoro","codec":"acoustic_features_F0_noise","rate_hz":"checkpoint_dependent","sample_rate":24000,"generator":"StyleTTS2_like_duration_iSTFTNet","params_reported":"82M","frontend":"Misaki_phonemes","clone":"voice_pack_style","license":"Apache-2.0 claim"},
+    {"name":"KittenTTS","codec":"opaque_ONNX","rate_hz":"unknown","sample_rate":24000,"generator":"opaque_ONNX","params_reported":"15M/40M/80M","frontend":"eSpeak_IPA","clone":"fixed_voice_tensor","license":"Apache-2.0 repo; checkpoint terms verify"},
+    {"name":"Qwen3-TTS","codec":"discrete_16_codebook","rate_hz":12.5,"sample_rate":24000,"codebooks":16,"generator":"Talker_plus_5_layer_subtalker","params_reported":"~906M talker","frontend":"Qwen text/control","clone":"speaker/reference conditioning","license":"Apache-2.0"}
+  ],
+  "permutations_evaluated": 14,
+  "pareto": ["P1", "P3", "P14"],
+  "training_performed": false,
+  "implementation_modified": false
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "swara.model_gate_c.v1",
+  "status": "pass",
+  "seed": 20260823,
+  "implementation": {
+    "linguistic_composer": true,
+    "linguistic_encoder": true,
+    "alignment_unit_adapter": true,
+    "duration_predictor": true,
+    "monotonic_expansion": true,
+    "acoustic_model": false,
+    "neucodec_prediction_head": false
+  },
+  "configuration": {
+    "width": 160,
+    "character_embedding_dim": 64,
+    "character_gru_hidden_per_direction": 80,
+    "linguistic_encoder_layers": 3,
+    "heads": 4,
+    "ffn_dim": 640,
+    "dropout": 0.1,
+    "max_units": 256,
+    "duration_convolutions": 2,
+    "duration_kernel_size": 3,
+    "max_unit_frames": 75,
+    "max_total_frames": 2048
+  },
+  "vocabulary": {
+    "characters": 56,
+    "pronunciation": 31,
+    "punctuation": 10,
+    "boundary": 3,
+    "languages": 4,
+    "whole_word_vocabulary": false,
+    "bpe": false,
+    "automatic_g2p": false
+  },
+  "parameters": {
+    "linguistic_composer": 82464,
+    "linguistic_encoder": 928160,
+    "duration_predictor": 154721,
+    "requested_partial_total": 1165345
+  },
+  "alignment_adapter_parameters_excluded_from_requested_partial_count": 320,
+  "real_batch": {
+    "utterance_ids": [
+      "IISc_SPICORProject_EN_M_AGRI_1143",
+      "IISc_SPICORProject_EN_M_AGRI_1222",
+      "IISc_SPICORProject_EN_M_AGRI_116",
+      "IISc_SPICORProject_EN_M_AGRI_256"
+    ],
+    "batch_size": 4,
+    "linguistic_lengths": [
+      17,
+      23,
+      12,
+      15
+    ],
+    "alignment_unit_lengths": [
+      19,
+      25,
+      14,
+      17
+    ],
+    "linguistic_states_shape": [
+      4,
+      23,
+      160
+    ],
+    "alignment_states_shape": [
+      4,
+      25,
+      160
+    ],
+    "duration_prediction_shape": [
+      4,
+      25
+    ],
+    "target_total_frames": [
+      319,
+      491,
+      213,
+      308
+    ],
+    "target_duration_sums": [
+      319,
+      491,
+      213,
+      308
+    ],
+    "duration_loss": 2.4741744995117188,
+    "loss_finite": true,
+    "oracle_expansion_shape": [
+      4,
+      491,
+      160
+    ],
+    "oracle_lengths": [
+      319,
+      491,
+      213,
+      308
+    ],
+    "predicted_lengths": [
+      16,
+      22,
+      11,
+      14
+    ],
+    "predicted_monotonic": true,
+    "prefix_frames_checked": 20,
+    "prefix_invariant": true
+  },
+  "gradients": {
+    "linguistic_composer": {
+      "parameter_tensors": 16,
+      "gradient_tensors": 14,
+      "all_finite": true
+    },
+    "linguistic_encoder": {
+      "parameter_tensors": 38,
+      "gradient_tensors": 38,
+      "all_finite": true
+    },
+    "duration_predictor": {
+      "parameter_tensors": 10,
+      "gradient_tensors": 10,
+      "all_finite": true
+    },
+    "alignment_unit_adapter": {
+      "parameter_tensors": 1,
+      "gradient_tensors": 1,
+      "all_finite": true
+    }
+  },
+  "accepted_alignment_manifest": {
+    "path": "experiments/swara_speech_poc_v1/data/alignment_manifest.jsonl",
+    "rows_validated": 312,
+    "train_rows": 267,
+    "validation_rows": 45,
+    "max_linguistic_units": 34,
+    "max_alignment_units": 36,
+    "max_observed_unit_frames": 60,
+    "max_observed_total_frames": 638,
+    "exact_target_sums_preserved": true
+  },
+  "synthetic_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "verification": {
+    "full_test_suite_total": 66,
+    "full_test_suite_passed": 65,
+    "full_test_suite_skipped": 1,
+    "full_test_suite_failed": 0,
+    "existing_suite_regressions": 0,
+    "compile_check": true,
+    "core_import_loads_torch": false,
+    "duration_dataset_import_loads_torch": false
+  },
+  "optional_duration_training": {
+    "performed": false,
+    "steps": 0
+  },
+  "runtime": {
+    "torch_version": "2.13.0",
+    "wall_seconds": 0.5202234159951331
+  }
+}

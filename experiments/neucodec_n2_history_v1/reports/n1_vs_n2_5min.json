@@ -1,0 +1,26 @@
+{
+  "n1_a": {
+    "params": 9836032,
+    "previous_history": false,
+    "validation_bigram_overlap": "approximately 0.35-0.43",
+    "validation_audio": "disturbance/no recognizable voice"
+  },
+  "n2_5min": {
+    "params": 9506304,
+    "previous_history": true,
+    "self_conditioning": "1-100:1.0;101-250:0.9;251-400:0.75;401-600:0.5;601-1500:0.25",
+    "best_step": 1000,
+    "validation_ce": 15.355911016464233,
+    "validation_bits_per_frame": 22.15353252432655,
+    "validation_accuracy": 0.0010804746710963782,
+    "max_nonself_similarity": 1.0,
+    "pairwise_mean_similarity": 0.3419624538987543,
+    "min_text_swap_change": 0.4714003944773175,
+    "generated_ids_seen_in_train": 1.0,
+    "real_bigram_overlap_range": [0.0,0.1498127343977909],
+    "n1_bigram_overlap_range": [0.35,0.43],
+    "decoded_outputs": 10,
+    "audio_gate": "machine-valid; intelligibility not established; trajectory collapse indicates failure"
+  },
+  "conclusion": "N2 history plus self-conditioning did not generalize from two utterances to the 5-minute corpus"
+}

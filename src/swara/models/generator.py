@@ -1,14 +1,9 @@
-"""Small, original, staged causal Swara speech generator for M2B.
-
-This architecture-validation model predicts the primary codec stream at the
-audio-frame rate, then predicts each residual codebook from the resulting main
-hidden state and primary token. It intentionally has no Qwen/Dia generator
-imports, code, checkpoints, or text-token dependency.
-"""
+"""Swara-owned Qwen-Talker-parity generator (v2)."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
+import json
 import math
 from typing import Any
 
@@ -23,23 +18,46 @@ class GeneratorConfig:
     linguistic_vocab_size: int
     speaker_count: int
     audio_spec: AudioTokenSpec
-    model_dim: int = 256
+    model_dim: int = 384
     layers: int = 4
-    heads: int = 4
-    ffn_dim: int = 512
+    heads: int = 6
+    ffn_dim: int = 1536
     max_text_tokens: int = 128
-    max_audio_frames: int = 64
+    max_audio_frames: int = 256
     dropout: float = 0.0
+    encoder_layers: int | None = None
+    decoder_layers: int | None = None
+    residual_dim: int | None = None
+    primary_history_dropout: float = 0.0
+    talker_version: str = "v2"
 
     def __post_init__(self) -> None:
         if self.linguistic_vocab_size < 2 or self.speaker_count < 1:
             raise ValueError("generator vocabulary and speaker count must be positive")
         if self.model_dim <= 0 or self.layers < 1 or self.heads < 1 or self.ffn_dim < self.model_dim:
             raise ValueError("generator dimensions are invalid")
-        if self.model_dim % self.heads:
-            raise ValueError("model_dim must be divisible by heads")
+        if self.model_dim % self.heads or self.residual_width % self.heads:
+            raise ValueError("model and residual dimensions must divide evenly by heads")
         if self.max_text_tokens < 1 or self.max_audio_frames < 1:
             raise ValueError("maximum sequence lengths must be positive")
+        if not 0.0 <= self.primary_history_dropout < 1.0:
+            raise ValueError("primary history dropout must be in [0, 1)")
+        if self.talker_version != "v2":
+            raise ValueError("only Swara Talker v2 is active")
+        if self.encoder_depth < 1 or self.decoder_depth < 1:
+            raise ValueError("encoder and decoder must each have at least one layer")
+
+    @property
+    def encoder_depth(self) -> int:
+        return self.encoder_layers if self.encoder_layers is not None else self.layers
+
+    @property
+    def decoder_depth(self) -> int:
+        return self.decoder_layers if self.decoder_layers is not None else self.layers
+
+    @property
+    def residual_width(self) -> int:
+        return self.residual_dim if self.residual_dim is not None else self.model_dim
 
     @property
     def primary_codec_vocabulary_size(self) -> int:
@@ -51,7 +69,7 @@ class GeneratorConfig:
 
 
 class LearnedSpeakerConditioner:
-    """M2B table-ID conditioner; future encoders can preserve this boundary."""
+    """Stable logical speaker ID resolution for the existing public boundary."""
 
     condition_kind = "speaker_id_table.v0"
 
@@ -71,8 +89,8 @@ class LearnedSpeakerConditioner:
         return SpeakerCondition(condition_kind=self.condition_kind, reference_id=speaker_id)
 
 
-class SwaraSpeechGenerator:  # PyTorch is purposefully isolated to this optional module.
-    """Causal primary-token transformer plus a parallel residual predictor."""
+class SwaraSpeechGenerator:
+    """PyTorch is isolated here; public inputs and outputs stay Swara-native."""
 
     def __init__(self, config: GeneratorConfig, vocabulary: LinguisticVocabulary, speaker_conditioner: LearnedSpeakerConditioner) -> None:
         import torch
@@ -81,11 +99,11 @@ class SwaraSpeechGenerator:  # PyTorch is purposefully isolated to this optional
         if vocabulary.size != config.linguistic_vocab_size:
             raise ValueError("generator config and linguistic vocabulary size differ")
         self.torch = torch
-        self.nn = nn
         self.config = config
         self.vocabulary = vocabulary
         self.speaker_conditioner = speaker_conditioner
-        self.module = _GeneratorModule(config, nn)
+        kinds, languages, kind_count, language_count = _feature_lookups(vocabulary)
+        self.module = _GeneratorModule(config, nn, kinds, languages, kind_count, language_count)
 
     @property
     def device(self) -> Any:
@@ -107,8 +125,7 @@ class SwaraSpeechGenerator:  # PyTorch is purposefully isolated to this optional
         return self.module.parameters()
 
     def encode_linguistic(self, sequence: LinguisticSequence) -> Any:
-        encoded = self.vocabulary.encode(sequence)
-        return self.torch.tensor([encoded.ids], dtype=self.torch.long, device=self.device)
+        return self.torch.tensor([self.vocabulary.encode(sequence).ids], dtype=self.torch.long, device=self.device)
 
     def forward(
         self,
@@ -117,19 +134,32 @@ class SwaraSpeechGenerator:  # PyTorch is purposefully isolated to this optional
         primary_inputs: Any,
         text_padding_mask: Any | None = None,
         primary_tokens_for_residual: Any | None = None,
+        residual_history_inputs: Any | None = None,
+        residual_targets_for_prediction: Any | None = None,
     ) -> tuple[Any, Any, Any]:
-        """Teacher-forced logits: primary `(B,T,V)`, residual `(B,T,Q-1,V)`."""
-        return self.module(text_ids, speaker_ids, primary_inputs, text_padding_mask, primary_tokens_for_residual)
+        return self.module(
+            text_ids, speaker_ids, primary_inputs, text_padding_mask,
+            primary_tokens_for_residual, residual_history_inputs, residual_targets_for_prediction,
+        )
 
     def teacher_forcing_inputs(self, target_frames: Any) -> Any:
-        """Shift primary targets right and prepend the dedicated BOS token."""
-        if target_frames.ndim != 3 or target_frames.shape[-1] != self.config.audio_spec.codebook_count:
-            raise ValueError("target frames must have shape (batch, frames, codebooks)")
+        self._validate_target_frames(target_frames)
         batch, frames, _ = target_frames.shape
         result = self.torch.full((batch, frames), self.config.audio_spec.vocabulary_size, dtype=self.torch.long, device=target_frames.device)
         if frames > 1:
             result[:, 1:] = target_frames[:, :-1, 0]
         return result
+
+    def teacher_forcing_frame_history(self, target_frames: Any) -> Any:
+        self._validate_target_frames(target_frames)
+        result = self.torch.zeros_like(target_frames)
+        if target_frames.shape[1] > 1:
+            result[:, 1:] = target_frames[:, :-1]
+        return result
+
+    def _validate_target_frames(self, target_frames: Any) -> None:
+        if target_frames.ndim != 3 or target_frames.shape[-1] != self.config.audio_spec.codebook_count:
+            raise ValueError("target frames must have shape (batch, frames, codebooks)")
 
     def generate(
         self,
@@ -139,151 +169,227 @@ class SwaraSpeechGenerator:  # PyTorch is purposefully isolated to this optional
         generation: GenerationOptions | None = None,
         cache: object | None = None,
     ) -> AudioTokenSequence:
-        """Autoregressively emit bounded token frames; M2B deliberately has no KV cache."""
-        del performance, cache  # Neutral performance only; cache is reserved by the public boundary.
+        """Generate one fresh bounded utterance. Cache is reserved by protocol."""
+        del performance, cache
         if speaker.condition_kind != self.speaker_conditioner.condition_kind:
-            raise ValueError("speaker condition is incompatible with the M2B table conditioner")
+            raise ValueError("speaker condition is incompatible with the table conditioner")
         generation = generation or GenerationOptions(deterministic=True)
-        frame_limit = self.config.max_audio_frames
+        limit = self.config.max_audio_frames
         if generation.max_duration_ms is not None:
-            frame_limit = min(frame_limit, max(1, math.ceil(generation.max_duration_ms * self.config.audio_spec.frame_rate_hz / 1000)))
+            limit = min(limit, max(1, math.ceil(generation.max_duration_ms * self.config.audio_spec.frame_rate_hz / 1000)))
         text_ids = self.encode_linguistic(sequence)
-        speaker_index = self.speaker_conditioner.resolve_id(speaker.reference_id)
-        speaker_ids = self.torch.tensor([speaker_index], dtype=self.torch.long, device=self.device)
-        generator = None
+        speakers = self.torch.tensor([self.speaker_conditioner.resolve_id(speaker.reference_id)], dtype=self.torch.long, device=self.device)
+        random = None
         if generation.seed is not None:
-            generator = self.torch.Generator(device=self.device)
-            generator.manual_seed(generation.seed)
+            random = self.torch.Generator(device=self.device)
+            random.manual_seed(generation.seed)
         primary_inputs = self.torch.full((1, 1), self.config.audio_spec.vocabulary_size, dtype=self.torch.long, device=self.device)
+        histories = self.torch.zeros((1, 1, self.config.audio_spec.codebook_count), dtype=self.torch.long, device=self.device)
         frames: list[tuple[int, ...]] = []
         self.module.eval()
         with self.torch.no_grad():
-            for _ in range(frame_limit):
-                primary_logits, _, hidden = self.forward(text_ids, speaker_ids, primary_inputs)
-                primary = self._select(primary_logits[0, -1], generation.deterministic, generator)
-                current_primary = self.torch.tensor([[primary]], dtype=self.torch.long, device=self.device)
-                residual_frame = self.module.residual_logits(hidden[:, -1:], current_primary)[0, 0]
-                residual = [self._select(logits, generation.deterministic, generator) for logits in residual_frame]
-                frames.append((primary, *residual))
-                primary_inputs = self.torch.cat((primary_inputs, self.torch.tensor([[primary]], dtype=self.torch.long, device=self.device)), dim=1)
+            for _ in range(limit):
+                primary_logits, _, hidden = self.forward(text_ids, speakers, primary_inputs, residual_history_inputs=histories)
+                primary = self._select(primary_logits[0, -1], generation.deterministic, random)
+                primary_tensor = self.torch.tensor([[primary]], dtype=self.torch.long, device=self.device)
+                residual_logits = self.module.residual_logits(hidden[:, -1:], primary_tensor)
+                residual = [self._select(logits, generation.deterministic, random) for logits in residual_logits[0, 0]]
+                frame = (primary, *residual)
+                frames.append(frame)
+                primary_inputs = self.torch.cat((primary_inputs, primary_tensor), dim=1)
+                histories = self.torch.cat((histories, self.torch.tensor([[frame]], dtype=self.torch.long, device=self.device)), dim=1)
         output = AudioTokenSequence(frames=tuple(frames), spec_version=self.config.audio_spec.version)
         output.validate_against(self.config.audio_spec)
         return output
 
-    def _select(self, logits: Any, deterministic: bool, generator: Any | None) -> int:
+    def _select(self, logits: Any, deterministic: bool, random: Any | None) -> int:
         if deterministic:
             return int(logits.argmax().item())
-        probabilities = self.torch.softmax(logits, dim=-1)
-        return int(self.torch.multinomial(probabilities, 1, generator=generator).item())
+        return int(self.torch.multinomial(self.torch.softmax(logits, dim=-1), 1, generator=random).item())
 
 
-class _GeneratorModule:  # composition keeps the public wrapper free of torch subclassing details
-    def __new__(cls, config: GeneratorConfig, nn: Any) -> Any:
+def _feature_lookups(vocabulary: LinguisticVocabulary) -> tuple[list[int], list[int], int, int]:
+    """Keep kind and language independently learnable without changing M1."""
+    kind_ids = {"<special>": 0, "grapheme": 1, "pronunciation": 2, "punctuation": 3, "boundary": 4}
+    language_ids = {"<none>": 0}
+    kinds: list[int] = []
+    languages: list[int] = []
+    for symbol in vocabulary.to_dict()["symbols"]:
+        if symbol.startswith("<"):
+            kind, language = "<special>", "<none>"
+        else:
+            kind, language, _ = json.loads(symbol)
+            if kind not in kind_ids:
+                kind_ids[kind] = len(kind_ids)
+            if language not in language_ids:
+                language_ids[language] = len(language_ids)
+        kinds.append(kind_ids[kind])
+        languages.append(language_ids[language])
+    return kinds, languages, len(kind_ids), len(language_ids)
+
+
+class _GeneratorModule:
+    def __new__(cls, config: GeneratorConfig, nn: Any, kinds: list[int], languages: list[int], kind_count: int, language_count: int) -> Any:
+        import torch
+        import torch.nn.functional as functional
+
+        class RotaryAttention(nn.Module):
+            def __init__(self, dim: int, heads: int, dropout: float) -> None:
+                super().__init__()
+                self.heads, self.head_dim, self.dropout = heads, dim // heads, dropout
+                if self.head_dim % 2:
+                    raise ValueError("rotary attention head dimension must be even")
+                self.q_proj, self.k_proj, self.v_proj, self.out_proj = (nn.Linear(dim, dim) for _ in range(4))
+
+            def forward(self, query: Any, key_value: Any, key_padding_mask: Any | None = None, causal: bool = False, rotary: bool = False) -> Any:
+                batch, q_len, dim = query.shape
+                k_len = key_value.shape[1]
+                q = self.q_proj(query).view(batch, q_len, self.heads, self.head_dim).transpose(1, 2)
+                k = self.k_proj(key_value).view(batch, k_len, self.heads, self.head_dim).transpose(1, 2)
+                v = self.v_proj(key_value).view(batch, k_len, self.heads, self.head_dim).transpose(1, 2)
+                if rotary:
+                    q, k = self._rotate(q), self._rotate(k)
+                scores = (q @ k.transpose(-2, -1)) / math.sqrt(self.head_dim)
+                if causal:
+                    scores = scores.masked_fill(torch.triu(torch.ones((q_len, k_len), dtype=torch.bool, device=query.device), diagonal=1), float("-inf"))
+                if key_padding_mask is not None:
+                    scores = scores.masked_fill(key_padding_mask[:, None, None, :], float("-inf"))
+                weights = functional.dropout(functional.softmax(scores, dim=-1), p=self.dropout, training=self.training)
+                return self.out_proj((weights @ v).transpose(1, 2).reshape(batch, q_len, dim))
+
+            def _rotate(self, values: Any) -> Any:
+                length, half = values.shape[-2], self.head_dim // 2
+                frequencies = 1.0 / (10000 ** (torch.arange(half, device=values.device, dtype=values.dtype) / half))
+                angles = torch.outer(torch.arange(length, device=values.device, dtype=values.dtype), frequencies)
+                cos, sin = angles.cos()[None, None], angles.sin()[None, None]
+                first, second = values[..., :half], values[..., half:]
+                return torch.cat((first * cos - second * sin, first * sin + second * cos), dim=-1)
+
+        class EncoderLayer(nn.Module):
+            def __init__(self) -> None:
+                super().__init__()
+                self.norm_self = nn.LayerNorm(config.model_dim)
+                self.self_attention = RotaryAttention(config.model_dim, config.heads, config.dropout)
+                self.norm_ffn = nn.LayerNorm(config.model_dim)
+                self.ffn = nn.Sequential(nn.Linear(config.model_dim, config.ffn_dim), nn.GELU(), nn.Dropout(config.dropout), nn.Linear(config.ffn_dim, config.model_dim))
+
+            def forward(self, states: Any, padding: Any) -> Any:
+                normal = self.norm_self(states)
+                states = states + self.self_attention(normal, normal, padding, rotary=True)
+                return states + self.ffn(self.norm_ffn(states))
+
+        class DecoderLayer(nn.Module):
+            def __init__(self) -> None:
+                super().__init__()
+                self.norm_self, self.norm_cross, self.norm_ffn = (nn.LayerNorm(config.model_dim) for _ in range(3))
+                self.self_attention = RotaryAttention(config.model_dim, config.heads, config.dropout)
+                self.cross_attention = RotaryAttention(config.model_dim, config.heads, config.dropout)
+                self.ffn = nn.Sequential(nn.Linear(config.model_dim, config.ffn_dim), nn.GELU(), nn.Dropout(config.dropout), nn.Linear(config.ffn_dim, config.model_dim))
+                self.speaker_projection = nn.Linear(config.model_dim, config.model_dim, bias=False)
+
+            def forward(self, states: Any, memory: Any, padding: Any, speaker: Any) -> Any:
+                normal = self.norm_self(states + self.speaker_projection(speaker).unsqueeze(1))
+                states = states + self.self_attention(normal, normal, causal=True, rotary=True)
+                states = states + self.cross_attention(self.norm_cross(states), memory, padding)
+                return states + self.ffn(self.norm_ffn(states))
+
+        class ResidualPredictor(nn.Module):
+            """Codebooks 1--15 are generated causally with selected earlier groups."""
+            def __init__(self) -> None:
+                super().__init__()
+                width = config.residual_width
+                self.primary_embedding = nn.Embedding(config.audio_spec.vocabulary_size, width)
+                self.previous_embedding = nn.Embedding(config.audio_spec.vocabulary_size + 1, width)
+                self.codebook_embedding = nn.Embedding(config.residual_codebook_count, width)
+                self.hidden_projection = nn.Linear(config.model_dim, width)
+                self.cell = nn.GRUCell(width, width)
+                self.output = nn.Linear(width, config.audio_spec.vocabulary_size)
+                self.bos_id = config.audio_spec.vocabulary_size
+
+            def forward(self, hidden: Any, primary: Any, targets: Any | None = None) -> Any:
+                if primary.shape != hidden.shape[:2]:
+                    raise ValueError("primary tokens and decoder state must align")
+                if targets is not None and targets.shape != (*hidden.shape[:2], config.residual_codebook_count):
+                    raise ValueError("residual targets must align to frames and codebooks")
+                batch, frames, _ = hidden.shape
+                state = torch.tanh(self.hidden_projection(hidden) + self.primary_embedding(primary))
+                previous = torch.full((batch, frames), self.bos_id, dtype=torch.long, device=hidden.device)
+                logits: list[Any] = []
+                for index in range(config.residual_codebook_count):
+                    codebook = self.codebook_embedding.weight[index].view(1, 1, -1)
+                    state = self.cell((self.previous_embedding(previous) + codebook).reshape(-1, config.residual_width), state.reshape(-1, config.residual_width)).view(batch, frames, config.residual_width)
+                    current = self.output(state + codebook)
+                    logits.append(current)
+                    previous = targets[:, :, index] if targets is not None else current.argmax(dim=-1)
+                return torch.stack(logits, dim=2)
+
         class Module(nn.Module):
             def __init__(self) -> None:
                 super().__init__()
                 dim = config.model_dim
-                self.text_embedding = nn.Embedding(config.linguistic_vocab_size, dim, padding_idx=0)
+                self.symbol_embedding = nn.Embedding(config.linguistic_vocab_size, dim, padding_idx=0)
+                self.kind_embedding, self.language_embedding = nn.Embedding(kind_count, dim), nn.Embedding(language_count, dim)
                 self.speaker_embedding = nn.Embedding(config.speaker_count, dim)
-                self.audio_embedding = nn.Embedding(config.audio_spec.vocabulary_size + 1, dim)
-                self.text_position_embedding = nn.Embedding(config.max_text_tokens, dim)
-                self.position_embedding = nn.Embedding(config.max_audio_frames, dim)
-                layer = nn.TransformerEncoderLayer(
-                    d_model=dim,
-                    nhead=config.heads,
-                    dim_feedforward=config.ffn_dim,
-                    dropout=config.dropout,
-                    batch_first=True,
-                    activation="gelu",
-                    norm_first=True,
-                )
-                self.transformer = nn.TransformerEncoder(layer, num_layers=config.layers)
-                self.final_norm = nn.LayerNorm(dim)
+                self.primary_embedding = nn.Embedding(config.audio_spec.vocabulary_size + 1, dim)
+                self.history_residual_embeddings = nn.ModuleList([nn.Embedding(config.audio_spec.vocabulary_size, dim) for _ in range(config.residual_codebook_count)])
+                self.encoder_layers = nn.ModuleList([EncoderLayer() for _ in range(config.encoder_depth)])
+                self.decoder_layers = nn.ModuleList([DecoderLayer() for _ in range(config.decoder_depth)])
+                self.encoder_norm, self.decoder_norm = nn.LayerNorm(dim), nn.LayerNorm(dim)
+                self.step_text_projection = nn.Linear(dim, dim, bias=False)
+                self.codec_bos_embedding = nn.Parameter(torch.zeros(dim))
+                self.codec_eos_embedding = nn.Parameter(torch.zeros(dim))
                 self.primary_head = nn.Linear(dim, config.audio_spec.vocabulary_size)
-                self.primary_embedding = nn.Embedding(config.audio_spec.vocabulary_size, dim)
-                self.residual_codebook_embedding = nn.Embedding(config.audio_spec.codebook_count - 1, dim)
-                self.residual_heads = nn.ModuleList(
-                    [nn.Sequential(nn.LayerNorm(dim), nn.Linear(dim, config.audio_spec.vocabulary_size)) for _ in range(config.audio_spec.codebook_count - 1)]
-                )
+                self.residual_predictor = ResidualPredictor()
+                self.register_buffer("kind_lookup", torch.tensor(kinds, dtype=torch.long), persistent=True)
+                self.register_buffer("language_lookup", torch.tensor(languages, dtype=torch.long), persistent=True)
 
-            def forward(
-                self,
-                text_ids: Any,
-                speaker_ids: Any,
-                primary_inputs: Any,
-                text_padding_mask: Any | None = None,
-                primary_tokens_for_residual: Any | None = None,
-            ) -> tuple[Any, Any, Any]:
+            def forward(self, text_ids: Any, speaker_ids: Any, primary_inputs: Any, text_padding_mask: Any | None = None, primary_tokens_for_residual: Any | None = None, residual_history_inputs: Any | None = None, residual_targets_for_prediction: Any | None = None) -> tuple[Any, Any, Any]:
                 if text_ids.ndim != 2 or primary_inputs.ndim != 2 or speaker_ids.ndim != 1:
                     raise ValueError("text IDs, speaker IDs, and primary inputs must be rank 2, 1, and 2")
                 batch, frames = primary_inputs.shape
+                if text_ids.shape[0] != batch or speaker_ids.shape[0] != batch:
+                    raise ValueError("batch dimensions must agree")
                 if frames > config.max_audio_frames or text_ids.shape[1] > config.max_text_tokens:
                     raise ValueError("input exceeds configured sequence length")
-                text_length = text_ids.shape[1]
-                speaker = self.speaker_embedding(speaker_ids).unsqueeze(1)
-                text_positions = self.text_position_embedding(self.position_ids(text_length, text_ids.device)).unsqueeze(0)
-                audio_positions = self.position_embedding(self.position_ids(frames, primary_inputs.device)).unsqueeze(0)
-                # Text is a causal prefix, so every audio frame can attend to
-                # every linguistic kind/language/value token directly. This
-                # replaces the M2B smoke model's single pooled text vector,
-                # which a teacher-forced audio path could effectively ignore.
-                text_prefix = self.text_embedding(text_ids) + text_positions + speaker
-                audio_stream = self.audio_embedding(primary_inputs) + audio_positions + speaker
-                conditioned = self.cat((text_prefix, audio_stream), dim=1)
-                causal_mask = self.causal_mask(text_length + frames, primary_inputs.device)
-                if text_padding_mask is None:
-                    prefix_padding = text_ids == 0
+                padding = text_ids == 0 if text_padding_mask is None else text_padding_mask
+                if residual_history_inputs is None:
+                    residual_history_inputs = torch.zeros((batch, frames, config.audio_spec.codebook_count), dtype=torch.long, device=primary_inputs.device)
+                if residual_history_inputs.shape != (batch, frames, config.audio_spec.codebook_count):
+                    raise ValueError("residual history must have shape (batch, frames, codebooks)")
+                memory = self.symbol_embedding(text_ids) + self.kind_embedding(self.kind_lookup[text_ids]) + self.language_embedding(self.language_lookup[text_ids])
+                for layer in self.encoder_layers:
+                    memory = layer(memory, padding)
+                memory = self.encoder_norm(memory)
+                audio_inputs = primary_inputs
+                if self.training and config.primary_history_dropout:
+                    drop = torch.rand(primary_inputs.shape, device=primary_inputs.device) < config.primary_history_dropout
+                    drop[:, :1] = False
+                    audio_inputs = primary_inputs.masked_fill(drop, config.audio_spec.vocabulary_size)
+                audio = self.primary_embedding(audio_inputs)
+                for codebook, embedding in enumerate(self.history_residual_embeddings, start=1):
+                    audio = audio + embedding(residual_history_inputs[:, :, codebook])
+                # Qwen Talker parity: the projected linguistic state remains
+                # active at every speech step. States are aligned monotonically
+                # across the utterance and padded with the final state.
+                text_length = memory.shape[1]
+                frame_positions = torch.arange(frames, device=audio.device)
+                if text_length == 1:
+                    aligned = memory[:, :1].expand(batch, frames, -1)
                 else:
-                    prefix_padding = text_padding_mask
-                audio_padding = self.zeros((batch, frames), dtype=self.bool, device=primary_inputs.device)
-                padding_mask = self.cat((prefix_padding, audio_padding), dim=1)
-                hidden = self.final_norm(self.transformer(conditioned, mask=causal_mask, src_key_padding_mask=padding_mask))[:, text_length:]
+                    indices = torch.div(frame_positions * text_length, max(frames, 1), rounding_mode="floor").clamp_max(text_length - 1)
+                    aligned = memory[:, indices]
+                audio = audio + self.step_text_projection(aligned)
+                if frames:
+                    audio[:, 0] = audio[:, 0] + self.codec_bos_embedding
+                speaker = self.speaker_embedding(speaker_ids)
+                for layer in self.decoder_layers:
+                    audio = layer(audio, memory, padding, speaker)
+                hidden = self.decoder_norm(audio)
                 primary_logits = self.primary_head(hidden)
-                residual_tokens = primary_tokens_for_residual if primary_tokens_for_residual is not None else primary_inputs.clamp_max(config.audio_spec.vocabulary_size - 1)
-                return primary_logits, self.residual_logits(hidden, residual_tokens), hidden
+                primary = primary_tokens_for_residual if primary_tokens_for_residual is not None else primary_inputs.clamp_max(config.audio_spec.vocabulary_size - 1)
+                return primary_logits, self.residual_predictor(hidden, primary, residual_targets_for_prediction), hidden
 
-            def residual_logits(self, hidden: Any, primary_tokens: Any) -> Any:
-                """Second-stage logits for supplied teacher-forced or sampled primary tokens."""
-                if primary_tokens.shape != hidden.shape[:2]:
-                    raise ValueError("primary tokens for residual prediction must align to hidden frames")
-                # Every residual head receives the selected/teacher-forced
-                # primary token and the frame hidden state; no upstream
-                # residual implementation is used.
-                residual_base = hidden + self.primary_embedding(primary_tokens)
-                residual_logits = []
-                for index, head in enumerate(self.residual_heads):
-                    codebook = self.residual_codebook_embedding.weight[index].view(1, 1, -1)
-                    residual_logits.append(head(residual_base + codebook))
-                return self.stack(residual_logits, dim=2)
-
-            @staticmethod
-            def position_ids(frames: int, device: Any) -> Any:
-                import torch
-                return torch.arange(frames, device=device)
-
-            @staticmethod
-            def causal_mask(frames: int, device: Any) -> Any:
-                import torch
-                return torch.triu(torch.ones((frames, frames), dtype=torch.bool, device=device), diagonal=1)
-
-            @staticmethod
-            def stack(values: list[Any], dim: int) -> Any:
-                import torch
-                return torch.stack(values, dim=dim)
-
-            @staticmethod
-            def cat(values: tuple[Any, ...], dim: int) -> Any:
-                import torch
-                return torch.cat(values, dim=dim)
-
-            @staticmethod
-            def zeros(*shape: Any, **kwargs: Any) -> Any:
-                import torch
-                return torch.zeros(*shape, **kwargs)
-
-            @property
-            def bool(self) -> Any:
-                import torch
-                return torch.bool
+            def residual_logits(self, hidden: Any, primary: Any, targets: Any | None = None) -> Any:
+                return self.residual_predictor(hidden, primary, targets)
 
         return Module()

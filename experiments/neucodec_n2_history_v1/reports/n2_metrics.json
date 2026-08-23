@@ -1,0 +1,81 @@
+{
+  "n2_0": {
+    "A": [
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+        "accuracy": 1.0,
+        "stats": {
+          "length": 319,
+          "unique": 317,
+          "entropy_bits": 8.304873428811892,
+          "top_share": 0.006269592476489028,
+          "change_rate": 1.0
+        },
+        "target_stats": {
+          "length": 319,
+          "unique": 317,
+          "entropy_bits": 8.304873428811892,
+          "top_share": 0.006269592476489028,
+          "change_rate": 1.0
+        }
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+        "accuracy": 0.002036659877800407,
+        "stats": {
+          "length": 491,
+          "unique": 389,
+          "entropy_bits": 8.456284955692514,
+          "top_share": 0.012219959266802444,
+          "change_rate": 0.9428571428571428
+        },
+        "target_stats": {
+          "length": 491,
+          "unique": 481,
+          "entropy_bits": 8.897308567670773,
+          "top_share": 0.006109979633401222,
+          "change_rate": 1.0
+        }
+      }
+    ],
+    "B": [
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143",
+        "accuracy": 1.0,
+        "stats": {
+          "length": 319,
+          "unique": 317,
+          "entropy_bits": 8.304873428811892,
+          "top_share": 0.006269592476489028,
+          "change_rate": 1.0
+        },
+        "target_stats": {
+          "length": 319,
+          "unique": 317,
+          "entropy_bits": 8.304873428811892,
+          "top_share": 0.006269592476489028,
+          "change_rate": 1.0
+        }
+      },
+      {
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222",
+        "accuracy": 0.002036659877800407,
+        "stats": {
+          "length": 491,
+          "unique": 389,
+          "entropy_bits": 8.456284955692514,
+          "top_share": 0.012219959266802444,
+          "change_rate": 0.9428571428571428
+        },
+        "target_stats": {
+          "length": 491,
+          "unique": 481,
+          "entropy_bits": 8.897308567670773,
+          "top_share": 0.006109979633401222,
+          "change_rate": 1.0
+        }
+      }
+    ]
+  },
+  "n2_1": "NOT_RUN: N2.0 free-running gate failed"
+}

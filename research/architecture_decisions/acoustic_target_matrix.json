@@ -1,0 +1,152 @@
+{
+  "decision_version": 1,
+  "decision": "A_FLAT_NEUCODEC_TOKEN",
+  "scope": "poc_acoustic_target_only",
+  "fixed_context": {
+    "alignment": "hybrid_explicit_learned_or_constrained_alignment_plus_causal_acoustic_state",
+    "codec": "neuphonic/distill-neucodec",
+    "codec_revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+    "poc_parameter_range_millions": [10, 20],
+    "minimum_fair_data_rung": "30_minutes"
+  },
+  "codec_geometry": {
+    "input_sample_rate_hz": 16000,
+    "output_sample_rate_hz": 24000,
+    "frame_rate_hz_approx": 50,
+    "codebooks": 1,
+    "cardinality": 65536,
+    "fsq_dimensions": 8,
+    "levels_per_dimension": 4,
+    "public_code_shape": "B,1,F",
+    "encoder_fusion_dim": 1536,
+    "quantizer_input_dim": 2048,
+    "fsq_projected_dim": 8,
+    "decoder_input_dim": 1024
+  },
+  "prediction_boundaries": {
+    "A_flat_id": {
+      "object": "integer ID 0..65535 shaped B,1,F",
+      "technically_accessible": true,
+      "public_api": true,
+      "decoder_compatible": true,
+      "requires_codec_modification": false
+    },
+    "B_fsq_coordinates": {
+      "object": "eight level indices 0..3 shaped B,F,8",
+      "technically_accessible": true,
+      "public_api": false,
+      "decoder_compatible": true,
+      "decoder_route": "convert exactly to ID or use frozen quantizer internals",
+      "requires_codec_modification": false
+    },
+    "C_pre_fsq_continuous": {
+      "object": "2048-D quantizer input or learned 8-D projected pre-bound state",
+      "technically_accessible": true,
+      "public_api": false,
+      "decoder_compatible": "conditional_on_frozen_quantization",
+      "requires_codec_modification": false,
+      "requires_internal_adapter": true
+    },
+    "D_decoder_input_latent": {
+      "object": "1024-D state after quantized FSQ reconstruction and fc_post_a",
+      "technically_accessible": true,
+      "public_api": false,
+      "decoder_compatible": true,
+      "requires_codec_modification": false,
+      "risk": "arbitrary predictions may leave quantizer-derived training distribution"
+    }
+  },
+  "options": {
+    "A_flat": {
+      "target": "one 65536-way ID per frame",
+      "loss": "categorical_cross_entropy",
+      "head_parameters_by_width": {
+        "128": 8454144,
+        "160": 10551296,
+        "192": 12648448
+      },
+      "requires_weight_tying_for_budget": true,
+      "scores": {
+        "poc_simplicity": 5,
+        "parameter_efficiency": 3,
+        "training_stability": 3,
+        "speech_manifold_fidelity": 4,
+        "causal_continuity": 5,
+        "neucodec_compatibility": 5,
+        "control_compatibility": 3,
+        "thirty_minute_data_efficiency": 2,
+        "failure_isolation": 5,
+        "long_term_quality_ceiling": 4,
+        "commercial_provenance": 5
+      },
+      "total": 44
+    },
+    "B_structured": {
+      "approved_form_for_analysis": "autoregressive_or_causally_masked_coordinate_factorization",
+      "naive_independent_heads": "rejected_by_n1_b_evidence",
+      "loss": "sum_of_conditional_coordinate_cross_entropies",
+      "inference_decisions_per_frame": 8,
+      "scores": {
+        "poc_simplicity": 3,
+        "parameter_efficiency": 5,
+        "training_stability": 3,
+        "speech_manifold_fidelity": 3,
+        "causal_continuity": 3,
+        "neucodec_compatibility": 5,
+        "control_compatibility": 3,
+        "thirty_minute_data_efficiency": 3,
+        "failure_isolation": 3,
+        "long_term_quality_ceiling": 4,
+        "commercial_provenance": 5
+      },
+      "total": 40
+    },
+    "C_continuous": {
+      "candidate_boundaries": ["projected_pre_fsq_8d", "quantizer_input_2048d", "decoder_input_1024d"],
+      "public_latent_api": false,
+      "plain_l1_l2_sufficient": false,
+      "likely_objective": "distributional_likelihood_or_flow_plus_optional_reconstruction",
+      "scores": {
+        "poc_simplicity": 2,
+        "parameter_efficiency": 5,
+        "training_stability": 2,
+        "speech_manifold_fidelity": 2,
+        "causal_continuity": 4,
+        "neucodec_compatibility": 2,
+        "control_compatibility": 4,
+        "thirty_minute_data_efficiency": 2,
+        "failure_isolation": 2,
+        "long_term_quality_ceiling": 5,
+        "commercial_provenance": 4
+      },
+      "total": 34
+    }
+  },
+  "evidence": {
+    "supports_flat": [
+      "codec_roundtrip_and_human_listening_passed",
+      "flat_tokens_exactly_memorizable",
+      "causal_history_and_tied_vocabulary_work_in_small_model"
+    ],
+    "against_flat": [
+      "n1_a_held_out_learning_failed",
+      "n2_five_minute_rollout_collapsed_and_was_off_manifold"
+    ],
+    "alignment_change_not_tested": true,
+    "against_independent_fsq": [
+      "zero_held_out_exact_token_accuracy",
+      "off_manifold_joint_and_temporal_combinations",
+      "unintelligible_audio"
+    ],
+    "continuous_neucodec_contract": "internal_only_and_unvalidated"
+  },
+  "decision_reasons": [
+    "isolates_hybrid_alignment_without_second_target_change",
+    "preserves_complete_joint_fsq_state",
+    "uses_verified_public_frozen_codec_boundary",
+    "fits_10_to_20m_with_tied_embedding_head",
+    "n1_n2_did_not_test_flat_tokens_with_learned_duration_alignment_at_30_minutes"
+  ],
+  "next_unresolved_architectural_question": "reference_acoustic_prefix",
+  "authorized_actions": []
+}

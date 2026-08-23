@@ -1,0 +1,38 @@
+{
+  "status": "BLOCKED",
+  "experiment": "Swara codec bake-off v1",
+  "seed": 20260823,
+  "selected_clips": 20,
+  "source_sample_rate_hz": 24000,
+  "source_channels": 1,
+  "codecs": {
+    "neucodec": {
+      "status": "BLOCKED",
+      "package": "neucodec==0.0.6",
+      "source": "https://github.com/neuphonic/neucodec",
+      "checkpoint": "neuphonic/neucodec",
+      "revision": "main (resolved model revision unavailable)",
+      "license": "Apache-2.0 (model card)",
+      "expected_representation": {"sample_rate_in_hz": 16000, "sample_rate_out_hz": 24000, "frame_rate_hz": 50, "codebooks": 1, "codebook_size": 65536, "bits_per_token": 16},
+      "error": "Hugging Face gated repository: HTTP 401 while requesting pytorch_model.bin; authentication/terms acceptance required.",
+      "roundtrip": false
+    },
+    "pocket": {
+      "status": "BLOCKED",
+      "package": "pocket-tts==2.1.0",
+      "source": "https://github.com/kyutai-labs/pocket-tts",
+      "source_commit": "891886a61a1ed45fd429a0a63bd96181e6cff637",
+      "checkpoint": "kyutai/pocket-tts/languages/english/model.safetensors",
+      "revision": "39592ff23c9ef80098bb74895d104c26275fe2c9",
+      "license": "MIT repository code; checkpoint/voice terms require model-card verification",
+      "expected_representation": {"sample_rate_hz": 24000, "frame_rate_hz": 12.5, "latent_dim": 32},
+      "error": "Configured Hugging Face checkpoint could not be resolved from this environment (DNS/network failure); TTSModel.load_model returned an unweighted scaffold, so no real codec roundtrip was accepted.",
+      "roundtrip": false
+    }
+  },
+  "metrics": [],
+  "errors": [
+    "No codec outputs or objective audio metrics were produced.",
+    "Blind listening pack is not ready."
+  ]
+}

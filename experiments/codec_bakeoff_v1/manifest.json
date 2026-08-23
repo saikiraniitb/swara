@@ -1,0 +1,191 @@
+{
+  "seed": 20260823,
+  "categories": {
+    "A1_ordinary_english": 5,
+    "A2_indian_names_locations": 5,
+    "A3_pronunciation_challenging": 5,
+    "A4_long_prosodic": 5
+  },
+  "clips": [
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ023-0085",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ023-0085.wav",
+      "source_text": "to safeguard business against unfair competition,",
+      "duration_seconds": 3.226122,
+      "category": "A1_ordinary_english",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/01_IISc_SPICORProject_EN_M_LJSP_LJ023-0085.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ028-0413",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ028-0413.wav",
+      "source_text": "In his quaint way he says-",
+      "duration_seconds": 2.24,
+      "category": "A1_ordinary_english",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/02_IISc_SPICORProject_EN_M_LJSP_LJ028-0413.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ036-0002",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ036-0002.wav",
+      "source_text": "Chapter four The Assassin- Part five",
+      "duration_seconds": 2.790023,
+      "category": "A1_ordinary_english",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/03_IISc_SPICORProject_EN_M_LJSP_LJ036-0002.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ028-0137",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ028-0137.wav",
+      "source_text": "Perhaps Herodotus had never been in Babylon",
+      "duration_seconds": 3.760023,
+      "category": "A1_ordinary_english",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/04_IISc_SPICORProject_EN_M_LJSP_LJ028-0137.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ005-0288",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ005-0288.wav",
+      "source_text": "when speaking more particularly of the borough jails",
+      "duration_seconds": 3.28,
+      "category": "A1_ordinary_english",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/05_IISc_SPICORProject_EN_M_LJSP_LJ005-0288.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_8207",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_8207.wav",
+      "source_text": "I C J's Secretary General Sam Zarifi, in a statement, said the Indian Judiciary should look closely at serious violations of proper legislative and constitutional processes",
+      "duration_seconds": 11.320023,
+      "category": "A2_indian_names_locations",
+      "domain": "POLITICS",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/06_IISc_SPICORProject_EN_M_POLI_8207.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_1832",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_1832.wav",
+      "source_text": "T D P's Andhra Pradesh unit chief Kala Venkat Rao, M P Galla Jayadev and senior leaders Kodela Sivaprasada Rao and Y Ramakrishnudu attended the celebrations",
+      "duration_seconds": 11.280023,
+      "category": "A2_indian_names_locations",
+      "domain": "POLITICS",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/07_IISc_SPICORProject_EN_M_POLI_1832.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6425",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6425.wav",
+      "source_text": "With the advent of Malls and Supermarkets,these fruits are now available all over India,Custard Apple is known as Sitaphalam in the local market",
+      "duration_seconds": 8.360023,
+      "category": "A2_indian_names_locations",
+      "domain": "AGRICULTURE",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/08_IISc_SPICORProject_EN_M_AGRI_6425.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2225",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2225.wav",
+      "source_text": "New Delhi- Jubilant Life Sciences Limited has signed a drug discovery pact with Finland's Orion Corp to develop medicines in the neuroscience therapeutic area",
+      "duration_seconds": 10.265964,
+      "category": "A2_indian_names_locations",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/09_IISc_SPICORProject_EN_M_HEAL_2225.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_6702",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_6702.wav",
+      "source_text": "Neeraj Arora is an I I T Delhi, I S B graduate who has previously worked with top internet firms including Paytm and Google",
+      "duration_seconds": 8.410023,
+      "category": "A2_indian_names_locations",
+      "domain": "FOOD",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/10_IISc_SPICORProject_EN_M_FOOD_6702.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_5098",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_5098.wav",
+      "source_text": "Congress supporters with cutouts of L S candidate and incumbent M P Shashi Tharoor at Thiruvananthapuram",
+      "duration_seconds": 7.010023,
+      "category": "A3_pronunciation_challenging",
+      "domain": "POLITICS",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/11_IISc_SPICORProject_EN_M_POLI_5098.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_948",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_948.wav",
+      "source_text": "Messi doesn't owe a World Cup to Argentina-football owes a World Cup to Messi, Sampaoli said",
+      "duration_seconds": 6.280023,
+      "category": "A3_pronunciation_challenging",
+      "domain": "OTHERS",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/12_IISc_SPICORProject_EN_M_OTHE_948.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ015-0264",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ015-0264.wav",
+      "source_text": "The series of boldly-conceived and cleverly-executed forgeries in which James Townshend Saward, commonly called Jem the Penman,",
+      "duration_seconds": 8.340023,
+      "category": "A3_pronunciation_challenging",
+      "domain": "LJSPEECH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/13_IISc_SPICORProject_EN_M_LJSP_LJ015-0264.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2265",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2265.wav",
+      "source_text": "Treatment of orthorexia,like other disorders,requires a multidisciplinary team involving physicians,psychotherapists and nutritionists",
+      "duration_seconds": 8.900023,
+      "category": "A3_pronunciation_challenging",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/14_IISc_SPICORProject_EN_M_HEAL_2265.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1196",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1196.wav",
+      "source_text": "Skin problems are common during pregnancy, including hyperpigmentation, acne and stretch marks",
+      "duration_seconds": 6.070023,
+      "category": "A3_pronunciation_challenging",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/15_IISc_SPICORProject_EN_M_HEAL_1196.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_FOOD_6471",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_6471.wav",
+      "source_text": "This group has included investment funds like Cyrus Capital Partners Europe L L P, H I G Capital L L C and Marathon Asset Management L P",
+      "duration_seconds": 13.280023,
+      "category": "A4_long_prosodic",
+      "domain": "FOOD",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/16_IISc_SPICORProject_EN_M_FOOD_6471.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2875",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2875.wav",
+      "source_text": "mint india wire biodegradable sanitary napkin sanitary pads Suvidha Ananthkumar Janaushadhi Pariyojana Woman's health Women's Day World Menstrual Hygiene Day",
+      "duration_seconds": 12.800023,
+      "category": "A4_long_prosodic",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/17_IISc_SPICORProject_EN_M_HEAL_2875.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3668",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_3668.wav",
+      "source_text": "Doctor Anil Heroor, Senior Consultant, Surgical Oncology and Head of department Colorectal Surgery, Fortis Hospital Mulund highlights some important aspects on understanding male breast cancer",
+      "duration_seconds": 12.750023,
+      "category": "A4_long_prosodic",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/18_IISc_SPICORProject_EN_M_HEAL_3668.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4873",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_4873.wav",
+      "source_text": "Sena's Eknath Shinde has been given Home and Urban Development, Forests, Environment, Water Supply and Sanitation, Tourism, Parliamentary Affairs, and Ex Servicemen's Welfare departments",
+      "duration_seconds": 12.750023,
+      "category": "A4_long_prosodic",
+      "domain": "AGRICULTURE",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/19_IISc_SPICORProject_EN_M_AGRI_4873.wav"
+    },
+    {
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1508",
+      "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1508.wav",
+      "source_text": "Various terms such as asthisaushirya, asthidaurbalya, asthi sheeran , asthi shunyata and asthimadam appear in Ayurveda texts to describe asthi kshaya",
+      "duration_seconds": 12.370023,
+      "category": "A4_long_prosodic",
+      "domain": "HEALTH",
+      "copied_audio": "experiments/codec_bakeoff_v1/original/20_IISc_SPICORProject_EN_M_HEAL_1508.wav"
+    }
+  ]
+}

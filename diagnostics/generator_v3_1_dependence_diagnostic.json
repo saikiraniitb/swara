@@ -1,0 +1,11 @@
+{
+  "status": "blocked_checkpoint_missing",
+  "checkpoint": "runs/generator_v3_1_spicor_30min_v0/best.pt",
+  "training_performed": false,
+  "architecture_modified": false,
+  "text_swap": null,
+  "acoustic_history_swap": null,
+  "history_to_text_sensitivity_ratio": null,
+  "component_norms": null,
+  "diagnosis": "not evaluated; v3.1 best checkpoint is not present locally"
+}

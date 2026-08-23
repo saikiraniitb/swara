@@ -1,0 +1,6 @@
+{
+  "status": "NOT_READY",
+  "reason": "Both codec roundtrips are blocked by unavailable official checkpoints; no blind audio files were generated.",
+  "seed": 20260823,
+  "mapping": []
+}

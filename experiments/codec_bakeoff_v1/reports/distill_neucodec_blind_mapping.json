@@ -1,0 +1,86 @@
+{
+  "seed": 20260823,
+  "status": "HIDDEN_MAPPING",
+  "mapping": {
+    "sample_01": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_02": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_03": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_04": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_05": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_06": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_07": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_08": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_09": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_10": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_11": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_12": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_13": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_14": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_15": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_16": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_17": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_18": {
+      "A": "original",
+      "B": "distill_neucodec"
+    },
+    "sample_19": {
+      "A": "distill_neucodec",
+      "B": "original"
+    },
+    "sample_20": {
+      "A": "original",
+      "B": "distill_neucodec"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "codec": "neuphonic/distill-neucodec",
+  "revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+  "train_count": 32,
+  "val_count": 8,
+  "train_duration_seconds": 233.615677,
+  "val_duration_seconds": 57.370138,
+  "token_files": 40,
+  "fsq_bijection": "PASS",
+  "smoke": {
+    "fsq_bijection": "PASS",
+    "n1_a": {
+      "backbone_params": 1381888,
+      "head_params": 8454144,
+      "total_params": 9836032,
+      "loss": 11.219354629516602,
+      "token_accuracy": 0.0
+    },
+    "n1_b": {
+      "backbone_params": 1381888,
+      "head_params": 4128,
+      "total_params": 1386016,
+      "loss": 1.4901047945022583,
+      "per_dimension_accuracy": [
+        0.3072100281715393,
+        0.2695924639701843,
+        0.2633228898048401,
+        0.16927899420261383,
+        0.29780563712120056,
+        0.25705328583717346,
+        0.27586206793785095,
+        0.2601880729198456
+      ],
+      "exact_full_token_accuracy": 0.0
+    },
+    "head_parameter_ratio": 2048.0
+  },
+  "training_performed": false
+}

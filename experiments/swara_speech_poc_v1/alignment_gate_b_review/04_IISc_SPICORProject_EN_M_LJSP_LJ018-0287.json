@@ -1,0 +1,1114 @@
+{
+  "schema_version": "swara.alignment.v1",
+  "utterance_id": "IISc_SPICORProject_EN_M_LJSP_LJ018-0287",
+  "authoritative_transcript": "to which he was introduced by a well-known tailor in Saville Row",
+  "normalized_transcript": "to which he was introduced by a well-known tailor in Saville Row",
+  "audio_duration_seconds": 4.0500625,
+  "neucodec_frames": 203,
+  "units": [
+    {
+      "linguistic_unit_index": null,
+      "token_kind": "boundary",
+      "token_value": "utterance_start",
+      "source_span": null,
+      "normalized_span": null,
+      "ctc_character_start": null,
+      "ctc_character_end": null,
+      "start_seconds": 0.0,
+      "end_seconds": 0.24059777227722773,
+      "start_neucodec_frame": 0,
+      "end_neucodec_frame": 12,
+      "duration_frames": 12,
+      "confidence": null,
+      "allocation": "utterance_start_silence"
+    },
+    {
+      "linguistic_unit_index": 0,
+      "token_kind": "grapheme",
+      "token_value": "to",
+      "source_span": {
+        "start": 0,
+        "end": 2,
+        "text": "to"
+      },
+      "normalized_span": {
+        "start": 0,
+        "end": 2,
+        "text": "to"
+      },
+      "ctc_character_start": 0,
+      "ctc_character_end": 2,
+      "start_seconds": 0.24059777227722773,
+      "end_seconds": 0.35087175123762376,
+      "start_neucodec_frame": 12,
+      "end_neucodec_frame": 18,
+      "duration_frames": 6,
+      "confidence": 0.9997860055373025,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 1,
+      "token_kind": "grapheme",
+      "token_value": "which",
+      "source_span": {
+        "start": 3,
+        "end": 8,
+        "text": "which"
+      },
+      "normalized_span": {
+        "start": 3,
+        "end": 8,
+        "text": "which"
+      },
+      "ctc_character_start": 3,
+      "ctc_character_end": 8,
+      "start_seconds": 0.35087175123762376,
+      "end_seconds": 0.621544245049505,
+      "start_neucodec_frame": 18,
+      "end_neucodec_frame": 31,
+      "duration_frames": 13,
+      "confidence": 0.9957890588922261,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 2,
+      "token_kind": "grapheme",
+      "token_value": "he",
+      "source_span": {
+        "start": 9,
+        "end": 11,
+        "text": "he"
+      },
+      "normalized_span": {
+        "start": 9,
+        "end": 11,
+        "text": "he"
+      },
+      "ctc_character_start": 9,
+      "ctc_character_end": 11,
+      "start_seconds": 0.621544245049505,
+      "end_seconds": 0.78194275990099,
+      "start_neucodec_frame": 31,
+      "end_neucodec_frame": 39,
+      "duration_frames": 8,
+      "confidence": 0.9999453459666401,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 3,
+      "token_kind": "grapheme",
+      "token_value": "was",
+      "source_span": {
+        "start": 12,
+        "end": 15,
+        "text": "was"
+      },
+      "normalized_span": {
+        "start": 12,
+        "end": 15,
+        "text": "was"
+      },
+      "ctc_character_start": 12,
+      "ctc_character_end": 15,
+      "start_seconds": 0.78194275990099,
+      "end_seconds": 0.9623910891089109,
+      "start_neucodec_frame": 39,
+      "end_neucodec_frame": 48,
+      "duration_frames": 9,
+      "confidence": 0.9613383584246188,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 4,
+      "token_kind": "grapheme",
+      "token_value": "introduced",
+      "source_span": {
+        "start": 16,
+        "end": 26,
+        "text": "introduced"
+      },
+      "normalized_span": {
+        "start": 16,
+        "end": 26,
+        "text": "introduced"
+      },
+      "ctc_character_start": 16,
+      "ctc_character_end": 26,
+      "start_seconds": 0.9623910891089109,
+      "end_seconds": 1.4836862623762377,
+      "start_neucodec_frame": 48,
+      "end_neucodec_frame": 74,
+      "duration_frames": 26,
+      "confidence": 0.9940026837532239,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 5,
+      "token_kind": "grapheme",
+      "token_value": "by",
+      "source_span": {
+        "start": 27,
+        "end": 29,
+        "text": "by"
+      },
+      "normalized_span": {
+        "start": 27,
+        "end": 29,
+        "text": "by"
+      },
+      "ctc_character_start": 27,
+      "ctc_character_end": 29,
+      "start_seconds": 1.4836862623762377,
+      "end_seconds": 1.6641345915841583,
+      "start_neucodec_frame": 74,
+      "end_neucodec_frame": 83,
+      "duration_frames": 9,
+      "confidence": 0.9999306276949451,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 6,
+      "token_kind": "grapheme",
+      "token_value": "a",
+      "source_span": {
+        "start": 30,
+        "end": 31,
+        "text": "a"
+      },
+      "normalized_span": {
+        "start": 30,
+        "end": 31,
+        "text": "a"
+      },
+      "ctc_character_start": 30,
+      "ctc_character_end": 31,
+      "start_seconds": 1.6641345915841583,
+      "end_seconds": 1.7643836633663366,
+      "start_neucodec_frame": 83,
+      "end_neucodec_frame": 88,
+      "duration_frames": 5,
+      "confidence": 0.7769192176196227,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 7,
+      "token_kind": "grapheme",
+      "token_value": "well",
+      "source_span": {
+        "start": 32,
+        "end": 36,
+        "text": "well"
+      },
+      "normalized_span": {
+        "start": 32,
+        "end": 36,
+        "text": "well"
+      },
+      "ctc_character_start": 32,
+      "ctc_character_end": 36,
+      "start_seconds": 1.7643836633663366,
+      "end_seconds": 1.964881806930693,
+      "start_neucodec_frame": 88,
+      "end_neucodec_frame": 98,
+      "duration_frames": 10,
+      "confidence": 0.9777067646433836,
+      "allocation": "ctc_lexical_plus_left_half_gap"
+    },
+    {
+      "linguistic_unit_index": 8,
+      "token_kind": "punctuation",
+      "token_value": "-",
+      "source_span": {
+        "start": 36,
+        "end": 37,
+        "text": "-"
+      },
+      "normalized_span": {
+        "start": 36,
+        "end": 37,
+        "text": "-"
+      },
+      "ctc_character_start": null,
+      "ctc_character_end": null,
+      "start_seconds": 1.964881806930693,
+      "end_seconds": 1.9849316212871289,
+      "start_neucodec_frame": 98,
+      "end_neucodec_frame": 99,
+      "duration_frames": 1,
+      "confidence": null,
+      "allocation": "punctuation_gap"
+    },
+    {
+      "linguistic_unit_index": 9,
+      "token_kind": "grapheme",
+      "token_value": "known",
+      "source_span": {
+        "start": 37,
+        "end": 42,
+        "text": "known"
+      },
+      "normalized_span": {
+        "start": 37,
+        "end": 42,
+        "text": "known"
+      },
+      "ctc_character_start": 37,
+      "ctc_character_end": 42,
+      "start_seconds": 1.9849316212871289,
+      "end_seconds": 2.2355543007425744,
+      "start_neucodec_frame": 99,
+      "end_neucodec_frame": 112,
+      "duration_frames": 13,
+      "confidence": 0.956853289231643,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 10,
+      "token_kind": "grapheme",
+      "token_value": "tailor",
+      "source_span": {
+        "start": 43,
+        "end": 49,
+        "text": "tailor"
+      },
+      "normalized_span": {
+        "start": 43,
+        "end": 49,
+        "text": "tailor"
+      },
+      "ctc_character_start": 43,
+      "ctc_character_end": 49,
+      "start_seconds": 2.2355543007425744,
+      "end_seconds": 2.6365505878712874,
+      "start_neucodec_frame": 112,
+      "end_neucodec_frame": 132,
+      "duration_frames": 20,
+      "confidence": 0.9896751761698878,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 11,
+      "token_kind": "grapheme",
+      "token_value": "in",
+      "source_span": {
+        "start": 50,
+        "end": 52,
+        "text": "in"
+      },
+      "normalized_span": {
+        "start": 50,
+        "end": 52,
+        "text": "in"
+      },
+      "ctc_character_start": 50,
+      "ctc_character_end": 52,
+      "start_seconds": 2.6365505878712874,
+      "end_seconds": 2.816998917079208,
+      "start_neucodec_frame": 132,
+      "end_neucodec_frame": 141,
+      "duration_frames": 9,
+      "confidence": 0.9845330953705975,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 12,
+      "token_kind": "grapheme",
+      "token_value": "Saville",
+      "source_span": {
+        "start": 53,
+        "end": 60,
+        "text": "Saville"
+      },
+      "normalized_span": {
+        "start": 53,
+        "end": 60,
+        "text": "Saville"
+      },
+      "ctc_character_start": 53,
+      "ctc_character_end": 60,
+      "start_seconds": 2.816998917079208,
+      "end_seconds": 3.4686178836633665,
+      "start_neucodec_frame": 141,
+      "end_neucodec_frame": 174,
+      "duration_frames": 33,
+      "confidence": 0.5653630418217704,
+      "allocation": "ctc_lexical_plus_right_half_gap"
+    },
+    {
+      "linguistic_unit_index": 13,
+      "token_kind": "grapheme",
+      "token_value": "Row",
+      "source_span": {
+        "start": 61,
+        "end": 64,
+        "text": "Row"
+      },
+      "normalized_span": {
+        "start": 61,
+        "end": 64,
+        "text": "Row"
+      },
+      "ctc_character_start": 61,
+      "ctc_character_end": 64,
+      "start_seconds": 3.4686178836633665,
+      "end_seconds": 3.5688669554455448,
+      "start_neucodec_frame": 174,
+      "end_neucodec_frame": 179,
+      "duration_frames": 5,
+      "confidence": 0.00014245620679430835,
+      "allocation": "ctc_lexical_plus_left_half_gap"
+    },
+    {
+      "linguistic_unit_index": null,
+      "token_kind": "boundary",
+      "token_value": "utterance_end",
+      "source_span": null,
+      "normalized_span": null,
+      "ctc_character_start": null,
+      "ctc_character_end": null,
+      "start_seconds": 3.5688669554455448,
+      "end_seconds": 4.0500625,
+      "start_neucodec_frame": 179,
+      "end_neucodec_frame": 203,
+      "duration_frames": 24,
+      "confidence": null,
+      "allocation": "utterance_end_silence"
+    }
+  ],
+  "characters": [
+    {
+      "target_index": 0,
+      "character": "T",
+      "token_id": 6,
+      "linguistic_unit_index": 0,
+      "start_emission": 12,
+      "end_emission": 13,
+      "start_seconds": 0.24059777227722773,
+      "end_seconds": 0.2606475866336634,
+      "confidence": 0.9997829669983489
+    },
+    {
+      "target_index": 1,
+      "character": "O",
+      "token_id": 8,
+      "linguistic_unit_index": 0,
+      "start_emission": 15,
+      "end_emission": 16,
+      "start_seconds": 0.30074721534653465,
+      "end_seconds": 0.3207970297029703,
+      "confidence": 0.9997890440762561
+    },
+    {
+      "target_index": 2,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 17,
+      "end_emission": 18,
+      "start_seconds": 0.34084684405940596,
+      "end_seconds": 0.3608966584158416,
+      "confidence": 0.9999207321075279
+    },
+    {
+      "target_index": 3,
+      "character": "W",
+      "token_id": 18,
+      "linguistic_unit_index": 1,
+      "start_emission": 19,
+      "end_emission": 20,
+      "start_seconds": 0.3809464727722772,
+      "end_seconds": 0.4009962871287129,
+      "confidence": 0.9999647152949072
+    },
+    {
+      "target_index": 4,
+      "character": "H",
+      "token_id": 11,
+      "linguistic_unit_index": 1,
+      "start_emission": 20,
+      "end_emission": 21,
+      "start_seconds": 0.4009962871287129,
+      "end_seconds": 0.42104610148514854,
+      "confidence": 0.9999687681413515
+    },
+    {
+      "target_index": 5,
+      "character": "I",
+      "token_id": 10,
+      "linguistic_unit_index": 1,
+      "start_emission": 23,
+      "end_emission": 24,
+      "start_seconds": 0.4611457301980198,
+      "end_seconds": 0.48119554455445546,
+      "confidence": 0.999949934606805
+    },
+    {
+      "target_index": 6,
+      "character": "C",
+      "token_id": 19,
+      "linguistic_unit_index": 1,
+      "start_emission": 24,
+      "end_emission": 25,
+      "start_seconds": 0.48119554455445546,
+      "end_seconds": 0.5012453589108911,
+      "confidence": 0.9998139489254385
+    },
+    {
+      "target_index": 7,
+      "character": "H",
+      "token_id": 11,
+      "linguistic_unit_index": 1,
+      "start_emission": 25,
+      "end_emission": 27,
+      "start_seconds": 0.5012453589108911,
+      "end_seconds": 0.5413449876237624,
+      "confidence": 0.9792479274926282
+    },
+    {
+      "target_index": 8,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 27,
+      "end_emission": 29,
+      "start_seconds": 0.5413449876237624,
+      "end_seconds": 0.5814446163366337,
+      "confidence": 0.9993624938973551
+    },
+    {
+      "target_index": 9,
+      "character": "H",
+      "token_id": 11,
+      "linguistic_unit_index": 2,
+      "start_emission": 35,
+      "end_emission": 36,
+      "start_seconds": 0.7017435024752475,
+      "end_seconds": 0.7217933168316832,
+      "confidence": 0.9999662649076229
+    },
+    {
+      "target_index": 10,
+      "character": "E",
+      "token_id": 5,
+      "linguistic_unit_index": 2,
+      "start_emission": 37,
+      "end_emission": 38,
+      "start_seconds": 0.7418431311881188,
+      "end_seconds": 0.7618929455445544,
+      "confidence": 0.9999244270256572
+    },
+    {
+      "target_index": 11,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 39,
+      "end_emission": 40,
+      "start_seconds": 0.7819427599009902,
+      "end_seconds": 0.8019925742574258,
+      "confidence": 0.9999183483027276
+    },
+    {
+      "target_index": 12,
+      "character": "W",
+      "token_id": 18,
+      "linguistic_unit_index": 3,
+      "start_emission": 40,
+      "end_emission": 42,
+      "start_seconds": 0.8019925742574258,
+      "end_seconds": 0.8420922029702971,
+      "confidence": 0.8853860497646908
+    },
+    {
+      "target_index": 13,
+      "character": "A",
+      "token_id": 7,
+      "linguistic_unit_index": 3,
+      "start_emission": 43,
+      "end_emission": 44,
+      "start_seconds": 0.8621420173267327,
+      "end_seconds": 0.8821918316831683,
+      "confidence": 0.9999914170043662
+    },
+    {
+      "target_index": 14,
+      "character": "S",
+      "token_id": 12,
+      "linguistic_unit_index": 3,
+      "start_emission": 44,
+      "end_emission": 46,
+      "start_seconds": 0.8821918316831683,
+      "end_seconds": 0.9222914603960396,
+      "confidence": 0.9986376085047994
+    },
+    {
+      "target_index": 15,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 46,
+      "end_emission": 49,
+      "start_seconds": 0.9222914603960396,
+      "end_seconds": 0.9824409034653465,
+      "confidence": 0.8941059505288992
+    },
+    {
+      "target_index": 16,
+      "character": "I",
+      "token_id": 10,
+      "linguistic_unit_index": 4,
+      "start_emission": 50,
+      "end_emission": 51,
+      "start_seconds": 1.0024907178217821,
+      "end_seconds": 1.022540532178218,
+      "confidence": 0.9995990215969855
+    },
+    {
+      "target_index": 17,
+      "character": "N",
+      "token_id": 9,
+      "linguistic_unit_index": 4,
+      "start_emission": 51,
+      "end_emission": 52,
+      "start_seconds": 1.022540532178218,
+      "end_seconds": 1.0425903465346535,
+      "confidence": 0.9999337240286982
+    },
+    {
+      "target_index": 18,
+      "character": "T",
+      "token_id": 6,
+      "linguistic_unit_index": 4,
+      "start_emission": 53,
+      "end_emission": 54,
+      "start_seconds": 1.0626401608910891,
+      "end_seconds": 1.0826899752475247,
+      "confidence": 0.9989154194354162
+    },
+    {
+      "target_index": 19,
+      "character": "R",
+      "token_id": 13,
+      "linguistic_unit_index": 4,
+      "start_emission": 54,
+      "end_emission": 56,
+      "start_seconds": 1.0826899752475247,
+      "end_seconds": 1.122789603960396,
+      "confidence": 0.9815675761211524
+    },
+    {
+      "target_index": 20,
+      "character": "O",
+      "token_id": 8,
+      "linguistic_unit_index": 4,
+      "start_emission": 57,
+      "end_emission": 58,
+      "start_seconds": 1.1428394183168318,
+      "end_seconds": 1.1628892326732674,
+      "confidence": 0.9998901011134042
+    },
+    {
+      "target_index": 21,
+      "character": "D",
+      "token_id": 14,
+      "linguistic_unit_index": 4,
+      "start_emission": 59,
+      "end_emission": 60,
+      "start_seconds": 1.182939047029703,
+      "end_seconds": 1.2029888613861386,
+      "confidence": 0.9999632848858607
+    },
+    {
+      "target_index": 22,
+      "character": "U",
+      "token_id": 16,
+      "linguistic_unit_index": 4,
+      "start_emission": 64,
+      "end_emission": 65,
+      "start_seconds": 1.2831881188118812,
+      "end_seconds": 1.3032379331683168,
+      "confidence": 0.9999195402044173
+    },
+    {
+      "target_index": 23,
+      "character": "C",
+      "token_id": 19,
+      "linguistic_unit_index": 4,
+      "start_emission": 67,
+      "end_emission": 68,
+      "start_seconds": 1.3433375618811882,
+      "end_seconds": 1.3633873762376238,
+      "confidence": 0.9999780659713836
+    },
+    {
+      "target_index": 24,
+      "character": "E",
+      "token_id": 5,
+      "linguistic_unit_index": 4,
+      "start_emission": 69,
+      "end_emission": 71,
+      "start_seconds": 1.3834371905940595,
+      "end_seconds": 1.4235368193069307,
+      "confidence": 0.9604773754997311
+    },
+    {
+      "target_index": 25,
+      "character": "D",
+      "token_id": 14,
+      "linguistic_unit_index": 4,
+      "start_emission": 71,
+      "end_emission": 72,
+      "start_seconds": 1.4235368193069307,
+      "end_seconds": 1.4435866336633665,
+      "confidence": 0.9997827286751891
+    },
+    {
+      "target_index": 26,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 72,
+      "end_emission": 74,
+      "start_seconds": 1.4435866336633665,
+      "end_seconds": 1.4836862623762377,
+      "confidence": 0.9972332526702244
+    },
+    {
+      "target_index": 27,
+      "character": "B",
+      "token_id": 24,
+      "linguistic_unit_index": 5,
+      "start_emission": 76,
+      "end_emission": 77,
+      "start_seconds": 1.523785891089109,
+      "end_seconds": 1.5438357054455445,
+      "confidence": 0.9998787788491216
+    },
+    {
+      "target_index": 28,
+      "character": "Y",
+      "token_id": 22,
+      "linguistic_unit_index": 5,
+      "start_emission": 80,
+      "end_emission": 81,
+      "start_seconds": 1.6039851485148515,
+      "end_seconds": 1.6240349628712871,
+      "confidence": 0.9999824765407688
+    },
+    {
+      "target_index": 29,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 82,
+      "end_emission": 85,
+      "start_seconds": 1.6440847772277227,
+      "end_seconds": 1.7042342202970298,
+      "confidence": 0.9999701202075865
+    },
+    {
+      "target_index": 30,
+      "character": "A",
+      "token_id": 7,
+      "linguistic_unit_index": 6,
+      "start_emission": 85,
+      "end_emission": 87,
+      "start_seconds": 1.7042342202970298,
+      "end_seconds": 1.744333849009901,
+      "confidence": 0.7769192176196227
+    },
+    {
+      "target_index": 31,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 87,
+      "end_emission": 89,
+      "start_seconds": 1.744333849009901,
+      "end_seconds": 1.7844334777227724,
+      "confidence": 0.9994746866827814
+    },
+    {
+      "target_index": 32,
+      "character": "W",
+      "token_id": 18,
+      "linguistic_unit_index": 7,
+      "start_emission": 89,
+      "end_emission": 91,
+      "start_seconds": 1.7844334777227724,
+      "end_seconds": 1.8245331064356436,
+      "confidence": 0.9108930984103562
+    },
+    {
+      "target_index": 33,
+      "character": "E",
+      "token_id": 5,
+      "linguistic_unit_index": 7,
+      "start_emission": 93,
+      "end_emission": 94,
+      "start_seconds": 1.8646327351485148,
+      "end_seconds": 1.8846825495049506,
+      "confidence": 0.9999886752461923
+    },
+    {
+      "target_index": 34,
+      "character": "L",
+      "token_id": 15,
+      "linguistic_unit_index": 7,
+      "start_emission": 94,
+      "end_emission": 95,
+      "start_seconds": 1.8846825495049506,
+      "end_seconds": 1.9047323638613862,
+      "confidence": 0.9999881984200047
+    },
+    {
+      "target_index": 35,
+      "character": "L",
+      "token_id": 15,
+      "linguistic_unit_index": 7,
+      "start_emission": 97,
+      "end_emission": 98,
+      "start_seconds": 1.9448319925742574,
+      "end_seconds": 1.964881806930693,
+      "confidence": 0.9999570864969811
+    },
+    {
+      "target_index": 36,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 98,
+      "end_emission": 99,
+      "start_seconds": 1.964881806930693,
+      "end_seconds": 1.9849316212871289,
+      "confidence": 0.9999837877990074
+    },
+    {
+      "target_index": 37,
+      "character": "K",
+      "token_id": 26,
+      "linguistic_unit_index": 9,
+      "start_emission": 99,
+      "end_emission": 101,
+      "start_seconds": 1.9849316212871289,
+      "end_seconds": 2.02503125,
+      "confidence": 0.999654951092631
+    },
+    {
+      "target_index": 38,
+      "character": "N",
+      "token_id": 9,
+      "linguistic_unit_index": 9,
+      "start_emission": 101,
+      "end_emission": 102,
+      "start_seconds": 2.02503125,
+      "end_seconds": 2.045081064356436,
+      "confidence": 0.999991059383269
+    },
+    {
+      "target_index": 39,
+      "character": "O",
+      "token_id": 8,
+      "linguistic_unit_index": 9,
+      "start_emission": 103,
+      "end_emission": 104,
+      "start_seconds": 2.0651308787128713,
+      "end_seconds": 2.085180693069307,
+      "confidence": 0.9999977350285647
+    },
+    {
+      "target_index": 40,
+      "character": "W",
+      "token_id": 18,
+      "linguistic_unit_index": 9,
+      "start_emission": 104,
+      "end_emission": 106,
+      "start_seconds": 2.085180693069307,
+      "end_seconds": 2.1252803217821783,
+      "confidence": 0.7877437997754343
+    },
+    {
+      "target_index": 41,
+      "character": "N",
+      "token_id": 9,
+      "linguistic_unit_index": 9,
+      "start_emission": 107,
+      "end_emission": 109,
+      "start_seconds": 2.145330136138614,
+      "end_seconds": 2.1854297648514853,
+      "confidence": 0.9968789008783162
+    },
+    {
+      "target_index": 42,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 109,
+      "end_emission": 112,
+      "start_seconds": 2.1854297648514853,
+      "end_seconds": 2.245579207920792,
+      "confidence": 0.9997653580619046
+    },
+    {
+      "target_index": 43,
+      "character": "T",
+      "token_id": 6,
+      "linguistic_unit_index": 10,
+      "start_emission": 114,
+      "end_emission": 115,
+      "start_seconds": 2.2856788366336636,
+      "end_seconds": 2.305728650990099,
+      "confidence": 0.9999389685688888
+    },
+    {
+      "target_index": 44,
+      "character": "A",
+      "token_id": 7,
+      "linguistic_unit_index": 10,
+      "start_emission": 119,
+      "end_emission": 120,
+      "start_seconds": 2.385927908415842,
+      "end_seconds": 2.405977722772277,
+      "confidence": 0.9994852809213228
+    },
+    {
+      "target_index": 45,
+      "character": "I",
+      "token_id": 10,
+      "linguistic_unit_index": 10,
+      "start_emission": 120,
+      "end_emission": 121,
+      "start_seconds": 2.405977722772277,
+      "end_seconds": 2.426027537128713,
+      "confidence": 0.972866778261749
+    },
+    {
+      "target_index": 46,
+      "character": "L",
+      "token_id": 15,
+      "linguistic_unit_index": 10,
+      "start_emission": 123,
+      "end_emission": 124,
+      "start_seconds": 2.466127165841584,
+      "end_seconds": 2.48617698019802,
+      "confidence": 0.9997329233347368
+    },
+    {
+      "target_index": 47,
+      "character": "O",
+      "token_id": 8,
+      "linguistic_unit_index": 10,
+      "start_emission": 126,
+      "end_emission": 127,
+      "start_seconds": 2.5262766089108912,
+      "end_seconds": 2.5463264232673266,
+      "confidence": 0.9965488028640089
+    },
+    {
+      "target_index": 48,
+      "character": "R",
+      "token_id": 13,
+      "linguistic_unit_index": 10,
+      "start_emission": 127,
+      "end_emission": 129,
+      "start_seconds": 2.5463264232673266,
+      "end_seconds": 2.5864260519801983,
+      "confidence": 0.96947830306862
+    },
+    {
+      "target_index": 49,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 130,
+      "end_emission": 131,
+      "start_seconds": 2.6064758663366336,
+      "end_seconds": 2.6265256806930695,
+      "confidence": 0.9999752050825816
+    },
+    {
+      "target_index": 50,
+      "character": "I",
+      "token_id": 10,
+      "linguistic_unit_index": 11,
+      "start_emission": 134,
+      "end_emission": 135,
+      "start_seconds": 2.6866751237623765,
+      "end_seconds": 2.706724938118812,
+      "confidence": 0.9998731774057923
+    },
+    {
+      "target_index": 51,
+      "character": "N",
+      "token_id": 9,
+      "linguistic_unit_index": 11,
+      "start_emission": 135,
+      "end_emission": 137,
+      "start_seconds": 2.706724938118812,
+      "end_seconds": 2.746824566831683,
+      "confidence": 0.9691930133354029
+    },
+    {
+      "target_index": 52,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 138,
+      "end_emission": 141,
+      "start_seconds": 2.766874381188119,
+      "end_seconds": 2.827023824257426,
+      "confidence": 0.981916405406357
+    },
+    {
+      "target_index": 53,
+      "character": "S",
+      "token_id": 12,
+      "linguistic_unit_index": 12,
+      "start_emission": 144,
+      "end_emission": 145,
+      "start_seconds": 2.887173267326733,
+      "end_seconds": 2.9072230816831683,
+      "confidence": 0.9937706659418877
+    },
+    {
+      "target_index": 54,
+      "character": "A",
+      "token_id": 7,
+      "linguistic_unit_index": 12,
+      "start_emission": 149,
+      "end_emission": 150,
+      "start_seconds": 2.9874223391089108,
+      "end_seconds": 3.0074721534653466,
+      "confidence": 0.9976812847184295
+    },
+    {
+      "target_index": 55,
+      "character": "V",
+      "token_id": 25,
+      "linguistic_unit_index": 12,
+      "start_emission": 153,
+      "end_emission": 154,
+      "start_seconds": 3.0676215965346536,
+      "end_seconds": 3.087671410891089,
+      "confidence": 0.9952275723694372
+    },
+    {
+      "target_index": 56,
+      "character": "I",
+      "token_id": 10,
+      "linguistic_unit_index": 12,
+      "start_emission": 156,
+      "end_emission": 157,
+      "start_seconds": 3.1277710396039606,
+      "end_seconds": 3.147820853960396,
+      "confidence": 0.0908039816925378
+    },
+    {
+      "target_index": 57,
+      "character": "L",
+      "token_id": 15,
+      "linguistic_unit_index": 12,
+      "start_emission": 158,
+      "end_emission": 160,
+      "start_seconds": 3.167870668316832,
+      "end_seconds": 3.207970297029703,
+      "confidence": 0.8556806382167733
+    },
+    {
+      "target_index": 58,
+      "character": "L",
+      "token_id": 15,
+      "linguistic_unit_index": 12,
+      "start_emission": 164,
+      "end_emission": 165,
+      "start_seconds": 3.2881695544554455,
+      "end_seconds": 3.3082193688118813,
+      "confidence": 1.3221409695168227e-05
+    },
+    {
+      "target_index": 59,
+      "character": "E",
+      "token_id": 5,
+      "linguistic_unit_index": 12,
+      "start_emission": 170,
+      "end_emission": 171,
+      "start_seconds": 3.4084684405940595,
+      "end_seconds": 3.4285182549504953,
+      "confidence": 0.024363928403632197
+    },
+    {
+      "target_index": 60,
+      "character": "|",
+      "token_id": 4,
+      "linguistic_unit_index": null,
+      "start_emission": 174,
+      "end_emission": 175,
+      "start_seconds": 3.488667698019802,
+      "end_seconds": 3.5087175123762377,
+      "confidence": 0.8962491579356466
+    },
+    {
+      "target_index": 61,
+      "character": "R",
+      "token_id": 13,
+      "linguistic_unit_index": 13,
+      "start_emission": 175,
+      "end_emission": 176,
+      "start_seconds": 3.5087175123762377,
+      "end_seconds": 3.528767326732673,
+      "confidence": 0.00015043290756898265
+    },
+    {
+      "target_index": 62,
+      "character": "O",
+      "token_id": 8,
+      "linguistic_unit_index": 13,
+      "start_emission": 176,
+      "end_emission": 177,
+      "start_seconds": 3.528767326732673,
+      "end_seconds": 3.548817141089109,
+      "confidence": 0.0002767116837533904
+    },
+    {
+      "target_index": 63,
+      "character": "W",
+      "token_id": 18,
+      "linguistic_unit_index": 13,
+      "start_emission": 177,
+      "end_emission": 178,
+      "start_seconds": 3.548817141089109,
+      "end_seconds": 3.5688669554455448,
+      "confidence": 2.2402906055202443e-07
+    }
+  ],
+  "aligner_model": "facebook/wav2vec2-base-960h",
+  "aligner_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+  "mapping_version": "swara.ctc.characters.v1+swara.neucodec.frames.v1",
+  "warnings": [],
+  "split": "train",
+  "dataset_manifest_source": "data/spicor_eng_m_spk001_v1/manifests/debug_30min_train.jsonl",
+  "source_wav": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_LJSP_LJ018-0287.wav",
+  "source_sample_rate_hz": 24000,
+  "domain": "LJSPEECH",
+  "codec_model": "neuphonic/distill-neucodec",
+  "codec_revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+  "codec_token_path": "experiments/swara_speech_poc_v1/data/neucodec_tokens/IISc_SPICORProject_EN_M_LJSP_LJ018-0287.npy",
+  "transcript_rewriting": "none",
+  "audit": {
+    "word_count": 13,
+    "character_count": 52,
+    "confidence_mean": 0.8616911631794351,
+    "confidence_median": 0.9845330953705975,
+    "confidence_min": 0.00014245620679430835,
+    "words_per_second": 3.209827008842456,
+    "characters_per_second": 12.839308035369823,
+    "neucodec_frames_per_word": 15.615384615384615,
+    "median_lexical_word_duration": 0.18044832920792087,
+    "punctuation_unit_count": 1,
+    "structural_seconds": 0.7418431311881188,
+    "punctuation_silence_score": 0.8918431311881189,
+    "suspicious_duration_count": 0,
+    "indian_terms": [],
+    "lexical_zero_frames": 0
+  }
+}

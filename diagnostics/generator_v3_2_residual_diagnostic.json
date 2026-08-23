@@ -1,0 +1,8 @@
+{
+  "status": "blocked_checkpoint_missing",
+  "checkpoint": "runs/generator_v3_2_spicor_30min_v0/best.pt",
+  "training_performed": false,
+  "codebooks": null,
+  "first_collapse_codebook": null,
+  "diagnosis": "pending external v3.2 best.pt"
+}

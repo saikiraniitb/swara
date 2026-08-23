@@ -1,0 +1,28 @@
+{
+  "fsq_bijection": "PASS",
+  "n1_a": {
+    "backbone_params": 1381888,
+    "head_params": 8454144,
+    "total_params": 9836032,
+    "loss": 11.322555541992188,
+    "token_accuracy": 0.0
+  },
+  "n1_b": {
+    "backbone_params": 1381888,
+    "head_params": 4128,
+    "total_params": 1386016,
+    "loss": 1.5031487941741943,
+    "per_dimension_accuracy": [
+      0.2445141077041626,
+      0.23510971665382385,
+      0.25705328583717346,
+      0.2633228898048401,
+      0.20062695443630219,
+      0.2476489096879959,
+      0.2601880729198456,
+      0.2633228898048401
+    ],
+    "exact_full_token_accuracy": 0.0
+  },
+  "head_parameter_ratio": 2048.0
+}
