@@ -1,0 +1,104 @@
+{
+  "schema_version": "stage2d2-batch1-word-family-analysis.v1",
+  "families": [
+    {
+      "family": "PUR",
+      "words": [
+        "Nagpur",
+        "Jaipur",
+        "Raipur",
+        "Udhampur",
+        "Sultanpur",
+        "Bilaspur"
+      ],
+      "normalized_words": [
+        "nagpur",
+        "jaipur",
+        "raipur",
+        "udhampur",
+        "sultanpur",
+        "bilaspur"
+      ],
+      "corpus_recurrence_total": 42,
+      "reviewed_occurrence_total": 29,
+      "human_statuses": {
+        "nagpur": "LIKELY_STABLE",
+        "jaipur": "LIKELY_STABLE",
+        "raipur": "LIKELY_STABLE",
+        "udhampur": "LIKELY_STABLE",
+        "sultanpur": "LIKELY_STABLE",
+        "bilaspur": "LIKELY_STABLE"
+      },
+      "shared_phone_representation": null,
+      "conclusion": "Human stability is recorded, but no shared phone component is established without trusted lexical phone labels.",
+      "phone_inference_allowed": false
+    },
+    {
+      "family": "NAGAR",
+      "words": [
+        "Nagar",
+        "Srinagar"
+      ],
+      "normalized_words": [
+        "nagar",
+        "srinagar"
+      ],
+      "corpus_recurrence_total": 90,
+      "reviewed_occurrence_total": 10,
+      "human_statuses": {
+        "nagar": "LIKELY_STABLE",
+        "srinagar": "LIKELY_STABLE"
+      },
+      "shared_phone_representation": null,
+      "conclusion": "Human stability is recorded, but no shared phone component is established without trusted lexical phone labels.",
+      "phone_inference_allowed": false
+    },
+    {
+      "family": "JEE",
+      "words": [
+        "Jee",
+        "Banerjee",
+        "Chatterjee",
+        "Mukherjee"
+      ],
+      "normalized_words": [
+        "jee",
+        "banerjee",
+        "chatterjee",
+        "mukherjee"
+      ],
+      "corpus_recurrence_total": 42,
+      "reviewed_occurrence_total": 20,
+      "human_statuses": {
+        "jee": "LIKELY_STABLE",
+        "banerjee": "LIKELY_STABLE",
+        "chatterjee": "LIKELY_STABLE",
+        "mukherjee": "LIKELY_STABLE"
+      },
+      "shared_phone_representation": null,
+      "conclusion": "Human stability is recorded, but no shared phone component is established without trusted lexical phone labels.",
+      "phone_inference_allowed": false
+    },
+    {
+      "family": "GARH",
+      "words": [
+        "Chandigarh",
+        "Chhattisgarh"
+      ],
+      "normalized_words": [
+        "chandigarh",
+        "chhattisgarh"
+      ],
+      "corpus_recurrence_total": 43,
+      "reviewed_occurrence_total": 10,
+      "human_statuses": {
+        "chandigarh": "LIKELY_STABLE",
+        "chhattisgarh": "LIKELY_STABLE"
+      },
+      "shared_phone_representation": null,
+      "conclusion": "Human stability is recorded, but no shared phone component is established without trusted lexical phone labels.",
+      "phone_inference_allowed": false
+    }
+  ],
+  "morphological_rules_created": false
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "stage2d2-batch1-inventory-pressure.v1",
+  "production_inventory_modified": false,
+  "new_phone_candidates": [],
+  "candidates": [
+    {
+      "candidate": "SCHWA",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "affected_words": [
+        "ahmedabad",
+        "aligarh",
+        "allahabad",
+        "azamgarh",
+        "banerjee",
+        "bengaluru",
+        "chandigarh",
+        "chatterjee",
+        "chhattisgarh",
+        "dimapur",
+        "gorakhpur",
+        "hyderabad",
+        "manipur",
+        "mukherjee",
+        "nagar",
+        "sambalpur",
+        "srinagar",
+        "sultanpur",
+        "udhampur"
+      ],
+      "affected_word_count": 19,
+      "independent_sources": 0,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence": "Batch-1 source hypotheses contain central/r-colored vowel tokens, but no independent system or trusted phone label confirms a new schwa category."
+    },
+    {
+      "candidate": "TH",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "affected_words": [],
+      "affected_word_count": 0,
+      "independent_sources": 0,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence": "No independent source or trusted occurrence-level aspiration label establishes TH; eSpeak spellings such as kh are not treated as phonetic ground truth."
+    },
+    {
+      "candidate": "T_RETROFLEX",
+      "status": "NOT_TESTABLE",
+      "affected_words": [],
+      "affected_word_count": 0,
+      "independent_sources": 0,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence": "No source output or trusted label provides a retroflex place distinction."
+    },
+    {
+      "candidate": "D_RETROFLEX",
+      "status": "NOT_TESTABLE",
+      "affected_words": [],
+      "affected_word_count": 0,
+      "independent_sources": 0,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence": "No source output or trusted label provides a retroflex place distinction."
+    },
+    {
+      "candidate": "W",
+      "status": "NOT_TESTABLE",
+      "affected_words": [],
+      "affected_word_count": 0,
+      "independent_sources": 0,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence": "A W-like token is not a repeated independent finding and v0 has no W symbol."
+    }
+  ]
+}

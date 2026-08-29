@@ -1,0 +1,149 @@
+{
+  "options": [
+    {
+      "cap_per_target": 10,
+      "eval_seen_count": 14,
+      "explicit_selected_count": 70,
+      "explicit_train_count": 56,
+      "lexical_balance": {
+        "examples_per_target": {
+          "agrawal": 8,
+          "gupta": 8,
+          "kashmir": 8,
+          "kumar": 8,
+          "mishra": 8,
+          "mumbai": 8,
+          "sharma": 8
+        },
+        "fractions": {
+          "agrawal": 0.14285714285714285,
+          "gupta": 0.14285714285714285,
+          "kashmir": 0.14285714285714285,
+          "kumar": 0.14285714285714285,
+          "mishra": 0.14285714285714285,
+          "mumbai": 0.14285714285714285,
+          "sharma": 0.14285714285714285
+        },
+        "gini": 0.0,
+        "max": 8,
+        "metric_definition": "Gini coefficient over per-word TRAIN occurrence counts; repeated frames are not counted.",
+        "min": 8
+      },
+      "name": "SMALL",
+      "native_preservation_count": 100,
+      "phone_symbol_coverage_count": 16,
+      "risk": "lower context coverage",
+      "unique_target_words": 7
+    },
+    {
+      "cap_per_target": 15,
+      "eval_seen_count": 21,
+      "explicit_selected_count": 104,
+      "explicit_train_count": 83,
+      "lexical_balance": {
+        "examples_per_target": {
+          "agrawal": 11,
+          "gupta": 12,
+          "kashmir": 12,
+          "kumar": 12,
+          "mishra": 12,
+          "mumbai": 12,
+          "sharma": 12
+        },
+        "fractions": {
+          "agrawal": 0.13253012048192772,
+          "gupta": 0.14457831325301204,
+          "kashmir": 0.14457831325301204,
+          "kumar": 0.14457831325301204,
+          "mishra": 0.14457831325301204,
+          "mumbai": 0.14457831325301204,
+          "sharma": 0.14457831325301204
+        },
+        "gini": 0.010327022375215147,
+        "max": 12,
+        "metric_definition": "Gini coefficient over per-word TRAIN occurrence counts; repeated frames are not counted.",
+        "min": 11
+      },
+      "name": "MEDIUM",
+      "native_preservation_count": 200,
+      "phone_symbol_coverage_count": 16,
+      "risk": "lower context coverage",
+      "unique_target_words": 7
+    },
+    {
+      "cap_per_target": 20,
+      "eval_seen_count": 27,
+      "explicit_selected_count": 134,
+      "explicit_train_count": 107,
+      "lexical_balance": {
+        "examples_per_target": {
+          "agrawal": 11,
+          "gupta": 16,
+          "kashmir": 16,
+          "kumar": 16,
+          "mishra": 16,
+          "mumbai": 16,
+          "sharma": 16
+        },
+        "fractions": {
+          "agrawal": 0.102803738317757,
+          "gupta": 0.14953271028037382,
+          "kashmir": 0.14953271028037382,
+          "kumar": 0.14953271028037382,
+          "mishra": 0.14953271028037382,
+          "mumbai": 0.14953271028037382,
+          "sharma": 0.14953271028037382
+        },
+        "gini": 0.04005340453938585,
+        "max": 16,
+        "metric_definition": "Gini coefficient over per-word TRAIN occurrence counts; repeated frames are not counted.",
+        "min": 11
+      },
+      "name": "LARGE_INITIAL",
+      "native_preservation_count": 300,
+      "phone_symbol_coverage_count": 16,
+      "risk": "repeated single-speaker contexts add less lexical diversity after cap 20",
+      "unique_target_words": 7
+    },
+    {
+      "cap_per_target": 25,
+      "eval_seen_count": 33,
+      "explicit_selected_count": 164,
+      "explicit_train_count": 131,
+      "lexical_balance": {
+        "examples_per_target": {
+          "agrawal": 11,
+          "gupta": 20,
+          "kashmir": 20,
+          "kumar": 20,
+          "mishra": 20,
+          "mumbai": 20,
+          "sharma": 20
+        },
+        "fractions": {
+          "agrawal": 0.08396946564885496,
+          "gupta": 0.15267175572519084,
+          "kashmir": 0.15267175572519084,
+          "kumar": 0.15267175572519084,
+          "mishra": 0.15267175572519084,
+          "mumbai": 0.15267175572519084,
+          "sharma": 0.15267175572519084
+        },
+        "gini": 0.05888767720828789,
+        "max": 20,
+        "metric_definition": "Gini coefficient over per-word TRAIN occurrence counts; repeated frames are not counted.",
+        "min": 11
+      },
+      "name": "LARGE_INITIAL_HIGH_CAP",
+      "native_preservation_count": 300,
+      "phone_symbol_coverage_count": 16,
+      "risk": "repeated single-speaker contexts add less lexical diversity after cap 20",
+      "unique_target_words": 7
+    }
+  ],
+  "recommended": {
+    "cap_per_target": 20,
+    "name": "LARGE_INITIAL",
+    "reason": "134 quality-filtered archive-backed occurrences are available before deterministic train/eval split; cap limits frequency domination."
+  }
+}

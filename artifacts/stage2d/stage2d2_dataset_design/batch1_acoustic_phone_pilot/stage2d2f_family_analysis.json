@@ -1,0 +1,321 @@
+{
+  "schema_version": "stage2d2f-family-analysis.v2",
+  "families": [
+    {
+      "family": "PUR",
+      "words": [
+        "Nagpur",
+        "Udhampur"
+      ],
+      "recognizer_observations": {
+        "nagpur": [
+          [
+            "k",
+            "iː",
+            "ɾ"
+          ],
+          [
+            "t̪",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "b̤",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "f",
+            "uə",
+            "t̪"
+          ],
+          [
+            "uə",
+            "lʲ",
+            "e"
+          ]
+        ],
+        "udhampur": [
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "b̤",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ]
+        ]
+      },
+      "conclusion": "Descriptive suffix comparison only; no morphological rule or shared canonical phone sequence is inferred.",
+      "production_rule_created": false
+    },
+    {
+      "family": "GARH",
+      "words": [
+        "Chandigarh",
+        "Chhattisgarh",
+        "Gorakhpur"
+      ],
+      "recognizer_observations": {
+        "chandigarh": [
+          [
+            "g",
+            "ʌ",
+            "ɾ"
+          ],
+          [
+            "g",
+            "ɒ",
+            "ɾ"
+          ],
+          [
+            "ɡ",
+            "ɒ",
+            "ɾ"
+          ],
+          [
+            "g",
+            "ɒ",
+            "ɾ"
+          ],
+          [
+            "g",
+            "ə",
+            "ɾ"
+          ]
+        ],
+        "chhattisgarh": [
+          [
+            "ʌ",
+            "ɾ",
+            "s"
+          ],
+          [
+            "k",
+            "ʌ",
+            "l"
+          ],
+          [
+            "ɡ",
+            "ʌ",
+            "ɾ"
+          ],
+          [
+            "k",
+            "ə",
+            "l"
+          ],
+          [
+            "ɒ",
+            "l",
+            "ɪ"
+          ]
+        ],
+        "gorakhpur": [
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "t",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "uə",
+            "ɾ",
+            "ɒ"
+          ],
+          [
+            "uə",
+            "ɾ",
+            "ʂ"
+          ]
+        ]
+      },
+      "conclusion": "Descriptive suffix comparison only; no morphological rule or shared canonical phone sequence is inferred.",
+      "production_rule_created": false
+    },
+    {
+      "family": "NAGAR",
+      "words": [
+        "Srinagar"
+      ],
+      "recognizer_observations": {
+        "srinagar": [
+          [
+            "b̞",
+            "ʌ",
+            "l"
+          ],
+          [
+            "ɴ",
+            "k",
+            "ɒ"
+          ],
+          [
+            "ʌ",
+            "b̞",
+            "ʌ"
+          ],
+          [
+            "k͡p̚",
+            "ʌ",
+            "n"
+          ],
+          [
+            "k",
+            "ʌ",
+            "ɒ"
+          ]
+        ]
+      },
+      "conclusion": "Descriptive suffix comparison only; no morphological rule or shared canonical phone sequence is inferred.",
+      "production_rule_created": false
+    },
+    {
+      "family": "OTHER_DIAGNOSTIC",
+      "words": [
+        "Hyderabad",
+        "Bengaluru",
+        "Banerjee",
+        "Jamshedpur"
+      ],
+      "recognizer_observations": {
+        "hyderabad": [
+          [
+            "uə",
+            "p",
+            "a"
+          ],
+          [
+            "b̥",
+            "a",
+            "ɒ"
+          ],
+          [
+            "uə",
+            "p",
+            "a"
+          ],
+          [
+            "a",
+            "o",
+            "t̪"
+          ],
+          [
+            "p",
+            "uə",
+            "ɒ"
+          ]
+        ],
+        "bengaluru": [
+          [
+            "ʊ",
+            "ɾ",
+            "uə"
+          ],
+          [
+            "l",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "ɪ",
+            "ɾ",
+            "uː"
+          ],
+          [
+            "o",
+            "ɾ",
+            "uə"
+          ],
+          [
+            "ɾ",
+            "ʌ",
+            "s"
+          ]
+        ],
+        "banerjee": [
+          [
+            "ʌ",
+            "tɕ",
+            "i"
+          ],
+          [
+            "ʌ",
+            "tɕ",
+            "i"
+          ],
+          [
+            "a",
+            "ɾ",
+            "ɒ"
+          ],
+          [
+            "tɕ",
+            "iː",
+            "s"
+          ],
+          [
+            "ʌ",
+            "t͡ɕ",
+            "y"
+          ]
+        ],
+        "jamshedpur": [
+          [
+            "b̤",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "o",
+            "ɾ"
+          ],
+          [
+            "p",
+            "o",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ],
+          [
+            "p",
+            "uə",
+            "ɾ"
+          ]
+        ]
+      },
+      "conclusion": "Descriptive suffix comparison only; no morphological rule or shared canonical phone sequence is inferred.",
+      "production_rule_created": false
+    }
+  ]
+}

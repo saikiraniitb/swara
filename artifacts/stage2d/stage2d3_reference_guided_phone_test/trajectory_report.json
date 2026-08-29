@@ -1,0 +1,302 @@
+{
+  "classification_policy": {
+    "codec_frame_rate_hz": 12.5,
+    "max_length_acoustic_frame_boundary": 511,
+    "max_new_tokens": 512,
+    "normal_max_duration_seconds": 10.0,
+    "rule": "MAX_LENGTH_TRAJECTORY when max_generation_hit is true or acoustic frames reach max_new_tokens minus the excluded EOS boundary; otherwise LONG_TRAJECTORY for EOS-completed paths over ten seconds or non-EOS paths; otherwise NORMAL_TRAJECTORY."
+  },
+  "failed_generations": 0,
+  "long_trajectories": 1,
+  "max_length_trajectories": 3,
+  "metadata_limitations": [
+    "The original Colab generation manifest/report was not present locally; unspecified frame, duration, EOS, waveform, and hash values remain null rather than being reconstructed."
+  ],
+  "normal_trajectories": 11,
+  "rows": [
+    {
+      "actual_condition": "jamshedpur_candidate_02",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "review_label": "A",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Jamshedpur"
+    },
+    {
+      "actual_condition": "jamshedpur_candidate_01",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U",
+        "R"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "review_label": "B",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Jamshedpur"
+    },
+    {
+      "actual_condition": "native",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "native",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": null,
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "review_label": "C",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Jamshedpur"
+    },
+    {
+      "actual_condition": "banerjee_candidate_02",
+      "duration_seconds": 40.88,
+      "eos_index": null,
+      "generated_frame_count": 511,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": true,
+      "phone_sequence": [
+        "B",
+        "A",
+        "N",
+        "A",
+        "SH",
+        "II"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+      "review_label": "A",
+      "trajectory_class": "MAX_LENGTH_TRAJECTORY",
+      "word": "Banerjee"
+    },
+    {
+      "actual_condition": "banerjee_candidate_01",
+      "duration_seconds": 40.88,
+      "eos_index": null,
+      "generated_frame_count": 511,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": true,
+      "phone_sequence": [
+        "B",
+        "A",
+        "N",
+        "A",
+        "J",
+        "II"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+      "review_label": "B",
+      "trajectory_class": "MAX_LENGTH_TRAJECTORY",
+      "word": "Banerjee"
+    },
+    {
+      "actual_condition": "native",
+      "duration_seconds": 13.2,
+      "eos_index": null,
+      "generated_frame_count": 165,
+      "kind": "native",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": true,
+      "phone_sequence": null,
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+      "review_label": "C",
+      "trajectory_class": "LONG_TRAJECTORY",
+      "word": "Banerjee"
+    },
+    {
+      "actual_condition": "chandigarh_candidate_02",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "CH",
+        "A",
+        "N",
+        "T",
+        "I",
+        "G",
+        "AA"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+      "review_label": "A",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Chandigarh"
+    },
+    {
+      "actual_condition": "chandigarh_candidate_01",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "CH",
+        "A",
+        "N",
+        "D",
+        "I",
+        "G",
+        "AA"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+      "review_label": "B",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Chandigarh"
+    },
+    {
+      "actual_condition": "native",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "native",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": null,
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+      "review_label": "C",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Chandigarh"
+    },
+    {
+      "actual_condition": "nagar_candidate_02",
+      "duration_seconds": 40.88,
+      "eos_index": null,
+      "generated_frame_count": 511,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": true,
+      "phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "A"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+      "review_label": "A",
+      "trajectory_class": "MAX_LENGTH_TRAJECTORY",
+      "word": "Nagar"
+    },
+    {
+      "actual_condition": "nagar_candidate_01",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "A",
+        "R"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+      "review_label": "B",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Nagar"
+    },
+    {
+      "actual_condition": "native",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "native",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": null,
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+      "review_label": "C",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Nagar"
+    },
+    {
+      "actual_condition": "nagpur_candidate_02",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "review_label": "A",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Nagpur"
+    },
+    {
+      "actual_condition": "nagpur_candidate_01",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "candidate",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U",
+        "R"
+      ],
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "review_label": "B",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Nagpur"
+    },
+    {
+      "actual_condition": "native",
+      "duration_seconds": null,
+      "eos_index": null,
+      "generated_frame_count": null,
+      "kind": "native",
+      "metadata_source": "human_result_summary; original Colab manifest was not present in the local repository",
+      "original_generation_values_preserved": false,
+      "phone_sequence": null,
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "review_label": "C",
+      "trajectory_class": "NORMAL_TRAJECTORY",
+      "word": "Nagpur"
+    }
+  ],
+  "schema_version": "stage2d3b-trajectory-report.v1"
+}

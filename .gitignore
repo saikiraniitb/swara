@@ -76,3 +76,11 @@ evaluations/
 /artifacts/stage2d/pronunciation_atlas_v0_1/occurrence_index.jsonl
 /artifacts/stage2d/pronunciation_atlas_v0_1/vocabulary.json
 /artifacts/stage2d/pronunciation_atlas_v0_1/consistency_report.json
+
+# Local recognizer environment and generated Stage2D.3A overlay archives.
+/.venv-allosaurus/
+/stage2d3a_colab_inputs_v1.zip
+/stage2d3a_colab_inputs_v2.zip
+/stage2d3a_colab_inputs_v3.zip
+/stage2d3a_colab_inputs_v4.zip
+/stage2d3a_colab_inputs_v5.zip

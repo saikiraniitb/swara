@@ -1,0 +1,232 @@
+{
+  "schema_version": "stage2d2-batch1-v0-representability.v1",
+  "inventory": "swara-phones-v0",
+  "production_inventory_modified": false,
+  "matrix": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "representability_status": "UNRESOLVED",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "invalid_symbols": [],
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    }
+  ]
+}

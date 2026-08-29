@@ -1,0 +1,305 @@
+{
+  "schema_version": "stage2d2f-espeak-acoustic-comparison.v2",
+  "rows": [
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.8956349206349206,
+          "median_normalized_edit_distance": 0.875,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.8956349206349206,
+          "median_normalized_edit_distance": 0.875,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.9555555555555555,
+          "median_normalized_edit_distance": 1.0,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.8888888888888888,
+          "median_normalized_edit_distance": 0.8888888888888888,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.78,
+          "median_normalized_edit_distance": 0.7,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.7999999999999999,
+          "median_normalized_edit_distance": 0.7777777777777778,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.861111111111111,
+          "median_normalized_edit_distance": 0.8888888888888888,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.861111111111111,
+          "median_normalized_edit_distance": 0.8888888888888888,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.9083333333333333,
+          "median_normalized_edit_distance": 0.8888888888888888,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.7944444444444444,
+          "median_normalized_edit_distance": 0.7777777777777778,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.8797619047619047,
+          "median_normalized_edit_distance": 0.8571428571428571,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.7595238095238095,
+          "median_normalized_edit_distance": 0.75,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.8333333333333334,
+          "median_normalized_edit_distance": 0.8333333333333334,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.7666666666666667,
+          "median_normalized_edit_distance": 0.8,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.9555555555555555,
+          "median_normalized_edit_distance": 1.0,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 1.0,
+          "median_normalized_edit_distance": 1.0,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.9111111111111111,
+          "median_normalized_edit_distance": 0.8888888888888888,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.9777777777777777,
+          "median_normalized_edit_distance": 1.0,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "eSpeak_sources": [
+        "espeak_ng_en_us",
+        "espeak_ng_en_gb"
+      ],
+      "Allosaurus_prediction_count": 5,
+      "comparisons": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "mean_normalized_edit_distance": 0.825,
+          "median_normalized_edit_distance": 0.875,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "mean_normalized_edit_distance": 0.85,
+          "median_normalized_edit_distance": 0.875,
+          "comparison": "CONFLICT",
+          "note": "Cross-inventory sequence comparison only; not a phoneme-level correctness judgment."
+        }
+      ],
+      "provenance": {
+        "orthographic_g2p": "eSpeak NG",
+        "acoustic_phone_recognizer": "Allosaurus",
+        "human_listening": "SPICOR repeated-word stability"
+      }
+    }
+  ]
+}

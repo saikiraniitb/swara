@@ -1,0 +1,352 @@
+{
+  "archive_backed_audio": true,
+  "eval_seen_word_unseen_context_occurrences": [
+    "IISc_SPICORProject_EN_M_AGRI_1000:word:0009",
+    "IISc_SPICORProject_EN_M_ENTE_6231:word:0017",
+    "IISc_SPICORProject_EN_M_POLI_580:word:0009",
+    "IISc_SPICORProject_EN_M_AGRI_1290:word:0015",
+    "IISc_SPICORProject_EN_M_ENTE_6889:word:0013",
+    "IISc_SPICORProject_EN_M_HEAL_3549:word:0004",
+    "IISc_SPICORProject_EN_M_WEAT_4739:word:0005",
+    "IISc_SPICORProject_EN_M_AGRI_1326:word:0006",
+    "IISc_SPICORProject_EN_M_ENTE_2712:word:0002",
+    "IISc_SPICORProject_EN_M_HEAL_4020:word:0008",
+    "IISc_SPICORProject_EN_M_WEAT_879:word:0012",
+    "IISc_SPICORProject_EN_M_AGRI_3216:word:0012",
+    "IISc_SPICORProject_EN_M_AGRI_3751:word:0028",
+    "IISc_SPICORProject_EN_M_OTHE_2454:word:0011",
+    "IISc_SPICORProject_EN_M_WEAT_3832:word:0007",
+    "IISc_SPICORProject_EN_M_AGRI_1530:word:0006",
+    "IISc_SPICORProject_EN_M_AGRI_6732:word:0010",
+    "IISc_SPICORProject_EN_M_HEAL_2191:word:0009",
+    "IISc_SPICORProject_EN_M_WEAT_7336:word:0006",
+    "IISc_SPICORProject_EN_M_AGRI_3128:word:0008",
+    "IISc_SPICORProject_EN_M_ENTE_4194:word:0011",
+    "IISc_SPICORProject_EN_M_OTHE_2923:word:0001",
+    "IISc_SPICORProject_EN_M_WEAT_6514:word:0019",
+    "IISc_SPICORProject_EN_M_AGRI_3078:word:0017",
+    "IISc_SPICORProject_EN_M_ENTE_5238:word:0005",
+    "IISc_SPICORProject_EN_M_OTHE_41:word:0006",
+    "IISc_SPICORProject_EN_M_WEAT_2858:word:0020"
+  ],
+  "explicit_train_occurrences": [
+    "IISc_SPICORProject_EN_M_AGRI_107:word:0014",
+    "IISc_SPICORProject_EN_M_AGRI_3576:word:0020",
+    "IISc_SPICORProject_EN_M_ENTE_3135:word:0002",
+    "IISc_SPICORProject_EN_M_ENTE_4557:word:0000",
+    "IISc_SPICORProject_EN_M_ENTE_5747:word:0009",
+    "IISc_SPICORProject_EN_M_ENTE_7321:word:0001",
+    "IISc_SPICORProject_EN_M_HEAL_3327:word:0003",
+    "IISc_SPICORProject_EN_M_HEAL_472:word:0009",
+    "IISc_SPICORProject_EN_M_OTHE_2417:word:0016",
+    "IISc_SPICORProject_EN_M_OTHE_3246:word:0005",
+    "IISc_SPICORProject_EN_M_OTHE_913:word:0008",
+    "IISc_SPICORProject_EN_M_AGRI_3169:word:0014",
+    "IISc_SPICORProject_EN_M_AGRI_3250:word:0007",
+    "IISc_SPICORProject_EN_M_ENTE_1240:word:0018",
+    "IISc_SPICORProject_EN_M_ENTE_1855:word:0012",
+    "IISc_SPICORProject_EN_M_ENTE_3032:word:0017",
+    "IISc_SPICORProject_EN_M_ENTE_777:word:0009",
+    "IISc_SPICORProject_EN_M_ENTE_889:word:0003",
+    "IISc_SPICORProject_EN_M_FOOD_4112:word:0005",
+    "IISc_SPICORProject_EN_M_HEAL_1824:word:0009",
+    "IISc_SPICORProject_EN_M_HEAL_2930:word:0007",
+    "IISc_SPICORProject_EN_M_HEAL_3095:word:0016",
+    "IISc_SPICORProject_EN_M_OTHE_850:word:0000",
+    "IISc_SPICORProject_EN_M_POLI_1808:word:0012",
+    "IISc_SPICORProject_EN_M_POLI_4340:word:0018",
+    "IISc_SPICORProject_EN_M_POLI_5707:word:0016",
+    "IISc_SPICORProject_EN_M_POLI_8187:word:0005",
+    "IISc_SPICORProject_EN_M_AGRI_1496:word:0002",
+    "IISc_SPICORProject_EN_M_AGRI_245:word:0003",
+    "IISc_SPICORProject_EN_M_AGRI_6212:word:0011",
+    "IISc_SPICORProject_EN_M_ENTE_138:word:0025",
+    "IISc_SPICORProject_EN_M_ENTE_1682:word:0021",
+    "IISc_SPICORProject_EN_M_ENTE_4350:word:0004",
+    "IISc_SPICORProject_EN_M_ENTE_5193:word:0003",
+    "IISc_SPICORProject_EN_M_ENTE_677:word:0020",
+    "IISc_SPICORProject_EN_M_ENTE_7084:word:0006",
+    "IISc_SPICORProject_EN_M_FOOD_1483:word:0002",
+    "IISc_SPICORProject_EN_M_HEAL_2035:word:0008",
+    "IISc_SPICORProject_EN_M_OTHE_195:word:0000",
+    "IISc_SPICORProject_EN_M_POLI_1664(1):word:0015",
+    "IISc_SPICORProject_EN_M_WEAT_4184:word:0013",
+    "IISc_SPICORProject_EN_M_WEAT_425:word:0011",
+    "IISc_SPICORProject_EN_M_WEAT_4760:word:0020",
+    "IISc_SPICORProject_EN_M_AGRI_3940:word:0020",
+    "IISc_SPICORProject_EN_M_ENTE_1729:word:0010",
+    "IISc_SPICORProject_EN_M_ENTE_7184:word:0007",
+    "IISc_SPICORProject_EN_M_FOOD_7030:word:0014",
+    "IISc_SPICORProject_EN_M_HEAL_1956:word:0024",
+    "IISc_SPICORProject_EN_M_HEAL_2299:word:0025",
+    "IISc_SPICORProject_EN_M_HEAL_661:word:0007",
+    "IISc_SPICORProject_EN_M_HEAL_685:word:0008",
+    "IISc_SPICORProject_EN_M_HEAL_830:word:0018",
+    "IISc_SPICORProject_EN_M_OTHE_1659:word:0006",
+    "IISc_SPICORProject_EN_M_OTHE_2271:word:0000",
+    "IISc_SPICORProject_EN_M_OTHE_456:word:0011",
+    "IISc_SPICORProject_EN_M_POLI_2198:word:0021",
+    "IISc_SPICORProject_EN_M_POLI_253:word:0001",
+    "IISc_SPICORProject_EN_M_POLI_271:word:0019",
+    "IISc_SPICORProject_EN_M_POLI_2905:word:0005",
+    "IISc_SPICORProject_EN_M_AGRI_1806:word:0010",
+    "IISc_SPICORProject_EN_M_AGRI_3309:word:0010",
+    "IISc_SPICORProject_EN_M_AGRI_3838:word:0016",
+    "IISc_SPICORProject_EN_M_AGRI_4093:word:0001",
+    "IISc_SPICORProject_EN_M_AGRI_431:word:0000",
+    "IISc_SPICORProject_EN_M_ENTE_248:word:0001",
+    "IISc_SPICORProject_EN_M_ENTE_3079:word:0021",
+    "IISc_SPICORProject_EN_M_ENTE_5160:word:0012",
+    "IISc_SPICORProject_EN_M_FOOD_2846:word:0003",
+    "IISc_SPICORProject_EN_M_HEAL_1042:word:0018",
+    "IISc_SPICORProject_EN_M_HEAL_1956:word:0025",
+    "IISc_SPICORProject_EN_M_HEAL_3545:word:0006",
+    "IISc_SPICORProject_EN_M_HEAL_4075:word:0022",
+    "IISc_SPICORProject_EN_M_POLI_5959:word:0005",
+    "IISc_SPICORProject_EN_M_POLI_7086:word:0011",
+    "IISc_SPICORProject_EN_M_POLI_7779:word:0006",
+    "IISc_SPICORProject_EN_M_AGRI_5618:word:0007",
+    "IISc_SPICORProject_EN_M_AGRI_5868:word:0019",
+    "IISc_SPICORProject_EN_M_ENTE_1240:word:0015",
+    "IISc_SPICORProject_EN_M_ENTE_1859:word:0000",
+    "IISc_SPICORProject_EN_M_ENTE_3905:word:0003",
+    "IISc_SPICORProject_EN_M_ENTE_4923:word:0001",
+    "IISc_SPICORProject_EN_M_ENTE_5632:word:0007",
+    "IISc_SPICORProject_EN_M_ENTE_7440:word:0010",
+    "IISc_SPICORProject_EN_M_EVAL_00205:word:0001",
+    "IISc_SPICORProject_EN_M_HEAL_3088:word:0017",
+    "IISc_SPICORProject_EN_M_OTHE_1082:word:0006",
+    "IISc_SPICORProject_EN_M_POLI_2941:word:0005",
+    "IISc_SPICORProject_EN_M_POLI_3070:word:0013",
+    "IISc_SPICORProject_EN_M_POLI_4742:word:0003",
+    "IISc_SPICORProject_EN_M_POLI_4865:word:0001",
+    "IISc_SPICORProject_EN_M_WEAT_3831:word:0014",
+    "IISc_SPICORProject_EN_M_AGRI_3729:word:0002",
+    "IISc_SPICORProject_EN_M_AGRI_423:word:0002",
+    "IISc_SPICORProject_EN_M_ENTE_1213:word:0006",
+    "IISc_SPICORProject_EN_M_ENTE_439:word:0009",
+    "IISc_SPICORProject_EN_M_ENTE_4918:word:0020",
+    "IISc_SPICORProject_EN_M_ENTE_647:word:0011",
+    "IISc_SPICORProject_EN_M_FOOD_1138:word:0021",
+    "IISc_SPICORProject_EN_M_HEAL_2141:word:0004",
+    "IISc_SPICORProject_EN_M_HEAL_3648:word:0001",
+    "IISc_SPICORProject_EN_M_OTHE_1795:word:0010",
+    "IISc_SPICORProject_EN_M_OTHE_272:word:0013",
+    "IISc_SPICORProject_EN_M_POLI_188:word:0010",
+    "IISc_SPICORProject_EN_M_POLI_3412:word:0000",
+    "IISc_SPICORProject_EN_M_POLI_5375:word:0011",
+    "IISc_SPICORProject_EN_M_POLI_7886:word:0013",
+    "IISc_SPICORProject_EN_M_WEAT_237:word:0001"
+  ],
+  "external_holdouts": [
+    "Dasharatha",
+    "Anirban",
+    "Ashwini",
+    "Chandrashekhar",
+    "Karthik"
+  ],
+  "external_unseen": [
+    {
+      "fixture_id": "external_dasharatha",
+      "status": "EXTERNAL_UNSEEN_PROBE",
+      "text": "Dasharatha ruled the kingdom wisely.",
+      "word": "dasharatha"
+    },
+    {
+      "fixture_id": "external_00",
+      "status": "FROZEN_UNSEEN_NAME_FIXTURE",
+      "text": "Anirban joined the review panel.",
+      "word": "anirban"
+    },
+    {
+      "fixture_id": "external_01",
+      "status": "FROZEN_UNSEEN_NAME_FIXTURE",
+      "text": "The committee invited Ashwini to the meeting.",
+      "word": "ashwini"
+    },
+    {
+      "fixture_id": "external_02",
+      "status": "FROZEN_UNSEEN_NAME_FIXTURE",
+      "text": "Chandrashekhar submitted the final report.",
+      "word": "chandrashekhar"
+    },
+    {
+      "fixture_id": "external_03",
+      "status": "FROZEN_UNSEEN_NAME_FIXTURE",
+      "text": "The researchers met Karthik after the seminar.",
+      "word": "karthik"
+    }
+  ],
+  "leakage_check": {
+    "explicit_train_eval_source_overlap_count": 0,
+    "explicit_train_occurrence_ids_disjoint_from_eval_occurrence_ids": true,
+    "explicit_train_source_utterances_disjoint_from_eval": true,
+    "known_phone_holdout_requires_human_phone_annotation": true,
+    "transfer_text_exact_match_with_training_transcript_count": 0
+  },
+  "phone_contrast": [
+    {
+      "fixture_id": "singh_a",
+      "phone_sequence": [
+        "S",
+        "I",
+        "NG"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "singh"
+    },
+    {
+      "fixture_id": "singh_b",
+      "phone_sequence": [
+        "S",
+        "I",
+        "NG",
+        "H"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "singh"
+    },
+    {
+      "fixture_id": "mumbai_a",
+      "phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "AI"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "mumbai"
+    },
+    {
+      "fixture_id": "mumbai_b",
+      "phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "EE"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "mumbai"
+    },
+    {
+      "fixture_id": "kumar_a",
+      "phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "AA",
+        "R"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "kumar"
+    },
+    {
+      "fixture_id": "kumar_b",
+      "phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "EE",
+        "R"
+      ],
+      "source": "frozen Stage2C.1/2A diagnostic panel",
+      "training": false,
+      "word": "kumar"
+    }
+  ],
+  "schema_version": "stage2d2-split-plan-v0.2",
+  "seen_word_unseen_context": [
+    {
+      "fixture_id": "seen_agrawal_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Minister Agrawal addressed the committee after lunch.",
+      "word": "agrawal"
+    },
+    {
+      "fixture_id": "seen_agrawal_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The report from Agrawal arrived before the deadline.",
+      "word": "agrawal"
+    },
+    {
+      "fixture_id": "seen_gupta_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Gupta submitted the revised budget this morning.",
+      "word": "gupta"
+    },
+    {
+      "fixture_id": "seen_gupta_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The committee invited Gupta to the policy discussion.",
+      "word": "gupta"
+    },
+    {
+      "fixture_id": "seen_kashmir_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The report described the route through Kashmir.",
+      "word": "kashmir"
+    },
+    {
+      "fixture_id": "seen_kashmir_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The delegation visited Kashmir during the spring.",
+      "word": "kashmir"
+    },
+    {
+      "fixture_id": "seen_kumar_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Kumar will lead the project meeting tomorrow.",
+      "word": "kumar"
+    },
+    {
+      "fixture_id": "seen_kumar_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The final document was approved by Kumar yesterday.",
+      "word": "kumar"
+    },
+    {
+      "fixture_id": "seen_mishra_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Mishra explained the results during the interview.",
+      "word": "mishra"
+    },
+    {
+      "fixture_id": "seen_mishra_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The editor spoke with Mishra after the announcement.",
+      "word": "mishra"
+    },
+    {
+      "fixture_id": "seen_mumbai_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The flight to Mumbai leaves after sunset.",
+      "word": "mumbai"
+    },
+    {
+      "fixture_id": "seen_mumbai_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Researchers returned from Mumbai on Tuesday.",
+      "word": "mumbai"
+    },
+    {
+      "fixture_id": "seen_sharma_00",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "Sharma joined the delegation at the station.",
+      "word": "sharma"
+    },
+    {
+      "fixture_id": "seen_sharma_01",
+      "source": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "text": "The director asked Sharma to review the proposal.",
+      "word": "sharma"
+    }
+  ],
+  "unseen_word_known_phone_composition": []
+}

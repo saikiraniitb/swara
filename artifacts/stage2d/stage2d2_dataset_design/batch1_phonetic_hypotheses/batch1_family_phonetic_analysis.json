@@ -1,0 +1,440 @@
+{
+  "schema_version": "stage2d2-batch1-family-phonetic-analysis.v1",
+  "families": [
+    {
+      "family": "PUR",
+      "words": [
+        "Nagpur",
+        "Jaipur",
+        "Manipur",
+        "Raipur",
+        "Sambalpur",
+        "Udhampur",
+        "Sultanpur",
+        "Bilaspur"
+      ],
+      "source_observations": {
+        "nagpur": {
+          "espeak_ng_en_us": [
+            "n",
+            "æ",
+            "ɡ",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "n",
+            "a",
+            "ɡ",
+            "p",
+            "ʊə"
+          ]
+        },
+        "jaipur": {
+          "espeak_ng_en_us": [
+            "dʒ",
+            "aɪ",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "dʒ",
+            "aɪ",
+            "p",
+            "ʊə"
+          ]
+        },
+        "manipur": {
+          "espeak_ng_en_us": [
+            "m",
+            "ʌ",
+            "n",
+            "ɪ",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "m",
+            "ʌ",
+            "n",
+            "ɪ",
+            "p",
+            "ʊə"
+          ]
+        },
+        "raipur": {
+          "espeak_ng_en_us": [
+            "ɹ",
+            "aɪ",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "ɹ",
+            "aɪ",
+            "p",
+            "ʊə"
+          ]
+        },
+        "sambalpur": {
+          "espeak_ng_en_us": [
+            "s",
+            "æ",
+            "m",
+            "b",
+            "ɐ",
+            "l",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "s",
+            "a",
+            "m",
+            "b",
+            "ɐ",
+            "l",
+            "p",
+            "ʊə"
+          ]
+        },
+        "udhampur": {
+          "espeak_ng_en_us": [
+            "ʌ",
+            "d",
+            "h",
+            "ɐ",
+            "m",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "ʌ",
+            "d",
+            "h",
+            "ɐ",
+            "m",
+            "p",
+            "ʊə"
+          ]
+        },
+        "sultanpur": {
+          "espeak_ng_en_us": [
+            "s",
+            "ʌ",
+            "l",
+            "t",
+            "ɐ",
+            "n",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "s",
+            "ʌ",
+            "l",
+            "t",
+            "ɐ",
+            "n",
+            "p",
+            "ʊə"
+          ]
+        },
+        "bilaspur": {
+          "espeak_ng_en_us": [
+            "b",
+            "ᵻ",
+            "l",
+            "æ",
+            "s",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "espeak_ng_en_gb": [
+            "b",
+            "ɪ",
+            "l",
+            "a",
+            "s",
+            "p",
+            "ʊə"
+          ]
+        }
+      },
+      "conclusion": "Source hypotheses may be compared as a lexical family, but no production morphological rule or shared Swara suffix sequence is created.",
+      "shared_phone_representation": null,
+      "human_stability": "LIKELY_STABLE",
+      "independent_evidence": false
+    },
+    {
+      "family": "NAGAR",
+      "words": [
+        "Nagar",
+        "Srinagar"
+      ],
+      "source_observations": {
+        "nagar": {
+          "espeak_ng_en_us": [
+            "n",
+            "æ",
+            "ɡ",
+            "ɚ"
+          ],
+          "espeak_ng_en_gb": [
+            "n",
+            "a",
+            "ɡ",
+            "ə"
+          ]
+        },
+        "srinagar": {
+          "espeak_ng_en_us": [
+            "s",
+            "ɹ",
+            "iː",
+            "n",
+            "ə",
+            "ɡ",
+            "ɚ"
+          ],
+          "espeak_ng_en_gb": [
+            "s",
+            "ɹ",
+            "iː",
+            "n",
+            "ə",
+            "ɡ",
+            "ə"
+          ]
+        }
+      },
+      "conclusion": "Source hypotheses may be compared as a lexical family, but no production morphological rule or shared Swara suffix sequence is created.",
+      "shared_phone_representation": null,
+      "human_stability": "LIKELY_STABLE",
+      "independent_evidence": false
+    },
+    {
+      "family": "JEE",
+      "words": [
+        "Jee",
+        "Banerjee",
+        "Chatterjee",
+        "Mukherjee"
+      ],
+      "source_observations": {
+        "jee": {
+          "espeak_ng_en_us": [
+            "dʒ",
+            "iː"
+          ],
+          "espeak_ng_en_gb": [
+            "dʒ",
+            "iː"
+          ]
+        },
+        "banerjee": {
+          "espeak_ng_en_us": [
+            "b",
+            "æ",
+            "n",
+            "ɚ",
+            "dʒ",
+            "iː"
+          ],
+          "espeak_ng_en_gb": [
+            "b",
+            "a",
+            "n",
+            "ə",
+            "dʒ",
+            "iː"
+          ]
+        },
+        "chatterjee": {
+          "espeak_ng_en_us": [
+            "tʃ",
+            "æ",
+            "ɾ",
+            "ɚ",
+            "dʒ",
+            "iː"
+          ],
+          "espeak_ng_en_gb": [
+            "tʃ",
+            "a",
+            "t",
+            "ə",
+            "dʒ",
+            "iː"
+          ]
+        },
+        "mukherjee": {
+          "espeak_ng_en_us": [
+            "m",
+            "ʊ",
+            "k",
+            "ɜː",
+            "dʒ",
+            "iː"
+          ],
+          "espeak_ng_en_gb": [
+            "m",
+            "ʊ",
+            "k",
+            "ɜː",
+            "dʒ",
+            "iː"
+          ]
+        }
+      },
+      "conclusion": "Source hypotheses may be compared as a lexical family, but no production morphological rule or shared Swara suffix sequence is created.",
+      "shared_phone_representation": null,
+      "human_stability": "LIKELY_STABLE",
+      "independent_evidence": false
+    },
+    {
+      "family": "GARH",
+      "words": [
+        "Chandigarh",
+        "Chhattisgarh"
+      ],
+      "source_observations": {
+        "chandigarh": {
+          "espeak_ng_en_us": [
+            "tʃ",
+            "ʌ",
+            "n",
+            "d",
+            "ɪ",
+            "ɡ",
+            "ɜː"
+          ],
+          "espeak_ng_en_gb": [
+            "tʃ",
+            "ʌ",
+            "n",
+            "d",
+            "ɪ",
+            "ɡ",
+            "ɜː"
+          ]
+        },
+        "chhattisgarh": {
+          "espeak_ng_en_us": [
+            "tʃ",
+            "ʌ",
+            "ɾ",
+            "iː",
+            "s",
+            "ɡ",
+            "ɜː"
+          ],
+          "espeak_ng_en_gb": [
+            "tʃ",
+            "ʌ",
+            "t",
+            "iː",
+            "s",
+            "ɡ",
+            "ɜː"
+          ]
+        }
+      },
+      "conclusion": "Source hypotheses may be compared as a lexical family, but no production morphological rule or shared Swara suffix sequence is created.",
+      "shared_phone_representation": null,
+      "human_stability": "LIKELY_STABLE",
+      "independent_evidence": false
+    },
+    {
+      "family": "ABAD",
+      "words": [
+        "Hyderabad",
+        "Ahmedabad",
+        "Allahabad"
+      ],
+      "source_observations": {
+        "hyderabad": {
+          "espeak_ng_en_us": [
+            "h",
+            "aɪ",
+            "d",
+            "ɚ",
+            "ɹ",
+            "ɐ",
+            "b",
+            "ɑː",
+            "d"
+          ],
+          "espeak_ng_en_gb": [
+            "h",
+            "aɪ",
+            "d",
+            "ə",
+            "ɹ",
+            "ɐ",
+            "b",
+            "a",
+            "d"
+          ]
+        },
+        "ahmedabad": {
+          "espeak_ng_en_us": [
+            "ɑː",
+            "m",
+            "ɪ",
+            "d",
+            "ɐ",
+            "b",
+            "ɑː",
+            "d"
+          ],
+          "espeak_ng_en_gb": [
+            "ɑː",
+            "m",
+            "ɪ",
+            "d",
+            "ɐ",
+            "b",
+            "a",
+            "d"
+          ]
+        },
+        "allahabad": {
+          "espeak_ng_en_us": [
+            "ə",
+            "l",
+            "ɑː",
+            "h",
+            "ɐ",
+            "b",
+            "ɑː",
+            "d"
+          ],
+          "espeak_ng_en_gb": [
+            "ə",
+            "l",
+            "ɑː",
+            "h",
+            "ɐ",
+            "b",
+            "ɑː",
+            "d"
+          ]
+        }
+      },
+      "conclusion": "Source hypotheses may be compared as a lexical family, but no production morphological rule or shared Swara suffix sequence is created.",
+      "shared_phone_representation": null,
+      "human_stability": "LIKELY_STABLE",
+      "independent_evidence": false
+    }
+  ],
+  "production_rules_created": false
+}

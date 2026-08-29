@@ -1,0 +1,1347 @@
+{
+  "pair_count": 134,
+  "pairing": "same text/audio occurrence with override_id null",
+  "pairs": [
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The occasion was marked with the presence of Agriculture and Water Resource Minister Brijmohan Agrawal, Parliamentary Secretary Tokhan Sahu, M I A Shrichand Sundrani and others",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_107"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0014"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3576.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chaupal was also held in village Gohrapadar of Mainpur block, which was attended by Agriculture and Water Resource Minister Brijmohan Agrawal",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3576"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3576:word:0020"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3135.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Courtesy- Sarvesh Agrawal is the founder and C E O of Internshala, an internship and training platform",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3135"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3135:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_4557.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Agrawal also addressed the training camp for farmers at Purantarai nursery",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_4557"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4557:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5747.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Despite markets seeing a sharp run-up this month, Sahaj Agrawal, head of research for derivatives at Kotak Securities, expects Nifty to remain strong going ahead",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5747"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5747:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_7321.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Brajesh Agrawal A G M and C P I O addressed the participants and stressed on the importance of the training programme",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_7321"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7321:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3327.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Career coach Sonal Agrawal Honeymoon Period C Suite Team Business of Life Workplace",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3327"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3327:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_472.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "At the outset E N T Specialist Doctor Rahul Agrawal will screen the patients of Goitre and Thyroid ailments",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_472"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_472:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_2417.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Who has stopped him from ordering probes into such cases? B J P spokesman here Rajneesh Agrawal said",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2417"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2417:word:0016"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_3246.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "B J P member Brijmohan Agrawal said the monsoon session was for farmers",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_3246"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_3246:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_913.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "At a review meeting held here at Mantralaya, Agrawal said that blood",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_913"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_913:word:0008"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3169.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Do Karpoori Thakur, George Fernandes, Rabi Ray, Madhu Limaye, Chandrajeet Yadav and Banarsi Dass Gupta belong to the Jat community?",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3169"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3169:word:0014"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3250.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Bee Rowlatt, John Freeman, Pinky Anand, Ruchira Gupta, Sandip Roy, John Freeman and Vinod Dua, moderated by Namita Bhandare",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3250"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3250:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1240.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "This plant is based on the NISARGUNA technology developed by the Bhabha Atomic Research Centre , Mumbai, said Sunil Gupta, P R O, Tihar Prisons",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1240"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1240:word:0018"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1855.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "n r i s are showing interest in Bihar, says Doctor Shaibal Gupta, noted economist and member secretary of the Patnabased Asian Development Research Institute",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1855"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1855:word:0012"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3032.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Some of my best planners have come from backgrounds such as law or B Com, says Jai Gupta, C E O, Shaadi online",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3032"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3032:word:0017"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_777.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The Dean,College of Agricultural Engineering,Doctor P K Gupta,Coordinator of Research ,Doctor V K Sehgal,S P,Traffic,Roopinder Singh and D S P,Traffic,Gurdeep Singh,were present on the occasion",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_777"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_777:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_889.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Till last year, Gupta worked as a research analyst with Edelweiss and Bajaj was a New York Based stock broker",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_889"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_889:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_4112.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Principal Commissioner Income Tax Sangeeta Gupta was the chief guest on the occasion",
+        "utterance_id": "IISc_SPICORProject_EN_M_FOOD_4112"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_4112:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_1824.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Doctor Pratibha Issar, Doctor Rajeev Pal and Doctor Dheeraj Gupta of Radiology department played a vital role in diagnosis of the disease",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1824"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1824:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_2930.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The event was led by Doctor Aditya Gupta, Director Neurosurgery, Artemis Hospital along with Doctor Sumit Singh, Director, Neurosurgery highlighting the importance and advantages of the technology",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2930"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2930:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3095.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "He was diagnosed to have A D P K D, after one year, said Doctor Manu Gupta, Consultant Urological Surgeon at S G R H who performed the surgery",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3095"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3095:word:0016"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_850.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Gupta said the A A P Government has failed to fulfil its promises made",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_850"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_850:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_1808.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "On Saturday, while being brought to the court of Judge P L Gupta in Thane, Rizwan claimed he was being made a scapegoat",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_1808"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1808:word:0012"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_4340.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "It was attended by B J P State general secretary, Yudhvir Sethi, Mayor J M C, Chander Mohan Gupta and Chairman J M C, Baldev Singh Billawaria",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_4340"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4340:word:0018"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5707.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The sellers have been informed about the safety and trade norms beforehand, stated Executive Magistrate Narendra Gupta",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_5707"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5707:word:0016"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_8187.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Udhampur M L A Pawan Gupta, who was dropped from the ministry and had been since then criticising the party",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_8187"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_8187:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1496.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Director Tourism, Kashmir, Mehmood Shah, said the Tulip garden has become one of the major tourist attractions of the Kashmir valley",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1496"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1496:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_245.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Talking to Greater Kashmir, Director Floriculture and Gardens, Talat Parvez said the refrigerated vans were never meant for the Horticulture department",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_245"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_245:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_6212.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Cluster Head of the bank Abdul Hamid Khan and incharge, Marketing Kashmir Central M A Wanchoo were also present on the occasion",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6212"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6212:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "On the Udhampur Srinagar Baramulla rail link project, he said that the work was halted because of a law and order issue in Jammu and Kashmir",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_138"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_138:word:0025"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1682.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "These violations can be tackled only if the black A F P S A law is withdrawn in its entirety from Kashmir and Manipur",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1682"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1682:word:0021"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_4350.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "All outstanding issues including Kashmir came under discussion between the two foreign secretaries, said a spokesman for the Pakistan High Commission in India",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_4350"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4350:word:0004"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5193.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The logo of Kashmir university ‘Inaz zulmati minan noor’—from darkness to light itself highlights the essence of learning and acquiring knowledge",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5193"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5193:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_677.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Again it was Vajpayee Jee who travelled to Lahore and said that it was his last wish to resolve the Kashmir issue peacefully",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_677"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_677:word:0020"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_7084.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "When Iqbal Institute was established at Kashmir University, Sultanpuri's translation skills came handy for translating the legendary poets work in Kashmir",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_7084"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7084:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_FOOD_1483.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Jammu and Kashmir Entrepreneurship Development Institute conducted an entrepreneurship awareness program for the Sikh community here at Gurdwara Chatti Padshahi, Rainawari",
+        "utterance_id": "IISc_SPICORProject_EN_M_FOOD_1483"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_1483:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2035.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Also there is no Deputy Director Dentistry in Kashmir as the post is lying vacant",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2035"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2035:word:0008"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_195.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Kashmir dispute is a reality that we both acknowledge, he added",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_195"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_195:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_1664(1).wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The attack came days ahead of the United Nations General Assembly session where the ongoing Kashmir ferment was supposed to pit Pakistan against India",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_1664(1)"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1664(1):word:0015"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_4184.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Escalation in violence and the day to day loss of lives has brought Kashmir to the brink of a disaster",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4184"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4184:word:0013"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_425.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The Northern Army commander L t Gen D Anbu visited northern Kashmir today to review the prevailing security situation along the Line of Control",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_425"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_425:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_4760.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "It occurred on the same day when Aurangzeb, a soldier on the way home for Id, was killed in South Kashmir by militants",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4760"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4760:word:0020"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3940.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Irrigation department paints the lions after years but Sher Kothi sample lion is in shambles, said a local resident, Kamal Kumar",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3940"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3940:word:0020"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1729.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Union Home Secretary Ajay Bhalla, Director of Intelligence Bureau Arvind Kumar, Congress leader Subhash Chopra, B J P's Manoj Tiwari and Ramvir Bidhuri attended the meeting",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1729"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1729:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_7184.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "D S P law and order Bimal Kumar who is investigating the Bagbera incident said that so far no arrest has been made",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_7184"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7184:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_FOOD_7030.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "B Sriram will replace outgoing I D B I Bank C E O Mahesh Kumar Jain, who has been appointed R B I deputy governor",
+        "utterance_id": "IISc_SPICORProject_EN_M_FOOD_7030"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_7030:word:0014"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1956.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sonepur- The National Dengue Day was observed at the Tarbha C H C of Subarnmapur district under the chairmanship of hospital incharge Dr Khirod Kumar Mishra",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1956"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1956:word:0024"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_2299.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Later, the D N D management arranged an ambulance and the couple was shifted to A I I MS Trauma Centre in Delhi, said Ashish Kumar Singh, an eyewitness",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2299"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2299:word:0025"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_661.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Singh, D G Life Sciences, Shri Bhuvnesh Kumar Director D I P A S and the team of at D R D O India Scientists",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_661"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_661:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_685.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "O U A T Pathology department chief Susen Kumar Panda said whether the birds were given one type of poison could not be ascertained in the postmortem",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_685"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_685:word:0008"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_830.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sub Divisional magistrate Saraikela Basharat Qayyum , then Civil Surgeon A N Dey, and S D P O Chandan Kumar were three members of the panel",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_830"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_830:word:0018"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_1659.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "This is just a barrier, says Kumar, If it breaks once boxing will get a medal at every Olympics",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1659"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1659:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_2271.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Kumar said this while speaking to reporters after the weekly Lok Samvad programme here",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2271"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2271:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_456.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "mint india wire C B I raids A A P Rajendra Kumar B J P Narendra Modi Arvind Kejriwal",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_456"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_456:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_2198.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The chief guest was Inspector General Jharkhand Police, Vipul Shukla and Head of Department, Administration J S S P S Rajesh Kumar Jaiswal, was the Guest of Honour",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_2198"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2198:word:0021"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_253.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Bhuvneshwar Kumar bowled a brilliant final over as S R H beat R C B in their Indian Premier League encounter in Hyderabad on Monday",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_253"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_253:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_271.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "But this has to be seen by the Competition Commission, M T N L chairman and M D Praveen Kumar Purwar told Financial Chronicle in an exclusive interview",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_271"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_271:word:0019"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_2905.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Dakshina Kannada M P Nalin Kumar Kateel lauded M R P L's social concern and also recalled its contribution towards the upgradation of Lady Goschen Hospital",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_2905"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2905:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1806.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Minister for Public Relations, Water Resources and Parliamentary Affairs Narottam Mishra said sensitivity is utmost essential in the society for protection of human rights",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1806"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1806:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3309.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "As per the order, Water Resources Department Secretary Ganesh Shankar Mishra was handed over additional charge of Secretary, Religious Trusts and Endowments Department",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3309"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3309:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3838.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "It features Rudra, Upasana, Rajkumar with supporting actors like Pushpa Panda, Jeena samal, Nilamani Sahoo, Rabi Mishra, Ram Balak , Rabi Kumar",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3838"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3838:word:0016"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_4093.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Vanya Mishra had got a direct entry in the final twenty after winning Dabur Gulabari Miss Rose Glow twenty eleven contest",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4093"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4093:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_431.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Mishra inaugurated Piyaoo constructed by one of the devotee near Gurudwara in front of Maa Pitambara Peeth in Datia",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_431"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_431:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_248.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Snehlata Mishra, a student of the University's P h D, has been selected for J R F of U G C",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_248"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_248:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3079.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Aashnitya Masih from Amity law School, Noida stood first, A K Roy from C N l U stood second and Nitesh Mishra from Amity University, lucknow stood third",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3079"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3079:word:0021"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5160.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Indian law is not not being followed in Shaheen Bagh, Chandbagh, Indralok, Mishra tweeted",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5160"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5160:word:0012"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_2846.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Unlikely, says Neelkanth Mishra of Credit Suisse, because of the low demand for credit now",
+        "utterance_id": "IISc_SPICORProject_EN_M_FOOD_2846"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_2846:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_1042.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The treatment was imparted under the able guidance of the newly posted diving Specialist Surgeon Commander Doctor Kamal Mishra, I N H S Dhanvantri",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1042"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1042:word:0018"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1956.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sonepur- The National Dengue Day was observed at the Tarbha C H C of Subarnmapur district under the chairmanship of hospital incharge Dr Khirod Kumar Mishra",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1956"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1956:word:0025"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3545.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Company Admin A V P Rakesh Mishra thanked the District Headquarters Hospital Blood Bank team for their support",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3545"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3545:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_4075.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Among others, district Collector Prem Chandra Chaudhury, A D M O Doctor Prasanta Kumar Patro, Jagadish Patro and District Malaria Officer Umakanta Mishra were present",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_4075"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_4075:word:0022"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5959.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sambalpur M L A Jayanarayan Mishra and Bhawanipatna M L A Pradipta Naik are in the race for the L o P post",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_5959"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5959:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_7086.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The M P batsmen again struggled to counter the guile of Mishra, who ran through the middle order",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_7086"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7086:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_7779.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Among others, former Judge Uma Charan Mishra, State general secretary Doctor Jagabandhu Sadangi, advisor Sudhir Mohanty and Dinabandhu Sadangi were present",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_7779"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7779:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_5618.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "At the Mint Luxury Conference held in Mumbai last week, I moderated a conversation with Milner on why manners maketh a man",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5618"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5618:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_5868.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Indian Oil, along with B P C L and H P C L, has a joint venture company called Mumbai Aviation Fuel Farm Facility Private",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5868"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5868:word:0019"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1240.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "This plant is based on the NISARGUNA technology developed by the Bhabha Atomic Research Centre , Mumbai, said Sunil Gupta, P R O, Tihar Prisons",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1240"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1240:word:0015"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1859.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Mumbai University, through its N S S wing, and Monk Prayogshala, an independent research institution, have also joined the campaign, designed by creative agency Madison B M B",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1859"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1859:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3905.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Khan's connection with Mumbai cricket is as deep as it gets-he grew up learning the game at the iconic-and overcrowded pitches of Azad Maidan",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3905"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3905:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_4923.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "From Mumbai, Mr Yadav is scheduled to leave for Bengaluru for consultation with experts at the G B S Global Medical Institute for kidney related problems",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_4923"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4923:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5632.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "It's been my best learning forum, says Mumbai based chartered accountant Shailesh Haribhakti, who runs audit and advisory firm Haribhakti Desai Consultants India",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5632"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5632:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_7440.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Doctor Sheilja Singh, consultant internal medicine at Hinduja Healthcare Surgical, Mumbai, says, That's because thyroid is a hormone associated with basic metabolic activity",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_7440"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7440:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_EVAL_00205.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Largest Mumbai is the cotton textile center in the country.",
+        "utterance_id": "IISc_SPICORProject_EN_M_EVAL_00205"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_EVAL_00205:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3088.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "By offering these soap bars, it is actually helping both ways, explained Doctor Naresh Gill, head of Mumbai operations, Doctor For You",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3088"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3088:word:0017"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_1082.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Gajanan Kale, M N S, Navi Mumbai president said that We are proud of our leader who always thinks for the people",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1082"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1082:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_2941.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "No casualties were reported after Mumbai Lucknow Lokmanya Tilak Express derailed, though some passengers received minor injuries",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_2941"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2941:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_3070.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "A former N C P, M L A from Worli in south central Mumbai, Ahir had informally met Uddhav and expressed his keenness to join the Shiv Sena",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_3070"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3070:word:0013"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_4742.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "After stumbling against Mumbai Indians, the MS Dhoni brigade was back on track with a convincing win against Kings Eleven Punjab",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_4742"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4742:word:0003"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_4865.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The Mumbai Mayor doesn't like movies, she said that she falls asleep when she takes her grandkids to the cinema hall",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_4865"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4865:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_3831.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "This was also the most attempted password used by cyber criminals to enter the Mumbai cloud server honeypot, according to a study by Sophos",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3831"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3831:word:0014"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3729.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Ram Sewak Sharma has also pushed Apple Inc to allow spam detection on the latest version of its i O S mobile operating software",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3729"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3729:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_423.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "TRAI chairman Sharma, who has accused Apple of colonising data, may be looking at regulating internet giants on this pretext",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_423"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_423:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1213.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "I I M Rohtak's director Dheeraj Sharma said the minister stressed the need for research in subjects such as agriculture, tribal affairs, the digital economy and entrepreneurship",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_1213"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1213:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_439.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sanjay Dhar, A E A Dhana Jarala, D P Sharma, A E A Ghar and Vimrash Jamwal A E A Rah were also present in the training programme",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_439"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_439:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_4918.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "He added that no discussion about the remarks about J K having a Hindu Chief Minister made by Sham Lal Sharma took place",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_4918"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4918:word:0020"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_647.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "J H M S song 'Phurrr'- Shah Rukh Khan and Anushka Sharma bring out their Punjabi dancing skills in this electronic, pop Punjabi number",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_647"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_647:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_FOOD_1138.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "At the workshop, sales tax officer Sher Singh Dabur, Assistant Sales Tax Officer Ajeet Bhale and Assistant Sales Tax Officer Jaya Sharma were present",
+        "utterance_id": "IISc_SPICORProject_EN_M_FOOD_1138"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_1138:word:0021"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2141.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "To all from Bageshwar Sharma: Life is like a river which has many turns, so enjoy every turn because these turns never return",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2141"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2141:word:0004"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3648.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "When Sharma was Minister for Mineral Resources, a conspiracy was hatched to sell the Devbhog diamond mines in Chhattisgarh to a foreign company",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3648"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3648:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_1795.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "I wanted to save my company so I renegotiated, says Sharma",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1795"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1795:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_272.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The High Court failed to appreciate before awarding death sentence to appellant Vinay Sharma that he was juvenile at the time of the incident, it said",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_272"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_272:word:0013"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_188.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "He was accompanied by B J P State President Sat Sharma , General Secretary , Ashok Koul, local M L A Ajay Nanda and party's M L C Ajatshatru Singh",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_188"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_188:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_3412.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sharma, K Skandan, Farooq Khan Advisors to Governor and B V R Subrahmanyam, Chief Secretary, participated in the meeting",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_3412"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3412:word:0000"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5375.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The M o U was signed by Additional Chief Secretary, Rakesh Sharma, M D, S I I D C U l Shailesh Bhagoli, and I C Indian Oil Executive Director A K Marchanda",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_5375"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5375:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_7886.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "However, the B J P fielded the sitting M P from Mandi, Ramswaroop Sharma, as its candidate, leaving Sukh Ram miffed with the party",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_7886"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7886:word:0013"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_237.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sojanyia Sharma and renowned members of Gandhi Global Family also spoke on the occasion and threw light on the life of the great leader",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_237"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_237:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1000.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The Marketing Officer of District Cooperative Central Bank Dhansiram Agrawal is appointed for Batauli, Sedam and Bataikela paddy procurement centres of Batauli development block",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1000"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_6231.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "In response to the discussion held at legislative Assembly on Friday, Minister for the aforesaid departments Brijmohan Agrawal talked at first about the",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6231"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6231:word:0017"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_580.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Sensex U P A Manmohan Singh Micex Bovespa Raamdeo Agrawal Prabhudas Lilladher Home",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_580"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_580:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1290.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Thirty two farmers from adopted villages of Animal Science division namely Sippighat, Coffee Baghia, Manglutan, Gupta para, Kamrajnagar and Maccapahar participated in this programme",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1290"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1290:word:0015"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6889.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "A prior knowledge of any statistics software is not necessary, says Professor Sumeet Gupta, one of the Program Directors",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6889"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6889:word:0013"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3549.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "To all from Arun Gupta- Life is a small gap between birth and death, so we have to enjoy our life",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3549"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3549:word:0004"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_4739.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Based on a tip off, Gupta was arrested from near Fountain crossing, Chandni Chowk, while he was on the lookout for another victim",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4739"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4739:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1326.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Mohammad Ismail Telil, Regional Joint Director, Kashmir, is transferred and posted as Director in the Agriculture and Production Department vice A K Gandotra",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1326"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1326:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_2712.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Jammu- Jammu Kashmir Medical Employees Federation during their visit of district Doda constituted new bodies at blocks Ukhral, Banihal and Ramban",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_2712"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2712:word:0002"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_4020.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Javeed Lone, the grieving father while talking to Kashmir Life said that he is feeling helpless as no one is helping them",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_4020"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_4020:word:0008"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_879.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Fayaz Kaloo has achieved height of success in a challenging time when Kashmir had literally no representative and the situation was not conducive",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_879"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_879:word:0012"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3216.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "One of the teams led by Mango police station O C, Arun Kumar Mahatha took the victim first to her native place in Raj Nagar,",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3216"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3216:word:0012"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3751.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "G S Jha Chairman C W C, A B Pandya, former Chairman, Central Water Commission, K S Popli C M D ,I R E D A and Ashvini Kumar M D,S E C I selected the best power utility",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3751"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3751:word:0028"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2454.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The A A P convenor said that incumbent Chief Minister Nitish Kumar will get another",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2454"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2454:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3832.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Fertiliser ministry chemical feedstock Myanmar Iran Ananth Kumar gas pooling petroleum ministry",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3832"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3832:word:0007"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_1530.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Mediapersons like Sarada lahangir, Bipin Bihari Mishra, Bhabani Mohapatra, Rabi Narayan Sahoo, Debranjan Sahoo would get awards among many other personalities",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1530"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1530:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6732.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The B J P leader said that Union minister Kalraj Mishra will go to Himachal Pradesh while Water Resources minister Uma Bharai will visit Assam",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6732"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6732:word:0010"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_2191.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Aama Odisha chairman Soumya Ranjan Patnaik and secretary Swaraj Mishra, volunteer Snehalata Prusty, Municipality Hospital Blood Bank Officer Jayadev Ghosh were present",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2191"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2191:word:0009"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_7336.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Cuttack railway D S P Trinath Mishra added that both the passengers had sustained multiple injuries after coming under the wheels of the trains",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_7336"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_7336:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3128.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Hyderabad has the cheapest rents on average and Mumbai the dearest among the six largest metro cities, shows a Mint analysis",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3128"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3128:word:0008"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_4194.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "To hear the acclaimed writer of Alice in Bhuleshwar- Navigating a Mumbai Neighbourhood, join the discussion at Pen at Prithvi this evening",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_4194"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4194:word:0011"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2923.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Home Mumbai News Sharad Pawar's N C P cosying up to B J P",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2923"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2923:word:0001"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_6514.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Second, the Left Front Government encouraged its storm troopers to forcibly prevent the deportation of illegal Bangladeshi migrants from Mumbai",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_6514"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_6514:word:0019"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3078.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "After T H C , C B D is the largest cannabinoid available in cannabis plants, says Rohit Sharma, president and founder, Indian Industrial Hemp Association",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3078"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3078:word:0017"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5238.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "On the other hand, Aayush Sharma is learning Marathi for his role in the Hindi remake of the critically acclaimed Marathi hit Mulshi Pattern",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5238"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5238:word:0005"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_41.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "I remember an ad after Chetan Sharma got knocked out for a last ball six by Miandad at Sharjah",
+        "utterance_id": "IISc_SPICORProject_EN_M_OTHE_41"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_41:word:0006"
+    },
+    {
+      "native_reference": {
+        "audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_2858.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "However, this year, we plan to monitor the sound and air pollution levels on and after Diwali, said J B Sharma, regional officer, H S P C B",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_2858"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2858:word:0020"
+    }
+  ],
+  "schema_version": "stage2d2-trajectory-pairing-plan-v0.2"
+}

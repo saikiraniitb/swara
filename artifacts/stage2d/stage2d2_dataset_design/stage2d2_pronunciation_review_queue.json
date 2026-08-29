@@ -1,0 +1,3409 @@
+{
+  "count": 100,
+  "items": [
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Panchayat",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1044:word:0024",
+          "preceding_word": "Bodla",
+          "transcript": "He was also instructed to issue show cause notice to Assistant labour Inspector G K Nihania, Assistant Director Horticulture and C M O Bodla Nagar Panchayat"
+        },
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1712:word:0004",
+          "preceding_word": "Azad",
+          "transcript": "A resident of Azad Nagar in Mango area of the steel city, Muzahiri was absconding for about three years"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3167:word:0015",
+          "preceding_word": "Sarojini",
+          "transcript": "Onion prices are giving competition to petrol prices, said Tara Rana, a resident of Sarojini Nagar"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3216:word:0024",
+          "preceding_word": "Raj",
+          "transcript": "One of the teams led by Mango police station O C, Arun Kumar Mahatha took the victim first to her native place in Raj Nagar,"
+        },
+        {
+          "following_word": "Irrigation",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3416:word:0004",
+          "preceding_word": "Pancham",
+          "transcript": "Work on the Pancham Nagar Irrigation project has been completed and Sajli beside Satdharu Irrigation Projects have been sanctioned"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "nagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 49,
+      "review_rank": 1,
+      "training_eligible": false,
+      "word": "Nagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "overlooks",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3226:word:0015",
+          "preceding_word": "in",
+          "transcript": "The Indira Gandhi Memorial Tulip Garden, located in the foothills of the Zabarwan hill in Srinagar, overlooks the famous Dal Lake"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4354:word:0015",
+          "preceding_word": "Kuti",
+          "transcript": "Union Water Resources Minister Uma Bharti will attend the events lined up in Vidhur Kuti, Srinagar and Devprayag that day, an official statement said"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6022:word:0022",
+          "preceding_word": "Rangreth",
+          "transcript": "Professor Nazeer has done appreciable work in past as well especially during his tenure as Director Central Institute of Temperate Horticulture Rangreth Srinagar"
+        },
+        {
+          "following_word": "at",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6624:word:0018",
+          "preceding_word": "U",
+          "transcript": "The Agromet Field Unit organised a Farmer Awareness Programme under Gramin Krishi Mausam Sewa A M F U Srinagar at S K U A S T Shalimar campus on Saturday here"
+        },
+        {
+          "following_word": "Professor",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1188:word:0004",
+          "preceding_word": "College",
+          "transcript": "Principal Government Medical College, Srinagar, Professor Kaisar Ahmad on Tuesday urged the people to cooperate with hospital staff in the interest of patient care"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "srinagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 41,
+      "review_rank": 2,
+      "training_eligible": false,
+      "word": "Srinagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "recently",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1065:word:0004",
+          "preceding_word": "in",
+          "transcript": "Frazzled scientists gathered in Hyderabad recently to celebrate the silver jubilee of the Directorate of Rice Research"
+        },
+        {
+          "following_word": "has",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3128:word:0000",
+          "preceding_word": null,
+          "transcript": "Hyderabad has the cheapest rents on average and Mumbai the dearest among the six largest metro cities, shows a Mint analysis"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_594:word:0021",
+          "preceding_word": "in",
+          "transcript": "But at this stage it is too early to make any judgmental evaluation of the policy, Sharma had told Mint in Hyderabad"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1360:word:0014",
+          "preceding_word": "Research",
+          "transcript": " Prashant Reddy T assistant professor at the National Academy For Legal Studies and Research , Hyderabad"
+        },
+        {
+          "following_word": "on",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1800:word:0013",
+          "preceding_word": "in",
+          "transcript": "Powerhitter Shimron Hetmyer, right, and Kesrick Williams, left, attend a training session in Hyderabad on Thursday"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "hyderabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 30,
+      "review_rank": 3,
+      "training_eligible": false,
+      "word": "Hyderabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1178:word:0016",
+          "preceding_word": "in",
+          "transcript": "On the occasion, the Board announced the launch of Atal Incubation Centre at Coffee Board in Bengaluru"
+        },
+        {
+          "following_word": "after",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1914:word:0010",
+          "preceding_word": "of",
+          "transcript": "Water gushed out of Hulimavu lake onto the streets of Bengaluru after the lakebund was reportedly damaged Sunday afternoon"
+        },
+        {
+          "following_word": "processing",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2027:word:0004",
+          "preceding_word": "department's",
+          "transcript": "Once the tax department's Bengaluru processing centre receives it, a confirmation of receipt will be emailed to you"
+        },
+        {
+          "following_word": "Mahanagara",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4918:word:0006",
+          "preceding_word": "Bruhat",
+          "transcript": "For several months now, the Bruhat Bengaluru Mahanagara Palike has been white topping between Hope Farm and Belathur via Kadugodi Road"
+        },
+        {
+          "following_word": "neighbourhood",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5897:word:0003",
+          "preceding_word": "the",
+          "transcript": "Synonymous with the Bengaluru neighbourhood of Basavanagudi, where the Bull Temple is located, the festival showcases south India's groundnut varieties"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "bengaluru",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 28,
+      "review_rank": 4,
+      "training_eligible": false,
+      "word": "Bengaluru"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "on",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1686:word:0013",
+          "preceding_word": "in",
+          "transcript": "Honey Singh in a hotel during interaction for his upcoming film Zoravar in Chandigarh on Saturday"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3174:word:0020",
+          "preceding_word": "School",
+          "transcript": "It is imperative they understand different work environments and cultures, says Atul Khanna, the director of Strawberry Fields High School, Chandigarh"
+        },
+        {
+          "following_word": "Aam",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_452:word:0000",
+          "preceding_word": null,
+          "transcript": "Chandigarh Aam Aadmi Party's candidate Gul Panag was joined by singer Rabbi Shergill at Rose Garden here during her poll campaigning on Sunday"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5612:word:0006",
+          "preceding_word": "in",
+          "transcript": "Amaira attends Strawberry Fields School in Chandigarh and mostly speaks English"
+        },
+        {
+          "following_word": "In",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3548:word:0000",
+          "preceding_word": null,
+          "transcript": "Chandigarh- In the second year of the March exam series, Cambridge has seen uptake of its exams more than double"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chandigarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 24,
+      "review_rank": 5,
+      "training_eligible": false,
+      "word": "Chandigarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "State",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3898:word:0007",
+          "preceding_word": "that",
+          "transcript": "Chairman of the Society, Baisakhu said that Chhattisgarh State Handloom and Marketing Cooperative Federation has been providing threads to the handloom weavers"
+        },
+        {
+          "following_word": "to",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4531:word:0003",
+          "preceding_word": "in",
+          "transcript": "Paddy procurement in Chhattisgarh to resume in full swing buoyed by M S P hike"
+        },
+        {
+          "following_word": "State",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4977:word:0020",
+          "preceding_word": "M",
+          "transcript": "Further, A G M, C S F D C, Rajesh Gowardhan has been given the charge of A G M Chhattisgarh State Small Forest Produce Federation"
+        },
+        {
+          "following_word": "Government",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5302:word:0001",
+          "preceding_word": "The",
+          "transcript": "The Chhattisgarh Government is awaiting environmental clearance for construction of a key Barrage on Hasdeo River in Janjgir Champa district, official sources informed"
+        },
+        {
+          "following_word": "under",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6911:word:0016",
+          "preceding_word": "in",
+          "transcript": "The Bank is funding three major irrigation projects, namely, Kelo, Kharung and Maniyari Tank Scheme in Chhattisgarh under the long Term Irrigation Fund"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chhattisgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 19,
+      "review_rank": 6,
+      "training_eligible": false,
+      "word": "Chhattisgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Rabi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1821:word:0007",
+          "preceding_word": "Debasish",
+          "transcript": "The company's management includes Shashwat Goenka, Debasish Banerjee, Rabi Chowdhury, Pratip Chaudhuri, Kalaikuruchi Jairaj, Rekha Sethi, Chandra Kumar Dhanuka, Pradip Kumar Khaitan, Sanjiv Goenka"
+        },
+        {
+          "following_word": "had",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3:word:0002",
+          "preceding_word": "Ritabrata",
+          "transcript": "Mr Ritabrata Banerjee had been earlier criticised on social media by a party sympathiser for using an Apple watch and Mont Blanc pen"
+        },
+        {
+          "following_word": "goes",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_16:word:0010",
+          "preceding_word": "Mamata",
+          "transcript": "V B U professors support C A A as Mamata Banerjee goes all out against citizenship law"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3529:word:0019",
+          "preceding_word": "Tanmoy",
+          "transcript": "He is being treated by a panel of specialists which includes pulmonologist Nandini Biswas, internal medicine and intensivist Tanmoy Banerjee"
+        },
+        {
+          "following_word": "find",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4006:word:0002",
+          "preceding_word": "Dibakar",
+          "transcript": "A Dibakar Banerjee find, Rao earlier showed her skills in films Band Baaja Baaraat, Ishqiya, Oye Lucky Lucky Oye"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "banerjee",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 18,
+      "review_rank": 7,
+      "training_eligible": false,
+      "word": "Banerjee"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "fascinating",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1933:word:0006",
+          "preceding_word": "in",
+          "transcript": "In the Physical Research Laboratory in Ahmedabad, fascinating studies are still being made of meteorites that have what J N"
+        },
+        {
+          "following_word": "based",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3516:word:0001",
+          "preceding_word": "The",
+          "transcript": "The Ahmedabad based Alt News, which collaborates with Google, recently hosted five day workshops for journalists, teaching them the ropes of fighting fake news"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_EVAL_00238:word:0010",
+          "preceding_word": "of",
+          "transcript": "The of streets this city worse are than those of Ahmedabad."
+        },
+        {
+          "following_word": "Harishchandrachi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1606:word:0016",
+          "preceding_word": "Management",
+          "transcript": "Connect the Dots Rashmi Bansal M B A Stay Hungry Stay Foolish Indian Institute of Management Ahmedabad Harishchandrachi Factory Audio story Business of Life Workplace"
+        },
+        {
+          "following_word": "Doctor",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1826:word:0004",
+          "preceding_word": "of",
+          "transcript": "Eminent Plastic Surgeon of Ahmedabad Doctor P K Bilwani, Doctor Anand Kale and Harishankar Singh of Bhopal have diagnosed and operated on those patients"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "ahmedabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 12,
+      "review_rank": 8,
+      "training_eligible": false,
+      "word": "Ahmedabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Karda",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2095:word:0005",
+          "preceding_word": "Nu",
+          "transcript": "Angrezi Medium song Nachan Nu Jee Karda- Radhika Madan dances her heart out, aces Hrithik, Ranveer Singh's movies"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2431:word:0001",
+          "preceding_word": "Madan",
+          "transcript": "Madan Jee and Company in Delhi's Chandni Chowk is where you would take your dad's D S L R and aunt's Polaroid for a retune"
+        },
+        {
+          "following_word": "Jaan",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2786:word:0016",
+          "preceding_word": "Hum",
+          "transcript": "Ashutosh is renowned for his research and we did a lot of it for Khele Hum Jee Jaan Se"
+        },
+        {
+          "following_word": "International",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3560:word:0011",
+          "preceding_word": "Das",
+          "transcript": "Air Asia inaugurated the direct flight from Sri Guru Ram Das Jee International Airport to Kuala Lumpur , here"
+        },
+        {
+          "following_word": "Jaan",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3572:word:0013",
+          "preceding_word": "Hum",
+          "transcript": "This will be his fourth film after Lagaan, Jodha Akbar and Khelein Hum Jee Jaan Se"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jee",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 10,
+      "review_rank": 9,
+      "training_eligible": false,
+      "word": "Jee"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Orange",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4243:word:0006",
+          "preceding_word": "Paintings",
+          "transcript": "Darjeeling Tea, Tirupati Laddu, Kangra Paintings, Nagpur Orange and Kashmir Pashmina are among the registered G Is in India"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3486:word:0007",
+          "preceding_word": "Pune",
+          "transcript": "He set up tailoring shops in Pune, Nagpur and Bhandara, but somehow his skills did not impress customers any more"
+        },
+        {
+          "following_word": "on",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3545:word:0022",
+          "preceding_word": "in",
+          "transcript": "R S S chief Mohan Bhagwat and other leaders at the valedictory function of a training camp of Rashtriya Swayamsevak Sangh in Nagpur on Thursday"
+        },
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_522:word:0021",
+          "preceding_word": "at",
+          "transcript": "Fadnavis and Gadkari attended the M S S's state conclave last August and the inauguration of the Baliraja Research Institute at Nagpur in December"
+        },
+        {
+          "following_word": "Training",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_120:word:0013",
+          "preceding_word": "of",
+          "transcript": "Formal beginning of Sangh took place in Doctor Hedgewar's house in Sukrawadi of Nagpur Training in drill, march et cetera was imparted on Sundays"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "nagpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 10,
+      "review_rank": 10,
+      "training_eligible": false,
+      "word": "Nagpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1049:word:0011",
+          "preceding_word": "S",
+          "transcript": "Medical officers and staff under C M O and M S Dimapur also attended the meeting"
+        },
+        {
+          "following_word": "district",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1414:word:0023",
+          "preceding_word": "in",
+          "transcript": "A press release by the department stated that the training was held as part of preparedness activities to introduce R V V in Dimapur district"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2737:word:0017",
+          "preceding_word": "in",
+          "transcript": "Meanwhile, D P C has thanked Kallol Dey for conducting the training programme for the journalists in Dimapur"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6261:word:0022",
+          "preceding_word": "and",
+          "transcript": "One month Yoga training was carried out at Unit Head Quarter Zubza, Kohima as well as Company locations deployed at Kohima and Dimapur"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6262:word:0013",
+          "preceding_word": "Lengrijan",
+          "transcript": "The advisor also visited the Excise Residential Complex cum Training Centre at Lengrijan, Dimapur and took stock of the progress of the newly constructed training facility"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "dimapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 9,
+      "review_rank": 11,
+      "training_eligible": false,
+      "word": "Dimapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "based",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4377:word:0002",
+          "preceding_word": "December",
+          "transcript": "In December, Jaipur based law firm Capstone Legal tied up with Washington Based techfirm Knovos to develop the electronic discovery practice in India"
+        },
+        {
+          "following_word": "said",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7315:word:0009",
+          "preceding_word": "to",
+          "transcript": "We gave him first aid and referred him to Jaipur, said R R Yadav, Principal Medical Officer, Kotputli"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1479:word:0017",
+          "preceding_word": "Hospital",
+          "transcript": "The Cardiac Transplant Team from F E H I flew down to E H C C Hospital, Jaipur and retrieved the heart from the donor at one p m on Saturday"
+        },
+        {
+          "following_word": "One",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2327:word:0008",
+          "preceding_word": "in",
+          "transcript": "Kashmiri Boy Beaten to Death By CoWorkers in Jaipur, One Arrested"
+        },
+        {
+          "following_word": "Vishwa",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3594:word:0010",
+          "preceding_word": "in",
+          "transcript": "Evening news briefing- Three persons with Coronavirus symptoms admitted in Jaipur, Vishwa Hindu Mahasabha chief shot dead, and more"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jaipur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 9,
+      "review_rank": 12,
+      "training_eligible": false,
+      "word": "Jaipur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "forest",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2891:word:0010",
+          "preceding_word": "said",
+          "transcript": "Bamboo plantation can be an alternative to jhum cultivation, said Manipur forest and environment minister Thounaojam Shyamkumar Singh on Friday"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1682:word:0023",
+          "preceding_word": "and",
+          "transcript": "These violations can be tackled only if the black A F P S A law is withdrawn in its entirety from Kashmir and Manipur"
+        },
+        {
+          "following_word": "who",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_236:word:0008",
+          "preceding_word": "from",
+          "transcript": "Bishwajit Singh is a martial art expert from Manipur, who is training the students in Thangta"
+        },
+        {
+          "following_word": "militant",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3963:word:0010",
+          "preceding_word": "and",
+          "transcript": "Scores of training camps of N S C N and Manipur militant outfits are located across the Irrawaddy River close to the I B"
+        },
+        {
+          "following_word": "Centre",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3973:word:0019",
+          "preceding_word": "council",
+          "transcript": "The fall armyworm pest, which is native to America, was detected in Lamphel and Langol Research farm of council, Manipur Centre"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "manipur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 8,
+      "review_rank": 13,
+      "training_eligible": false,
+      "word": "Manipur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1284:word:0012",
+          "preceding_word": "in",
+          "transcript": "Moreover, a health checkup camp was organised at Wagon Repair Shop in Raipur"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1135:word:0017",
+          "preceding_word": "M",
+          "transcript": "The panel discussion concluded with a summary of discussion by Professor Debdatta Pal of I I M Raipur"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1959:word:0017",
+          "preceding_word": "College",
+          "transcript": "During the protest, doctors and medical students took out a march from Pandit Jawaharlal Nehru Medical College, Raipur"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5390:word:0019",
+          "preceding_word": "in",
+          "transcript": "Their arms training is intense, fashioned after modules of the Liberation Tigers of Tamil Eelam , say intelligence officers in Raipur and Dantewada"
+        },
+        {
+          "following_word": "J",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6522:word:0012",
+          "preceding_word": "institute",
+          "transcript": "A P C C F Chhattisgarh state forest academy and training institute Raipur, J A C S Rao was appointed as C E O of Chhattisgarh State Medicinal Plant Board"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "raipur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 8,
+      "review_rank": 14,
+      "training_eligible": false,
+      "word": "Raipur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "told",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1365:word:0018",
+          "preceding_word": "Hironmoy",
+          "transcript": "They have not allowed any sports team to travel to Pakistan, A I T A Secretary General Hironmoy Chatterjee told P T I"
+        },
+        {
+          "following_word": "today",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2465:word:0009",
+          "preceding_word": "Shourjo",
+          "transcript": "Accountant General Sushil Kumar Thakur and Accountant General Shourjo Chatterjee today called on the governor, a Raj Bhawan spokesman said"
+        },
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3463:word:0020",
+          "preceding_word": "Sovan",
+          "transcript": "The C B I has summoned Trinamool Congress M P Aparupa Poddar and Trinamool Turned B J P leader Sovan Chatterjee in connection with the Narada sting case"
+        },
+        {
+          "following_word": "said",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4084:word:0009",
+          "preceding_word": "respect",
+          "transcript": "I have come here to pay my last respect Chatterjee said outside Shaktinagar Hospital where the body of the T M C M L A has been kept"
+        },
+        {
+          "following_word": "said",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_6202:word:0015",
+          "preceding_word": "Hironmoy",
+          "transcript": "He should be given the award this time, A I T A Secretary General Hironmoy Chatterjee said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chatterjee",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 7,
+      "review_rank": 15,
+      "training_eligible": false,
+      "word": "Chatterjee"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_226:word:0015",
+          "preceding_word": "to",
+          "transcript": "The social engineering formula worked and B J P won seats spreading from Sonbhadra to Gorakhpur"
+        },
+        {
+          "following_word": "B",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6944:word:0000",
+          "preceding_word": null,
+          "transcript": "Gorakhpur B R D Medical College Yogi Adityanath Children's death Uttar Pradesh Siddharth Nath Singh Congress B J P"
+        },
+        {
+          "following_word": "hospital",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_529:word:0000",
+          "preceding_word": null,
+          "transcript": "Gorakhpur hospital tragedy- Doctor Kafeel Khan charged with attempt to murder"
+        },
+        {
+          "following_word": "through",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_568:word:0006",
+          "preceding_word": "to",
+          "transcript": "These people would be brought to Gorakhpur through Saunauli border, he said"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7843:word:0004",
+          "preceding_word": "the",
+          "transcript": "Chaudhry said recently the Gorakhpur M P related riots with muslim population creating a new controversy"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "gorakhpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 7,
+      "review_rank": 16,
+      "training_eligible": false,
+      "word": "Gorakhpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "lehengas",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3176:word:0002",
+          "preceding_word": "Sabyasachi",
+          "transcript": "From Sabyasachi Mukherjee lehengas to Raw Mango saris, the actor has been seen experimenting with all sorts of designs and fabrics"
+        },
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1440:word:0006",
+          "preceding_word": "Chandrajit",
+          "transcript": "My hurdles were minimised by Chandrajit Mukherjee, a local journalist lawyer who assisted me with his research during this phase"
+        },
+        {
+          "following_word": "said",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4312:word:0000",
+          "preceding_word": null,
+          "transcript": "Mukherjee said there was a time when we had renowned seats of learning like Takshashila, Nalanda, Vikramashila, Valabi, Somapura and Odantapuri"
+        },
+        {
+          "following_word": "Hippocrates",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2873:word:0011",
+          "preceding_word": "Siddhartha",
+          "transcript": "Cancer Book Review The Emperor of All Maladies America Atossa Siddhartha Mukherjee Hippocrates Lounge"
+        },
+        {
+          "following_word": "Overseas",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1319:word:0005",
+          "preceding_word": "Ajoyendra",
+          "transcript": "T C S Hiring Ajoyendra Mukherjee Overseas Outsourcing Employee Strength S M Es Corporate News Sector Spotlight"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "mukherjee",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 7,
+      "review_rank": 17,
+      "training_eligible": false,
+      "word": "Mukherjee"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "has",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6797:word:0004",
+          "preceding_word": "Board",
+          "transcript": "The Pollution Control Board, Sambalpur, has issued a show cause notice against Sherawali Rice Industry at Banipali under Bheden Block recently"
+        },
+        {
+          "following_word": "Based",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4671:word:0008",
+          "preceding_word": "thanked",
+          "transcript": "On the occasion, the Chief Minister also thanked Sambalpur Based I B S Coaching Institute for providing coaching to Nayak free of cost"
+        },
+        {
+          "following_word": "The",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4675:word:0000",
+          "preceding_word": null,
+          "transcript": "Sambalpur- The Mahanadi Coalfields limited's Department of Vigilance organised a twoday training programme on Departmental Inquiry at the company headquarters here from Wednesday"
+        },
+        {
+          "following_word": "Range",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_4567:word:0002",
+          "preceding_word": "Tax",
+          "transcript": "Income Tax Sambalpur Range Deputy Commissioner M Kullu graced the occasion as chief guest"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3562:word:0002",
+          "preceding_word": "others",
+          "transcript": "Among others, Sambalpur M P Nagendra Pradhan and Dhenkanal M P Thathagata Satpathy were present"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sambalpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 7,
+      "review_rank": 18,
+      "training_eligible": false,
+      "word": "Sambalpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "city",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6706:word:0015",
+          "preceding_word": "of",
+          "transcript": "said Rehman, perched in a chair outside his Pahalwan Dairy Farm on the outskirts of Aligarh city"
+        },
+        {
+          "following_word": "as",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2330:word:0008",
+          "preceding_word": "described",
+          "transcript": "Another Muslim leader, Zia ul Hasan Faruqui described Aligarh as the training centre of the Mujahideen i Pakistan"
+        },
+        {
+          "following_word": "Saharanpur",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3530:word:0017",
+          "preceding_word": "in",
+          "transcript": "The government also proposes a forensic university, one Ayush and one law university, three State universities in Aligarh, Saharanpur and Azamgarh"
+        },
+        {
+          "following_word": "Muslim",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5981:word:0014",
+          "preceding_word": "from",
+          "transcript": "Geelani has done his schooling in Kandi Karnah and completed his law degree from Aligarh Muslim University"
+        },
+        {
+          "following_word": "did",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2521:word:0001",
+          "preceding_word": "Like",
+          "transcript": "Like Aligarh did last year, the festival will open with an Indian film- Konkona Sensharma's intriguing looking A Death in the Gunj"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "aligarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 6,
+      "review_rank": 19,
+      "training_eligible": false,
+      "word": "Aligarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_220:word:0017",
+          "preceding_word": "Kannauj",
+          "transcript": "As per Central Water Commission today, the Ganga river was flowing over danger mark in Bulandshahr, Kannauj, Allahabad and Mirzapur districts"
+        },
+        {
+          "following_word": "was",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2172:word:0000",
+          "preceding_word": null,
+          "transcript": "Allahabad was perhaps the leading centre of learning east of the Suez"
+        },
+        {
+          "following_word": "proves",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5003:word:0009",
+          "preceding_word": "in",
+          "transcript": "Similarly, the daylight murder of lawyer Ravi Tiwari in Allahabad proves that law and order hasgone for a toss in the state, she charged"
+        },
+        {
+          "following_word": "Bank",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_1771:word:0011",
+          "preceding_word": "removed",
+          "transcript": "Public sector banks were trading higher after R B I removed Allahabad Bank, Corporation Bank, Dhanlaxmi Bank out of P C A framework"
+        },
+        {
+          "following_word": "Bank",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_3137:word:0014",
+          "preceding_word": "by",
+          "transcript": "Thorat was here to inaugurate the Financial Literacy and Credit Counselling Centre promoted by Allahabad Bank"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "allahabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 6,
+      "review_rank": 20,
+      "training_eligible": false,
+      "word": "Allahabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "under",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3841:word:0016",
+          "preceding_word": "and",
+          "transcript": "They also agreed to include Deoghar under HRIDAY and different urban units in Ramgarh, Mango and Jamshedpur under AMRUT"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4750:word:0011",
+          "preceding_word": "in",
+          "transcript": "Tayo Rolls limited is a metal fabrication and processing company in Jamshedpur and a subsidiary of Tata Steel"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5046:word:0007",
+          "preceding_word": "to",
+          "transcript": "Having fled Kanpur, Rabi had returned to Jamshedpur and started ragpicking which was his source of income, said Nathani"
+        },
+        {
+          "following_word": "Deogarh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_178:word:0012",
+          "preceding_word": "Ranchi",
+          "transcript": "On the sidelines of the festival training is being imparted in Ranchi, Jamshedpur, Deogarh and Dhanbad"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3391:word:0006",
+          "preceding_word": "M",
+          "transcript": "Also, faculties of M G M, Jamshedpur and P M C H, Dhanbad would be given promotion as per the timelines fixed by the Medical Council of India"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jamshedpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 6,
+      "review_rank": 21,
+      "training_eligible": false,
+      "word": "Jamshedpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6870:word:0008",
+          "preceding_word": "and",
+          "transcript": "Insecticides has formulation facilities at Chopanki , Samba and Udhampur and Dahej"
+        },
+        {
+          "following_word": "Srinagar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_138:word:0002",
+          "preceding_word": "the",
+          "transcript": "On the Udhampur Srinagar Baramulla rail link project, he said that the work was halted because of a law and order issue in Jammu and Kashmir"
+        },
+        {
+          "following_word": "Katra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4251:word:0008",
+          "preceding_word": "Bhaderwah",
+          "transcript": "Requires Salesman for Jammu, Poonch, Rajouri, Doda, Bhaderwah, Udhampur, Katra, Kathua, Experience in selling of F M C Products with good communication skills and target oriented"
+        },
+        {
+          "following_word": "celebrated",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_3818:word:0002",
+          "preceding_word": "Parivar",
+          "transcript": "Aaykar Parivar Udhampur celebrated Independence Day at Income Tax Office, Udhampur where the National Flag was unfurled by Income Tax Officer, Durga Kaul"
+        },
+        {
+          "following_word": "where",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_3818:word:0010",
+          "preceding_word": "Office",
+          "transcript": "Aaykar Parivar Udhampur celebrated Independence Day at Income Tax Office, Udhampur where the National Flag was unfurled by Income Tax Officer, Durga Kaul"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "udhampur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 6,
+      "review_rank": 22,
+      "training_eligible": false,
+      "word": "Udhampur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "police",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5171:word:0011",
+          "preceding_word": "for",
+          "transcript": "Phantom and Honey are proving to be most reliable investigators for Azamgarh police"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3530:word:0020",
+          "preceding_word": "and",
+          "transcript": "The government also proposes a forensic university, one Ayush and one law university, three State universities in Aligarh, Saharanpur and Azamgarh"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3869:word:0017",
+          "preceding_word": "in",
+          "transcript": "By Subhashini Ali, Some years ago, I had met Ishrat Jahan’s mother, Shamima, at a meeting in Azamgarh"
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_8299:word:0011",
+          "preceding_word": "from",
+          "transcript": "Gautam, a former M P and M L C, is from Azamgarh, the constituency represented by Akhilesh Yadav in the Lok Sabha"
+        },
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2906:word:0001",
+          "preceding_word": "In",
+          "transcript": "In Azamgarh,a couple was killed after a house collapsed due to heavy rains in Tadi village Saturday evening"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "azamgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 5,
+      "review_rank": 23,
+      "training_eligible": false,
+      "word": "Azamgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Lodhi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6881:word:0012",
+          "preceding_word": "in",
+          "transcript": "No stone was being left unturned to maintain law and order in Sultanpur Lodhi, he added"
+        },
+        {
+          "following_word": "Majra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2864:word:0006",
+          "preceding_word": "from",
+          "transcript": "The sitting M L A from Sultanpur Majra seat is Sandeep Kumar of the A A P"
+        },
+        {
+          "following_word": "Lodhi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7217:word:0000",
+          "preceding_word": null,
+          "transcript": "Sultanpur Lodhi M L A Navtej Singh Cheema said Singh has only opined that the time is not right for Rahul to be the leader"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7663:word:0022",
+          "preceding_word": "from",
+          "transcript": "In place of Sanjay Singh, his wife Amita, the former M L A from Amethi, has been given a party ticket from Sultanpur"
+        },
+        {
+          "following_word": "village",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2023:word:0011",
+          "preceding_word": "in",
+          "transcript": "Afghan female labourer Sitara Wafadar collects water near her home in Sultanpur village in Surkh Rod district, in eastern Nangarhar province"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sultanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 5,
+      "review_rank": 24,
+      "training_eligible": false,
+      "word": "Sultanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "railway",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3893:word:0007",
+          "preceding_word": "in",
+          "transcript": "Following modernisation of Champa railway yard in Bilaspur railway division under South East Central Railway zone, several trains travelling via Tatanagar will be hit"
+        },
+        {
+          "following_word": "Mandi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2085:word:0012",
+          "preceding_word": "at",
+          "transcript": "Besides, H R T C was establishing modern driver training institutes at Bilaspur, Mandi, Kullu, Taradevi and Jasur"
+        },
+        {
+          "following_word": "Raman",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3813:word:0002",
+          "preceding_word": "Sterlisation",
+          "transcript": "Chattisgarh Sterlisation Bilaspur Raman Singh Surgery Narendra Modi Family Planning health"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4650:word:0016",
+          "preceding_word": "Rajnandgaon",
+          "transcript": "It has been said that in the first list, candidates from Bastar, Kanker, Surguja, Raigarh, Rajnandgaon, Bilaspur and Janjgir Champa would be declared"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "bilaspur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 25,
+      "training_eligible": false,
+      "word": "Bilaspur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_7288:word:0028",
+          "preceding_word": "in",
+          "transcript": "C B I also claims that the S I T did not inform the agency that there was already an F I R against Rose Valley group in Durgapur"
+        },
+        {
+          "following_word": "severed",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_135:word:0008",
+          "preceding_word": "in",
+          "transcript": "However, Shushrusha Heart Care and Mission Hospital in Durgapur severed ties to the heart programme after the price gouging allegations, according to their directors"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1718:word:0023",
+          "preceding_word": "downtown",
+          "transcript": "Working with a consulting firm hired by Medtronic, the hospital published ads in newspapers promoting Healthy Heart and organised promotional events in downtown Durgapur"
+        },
+        {
+          "following_word": "Mumbai",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2744:word:0002",
+          "preceding_word": "Delhi",
+          "transcript": "The Delhi Durgapur Mumbai flights are expected to start from August this year, Dhar said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "durgapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 26,
+      "training_eligible": false,
+      "word": "Durgapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1981:word:0022",
+          "preceding_word": "Sciences",
+          "transcript": "Ashok Rajgopal, chairman, Fortis Bone and Joint Institute, F M R I, Gurugram, Vibha Bajpaiee, senior nutritionist, Asian Institute of Medical Sciences, Faridabad"
+        },
+        {
+          "following_word": "one",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3227:word:0006",
+          "preceding_word": "from",
+          "transcript": "Six athletes from Jhajjar, four from Faridabad, one from Bhiwani and two from Kurukshetra will take part in the training camp"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7853:word:0021",
+          "preceding_word": "and",
+          "transcript": "B J P candidates maintained lead in all nine segments in six parliamentary constituencies Ambala, Bhiwani, Mahendragarh, Karnal, Kurukshetra, Sirsa and Faridabad"
+        },
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2807:word:0015",
+          "preceding_word": "Gujarat",
+          "transcript": "Adani Gas has set up city gas distribution networks at Ahmedabad and Vadodara in Gujarat, Faridabad in Haryana and Khurja in Uttar Pradesh"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "faridabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 27,
+      "training_eligible": false,
+      "word": "Faridabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Ankinghat",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2377:word:0018",
+          "preceding_word": "at",
+          "transcript": "Meanwhile, Central Water Commission sources said that the Ganga continued to flow close to the danger mark at Fatehgarh, Ankinghat and Kanpur"
+        },
+        {
+          "following_word": "Sahib",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6104:word:0018",
+          "preceding_word": "the",
+          "transcript": "She worked her way up through training courses and exams and is an assistant sub inspector at the Fatehgarh Sahib District headquarters in Punjab"
+        },
+        {
+          "following_word": "Sahib",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4827:word:0012",
+          "preceding_word": "the",
+          "transcript": "With Harbans Kaur Dullo joining A A P, we will win the Fatehgarh Sahib seat and it will give our party candidates an edge in other segments"
+        },
+        {
+          "following_word": "Sahib",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3232:word:0008",
+          "preceding_word": "Gurdwara",
+          "transcript": "The panel is due to meet at Gurdwara Fatehgarh Sahib"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "fatehgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 28,
+      "training_eligible": false,
+      "word": "Fatehgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4451:word:0014",
+          "preceding_word": "in",
+          "transcript": "Must Watch- Turning to real Punjabi values - A simple yet graceful Sikh wedding in Gurdaspur"
+        },
+        {
+          "following_word": "ultras",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2491:word:0000",
+          "preceding_word": null,
+          "transcript": "Gurdaspur ultras came from Pak via Ravi, had more sinister plans"
+        },
+        {
+          "following_word": "constituency",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1126:word:0018",
+          "preceding_word": "vast",
+          "transcript": "On the other hand, Punjab Congress chief Partap Singh Bajwa will make a whirlwind tour of his vast Gurdaspur constituency on Monday"
+        },
+        {
+          "following_word": "Halwara",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3750:word:0016",
+          "preceding_word": "Faridkot",
+          "transcript": "According to the Meteorological department officials here, rain lashed Amritsar, Ludhiana, Patiala, Adampur, Pathankot, Bathinda, Faridkot, Gurdaspur, Halwara, Mohali and Jalandhar in Punjab"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "gurdaspur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 29,
+      "training_eligible": false,
+      "word": "Gurdaspur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5430:word:0009",
+          "preceding_word": "Institute",
+          "transcript": "Doctor Neeru Singh of Tribal Area Medical Research Institute, Jabalpur and Additional Commissioner Tribal Welfare Sanjay Varshney also spoke at the workshop"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_646:word:0013",
+          "preceding_word": "in",
+          "transcript": "Bhopal to have martyrs memorial C M unveils statue of Rani lodhi in Jabalpur"
+        },
+        {
+          "following_word": "will",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_6734:word:0002",
+          "preceding_word": "and",
+          "transcript": "Bhopal and Jabalpur will soon be having electronic manufacturing clusters creating huge employment opportunities, Chouhan underlined job creation through Digital India"
+        },
+        {
+          "following_word": "Seoni",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1821:word:0014",
+          "preceding_word": "Narsinghpur",
+          "transcript": "Dust storms are likely to be witnessed in Hoshangabad and Indore divisions, Chhindwara, Narsinghpur, Jabalpur, Seoni, Sehore and Bhopal districts"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jabalpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 30,
+      "training_eligible": false,
+      "word": "Jabalpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2377:word:0021",
+          "preceding_word": "and",
+          "transcript": "Meanwhile, Central Water Commission sources said that the Ganga continued to flow close to the danger mark at Fatehgarh, Ankinghat and Kanpur"
+        },
+        {
+          "following_word": "Rabi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5046:word:0002",
+          "preceding_word": "fled",
+          "transcript": "Having fled Kanpur, Rabi had returned to Jamshedpur and started ragpicking which was his source of income, said Nathani"
+        },
+        {
+          "following_word": "Neeri",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_376:word:0018",
+          "preceding_word": "T",
+          "transcript": "That's why we want to partner E P F L, P S I together with I I T Kanpur, Neeri, I I T M and others-have like a research network"
+        },
+        {
+          "following_word": "range",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_999:word:0014",
+          "preceding_word": "Police",
+          "transcript": "Our teams will now ascertain how many people are dead, Inspector General of Police, Kanpur range, Mohit Agarwal was quoted as saying by ND TV"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 31,
+      "training_eligible": false,
+      "word": "Kanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "second",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7263:word:0012",
+          "preceding_word": "T",
+          "transcript": "explained Srimanti Duttagupta, a P h D scholar of I I T Kharagpur, second author of the research paper which has come out recently based on this study"
+        },
+        {
+          "following_word": "will",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2534:word:0003",
+          "preceding_word": "T",
+          "transcript": "I I T Kharagpur will manage the project with its lead European partner - BOKU"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7237:word:0010",
+          "preceding_word": "including",
+          "transcript": "The R J D had asked for six seats, including Kharagpur and Burrabazar, from where they had pitched candidates in the previous elections"
+        },
+        {
+          "following_word": "build",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3586:word:0012",
+          "preceding_word": "T",
+          "transcript": "While the land was freely provided by a villager, I I T Kharagpur build the infrastructure and funded the entire project"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kharagpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 32,
+      "training_eligible": false,
+      "word": "Kharagpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1607:word:0017",
+          "preceding_word": "V",
+          "transcript": "Welcome song, skit on Water Conservation and Dogri dance were presented by the students of K V Lakhanpur"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1732:word:0011",
+          "preceding_word": "from",
+          "transcript": "Lal Singh flags off first batch of Amaranth Ji Yatra from Lakhanpur"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2541:word:0003",
+          "preceding_word": "of",
+          "transcript": "Dimple Gupta of Lakhanpur and Mamta Bharti of Patpariya said that they had applied online for the learning licence"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2927:word:0019",
+          "preceding_word": "at",
+          "transcript": "Then, the student leaders, including Rohit Pandey, Deep Gunwant, Tanuj Durgapal and Godhan Fartyal, climbed the water tank at lakhanpur"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "lakhanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 33,
+      "training_eligible": false,
+      "word": "Lakhanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "districts",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6543:word:0018",
+          "preceding_word": "and",
+          "transcript": "Water level in the Bagmati has broken previous records at several places affecting people in Sheohar, Sitamarhi and Muzaffarpur districts"
+        },
+        {
+          "following_word": "Harpreet",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6696:word:0013",
+          "preceding_word": "police",
+          "transcript": "Medical test reports of eight girls were negative, said senior superintendent of police, Muzaffarpur, Harpreet Kaur"
+        },
+        {
+          "following_word": "where",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2091(1):word:0005",
+          "preceding_word": "on",
+          "transcript": "All eyes will be on Muzaffarpur where N D A and the grand alliance have fielded candidates from the boatman community"
+        },
+        {
+          "following_word": "he",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4670:word:0004",
+          "preceding_word": "to",
+          "transcript": "Even on way to Muzaffarpur, he was received by Sonepur R J D, M L A and other R J D leaders at different places"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "muzaffarpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 34,
+      "training_eligible": false,
+      "word": "Muzaffarpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "with",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3838:word:0004",
+          "preceding_word": "Upasana",
+          "transcript": "It features Rudra, Upasana, Rajkumar with supporting actors like Pushpa Panda, Jeena samal, Nilamani Sahoo, Rabi Mishra, Ram Balak , Rabi Kumar"
+        },
+        {
+          "following_word": "Hirani",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_44:word:0003",
+          "preceding_word": "why",
+          "transcript": "This is why Rajkumar Hirani selected these actors to essay each of Gandhi's beliefs"
+        },
+        {
+          "following_word": "made",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_185:word:0016",
+          "preceding_word": "but",
+          "transcript": "I used to feel I won't be able to deliver dialogues with so much loudness but Rajkumar made me do it, she said"
+        },
+        {
+          "following_word": "Hirani",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4593:word:0009",
+          "preceding_word": "and",
+          "transcript": "The actor will apparently work with both Atlee and Rajkumar Hirani, but has not made any formal announcement"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "rajkumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 35,
+      "training_eligible": false,
+      "word": "Rajkumar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Mango",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3841:word:0013",
+          "preceding_word": "in",
+          "transcript": "They also agreed to include Deoghar under HRIDAY and different urban units in Ramgarh, Mango and Jamshedpur under AMRUT"
+        },
+        {
+          "following_word": "D",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1582:word:0015",
+          "preceding_word": "said",
+          "transcript": "Rolling out of the scheme for l P G also came for discussion specially, said Ramgarh D C Amitabh Kaushal over phone from the National Capital"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3651:word:0015",
+          "preceding_word": "of",
+          "transcript": "Moshari- In the heydays, Malaria was to Kolkata what Gabbar was to the children of Ramgarh"
+        },
+        {
+          "following_word": "Nagar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7718:word:0016",
+          "preceding_word": "and",
+          "transcript": "From North Chotanagpur over nine candidates will contest election covering Phusro, Domchanch, Jhumri Telaiya, Chirkunda and Ramgarh Nagar Parishads"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "ramgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 36,
+      "training_eligible": false,
+      "word": "Ramgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_917:word:0018",
+          "preceding_word": "of",
+          "transcript": "The department has made Medical checkup facilities for Kedarnath pilgrims at Guptkashi, Phata, Sonprayag and District Hospital of Rudraprayag"
+        },
+        {
+          "following_word": "District",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1143:word:0000",
+          "preceding_word": null,
+          "transcript": "Rudraprayag District Magistrate Mangesh Ghildiyal said it was Fadnavis' personal visit to the temple"
+        },
+        {
+          "following_word": "District",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4784:word:0000",
+          "preceding_word": null,
+          "transcript": "Rudraprayag District Magistrate Vijay Kumar Dhondiyal told The Pioneer that two persons died in Bhimalli near Gaurikund and one youth died in Kund"
+        },
+        {
+          "following_word": "District",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5126:word:0000",
+          "preceding_word": null,
+          "transcript": "Rudraprayag District Magistrate Raghav langer, M M B S chairperson of Kusumlata Bagwari and others were also present on the occasion"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "rudraprayag",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 37,
+      "training_eligible": false,
+      "word": "Rudraprayag"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Yogesh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_201:word:0003",
+          "preceding_word": "from",
+          "transcript": "Farmer leader from Saharanpur Yogesh Dahiya said, Meat and milk are two sides of the same coin of rural economy"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3530:word:0018",
+          "preceding_word": "Aligarh",
+          "transcript": "The government also proposes a forensic university, one Ayush and one law university, three State universities in Aligarh, Saharanpur and Azamgarh"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2916:word:0000",
+          "preceding_word": null,
+          "transcript": "Saharanpur M P Haji Fazlur Rehman too, flayed the minister for his statement and said Deoband has been the karmabhoomi of freedom fighters"
+        },
+        {
+          "following_word": "he",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_5718:word:0016",
+          "preceding_word": "to",
+          "transcript": "After offering our prayers at Deoband, next morning we went to Gungoh and then proceeded to Saharanpur, he said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "saharanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 38,
+      "training_eligible": false,
+      "word": "Saharanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "for",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3835:word:0013",
+          "preceding_word": "K",
+          "transcript": "Earlier in the day, Mr Yeddyurappa had attacked Water Resources Minister D K Shivakumar for trying to prevent his party M L As from resigning"
+        },
+        {
+          "following_word": "once",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2061:word:0000",
+          "preceding_word": null,
+          "transcript": "Shivakumar, once considered fierce rivals, held a discussion about 'political developments' at Hubballi airport on Monday"
+        },
+        {
+          "following_word": "appears",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_1366:word:0000",
+          "preceding_word": null,
+          "transcript": "Shivakumar appears before the Income Tax department officials for questioning in connection with an alleged tax evasion case"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7365:word:0014",
+          "preceding_word": "Kalmalli",
+          "transcript": "The injured were the Suttur seer Shivaratri Deshikendra Swami, M L C Marithibbegowda, Kalmalli Shivakumar and Hosakote Devanna"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shivakumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 4,
+      "review_rank": 39,
+      "training_eligible": false,
+      "word": "Shivakumar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Paper",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3918:word:0006",
+          "preceding_word": "by",
+          "transcript": "S F I is controlled by Ballarpur Paper Holdings B V , a subsidiary of Ballarpur Industries"
+        },
+        {
+          "following_word": "Industries",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3918:word:0014",
+          "preceding_word": "of",
+          "transcript": "S F I is controlled by Ballarpur Paper Holdings B V , a subsidiary of Ballarpur Industries"
+        },
+        {
+          "following_word": "which",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_900:word:0008",
+          "preceding_word": "of",
+          "transcript": "Bilt Paper B V is a unit of Ballarpur which focuses on woodfree printing and writing paper, coated and uncoated"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "ballarpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 40,
+      "training_eligible": false,
+      "word": "Ballarpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "C",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_358:word:0013",
+          "preceding_word": "R",
+          "transcript": "Kashmir stone pelting C R P F Jammu and Kashmir police R R Bhatnagar C R P F training police training Hizbul Mujahideen Yasin Yatoo"
+        },
+        {
+          "following_word": "Prize",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6306:word:0002",
+          "preceding_word": "Swarup",
+          "transcript": "Shanti Swarup Bhatnagar Prize- Two I I T B scientists awarded, say more students should get into research"
+        },
+        {
+          "following_word": "P",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_828:word:0003",
+          "preceding_word": "C",
+          "transcript": "Doctor P C Bhatnagar P H C, Chouldari discussed the causes, Symptoms and Prevention of the Disease"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "bhatnagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 41,
+      "training_eligible": false,
+      "word": "Bhatnagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1779:word:0018",
+          "preceding_word": "Chimur",
+          "transcript": "In the first phase of polling, the voting will be held in Wardha, Ramtek, Nagpur, BhandaraGondiya, Gadchiroli Chimur, Chandrapur and YavatmalWashim constituencies"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4654:word:0014",
+          "preceding_word": "in",
+          "transcript": "B J P candidates Nana Shamkule and Sanjay Dhote face an acid test in Chandrapur and Rajura, respectively"
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_6019:word:0003",
+          "preceding_word": "in",
+          "transcript": "In Warora in Chandrapur, the Congress has fielded Pratibha Dhanorkar, the wife of Suresh Dhanorkar, the lone Congress M P from Maharashtra"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chandrapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 42,
+      "training_eligible": false,
+      "word": "Chandrapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "respectively",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1318:word:0016",
+          "preceding_word": "and",
+          "transcript": "Other ex C Ms like Kumaraswamy and M Veerappa Moily sailed home in Bangalore Rural and Chikkaballapur respectively"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1460(1):word:0018",
+          "preceding_word": "and",
+          "transcript": "If I'm responsible for Nikhil's defeat, who is responsible for Congress candidates losing in Chamarajanagar, Mysore, Kolar and Chikkaballapur?"
+        },
+        {
+          "following_word": "K",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3024:word:0016",
+          "preceding_word": "Vijayanagara",
+          "transcript": "The B J P candidates are leading from the Athani, Kagwad, Gokak, Yellapur, Hirekerur, Ranibennur, Vijayanagara, Chikkaballapur, K R Puram, Yeshvanthapura, Krishnarajapete and the Mahalakshmi Layout seats"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chikkaballapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 43,
+      "training_eligible": false,
+      "word": "Chikkaballapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "S",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1895:word:0007",
+          "preceding_word": "from",
+          "transcript": "I am also waiting for comments from Ferozepur S S P Bhupinder Singh, he said"
+        },
+        {
+          "following_word": "Ghubaya",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_767:word:0009",
+          "preceding_word": "at",
+          "transcript": "I also got set up a passport office at Ferozepur, Ghubaya said"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2717:word:0024",
+          "preceding_word": "in",
+          "transcript": "Hundreds of marriages are solemnised on a single day during peak marriage season in the metropolis, said Gurvinder Singh of Kalar Khera village in Ferozepur"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "ferozepur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 44,
+      "training_eligible": false,
+      "word": "Ferozepur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Street",
+          "occurrence_id": "IISc_SPICORProject_EN_M_LJSP_LJ002-0271:word:0004",
+          "preceding_word": "Ludgate",
+          "transcript": "The computers of Ludgate, Giltspur Street, and the Borough were discontinued as debtors' prisons"
+        },
+        {
+          "following_word": "Stain",
+          "occurrence_id": "IISc_SPICORProject_EN_M_LJSP_LJ007-0230:word:0001",
+          "preceding_word": "Newgate",
+          "transcript": "Newgate, Giltspur Stain Compter, and the City Bridewell,"
+        },
+        {
+          "following_word": "Street",
+          "occurrence_id": "IISc_SPICORProject_EN_M_LJSP_LJ019-0136:word:0021",
+          "preceding_word": "in",
+          "transcript": "This was obviated by the frequent sessions of the Central Criminal Court, and the utilisation of the two subsidiary prisons in Giltspur Street and Southwark"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "giltspur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 45,
+      "training_eligible": false,
+      "word": "Giltspur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Punjab",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5642:word:0015",
+          "preceding_word": "of",
+          "transcript": "Farmer Ram Kishan stands next to his metered electric tubewell in Muradpur Jattan village of Hoshiarpur, Punjab"
+        },
+        {
+          "following_word": "inmates",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7443:word:0022",
+          "preceding_word": "and",
+          "transcript": "To bring about radical changes in the mindset of all inmates, he recommended l P U to impart training to Kapurthala and Hoshiarpur inmates as well"
+        },
+        {
+          "following_word": "Barnala",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3050:word:0013",
+          "preceding_word": "Sahib",
+          "transcript": "On the first day of the tournament, the teams of Shri Muktsar Sahib, Hoshiarpur, Barnala, Jalandhar opened their account with a win"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "hoshiarpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 46,
+      "training_eligible": false,
+      "word": "Hoshiarpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "coach",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2041:word:0001",
+          "preceding_word": "Tottenham",
+          "transcript": "Tottenham Hotspur coach Jose Mourinho has lashed out at the Premier League's congested fixture list over the Christmas period"
+        },
+        {
+          "following_word": "thrash",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_252:word:0007",
+          "preceding_word": "Tottenham",
+          "transcript": "WATCH Premier League- Lucas Moura helps Tottenham Hotspur thrash Manchester United at Old Trafford"
+        },
+        {
+          "following_word": "online",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5858:word:0013",
+          "preceding_word": "Tottenham",
+          "transcript": "How do I live stream the Premier League match between Arsenal Versus Tottenham Hotspur online?"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "hotspur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 47,
+      "training_eligible": false,
+      "word": "Hotspur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "town",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_273:word:0013",
+          "preceding_word": "of",
+          "transcript": "The arrestees were identified as Pramod Kumar Das, Bijaya Pradhan, Chinmaya Pradhan of Jajpur town, Rabi Rao of Visakhapatnam and Bhima Raju of Sorada"
+        },
+        {
+          "following_word": "ASP",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6236:word:0016",
+          "preceding_word": "said",
+          "transcript": "Three platoons of police were deployed to maintain law and order during the demolition operation, said Jajpur ASP Rajkishore Dora"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_6042:word:0012",
+          "preceding_word": "Pangi",
+          "transcript": "They are Aska M P Nityananda Pradhan, Koraput M P Jayram Pangi, Jajpur M P Mohan Jena and Keonjhar M P Yoshwant Singh laguri"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jajpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 48,
+      "training_eligible": false,
+      "word": "Jajpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "district",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_216:word:0005",
+          "preceding_word": "from",
+          "transcript": "Sixteen deaths were reported from Jodhpur district this year, the officials said"
+        },
+        {
+          "following_word": "city",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_6639:word:0015",
+          "preceding_word": "and",
+          "transcript": "Congress candidates Professor Ayub Khan and Manisha Panwar also filed their nominations for Soorsagar and Jodhpur city constituencies on the last day"
+        },
+        {
+          "following_word": "Nagaur",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4528:word:0012",
+          "preceding_word": "Jalore",
+          "transcript": "Deficit rainfall was registered in Alwar, Barmer, Ganganagar, Hanumangarh, Jaipur, Jaisalmer, Jalore, Jodhpur, Nagaur, and Pali"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jodhpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 49,
+      "training_eligible": false,
+      "word": "Jodhpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "here",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3560:word:0016",
+          "preceding_word": "Kuala",
+          "transcript": "Air Asia inaugurated the direct flight from Sri Guru Ram Das Jee International Airport to Kuala Lumpur , here"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_3679:word:0023",
+          "preceding_word": "Kuala",
+          "transcript": "Mueller is a war general, he came in at the worst time, said Mohshin Aziz, an analyst at Maybank Investment Bank in Kuala Lumpur"
+        },
+        {
+          "following_word": "airports",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3538:word:0015",
+          "preceding_word": "Kuala",
+          "transcript": "We literally don't have to do anything, we just have to land up in Kuala Lumpur, airports ready, staff is already there"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "lumpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 50,
+      "training_eligible": false,
+      "word": "Lumpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_7196:word:0016",
+          "preceding_word": "in",
+          "transcript": "The revelation came when Bangalore Water Supply and Sewerage Board workers were unclogging sewage drains in Padmanabhanagar"
+        },
+        {
+          "following_word": "B",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1910:word:0000",
+          "preceding_word": null,
+          "transcript": "Padmanabhanagar B J P, M L A Ashoka said he had given a statement six months ago that his phone was tapped"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4783:word:0013",
+          "preceding_word": "Yeddyurappa",
+          "transcript": "Around noon, B J P state president and Shimoga M L A Yeddyurappa, Padmanabhanagar M L A Ashok and Mandya M P elect Sumalatha followed"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "padmanabhanagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 51,
+      "training_eligible": false,
+      "word": "Padmanabhanagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "here",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4125:word:0017",
+          "preceding_word": "Sciences",
+          "transcript": "A memorandum of understanding was signed between B M C and the Krishna Institute of Medical Sciences, Secunderabad, here in this regard"
+        },
+        {
+          "following_word": "Cantonment",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2081:word:0001",
+          "preceding_word": "Like",
+          "transcript": "Like Secunderabad Cantonment , T R S will sweep the G H M C polls too, he said"
+        },
+        {
+          "following_word": "every",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2263:word:0008",
+          "preceding_word": "near",
+          "transcript": "I drop my grandchildren at a school near Secunderabad every day"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "secunderabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 52,
+      "training_eligible": false,
+      "word": "Secunderabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "entrepreneurial",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_268:word:0010",
+          "preceding_word": "can",
+          "transcript": "This corroborates existing research which suggests that terrorist attacks can spur entrepreneurial activities"
+        },
+        {
+          "following_word": "of",
+          "occurrence_id": "IISc_SPICORProject_EN_M_LJSP_LJ016-0192:word:0013",
+          "preceding_word": "the",
+          "transcript": "I think I could do that sort of job, said Calcraft, on the spur of the moment"
+        },
+        {
+          "following_word": "economic",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_428:word:0002",
+          "preceding_word": "should",
+          "transcript": "This should spur economic growth in terms of the ability to further facilitate expatriate talent coming into India"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "spur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 53,
+      "training_eligible": false,
+      "word": "spur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Tales",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2126:word:0006",
+          "preceding_word": "at",
+          "transcript": "Goutam Mukerjee is a storyteller at Udaipur Tales, an international storytelling festival"
+        },
+        {
+          "following_word": "to",
+          "occurrence_id": "IISc_SPICORProject_EN_M_EVAL_00396:word:0008",
+          "preceding_word": "Rajasthan",
+          "transcript": "Mewar festival happens in the city of Rajasthan, Udaipur to mark the arrival of the spring season."
+        },
+        {
+          "following_word": "pose",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_970:word:0005",
+          "preceding_word": "in",
+          "transcript": "Women from Samecha village in Udaipur pose with the snake that they caught and guarded"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "udaipur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 3,
+      "review_rank": 54,
+      "training_eligible": false,
+      "word": "Udaipur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Times",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1974:word:0011",
+          "preceding_word": "and",
+          "transcript": "The general knowledge quiz was organised by Jamiat al Shabab and Aurangabad Times"
+        },
+        {
+          "following_word": "Union",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2415:word:0000",
+          "preceding_word": null,
+          "transcript": "Aurangabad- Union shipping minister Nitin Gadkari said that research should be the top priority of education institutes"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "aurangabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 55,
+      "training_eligible": false,
+      "word": "Aurangabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Haryana",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_39:word:0009",
+          "preceding_word": "at",
+          "transcript": "His father owned a drugs factory - Dua Pharmaceuticals at Bahadurgarh, Haryana"
+        },
+        {
+          "following_word": "assembly",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3091:word:0011",
+          "preceding_word": "from",
+          "transcript": "Naresh Kumar is the B J P, M L A from Bahadurgarh assembly segment of Haryana"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "bahadurgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 56,
+      "training_eligible": false,
+      "word": "Bahadurgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_94:word:0022",
+          "preceding_word": "Chiranjib",
+          "transcript": "Several candidates, who had locked the seats during the counselling process, did not turn up for admission, explained engineering department head Chiranjib Bhattacharjee"
+        },
+        {
+          "following_word": "who",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2349:word:0000",
+          "preceding_word": null,
+          "transcript": "Bhattacharjee, who has been suffering from acute respiratory problems for years, suffered an acute exacerbation of Chronic Obstructive Pulmonary Disease , last Friday"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "bhattacharjee",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 57,
+      "training_eligible": false,
+      "word": "Bhattacharjee"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Rabi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4090:word:0001",
+          "preceding_word": "Rajyogini",
+          "transcript": "Rajyogini Brahmakumar Rabi Kala from Mount Abu graced the occasion and discussed the importance of Raksha Bandhan"
+        },
+        {
+          "following_word": "Nikunj",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1984:word:0021",
+          "preceding_word": "Rajyogi",
+          "transcript": "One must remember that no situation can continue forever and hence, even problems escalate and come to an end, says Rajyogi Brahmakumar Nikunj Ji"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "brahmakumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 58,
+      "training_eligible": false,
+      "word": "Brahmakumar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "organised",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1450:word:0005",
+          "preceding_word": "Clinic",
+          "transcript": "The Diabetes and Endocare Clinic, Brahmapur, organised the second south Odisha thyroid symposium here on Sunday"
+        },
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1047(1):word:0005",
+          "preceding_word": "of",
+          "transcript": "They also burnt effigies of Brahmapur M P and actor Siddhant Mohapatra, actors Anubhav Mohanty and Papu Pompom and Chief Minister Naveen Patnaik"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "brahmapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 59,
+      "training_eligible": false,
+      "word": "Brahmapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Sterlisation",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3813:word:0000",
+          "preceding_word": null,
+          "transcript": "Chattisgarh Sterlisation Bilaspur Raman Singh Surgery Narendra Modi Family Planning health"
+        },
+        {
+          "following_word": "C",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1637:word:0010",
+          "preceding_word": "from",
+          "transcript": "Special Secretary J and K Amit Sharma receiving award from Chattisgarh C M Bhupesh Baghel"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chattisgarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 60,
+      "training_eligible": false,
+      "word": "Chattisgarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5684:word:0017",
+          "preceding_word": "and",
+          "transcript": "In Sagar division, training for Sagar, Damoh and Panna will be imparted in the first session and Chhatarpur and Tikamgarh in the second session"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3581:word:0025",
+          "preceding_word": "and",
+          "transcript": "Both the B J P and A J S U have fielded candidates against each other in Chakradharpur, Lohardaga, Chandankiyari, Sindri, Mandu, Ghatshila, Husainabad and Chhatarpur"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chhatarpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 61,
+      "training_eligible": false,
+      "word": "Chhatarpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "law",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6486:word:0016",
+          "preceding_word": "from",
+          "transcript": "Turkey is known to be an active social worker and holds a degree in law from Chotanagpur law College"
+        },
+        {
+          "following_word": "over",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7718:word:0002",
+          "preceding_word": "North",
+          "transcript": "From North Chotanagpur over nine candidates will contest election covering Phusro, Domchanch, Jhumri Telaiya, Chirkunda and Ramgarh Nagar Parishads"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "chotanagpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 62,
+      "training_eligible": false,
+      "word": "Chotanagpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "area",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3776:word:0003",
+          "preceding_word": "decongest",
+          "transcript": "Similarly to decongest Dharampur area the traffic on Dharampur Chowk Aaraghar route would be diverted to Dhobi Chowk Police line Aaraghar road"
+        },
+        {
+          "following_word": "Chowk",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3776:word:0008",
+          "preceding_word": "on",
+          "transcript": "Similarly to decongest Dharampur area the traffic on Dharampur Chowk Aaraghar route would be diverted to Dhobi Chowk Police line Aaraghar road"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "dharampur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 63,
+      "training_eligible": false,
+      "word": "Dharampur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "do",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_7121:word:0011",
+          "preceding_word": "College",
+          "transcript": "Some, like Doctor Islam, a graduate from the Assam Medical College, Dibrugarh, do a stint on the boat to gain experience in rural areas"
+        },
+        {
+          "following_word": "Tinsukia",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_64:word:0009",
+          "preceding_word": "Lakhimpur",
+          "transcript": "Life virtually came to a grinding halt in Lakhimpur, Dibrugarh, Tinsukia, Jorhat, Sivasagar, parts of Guwahati and in some districts of Lower Assam"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "dibrugarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 64,
+      "training_eligible": false,
+      "word": "Dibrugarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "District",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_265:word:0000",
+          "preceding_word": null,
+          "transcript": "Farrukhabad District Magistrate, Chief Medical Officer , Chief Medical Superintendent of district women hospital were removed after the death loss of innocent lives"
+        },
+        {
+          "following_word": "on",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_901:word:0007",
+          "preceding_word": "from",
+          "transcript": "All the three accused were arrested from Farrukhabad on Monday, the S P said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "farrukhabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 65,
+      "training_eligible": false,
+      "word": "Farrukhabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5654:word:0010",
+          "preceding_word": "at",
+          "transcript": "Shama Parveen in action at the SAI training centre at Gandhinagar in Gujarat"
+        },
+        {
+          "following_word": "Hospital",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_969:word:0015",
+          "preceding_word": "at",
+          "transcript": "Forty Eight patients on Monday underwent treatment related to chest, T B and Rheumatology at Gandhinagar Hospital by Doctor Manish Suneja, Associate Professor, Medicine, and AIIMS"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "gandhinagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 66,
+      "training_eligible": false,
+      "word": "Gandhinagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Shah",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3697:word:0005",
+          "preceding_word": "Vaishali",
+          "transcript": "Addressing a gathering at Vaishali Garh, Shah also said that those opposing the new citizenship law were anti Dalit and looking only at their vote banks"
+        },
+        {
+          "following_word": "constituency",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3516:word:0025",
+          "preceding_word": "Mahendra",
+          "transcript": "He was followed by Chief Parliamentary Secretary Dharambir Singh from Sohna, who joined B J P and now is the M P from Bhiwani Mahendra Garh constituency"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "garh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 67,
+      "training_eligible": false,
+      "word": "Garh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "district",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7245:word:0018",
+          "preceding_word": "in",
+          "transcript": "The heart-rending incident took place on Tuesday at Biluapara village under the Paradeep lock police station limits in Jagatsinghpur district"
+        },
+        {
+          "following_word": "fake",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_89:word:0009",
+          "preceding_word": "in",
+          "transcript": "In compensation cases to Posco project affected families in Jagatsinghpur, fake beneficiaries have got compensations"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jagatsinghpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 68,
+      "training_eligible": false,
+      "word": "Jagatsinghpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "are",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5859:word:0003",
+          "preceding_word": "of",
+          "transcript": "The people of Jalalabad are feeling ignored as none the parties took their consent before nominating their candidates"
+        },
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1973:word:0003",
+          "preceding_word": "P's",
+          "transcript": "In U P's Jalalabad also, more than a dozen cows died due to hunger at a cow shelter of Kannauj district last week"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jalalabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 69,
+      "training_eligible": false,
+      "word": "Jalalabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "assembly",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4643:word:0022",
+          "preceding_word": "from",
+          "transcript": "In the affidavit, he did not mention the assets of his sons Ritesh Pandey, a B S P, M L A from Jalalpur assembly seat, and Ashish"
+        },
+        {
+          "following_word": "may",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7742:word:0020",
+          "preceding_word": "and",
+          "transcript": "Though the B J P candidates are sitting comfortably in most of the constituencies to the bypolls, Ghosi, Rampur and Jalalpur may witness a tough contest"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jalalpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 70,
+      "training_eligible": false,
+      "word": "Jalalpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Malleshwaram",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5712:word:0013",
+          "preceding_word": "Hosur",
+          "transcript": "Crisil Research has divided the Bengaluru Metropolitan Area into seven micro markets-Hebbal, Hosur, Jayanagar, Malleshwaram, MG Road, Whitefield and Tumkur Road"
+        },
+        {
+          "following_word": "her",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_758:word:0002",
+          "preceding_word": "in",
+          "transcript": "Located in Jayanagar, her home is a cheery place that has the luxury of space and also lets in plenty of natural light"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "jayanagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 71,
+      "training_eligible": false,
+      "word": "Jayanagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Gogia",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2083:word:0007",
+          "preceding_word": "vindicated",
+          "transcript": "We are confident we will be vindicated, Kapur Gogia had said"
+        },
+        {
+          "following_word": "brings",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4902:word:0003",
+          "preceding_word": "Pankaj",
+          "transcript": "While actor Pankaj Kapur brings in elements of humour in the one man act titled Dopehri, written and directed by him"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 72,
+      "training_eligible": false,
+      "word": "Kapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "village",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6319:word:0009",
+          "preceding_word": "Baler",
+          "transcript": "Maiden campaign to rejuvenate old ponds begins at Baler Khanpur village"
+        },
+        {
+          "following_word": "Munirka",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_5032:word:0009",
+          "preceding_word": "Kunj",
+          "transcript": "Kishangarh, Malviya Nagar, Sainik Farms, Shahpur Jat, Vasant Kunj, Khanpur, Munirka affected by action"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "khanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 73,
+      "training_eligible": false,
+      "word": "Khanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Bas",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2198:word:0009",
+          "preceding_word": "body",
+          "transcript": "So far, they have refused to accept the body, Kishangarh Bas, Tehsildar, Hemandra Kumar Goyal said"
+        },
+        {
+          "following_word": "Malviya",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_5032:word:0000",
+          "preceding_word": null,
+          "transcript": "Kishangarh, Malviya Nagar, Sainik Farms, Shahpur Jat, Vasant Kunj, Khanpur, Munirka affected by action"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kishangarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 74,
+      "training_eligible": false,
+      "word": "Kishangarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Lok",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7982:word:0001",
+          "preceding_word": "The",
+          "transcript": "The Kolhapur Lok Sabha constituency in Maharashtra is represented by Dhananjay Bhimrao Mahadik of the Nationalist Congress Party"
+        },
+        {
+          "following_word": "from",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1097:word:0009",
+          "preceding_word": "for",
+          "transcript": "A birds eye view shows Mahalaxmi Express bound for Kolhapur from Mumbai stranded following heavy monsoon rain near Badlapur in Thane district"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kolhapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 75,
+      "training_eligible": false,
+      "word": "Kolhapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "of",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5993:word:0016",
+          "preceding_word": "in",
+          "transcript": "Water entered into the sanctum sanctorum of Kamalashile Sri Brahmi Durga parmeshwar Temple at Kamalashile, in Kundapur of Udupi District"
+        },
+        {
+          "following_word": "Chandramouli's",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_122:word:0011",
+          "preceding_word": "near",
+          "transcript": "Smitha's father Doctor Chandramouli is an Ayurveda doctor in Siddapura near Kundapur, Chandramouli's relative Umesh said he was shocked to learn about Prashant's death"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "kundapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 76,
+      "training_eligible": false,
+      "word": "Kundapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Dibrugarh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_64:word:0008",
+          "preceding_word": "in",
+          "transcript": "Life virtually came to a grinding halt in Lakhimpur, Dibrugarh, Tinsukia, Jorhat, Sivasagar, parts of Guwahati and in some districts of Lower Assam"
+        },
+        {
+          "following_word": "Biswanath",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4438:word:0005",
+          "preceding_word": "Dhemaji",
+          "transcript": "In Assam, four districts Dhemaji, Lakhimpur, Biswanath and Nawgaon are worst affected by flood"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "lakhimpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 77,
+      "training_eligible": false,
+      "word": "Lakhimpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "living",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1469:word:0007",
+          "preceding_word": "from",
+          "transcript": "The ad filmmaker is a native from Mahbubnagar living at Nizampet"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_3565:word:0019",
+          "preceding_word": "from",
+          "transcript": "K C R is the architect of Telangana, says A P Jithender Reddy, T R S, M P from Mahbubnagar"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "mahbubnagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 78,
+      "training_eligible": false,
+      "word": "Mahbubnagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "or",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5563:word:0012",
+          "preceding_word": "at",
+          "transcript": "The Government should immediately compensate the farmers, open a maize godown at Mahendragarh or Chandragiri and establish a maize processing plant"
+        },
+        {
+          "following_word": "Karnal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7853:word:0016",
+          "preceding_word": "Bhiwani",
+          "transcript": "B J P candidates maintained lead in all nine segments in six parliamentary constituencies Ambala, Bhiwani, Mahendragarh, Karnal, Kurukshetra, Sirsa and Faridabad"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "mahendragarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 79,
+      "training_eligible": false,
+      "word": "Mahendragarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "block",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3576:word:0008",
+          "preceding_word": "of",
+          "transcript": "Chaupal was also held in village Gohrapadar of Mainpur block, which was attended by Agriculture and Water Resource Minister Brijmohan Agrawal"
+        },
+        {
+          "following_word": "Chhura",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1108:word:0003",
+          "preceding_word": "of",
+          "transcript": "For development of Mainpur, Chhura, Devbhog and Fingeshwar, the State Government has opened industrial training institutes, degree college, polytechnic college, etc, Singh stated"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "mainpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 80,
+      "training_eligible": false,
+      "word": "Mainpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "districts",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_220:word:0019",
+          "preceding_word": "and",
+          "transcript": "As per Central Water Commission today, the Ganga river was flowing over danger mark in Bulandshahr, Kannauj, Allahabad and Mirzapur districts"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2027:word:0023",
+          "preceding_word": "in",
+          "transcript": "B J P ally Apna Dal leader and Union minister and local M P Anupriya Patel would be part of the meeting in Mirzapur"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "mirzapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 81,
+      "training_eligible": false,
+      "word": "Mirzapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Azizabad",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2637:word:0008",
+          "preceding_word": "Mansehra",
+          "transcript": "The training was also held at Muridke, Mansehra, Muzaffarabad, Azizabad and Paanch Teni and were gruelling and increasingly sophisticated"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6818:word:0015",
+          "preceding_word": "near",
+          "transcript": "The L e T has a terrorist camp masquerading as a religious training institute near Muzaffarabad and is led by Zakir u Rehman"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "muzaffarabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 82,
+      "training_eligible": false,
+      "word": "Muzaffarabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Agra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4151:word:0012",
+          "preceding_word": "Meerut",
+          "transcript": "Drone cameras were mostly used this week in districts like Firozabad, Meerut, Muzaffarnagar, Agra, Sambhal and Bijnor, where violence was reported"
+        },
+        {
+          "following_word": "jail",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5589:word:0000",
+          "preceding_word": null,
+          "transcript": "Muzaffarnagar jail official files plea to shift M L A Som"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "muzaffarnagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 83,
+      "training_eligible": false,
+      "word": "Muzaffarnagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "district",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5895:word:0013",
+          "preceding_word": "in",
+          "transcript": "Similarly, a maize processing plant by Vijaynagar Biotech Private limited at Papadahandi in Nabarangpur district was also cleared"
+        },
+        {
+          "following_word": "Bagchi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3468:word:0008",
+          "preceding_word": "Hatpada",
+          "transcript": "After visiting a skill development centre at Hatpada, Nabarangpur, Bagchi held a close door discussion with the Gopabandhu Government I T I, Ambaguda Principal about,"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "nabarangpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 84,
+      "training_eligible": false,
+      "word": "Nabarangpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "to",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_1405:word:0012",
+          "preceding_word": "and",
+          "transcript": "Without doubt, the Indira Congress hopes to capitalise on Paras Bigha and Narayanpur to make law and order the main issue"
+        },
+        {
+          "following_word": "Bijapur",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3089:word:0019",
+          "preceding_word": "Rajnandgaon",
+          "transcript": "In the two day long workshop that was held at Rajnandgaon police training school, police officers from Gadchiroli , Rajnandgaon, Narayanpur, Bijapur and Kanker took part"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "narayanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 85,
+      "training_eligible": false,
+      "word": "Narayanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1270:word:0010",
+          "preceding_word": "near",
+          "transcript": "The Rythu Aikyatha Sabha would be held at Armoor near Nizamabad, the farmers’ leaders said"
+        },
+        {
+          "following_word": "district",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4212:word:0015",
+          "preceding_word": "in",
+          "transcript": "The Agriculture Department higher ups are reviewing the situation to guide the distressed farmers in Nizamabad district"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "nizamabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 86,
+      "training_eligible": false,
+      "word": "Nizamabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1735:word:0016",
+          "preceding_word": "Dharchula",
+          "transcript": "Director, Rural Development Ministry, l Fenai, and Director, Sugarcane Development Virendra Singh will go to Dharchula, Pithoragarh"
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6968:word:0012",
+          "preceding_word": "Bageshwar",
+          "transcript": "Employees from Pauri, Haridwar, Nainital, Udham Singh Nagar, Tehri, Uttarkashi, Almora, Bageshwar, Pithoragarh and other districts would take part in the training programme"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "pithoragarh",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 87,
+      "training_eligible": false,
+      "word": "Pithoragarh"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Kutra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7937:word:0007",
+          "preceding_word": "subdivision",
+          "transcript": "The people of Panposh subdivision, Bonai subdivision, Rajgangpur, Kutra and neighbouring States like Jharkhand and Chhattisgarh depend on the hospital for treatment"
+        },
+        {
+          "following_word": "police",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_426:word:0011",
+          "preceding_word": "the",
+          "transcript": "They caught hold of him and handed him over to the Rajgangpur police"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "rajgangpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 88,
+      "training_eligible": false,
+      "word": "Rajgangpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2002:word:0013",
+          "preceding_word": "at",
+          "transcript": "Work is under progress for setting up of Integrated Bee Development Centre at Ramnagar in Kurukshetra under Indo Israel project, said the C M"
+        },
+        {
+          "following_word": "by",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1064:word:0006",
+          "preceding_word": "to",
+          "transcript": "His body will be brought to Ramnagar by evening, Kumaon range D I G, G S Martolia said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "ramnagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 89,
+      "training_eligible": false,
+      "word": "Ramnagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_7742:word:0018",
+          "preceding_word": "Ghosi",
+          "transcript": "Though the B J P candidates are sitting comfortably in most of the constituencies to the bypolls, Ghosi, Rampur and Jalalpur may witness a tough contest"
+        },
+        {
+          "following_word": "Road",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_7324:word:0016",
+          "preceding_word": "the",
+          "transcript": "The three day long sports competition will be held at the H N Inter College, the Rampur Road, Haldwani, he added"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "rampur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 90,
+      "training_eligible": false,
+      "word": "Rampur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "court",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6979:word:0000",
+          "preceding_word": null,
+          "transcript": "Shahjahanpur court rejects bail pleas of Chinmayanand and U P law student who accused him of rape"
+        },
+        {
+          "following_word": "survivor",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1192:word:0002",
+          "preceding_word": "of",
+          "transcript": "Father of Shahjahanpur survivor told A N I, Asaram is convicted, we have got justice"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shahjahanpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 91,
+      "training_eligible": false,
+      "word": "Shahjahanpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1450:word:0026",
+          "preceding_word": "D",
+          "transcript": "S Badal had arrived today to share the pain with the family on the death of former M L A Balwant Singh of S A D Shahpur"
+        },
+        {
+          "following_word": "Jat",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_5032:word:0005",
+          "preceding_word": "Farms",
+          "transcript": "Kishangarh, Malviya Nagar, Sainik Farms, Shahpur Jat, Vasant Kunj, Khanpur, Munirka affected by action"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shahpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 92,
+      "training_eligible": false,
+      "word": "Shahpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_4742:word:0025",
+          "preceding_word": "A",
+          "transcript": "The arrest was made based on profiling of the passengers by the customs officers of the Air Intelligence Unit at the R G I A, Shamshabad"
+        },
+        {
+          "following_word": "D",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2206:word:0008",
+          "preceding_word": "accused",
+          "transcript": "Upon questioning, police realised he was the accused, Shamshabad D C P N Prakash Reddy said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shamshabad",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 93,
+      "training_eligible": false,
+      "word": "Shamshabad"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "where",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_631:word:0014",
+          "preceding_word": "Bazaar",
+          "transcript": "The gang snatched Mondal's phone and took him to their office in Bamboo Bazaar, Shivajinagar, where they locked him up and thrashed him"
+        },
+        {
+          "following_word": "station",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5487:word:0023",
+          "preceding_word": "from",
+          "transcript": "Flagged off by Madhulika Jain, Director Administration, C P C T C, and Sundeep Salvi, Director, Chest Research Foundation, the walk began from Shivajinagar station and concluded at Shaniwar Wada"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shivajinagar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 94,
+      "training_eligible": false,
+      "word": "Shivajinagar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Joshi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5095:word:0015",
+          "preceding_word": "as",
+          "transcript": "Rye got his first writing job of translating Gujarati short stories by writers such as Shivkumar Joshi and Chandrakant Bakshi into Hindi"
+        },
+        {
+          "following_word": "Utture",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_521:word:0001",
+          "preceding_word": "Doctor",
+          "transcript": "Doctor Shivkumar Utture, a member of the Indian Medical Association and president of the Maharashtra Medical Council, hailed the ruling"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "shivkumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 95,
+      "training_eligible": false,
+      "word": "Shivkumar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_496:word:0012",
+          "preceding_word": "T",
+          "transcript": "Nikhil Gangai and Shreyas Khot final year engineering students, W I T, Solapur"
+        },
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4679:word:0018",
+          "preceding_word": "in",
+          "transcript": "The police said, M L A Ramesh Kadam has been fighting elections as an independent from Mohol in Solapur"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "solapur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 96,
+      "training_eligible": false,
+      "word": "Solapur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "The",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1956:word:0000",
+          "preceding_word": null,
+          "transcript": "Sonepur- The National Dengue Day was observed at the Tarbha C H C of Subarnmapur district under the chairmanship of hospital incharge Dr Khirod Kumar Mishra"
+        },
+        {
+          "following_word": "R",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4670:word:0009",
+          "preceding_word": "by",
+          "transcript": "Even on way to Muzaffarpur, he was received by Sonepur R J D, M L A and other R J D leaders at different places"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sonepur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 97,
+      "training_eligible": false,
+      "word": "Sonepur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3956:word:0017",
+          "preceding_word": "tour",
+          "transcript": "Agricultural Minister Atul Bora will visit Golaghat, Sivasagar and Jorhat while Irrigation Minister Ranjit Dutta will tour Sonitpur and Biswanath"
+        },
+        {
+          "following_word": "have",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_638:word:0007",
+          "preceding_word": "and",
+          "transcript": "According to officials, districts like Tinsukia and Sonitpur have been affected the most"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sonitpur",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 98,
+      "training_eligible": false,
+      "word": "Sonitpur"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_2491(1):word:0009",
+          "preceding_word": "K",
+          "transcript": "M L A Paranna Munavalli, S P Renuka K Sukumar and B J P leader Thipperudraswamy were present"
+        },
+        {
+          "following_word": "Toppo",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3895:word:0002",
+          "preceding_word": "Rajesh",
+          "transcript": "Collector Rajesh Sukumar Toppo termed it a good initiative and asked the officials concerned for soon preparing a work plan to hold the camp"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sukumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 99,
+      "training_eligible": false,
+      "word": "Sukumar"
+    },
+    {
+      "confidence": "PENDING_HUMAN_REVIEW",
+      "contexts": [
+        {
+          "following_word": "Shinde",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_907:word:0006",
+          "preceding_word": "Minister",
+          "transcript": "Earlier this month, however, Home Minister Sushilkumar Shinde withdrew it and tried to introduce the new Prevention of Communal Violence Bill in Rajya Sabha"
+        },
+        {
+          "following_word": "Shinde",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_406:word:0009",
+          "preceding_word": "Minister",
+          "transcript": "So, how we can give them forces, Home Minister Sushilkumar Shinde said"
+        }
+      ],
+      "current_v0_representability": "UNKNOWN_NO_AUTOMATIC_G2P",
+      "estimated_phonetic_coverage_contribution": "UNKNOWN_PENDING_HUMAN_PHONE_LABEL",
+      "normalized_word": "sushilkumar",
+      "proposed_canonical_phone_candidate": null,
+      "provenance": "Stage2D.1 TIER_2_REVIEW_REQUIRED; no automatic phone assignment",
+      "reason_selected": "pronunciation_interest_without_human_phone_label",
+      "recurrence_count": 2,
+      "review_rank": 100,
+      "training_eligible": false,
+      "word": "Sushilkumar"
+    }
+  ],
+  "schema_version": "stage2d2-pronunciation-review-queue-v0.1",
+  "selection_policy": "existing Stage2D.1 Tier-2 ordering; no automatic G2P or phone assignment"
+}

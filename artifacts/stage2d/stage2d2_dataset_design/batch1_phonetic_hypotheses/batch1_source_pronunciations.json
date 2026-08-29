@@ -1,0 +1,257 @@
+{
+  "schema_version": "stage2d2-batch1-source-pronunciations.v1",
+  "level": "LEVEL_B_PHONETIC_HYPOTHESIS",
+  "production_mapping": false,
+  "words": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "sources": {
+        "espeak_ng_en_us": "nˈæɡɚ",
+        "espeak_ng_en_gb": "nˈaɡə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "sources": {
+        "espeak_ng_en_us": "sɹˈiːnəɡɚ",
+        "espeak_ng_en_gb": "sɹˈiːnəɡə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "sources": {
+        "espeak_ng_en_us": "hˈa‍ɪdɚɹɐbˌɑːd",
+        "espeak_ng_en_gb": "hˈa‍ɪdəɹɐbˌad"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "sources": {
+        "espeak_ng_en_us": "bˈɛŋɡɐlˌʊ‍ɹɹuː",
+        "espeak_ng_en_gb": "bˈɛŋɡɐlˌʊ‍əɹuː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "sources": {
+        "espeak_ng_en_us": "t‍ʃˌʌndɪɡˈɜː",
+        "espeak_ng_en_gb": "t‍ʃˌʌndɪɡˈɜː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "sources": {
+        "espeak_ng_en_us": "t‍ʃˈʌɾiːsɡˌɜː",
+        "espeak_ng_en_gb": "t‍ʃˈʌtiːsɡˌɜː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "sources": {
+        "espeak_ng_en_us": "bˈænɚd‍ʒˌiː",
+        "espeak_ng_en_gb": "bˈanəd‍ʒˌiː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "sources": {
+        "espeak_ng_en_us": "ˈɑːmɪdɐbˌɑːd",
+        "espeak_ng_en_gb": "ˈɑːmɪdɐbˌad"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "sources": {
+        "espeak_ng_en_us": "d‍ʒˈiː",
+        "espeak_ng_en_gb": "d‍ʒˈiː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "sources": {
+        "espeak_ng_en_us": "nˈæɡpʊ‍ɹ",
+        "espeak_ng_en_gb": "nˈaɡpʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "sources": {
+        "espeak_ng_en_us": "dˈɪmɐpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "dˈɪmɐpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "sources": {
+        "espeak_ng_en_us": "d‍ʒˈa‍ɪpʊ‍ɹ",
+        "espeak_ng_en_gb": "d‍ʒˈa‍ɪpʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "sources": {
+        "espeak_ng_en_us": "mˌʌnɪpˈʊ‍ɹ",
+        "espeak_ng_en_gb": "mˌʌnɪpˈʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "sources": {
+        "espeak_ng_en_us": "ɹˈa‍ɪpʊ‍ɹ",
+        "espeak_ng_en_gb": "ɹˈa‍ɪpʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "sources": {
+        "espeak_ng_en_us": "t‍ʃˈæɾɚd‍ʒˌiː",
+        "espeak_ng_en_gb": "t‍ʃˈatəd‍ʒˌiː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "sources": {
+        "espeak_ng_en_us": "ɡˈɔːɹɐkhpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "ɡˈɔːɹɐkhpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "sources": {
+        "espeak_ng_en_us": "mʊkˈɜːd‍ʒiː",
+        "espeak_ng_en_gb": "mʊkˈɜːd‍ʒiː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "sources": {
+        "espeak_ng_en_us": "sˈæmbɐlpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "sˈambɐlpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "sources": {
+        "espeak_ng_en_us": "ɐlˈɪɡɑː‍ɹ",
+        "espeak_ng_en_gb": "ɐlˈɪɡɑː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "sources": {
+        "espeak_ng_en_us": "əlˈɑːhɐbˌɑːd",
+        "espeak_ng_en_gb": "əlˈɑːhɐbˌɑːd"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "sources": {
+        "espeak_ng_en_us": "d‍ʒˈæmʃɪdpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "d‍ʒˈamʃɪdpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "sources": {
+        "espeak_ng_en_us": "ˈʌdhɐmpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "ˈʌdhɐmpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "sources": {
+        "espeak_ng_en_us": "ˈæzɐmɡˌɑː‍ɹ",
+        "espeak_ng_en_gb": "ˈazɐmɡˌɑː"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "sources": {
+        "espeak_ng_en_us": "sˈʌltɐnpˌʊ‍ɹ",
+        "espeak_ng_en_gb": "sˈʌltɐnpˌʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "sources": {
+        "espeak_ng_en_us": "bᵻlˈæspʊ‍ɹ",
+        "espeak_ng_en_gb": "bɪlˈaspʊ‍ə"
+      },
+      "repository_curated": null,
+      "cmudict": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "stage2d2f-summary.v2",
+  "status": "EXECUTED_ALLOSAURUS_RUN",
+  "pilot_words": [
+    "Srinagar",
+    "Hyderabad",
+    "Bengaluru",
+    "Chandigarh",
+    "Chhattisgarh",
+    "Banerjee",
+    "Nagpur",
+    "Gorakhpur",
+    "Jamshedpur",
+    "Udhampur"
+  ],
+  "clip_count": 50,
+  "recognition_success_count": 50,
+  "recognition_failure_count": 0,
+  "repeatability_class_counts": {
+    "ACOUSTIC_PHONE_PATTERN_STABLE": 3,
+    "MOSTLY_STABLE": 4,
+    "UNSTABLE": 3,
+    "RECOGNIZER_UNRELIABLE": 0
+  },
+  "human_review_question_count": 4,
+  "training_performed": false,
+  "qwen_loaded": false,
+  "swara_phones_v0_modified": false,
+  "canonical_lexicon_modified": false
+}

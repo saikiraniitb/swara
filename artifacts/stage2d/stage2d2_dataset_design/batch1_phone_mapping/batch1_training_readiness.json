@@ -1,0 +1,237 @@
+{
+  "schema_version": "stage2d2-batch1-training-readiness.v1",
+  "counts": {
+    "READY_FOR_EXPLICIT_TRAINING": 0,
+    "READY_AFTER_PHONE_REVIEW": 25,
+    "INVENTORY_GAP": 0,
+    "HOLD_FOR_LATER": 0
+  },
+  "entries": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "human_status": "LIKELY_STABLE",
+      "training_readiness": "READY_AFTER_PHONE_REVIEW",
+      "phone_mapping_status": "UNRESOLVED",
+      "canonical_phone_sequence": null,
+      "reason": "Human stability is positive, but explicit training requires a trusted phone sequence that is not currently available."
+    }
+  ],
+  "training_allowed": false
+}

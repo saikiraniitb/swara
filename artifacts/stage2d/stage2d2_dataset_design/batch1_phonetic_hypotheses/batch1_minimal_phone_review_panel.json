@@ -1,0 +1,758 @@
+{
+  "schema_version": "stage2d2-batch1-minimal-phone-review-panel.v1",
+  "panel_size": 10,
+  "bounded_maximum": 12,
+  "phone_assignment_requested": false,
+  "entries": [
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "sɹˈiːnəɡɚ",
+          "analysis_tokens": [
+            "s",
+            "ɹ",
+            "iː",
+            "n",
+            "ə",
+            "ɡ",
+            "ɚ"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "S",
+              "R",
+              "II",
+              "N",
+              "A",
+              "G",
+              "A"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "length is represented coarsely",
+              "r-colored schwa loses rhotic vowel detail",
+              "schwa approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "sɹˈiːnəɡə",
+          "analysis_tokens": [
+            "s",
+            "ɹ",
+            "iː",
+            "n",
+            "ə",
+            "ɡ",
+            "ə"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "S",
+              "R",
+              "II",
+              "N",
+              "A",
+              "G",
+              "A"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "length is represented coarsely",
+              "schwa approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Does the 'nagar' portion sound like the separate Nagar examples, allowing for natural context?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_2104.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "hˈa‍ɪdɚɹɐbˌɑːd",
+          "analysis_tokens": [
+            "h",
+            "aɪ",
+            "d",
+            "ɚ",
+            "ɹ",
+            "ɐ",
+            "b",
+            "ɑː",
+            "d"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "H",
+              "AI",
+              "D",
+              "A",
+              "R",
+              "A",
+              "B",
+              "AA",
+              "D"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "central vowel approximated as A",
+              "diphthong is represented by coarse AI",
+              "length/quality may be coarse",
+              "r-colored schwa loses rhotic vowel detail"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "hˈa‍ɪdəɹɐbˌad",
+          "analysis_tokens": [
+            "h",
+            "aɪ",
+            "d",
+            "ə",
+            "ɹ",
+            "ɐ",
+            "b",
+            "a",
+            "d"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "H",
+              "AI",
+              "D",
+              "A",
+              "R",
+              "A",
+              "B",
+              "A",
+              "D"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "central vowel approximated as A",
+              "diphthong is represented by coarse AI",
+              "schwa approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Do the central vowels sound like 'uh' or another central vowel rather than a clear full vowel?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_WEAT_6164",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_6164.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "bˈɛŋɡɐlˌʊ‍ɹɹuː",
+          "analysis_tokens": [
+            "b",
+            "ɛ",
+            "ŋ",
+            "ɡ",
+            "ɐ",
+            "l",
+            "ʊ",
+            "ɹ",
+            "ɹ",
+            "uː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "B",
+              "E",
+              "NG",
+              "G",
+              "A",
+              "L",
+              "U",
+              "R",
+              "R",
+              "UU"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "central vowel approximated as A",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "bˈɛŋɡɐlˌʊ‍əɹuː",
+          "analysis_tokens": [
+            "b",
+            "ɛ",
+            "ŋ",
+            "ɡ",
+            "ɐ",
+            "l",
+            "ʊə",
+            "ɹ",
+            "uː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "B",
+              "E",
+              "NG",
+              "G",
+              "A",
+              "L",
+              "U",
+              "R",
+              "UU"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "centering diphthong loses its second element",
+              "central vowel approximated as A",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Is the final 'luru/luru-like' portion stable, including any r/w-like realization?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1333.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "t‍ʃˌʌndɪɡˈɜː",
+          "analysis_tokens": [
+            "tʃ",
+            "ʌ",
+            "n",
+            "d",
+            "ɪ",
+            "ɡ",
+            "ɜː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "CH",
+              "A",
+              "N",
+              "D",
+              "I",
+              "G",
+              "AA"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "NURSE quality approximated as AA",
+              "STRUT approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "t‍ʃˌʌndɪɡˈɜː",
+          "analysis_tokens": [
+            "tʃ",
+            "ʌ",
+            "n",
+            "d",
+            "ɪ",
+            "ɡ",
+            "ɜː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "CH",
+              "A",
+              "N",
+              "D",
+              "I",
+              "G",
+              "AA"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "NURSE quality approximated as AA",
+              "STRUT approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "EXACT_AGREEMENT",
+      "plain_language_question": "Do you hear any extra breath or a meaningfully different final consonant quality?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_704.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "t‍ʃˈʌɾiːsɡˌɜː",
+          "analysis_tokens": [
+            "tʃ",
+            "ʌ",
+            "ɾ",
+            "iː",
+            "s",
+            "ɡ",
+            "ɜː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "CH",
+              "A",
+              "T",
+              "II",
+              "S",
+              "G",
+              "AA"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "NURSE quality approximated as AA",
+              "STRUT approximated as A",
+              "flap approximated as T",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "t‍ʃˈʌtiːsɡˌɜː",
+          "analysis_tokens": [
+            "tʃ",
+            "ʌ",
+            "t",
+            "iː",
+            "s",
+            "ɡ",
+            "ɜː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "CH",
+              "A",
+              "T",
+              "II",
+              "S",
+              "G",
+              "AA"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "NURSE quality approximated as AA",
+              "STRUT approximated as A",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Do you hear one stable consonant pattern, or a recurring breathy/aspirated distinction?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_POLI_8248",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_8248.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "bˈænɚd‍ʒˌiː",
+          "analysis_tokens": [
+            "b",
+            "æ",
+            "n",
+            "ɚ",
+            "dʒ",
+            "iː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "B",
+              "A",
+              "N",
+              "A",
+              "J",
+              "II"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "TRAP approximated as A",
+              "length is represented coarsely",
+              "r-colored schwa loses rhotic vowel detail"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "bˈanəd‍ʒˌiː",
+          "analysis_tokens": [
+            "b",
+            "a",
+            "n",
+            "ə",
+            "dʒ",
+            "iː"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "B",
+              "A",
+              "N",
+              "A",
+              "J",
+              "II"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "length is represented coarsely",
+              "schwa approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Is the initial/middle vowel pattern stable across contexts?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3545.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "nˈæɡpʊ‍ɹ",
+          "analysis_tokens": [
+            "n",
+            "æ",
+            "ɡ",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "N",
+              "A",
+              "G",
+              "P",
+              "U",
+              "R"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "TRAP approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "nˈaɡpʊ‍ə",
+          "analysis_tokens": [
+            "n",
+            "a",
+            "ɡ",
+            "p",
+            "ʊə"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "N",
+              "A",
+              "G",
+              "P",
+              "U"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "centering diphthong loses its second element"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Does the '-pur' portion have a stable vowel and r-like ending?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6944",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6944.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "ɡˈɔːɹɐkhpˌʊ‍ɹ",
+          "analysis_tokens": [
+            "ɡ",
+            "ɔː",
+            "ɹ",
+            "ɐ",
+            "k",
+            "h",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "G",
+              "OO",
+              "R",
+              "A",
+              "K",
+              "H",
+              "P",
+              "U",
+              "R"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "central vowel approximated as A",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "ɡˈɔːɹɐkhpˌʊ‍ə",
+          "analysis_tokens": [
+            "ɡ",
+            "ɔː",
+            "ɹ",
+            "ɐ",
+            "k",
+            "h",
+            "p",
+            "ʊə"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "G",
+              "OO",
+              "R",
+              "A",
+              "K",
+              "H",
+              "P",
+              "U"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "centering diphthong loses its second element",
+              "central vowel approximated as A",
+              "length is represented coarsely"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Does the '-pur' portion match the other -pur words, and is the middle kh-like sound stable?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3391.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "d‍ʒˈæmʃɪdpˌʊ‍ɹ",
+          "analysis_tokens": [
+            "dʒ",
+            "æ",
+            "m",
+            "ʃ",
+            "ɪ",
+            "d",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "J",
+              "A",
+              "M",
+              "SH",
+              "I",
+              "D",
+              "P",
+              "U",
+              "R"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "TRAP approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "d‍ʒˈamʃɪdpˌʊ‍ə",
+          "analysis_tokens": [
+            "dʒ",
+            "a",
+            "m",
+            "ʃ",
+            "ɪ",
+            "d",
+            "p",
+            "ʊə"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "J",
+              "A",
+              "M",
+              "SH",
+              "I",
+              "D",
+              "P",
+              "U"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "centering diphthong loses its second element"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Does the '-pur' portion have a stable realization across this context?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "human_status": "LIKELY_STABLE",
+      "utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+      "role": "MEDOID",
+      "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+      "competing_hypotheses": {
+        "espeak_ng_en_us": {
+          "raw_output": "ˈʌdhɐmpˌʊ‍ɹ",
+          "analysis_tokens": [
+            "ʌ",
+            "d",
+            "h",
+            "ɐ",
+            "m",
+            "p",
+            "ʊ",
+            "ɹ"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "A",
+              "D",
+              "H",
+              "A",
+              "M",
+              "P",
+              "U",
+              "R"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "English rhotic realization approximated as R",
+              "STRUT approximated as A",
+              "central vowel approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        },
+        "espeak_ng_en_gb": {
+          "raw_output": "ˈʌdhɐmpˌʊ‍ə",
+          "analysis_tokens": [
+            "ʌ",
+            "d",
+            "h",
+            "ɐ",
+            "m",
+            "p",
+            "ʊə"
+          ],
+          "v0_mapping": {
+            "v0_sequence": [
+              "A",
+              "D",
+              "H",
+              "A",
+              "M",
+              "P",
+              "U"
+            ],
+            "unsupported_phones": [],
+            "distinctions_lost": [
+              "STRUT approximated as A",
+              "centering diphthong loses its second element",
+              "central vowel approximated as A"
+            ],
+            "mapping_status": "LOSSY"
+          }
+        }
+      },
+      "source_agreement": "MEANINGFUL_DISAGREEMENT",
+      "plain_language_question": "Does the '-pur' portion remain stable, and is the dh-like consonant distinct?",
+      "phone_assignment": "NOT_REQUESTED; this panel does not ask the reviewer to choose symbols."
+    }
+  ]
+}

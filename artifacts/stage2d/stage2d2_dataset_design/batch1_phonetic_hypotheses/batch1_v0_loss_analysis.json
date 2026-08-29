@@ -1,0 +1,1021 @@
+{
+  "schema_version": "stage2d2-batch1-v0-loss-analysis.v1",
+  "inventory": "swara-phones-v0",
+  "production_inventory_modified": false,
+  "rows": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "N",
+        "A",
+        "G",
+        "A"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "TRAP approximated as A",
+        "r-colored schwa loses rhotic vowel detail"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "N",
+        "A",
+        "G",
+        "A"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "S",
+        "R",
+        "II",
+        "N",
+        "A",
+        "G",
+        "A"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "length is represented coarsely",
+        "r-colored schwa loses rhotic vowel detail",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "S",
+        "R",
+        "II",
+        "N",
+        "A",
+        "G",
+        "A"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "length is represented coarsely",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "H",
+        "AI",
+        "D",
+        "A",
+        "R",
+        "A",
+        "B",
+        "AA",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A",
+        "diphthong is represented by coarse AI",
+        "length/quality may be coarse",
+        "r-colored schwa loses rhotic vowel detail"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "H",
+        "AI",
+        "D",
+        "A",
+        "R",
+        "A",
+        "B",
+        "A",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A",
+        "diphthong is represented by coarse AI",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "B",
+        "E",
+        "NG",
+        "G",
+        "A",
+        "L",
+        "U",
+        "R",
+        "R",
+        "UU"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "B",
+        "E",
+        "NG",
+        "G",
+        "A",
+        "L",
+        "U",
+        "R",
+        "UU"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "centering diphthong loses its second element",
+        "central vowel approximated as A",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "N",
+        "D",
+        "I",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "STRUT approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "N",
+        "D",
+        "I",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "STRUT approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "T",
+        "II",
+        "S",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "STRUT approximated as A",
+        "flap approximated as T",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "T",
+        "II",
+        "S",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "STRUT approximated as A",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "B",
+        "A",
+        "N",
+        "A",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "TRAP approximated as A",
+        "length is represented coarsely",
+        "r-colored schwa loses rhotic vowel detail"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "B",
+        "A",
+        "N",
+        "A",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "length is represented coarsely",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "AA",
+        "M",
+        "I",
+        "D",
+        "A",
+        "B",
+        "AA",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "AA",
+        "M",
+        "I",
+        "D",
+        "A",
+        "B",
+        "A",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "TRAP approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "D",
+        "I",
+        "M",
+        "A",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "D",
+        "I",
+        "M",
+        "A",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "J",
+        "AI",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "diphthong is represented by coarse AI"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "J",
+        "AI",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element",
+        "diphthong is represented by coarse AI"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "M",
+        "A",
+        "N",
+        "I",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "STRUT approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "M",
+        "A",
+        "N",
+        "I",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "STRUT approximated as A",
+        "centering diphthong loses its second element"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "R",
+        "AI",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "diphthong is represented by coarse AI"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "R",
+        "AI",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "centering diphthong loses its second element",
+        "diphthong is represented by coarse AI"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "T",
+        "A",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "TRAP approximated as A",
+        "flap approximated as T",
+        "length is represented coarsely",
+        "r-colored schwa loses rhotic vowel detail"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "CH",
+        "A",
+        "T",
+        "A",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "length is represented coarsely",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "G",
+        "OO",
+        "R",
+        "A",
+        "K",
+        "H",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "G",
+        "OO",
+        "R",
+        "A",
+        "K",
+        "H",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "centering diphthong loses its second element",
+        "central vowel approximated as A",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "M",
+        "U",
+        "K",
+        "AA",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "M",
+        "U",
+        "K",
+        "AA",
+        "J",
+        "II"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "NURSE quality approximated as AA",
+        "length is represented coarsely"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "S",
+        "A",
+        "M",
+        "B",
+        "A",
+        "L",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "TRAP approximated as A",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "S",
+        "A",
+        "M",
+        "B",
+        "A",
+        "L",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "A",
+        "L",
+        "I",
+        "G",
+        "AA",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "central vowel approximated as A",
+        "length/quality may be coarse"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "A",
+        "L",
+        "I",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "A",
+        "L",
+        "AA",
+        "H",
+        "A",
+        "B",
+        "AA",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "A",
+        "L",
+        "AA",
+        "H",
+        "A",
+        "B",
+        "AA",
+        "D"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse",
+        "schwa approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "TRAP approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "A",
+        "D",
+        "H",
+        "A",
+        "M",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "STRUT approximated as A",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "A",
+        "D",
+        "H",
+        "A",
+        "M",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "STRUT approximated as A",
+        "centering diphthong loses its second element",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "A",
+        "S",
+        "A",
+        "M",
+        "G",
+        "AA",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "TRAP approximated as A",
+        "central vowel approximated as A",
+        "length/quality may be coarse",
+        "voicing distinction approximated as S"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "A",
+        "S",
+        "A",
+        "M",
+        "G",
+        "AA"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "central vowel approximated as A",
+        "length/quality may be coarse",
+        "voicing distinction approximated as S"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "S",
+        "A",
+        "L",
+        "T",
+        "A",
+        "N",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "STRUT approximated as A",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "S",
+        "A",
+        "L",
+        "T",
+        "A",
+        "N",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "STRUT approximated as A",
+        "centering diphthong loses its second element",
+        "central vowel approximated as A"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "source_id": "espeak_ng_en_us",
+      "v0_sequence": [
+        "B",
+        "I",
+        "L",
+        "A",
+        "S",
+        "P",
+        "U",
+        "R"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "English rhotic realization approximated as R",
+        "TRAP approximated as A",
+        "reduced vowel approximated as I"
+      ],
+      "mapping_status": "LOSSY"
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "source_id": "espeak_ng_en_gb",
+      "v0_sequence": [
+        "B",
+        "I",
+        "L",
+        "A",
+        "S",
+        "P",
+        "U"
+      ],
+      "unsupported_phones": [],
+      "distinctions_lost": [
+        "centering diphthong loses its second element"
+      ],
+      "mapping_status": "LOSSY"
+    }
+  ]
+}

@@ -1,0 +1,2494 @@
+{
+  "schema_version": "stage2d2f-repeatability.v2",
+  "pilot_word_count": 10,
+  "calibration": {
+    "word_mean_q25": 0.46458333333333335,
+    "word_mean_q75": 0.6365674603174603,
+    "policy": "q25 or below stable; q25-q75 mostly stable; above q75 unstable."
+  },
+  "words": [
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.75
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6198",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_3774",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_2994",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6198",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.7142857142857143
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_3774",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_2994",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.42857142857142855
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6198",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_3774",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6198",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_2994",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.7142857142857143
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_3774",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_2994",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        }
+      ],
+      "mean_normalized_edit_distance": 0.6162698412698413,
+      "median_normalized_edit_distance": 0.6458333333333333,
+      "max_normalized_edit_distance": 0.7777777777777778,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "s̪",
+        "uə",
+        "iː",
+        "ɴ",
+        "ʌ",
+        "b̞",
+        "ʌ"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 8,
+          "values": {
+            "n": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "s̪": 2,
+            "iː": 1,
+            "tsʰ": 1,
+            "p": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 1,
+          "values": {
+            "v": 1,
+            "ɴ": 1,
+            "uə": 2,
+            "iː": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 2,
+          "values": {
+            "iː": 2,
+            "k": 1,
+            "lʲ": 1,
+            "ɴ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 3,
+          "values": {
+            "ɴ": 2,
+            "ɒ": 1,
+            "iː": 1,
+            "a": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 4,
+          "values": {
+            "ɒ": 1,
+            "ʌ": 1,
+            "ɴ": 1,
+            "k": 1
+          },
+          "majority_fraction": 0.25
+        },
+        {
+          "position": 5,
+          "values": {
+            "b̞": 2,
+            "ɒ": 1,
+            "ʌ": 1
+          },
+          "majority_fraction": 0.5
+        },
+        {
+          "position": 6,
+          "values": {
+            "ʌ": 2,
+            "k͡p̚": 1,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.5
+        },
+        {
+          "position": 7,
+          "values": {
+            "l": 1,
+            "ʌ": 1
+          },
+          "majority_fraction": 0.5
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "ɴ->iː",
+          3
+        ],
+        [
+          "v->uə",
+          2
+        ],
+        [
+          "ɒ->ʌ",
+          2
+        ],
+        [
+          "s̪->tsʰ",
+          2
+        ],
+        [
+          "iː->lʲ",
+          2
+        ],
+        [
+          "ɒ->ɴ",
+          2
+        ],
+        [
+          "b̞->ɒ",
+          2
+        ],
+        [
+          "ʌ->k͡p̚",
+          2
+        ],
+        [
+          "s̪->p",
+          2
+        ],
+        [
+          "iː->ɴ",
+          2
+        ],
+        [
+          "ɴ->a",
+          2
+        ],
+        [
+          "b̞->ʌ",
+          2
+        ],
+        [
+          "ʌ->ɒ",
+          2
+        ],
+        [
+          "ɴ->uə",
+          2
+        ],
+        [
+          "uə->iː",
+          2
+        ],
+        [
+          "s̪->iː",
+          1
+        ],
+        [
+          "v->ɴ",
+          1
+        ],
+        [
+          "iː->k",
+          1
+        ],
+        [
+          "ɴ->ɒ",
+          1
+        ],
+        [
+          "l->ʌ",
+          1
+        ]
+      ],
+      "classification": "MOSTLY_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+          "edit_distance": 0,
+          "normalized_edit_distance": 0.0
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        }
+      ],
+      "mean_normalized_edit_distance": 0.5458333333333334,
+      "median_normalized_edit_distance": 0.625,
+      "max_normalized_edit_distance": 0.6666666666666666,
+      "distinct_raw_output_count": 4,
+      "consensus_sequence": [
+        "h",
+        "a",
+        "ɪ",
+        "tʂ",
+        "uə",
+        "p",
+        "a"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "a": 5
+          },
+          "majority_fraction": 1.0
+        },
+        {
+          "position": 8,
+          "values": {
+            "ɒ": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "h": 2,
+            "tʰ": 2,
+            "ʁ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 2,
+          "values": {
+            "ɪ": 3,
+            "tʂ": 1,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 3,
+          "values": {
+            "tʂ": 2,
+            "t͡ɕ": 1,
+            "ɻ̩": 1,
+            "ɪ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 4,
+          "values": {
+            "uə": 2,
+            "ɻ̩": 1,
+            "p": 1,
+            "tʂ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 5,
+          "values": {
+            "p": 2,
+            "b̥": 1,
+            "a": 1,
+            "ɻ̩": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 6,
+          "values": {
+            "a": 3,
+            "o": 1,
+            "p": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 7,
+          "values": {
+            "ɒ": 1,
+            "t̪": 1,
+            "uə": 1
+          },
+          "majority_fraction": 0.3333333333333333
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "h->tʰ",
+          3
+        ],
+        [
+          "ɪ->tʂ",
+          3
+        ],
+        [
+          "a->o",
+          3
+        ],
+        [
+          "ɪ->ɒ",
+          3
+        ],
+        [
+          "a->p",
+          3
+        ],
+        [
+          "tʂ->ɻ̩",
+          2
+        ],
+        [
+          "uə->p",
+          2
+        ],
+        [
+          "p->a",
+          2
+        ],
+        [
+          "h->ʁ",
+          2
+        ],
+        [
+          "tʂ->ɪ",
+          2
+        ],
+        [
+          "uə->tʂ",
+          2
+        ],
+        [
+          "p->ɻ̩",
+          2
+        ],
+        [
+          "tʰ->ʁ",
+          2
+        ],
+        [
+          "tʂ->t͡ɕ",
+          1
+        ],
+        [
+          "uə->ɻ̩",
+          1
+        ],
+        [
+          "p->b̥",
+          1
+        ],
+        [
+          "tʰ->h",
+          1
+        ],
+        [
+          "t͡ɕ->tʂ",
+          1
+        ],
+        [
+          "ɻ̩->uə",
+          1
+        ],
+        [
+          "b̥->p",
+          1
+        ]
+      ],
+      "classification": "MOSTLY_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6274",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4923",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.875
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6274",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_2590",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6274",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_1738",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6274",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6164",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4923",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_2590",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4923",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_1738",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.75
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4923",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6164",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_2590",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_1738",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_2590",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6164",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_POLI_1738",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6164",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        }
+      ],
+      "mean_normalized_edit_distance": 0.7,
+      "median_normalized_edit_distance": 0.7638888888888888,
+      "max_normalized_edit_distance": 0.875,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": null,
+      "consensus_method": null,
+      "stable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "e": 4,
+            "æ": 1
+          },
+          "majority_fraction": 0.8
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "b": 2,
+            "b̞": 2,
+            "m": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 2,
+          "values": {
+            "ɪ": 1,
+            "n": 2,
+            "ɡ": 2
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 3,
+          "values": {
+            "ɡ": 2,
+            "g": 1,
+            "l": 1,
+            "ʌ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 4,
+          "values": {
+            "lʲ": 1,
+            "ɹ̩": 1,
+            "ʌ": 1,
+            "o": 1,
+            "n": 1
+          },
+          "majority_fraction": 0.2
+        },
+        {
+          "position": 5,
+          "values": {
+            "ʊ": 1,
+            "l": 2,
+            "ɾ": 1,
+            "uə": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 6,
+          "values": {
+            "ɾ": 2,
+            "uə": 2,
+            "ɪ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 7,
+          "values": {
+            "uə": 1,
+            "ɾ": 2,
+            "ʌ": 1
+          },
+          "majority_fraction": 0.5
+        },
+        {
+          "position": 8,
+          "values": {
+            "uː": 1,
+            "s": 1
+          },
+          "majority_fraction": 0.5
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "uə->ɾ",
+          4
+        ],
+        [
+          "n->ɡ",
+          4
+        ],
+        [
+          "ɾ->uə",
+          3
+        ],
+        [
+          "b->b̞",
+          2
+        ],
+        [
+          "ɪ->n",
+          2
+        ],
+        [
+          "ʊ->l",
+          2
+        ],
+        [
+          "e->æ",
+          2
+        ],
+        [
+          "ɪ->ɡ",
+          2
+        ],
+        [
+          "ɡ->l",
+          2
+        ],
+        [
+          "b->m",
+          2
+        ],
+        [
+          "ɡ->ʌ",
+          2
+        ],
+        [
+          "b̞->b",
+          2
+        ],
+        [
+          "l->ɾ",
+          2
+        ],
+        [
+          "b̞->m",
+          2
+        ],
+        [
+          "l->uə",
+          2
+        ],
+        [
+          "ɾ->ʌ",
+          2
+        ],
+        [
+          "æ->e",
+          2
+        ],
+        [
+          "ɡ->g",
+          1
+        ],
+        [
+          "lʲ->ɹ̩",
+          1
+        ],
+        [
+          "lʲ->ʌ",
+          1
+        ]
+      ],
+      "classification": "UNSTABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5366",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.2222222222222222
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.3333333333333333
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_768",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5366",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.1111111111111111
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5366",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_768",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.2222222222222222
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5366",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_768",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.3333333333333333
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_768",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        }
+      ],
+      "mean_normalized_edit_distance": 0.37222222222222223,
+      "median_normalized_edit_distance": 0.38888888888888884,
+      "max_normalized_edit_distance": 0.5555555555555556,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "t͡ʃʲ",
+        "y",
+        "æ",
+        "ɴ",
+        "d",
+        "iː",
+        "g",
+        "ɒ",
+        "ɾ"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "t͡ʃʲ": 4,
+            "ɕ": 1
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 8,
+          "values": {
+            "ɾ": 3
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "y": 3,
+            "æ": 2
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 2,
+          "values": {
+            "æ": 3,
+            "ɴ": 1,
+            "n": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 3,
+          "values": {
+            "ɴ": 3,
+            "lʲ": 1,
+            "d": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 4,
+          "values": {
+            "d": 3,
+            "iː": 2
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 5,
+          "values": {
+            "i": 1,
+            "iː": 2,
+            "g": 2
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 6,
+          "values": {
+            "g": 2,
+            "ɡ": 1,
+            "ɒ": 1,
+            "ə": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 7,
+          "values": {
+            "ʌ": 1,
+            "ɒ": 2,
+            "ɾ": 2
+          },
+          "majority_fraction": 0.4
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "y->æ",
+          6
+        ],
+        [
+          "d->iː",
+          6
+        ],
+        [
+          "t͡ʃʲ->ɕ",
+          4
+        ],
+        [
+          "iː->g",
+          4
+        ],
+        [
+          "ɒ->ɾ",
+          4
+        ],
+        [
+          "æ->ɴ",
+          3
+        ],
+        [
+          "ɴ->lʲ",
+          3
+        ],
+        [
+          "æ->n",
+          3
+        ],
+        [
+          "ɴ->d",
+          3
+        ],
+        [
+          "i->iː",
+          2
+        ],
+        [
+          "ʌ->ɒ",
+          2
+        ],
+        [
+          "g->ɡ",
+          2
+        ],
+        [
+          "i->g",
+          2
+        ],
+        [
+          "g->ɒ",
+          2
+        ],
+        [
+          "ʌ->ɾ",
+          2
+        ],
+        [
+          "g->ə",
+          2
+        ],
+        [
+          "ɡ->ɒ",
+          1
+        ],
+        [
+          "ɡ->ə",
+          1
+        ],
+        [
+          "ɴ->n",
+          1
+        ],
+        [
+          "lʲ->d",
+          1
+        ]
+      ],
+      "classification": "ACOUSTIC_PHONE_PATTERN_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6522",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_875",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6522",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.3333333333333333
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_875",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6522",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7777777777777778
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6522",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_875",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_875",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        }
+      ],
+      "mean_normalized_edit_distance": 0.5555555555555556,
+      "median_normalized_edit_distance": 0.5555555555555556,
+      "max_normalized_edit_distance": 0.7777777777777778,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "ʂ",
+        "a",
+        "t",
+        "i",
+        "s",
+        "k",
+        "ʌ",
+        "l"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "a": 5
+          },
+          "majority_fraction": 1.0
+        },
+        {
+          "position": 2,
+          "values": {
+            "t": 5
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "tʂʰ": 2,
+            "ʂ": 1,
+            "t͡ʃʲ": 2
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 3,
+          "values": {
+            "i": 3,
+            "t̪": 1,
+            "j": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 4,
+          "values": {
+            "z": 2,
+            "s": 1,
+            "iː": 1,
+            "i": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 5,
+          "values": {
+            "k": 3,
+            "z": 1,
+            "s": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 6,
+          "values": {
+            "ʌ": 2,
+            "ɡ": 1,
+            "k": 1,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 7,
+          "values": {
+            "ɾ": 1,
+            "l": 2,
+            "ʌ": 1,
+            "ə": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 8,
+          "values": {
+            "s": 1,
+            "ɾ": 1,
+            "l": 1,
+            "ɪ": 1
+          },
+          "majority_fraction": 0.25
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "ɾ->l",
+          3
+        ],
+        [
+          "tʂʰ->t͡ʃʲ",
+          3
+        ],
+        [
+          "i->t̪",
+          3
+        ],
+        [
+          "i->j",
+          3
+        ],
+        [
+          "z->s",
+          2
+        ],
+        [
+          "k->z",
+          2
+        ],
+        [
+          "ʌ->ɡ",
+          2
+        ],
+        [
+          "k->s",
+          2
+        ],
+        [
+          "ʌ->k",
+          2
+        ],
+        [
+          "ʌ->ɒ",
+          2
+        ],
+        [
+          "ʂ->t͡ʃʲ",
+          2
+        ],
+        [
+          "tʂʰ->ʂ",
+          1
+        ],
+        [
+          "z->iː",
+          1
+        ],
+        [
+          "ɾ->ʌ",
+          1
+        ],
+        [
+          "s->ɾ",
+          1
+        ],
+        [
+          "z->i",
+          1
+        ],
+        [
+          "ɾ->ə",
+          1
+        ],
+        [
+          "s->l",
+          1
+        ],
+        [
+          "s->ɪ",
+          1
+        ],
+        [
+          "s->iː",
+          1
+        ]
+      ],
+      "classification": "MOSTLY_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_1821",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3529",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_1821",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_705",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.8333333333333334
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_1821",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8248",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.7142857142857143
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_1821",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.8333333333333334
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3529",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_705",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.875
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3529",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8248",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.875
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3529",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.75
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_705",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8248",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5714285714285714
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_705",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_POLI_8248",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.8571428571428571
+        }
+      ],
+      "mean_normalized_edit_distance": 0.7351190476190477,
+      "median_normalized_edit_distance": 0.7916666666666667,
+      "max_normalized_edit_distance": 0.875,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": null,
+      "consensus_method": null,
+      "stable_positions": [
+        {
+          "position": 7,
+          "values": {
+            "i": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "b̥": 3,
+            "b̞": 1,
+            "b": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 1,
+          "values": {
+            "ɒ": 2,
+            "a": 3
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 2,
+          "values": {
+            "n": 1,
+            "a": 1,
+            "ɾ": 2,
+            "ɳ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 3,
+          "values": {
+            "ʌ": 2,
+            "n": 1,
+            "ɒ": 2
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 4,
+          "values": {
+            "tɕ": 2,
+            "ɴ": 1,
+            "t͡ɕ": 1
+          },
+          "majority_fraction": 0.5
+        },
+        {
+          "position": 5,
+          "values": {
+            "i": 1,
+            "ʌ": 1,
+            "iː": 1,
+            "y": 1
+          },
+          "majority_fraction": 0.25
+        },
+        {
+          "position": 6,
+          "values": {
+            "tɕ": 1,
+            "s": 1
+          },
+          "majority_fraction": 0.5
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "ɒ->a",
+          6
+        ],
+        [
+          "b̥->b",
+          3
+        ],
+        [
+          "n->ɾ",
+          2
+        ],
+        [
+          "ʌ->ɒ",
+          2
+        ],
+        [
+          "tɕ->t͡ɕ",
+          2
+        ],
+        [
+          "b̞->b̥",
+          2
+        ],
+        [
+          "a->ɾ",
+          2
+        ],
+        [
+          "n->ɒ",
+          2
+        ],
+        [
+          "ɒ->ʌ",
+          2
+        ],
+        [
+          "b̥->b̞",
+          1
+        ],
+        [
+          "n->a",
+          1
+        ],
+        [
+          "ʌ->n",
+          1
+        ],
+        [
+          "tɕ->ɴ",
+          1
+        ],
+        [
+          "i->ʌ",
+          1
+        ],
+        [
+          "n->ɳ",
+          1
+        ],
+        [
+          "i->iː",
+          1
+        ],
+        [
+          "i->y",
+          1
+        ],
+        [
+          "a->ɳ",
+          1
+        ],
+        [
+          "ɴ->tɕ",
+          1
+        ],
+        [
+          "ʌ->iː",
+          1
+        ]
+      ],
+      "classification": "UNSTABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4243",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.6
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4243",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_522",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.6
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4243",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_120",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.8
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4243",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_5744",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.8333333333333334
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_522",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.4
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_120",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.6
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_5744",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_522",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_HEAL_120",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.6
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_522",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_5744",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_HEAL_120",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_5744",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.6666666666666666
+        }
+      ],
+      "mean_normalized_edit_distance": 0.6433333333333333,
+      "median_normalized_edit_distance": 0.6333333333333333,
+      "max_normalized_edit_distance": 0.8333333333333334,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": null,
+      "consensus_method": null,
+      "stable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "n": 5
+          },
+          "majority_fraction": 1.0
+        },
+        {
+          "position": 3,
+          "values": {
+            "iː": 1,
+            "uə": 4
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 5,
+          "values": {
+            "e": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "a": 1,
+            "ɑ": 1,
+            "o": 1,
+            "ɾ": 1,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.2
+        },
+        {
+          "position": 2,
+          "values": {
+            "k": 1,
+            "t̪": 1,
+            "b̤": 1,
+            "f": 1,
+            "p": 1
+          },
+          "majority_fraction": 0.2
+        },
+        {
+          "position": 4,
+          "values": {
+            "ɾ": 3,
+            "t̪": 1,
+            "lʲ": 1
+          },
+          "majority_fraction": 0.6
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "iː->uə",
+          4
+        ],
+        [
+          "ɾ->t̪",
+          3
+        ],
+        [
+          "ɾ->lʲ",
+          3
+        ],
+        [
+          "a->ɑ",
+          1
+        ],
+        [
+          "k->t̪",
+          1
+        ],
+        [
+          "a->o",
+          1
+        ],
+        [
+          "k->b̤",
+          1
+        ],
+        [
+          "a->ɾ",
+          1
+        ],
+        [
+          "k->f",
+          1
+        ],
+        [
+          "a->ɒ",
+          1
+        ],
+        [
+          "k->p",
+          1
+        ],
+        [
+          "ɑ->o",
+          1
+        ],
+        [
+          "t̪->b̤",
+          1
+        ],
+        [
+          "ɑ->ɾ",
+          1
+        ],
+        [
+          "t̪->f",
+          1
+        ],
+        [
+          "ɑ->ɒ",
+          1
+        ],
+        [
+          "t̪->p",
+          1
+        ],
+        [
+          "o->ɾ",
+          1
+        ],
+        [
+          "b̤->f",
+          1
+        ],
+        [
+          "o->ɒ",
+          1
+        ]
+      ],
+      "classification": "UNSTABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_226",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6944",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.2857142857142857
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_226",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_568",
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.125
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_226",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_7843",
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.125
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_226",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6944",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_OTHE_568",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6944",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_7843",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6944",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_568",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_7843",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.25
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_OTHE_568",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6666666666666666
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_POLI_7843",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        }
+      ],
+      "mean_normalized_edit_distance": 0.398015873015873,
+      "median_normalized_edit_distance": 0.375,
+      "max_normalized_edit_distance": 0.6666666666666666,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "g",
+        "uə",
+        "ɾ",
+        "a",
+        "p",
+        "uə",
+        "ɾ"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "uə": 4,
+            "o": 1
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 2,
+          "values": {
+            "ɾ": 4,
+            "e": 1
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 8,
+          "values": {
+            "ʂ": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "g": 3,
+            "b̞": 1,
+            "k": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 3,
+          "values": {
+            "a": 3,
+            "ɾ": 1,
+            "e": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 4,
+          "values": {
+            "p": 2,
+            "t": 1,
+            "a": 1,
+            "ɪ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 5,
+          "values": {
+            "uə": 3,
+            "p": 2
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 6,
+          "values": {
+            "ɾ": 3,
+            "uə": 2
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 7,
+          "values": {
+            "ɾ": 2,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.6666666666666666
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "uə->p",
+          5
+        ],
+        [
+          "ɾ->uə",
+          5
+        ],
+        [
+          "uə->o",
+          4
+        ],
+        [
+          "ɾ->e",
+          3
+        ],
+        [
+          "g->k",
+          3
+        ],
+        [
+          "a->e",
+          3
+        ],
+        [
+          "a->ɾ",
+          2
+        ],
+        [
+          "p->ɪ",
+          2
+        ],
+        [
+          "b̞->g",
+          2
+        ],
+        [
+          "e->ɾ",
+          2
+        ],
+        [
+          "g->b̞",
+          1
+        ],
+        [
+          "p->t",
+          1
+        ],
+        [
+          "p->a",
+          1
+        ],
+        [
+          "t->a",
+          1
+        ],
+        [
+          "t->p",
+          1
+        ],
+        [
+          "b̞->k",
+          1
+        ],
+        [
+          "t->ɪ",
+          1
+        ],
+        [
+          "ɾ->a",
+          1
+        ],
+        [
+          "a->p",
+          1
+        ],
+        [
+          "p->uə",
+          1
+        ]
+      ],
+      "classification": "ACOUSTIC_PHONE_PATTERN_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+          "edit_distance": 6,
+          "normalized_edit_distance": 0.6
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+          "edit_distance": 7,
+          "normalized_edit_distance": 0.7
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+          "edit_distance": 8,
+          "normalized_edit_distance": 0.8
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+          "edit_distance": 8,
+          "normalized_edit_distance": 0.8
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.5555555555555556
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.4444444444444444
+        }
+      ],
+      "mean_normalized_edit_distance": 0.5844444444444444,
+      "median_normalized_edit_distance": 0.5777777777777777,
+      "max_normalized_edit_distance": 0.8,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "tɕ",
+        "ʌ",
+        "ŋ",
+        "ʂ",
+        "æ",
+        "p",
+        "o",
+        "ɾ"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 3,
+          "values": {
+            "b": 1,
+            "ʂ": 4
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 9,
+          "values": {
+            "ɾ": 1
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "ɴ": 1,
+            "tɕ": 2,
+            "tʲ": 1,
+            "d͡ʒ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 1,
+          "values": {
+            "tɕ": 1,
+            "o": 1,
+            "ʌ": 2,
+            "ɒ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 2,
+          "values": {
+            "o": 1,
+            "b": 1,
+            "ŋ": 3
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 4,
+          "values": {
+            "ɕ": 1,
+            "e": 2,
+            "æ": 1,
+            "p": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 5,
+          "values": {
+            "y": 1,
+            "p": 2,
+            "t̪": 1,
+            "uə": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 6,
+          "values": {
+            "æ": 1,
+            "o": 2,
+            "p": 1,
+            "ɾ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 7,
+          "values": {
+            "b̤": 1,
+            "ɾ": 2,
+            "uə": 1
+          },
+          "majority_fraction": 0.5
+        },
+        {
+          "position": 8,
+          "values": {
+            "uə": 1,
+            "ɾ": 1
+          },
+          "majority_fraction": 0.5
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "b->ʂ",
+          4
+        ],
+        [
+          "o->ŋ",
+          3
+        ],
+        [
+          "b->ŋ",
+          3
+        ],
+        [
+          "ɴ->tɕ",
+          2
+        ],
+        [
+          "ɕ->e",
+          2
+        ],
+        [
+          "y->p",
+          2
+        ],
+        [
+          "æ->o",
+          2
+        ],
+        [
+          "b̤->ɾ",
+          2
+        ],
+        [
+          "tɕ->ʌ",
+          2
+        ],
+        [
+          "æ->p",
+          2
+        ],
+        [
+          "o->ʌ",
+          2
+        ],
+        [
+          "tɕ->tʲ",
+          2
+        ],
+        [
+          "p->t̪",
+          2
+        ],
+        [
+          "o->p",
+          2
+        ],
+        [
+          "ɾ->uə",
+          2
+        ],
+        [
+          "tɕ->d͡ʒ",
+          2
+        ],
+        [
+          "e->p",
+          2
+        ],
+        [
+          "p->uə",
+          2
+        ],
+        [
+          "o->ɾ",
+          2
+        ],
+        [
+          "ʌ->ɒ",
+          2
+        ]
+      ],
+      "classification": "MOSTLY_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "sample_count": 5,
+      "usable_prediction_count": 5,
+      "pairwise": [
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4251",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+          "edit_distance": 2,
+          "normalized_edit_distance": 0.25
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+          "edit_distance": 1,
+          "normalized_edit_distance": 0.125
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4251",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+          "edit_distance": 5,
+          "normalized_edit_distance": 0.625
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4251",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_ENTE_4251",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+          "edit_distance": 4,
+          "normalized_edit_distance": 0.5
+        },
+        {
+          "left_utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+          "right_utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+          "edit_distance": 3,
+          "normalized_edit_distance": 0.375
+        }
+      ],
+      "mean_normalized_edit_distance": 0.4375,
+      "median_normalized_edit_distance": 0.5,
+      "max_normalized_edit_distance": 0.625,
+      "distinct_raw_output_count": 5,
+      "consensus_sequence": [
+        "ʔ",
+        "uə",
+        "ʂ",
+        "ɒ",
+        "m",
+        "p",
+        "uə",
+        "ɾ"
+      ],
+      "consensus_method": "medoid_sequence_only_for_non-high-variability-word",
+      "stable_positions": [
+        {
+          "position": 0,
+          "values": {
+            "ʔ": 4,
+            "ɨ": 1
+          },
+          "majority_fraction": 0.8
+        },
+        {
+          "position": 6,
+          "values": {
+            "uə": 4
+          },
+          "majority_fraction": 1.0
+        },
+        {
+          "position": 7,
+          "values": {
+            "ɾ": 4
+          },
+          "majority_fraction": 1.0
+        }
+      ],
+      "unstable_positions": [
+        {
+          "position": 1,
+          "values": {
+            "uə": 3,
+            "ð": 1,
+            "u": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 2,
+          "values": {
+            "ʂ": 2,
+            "ɒ": 1,
+            "t̪": 1,
+            "tʂ": 1
+          },
+          "majority_fraction": 0.4
+        },
+        {
+          "position": 3,
+          "values": {
+            "ɒ": 3,
+            "p": 1,
+            "a": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 4,
+          "values": {
+            "m": 3,
+            "uə": 1,
+            "ŋ": 1
+          },
+          "majority_fraction": 0.6
+        },
+        {
+          "position": 5,
+          "values": {
+            "p": 3,
+            "ɾ": 1,
+            "b̤": 1
+          },
+          "majority_fraction": 0.6
+        }
+      ],
+      "common_positional_substitutions": [
+        [
+          "m->ŋ",
+          3
+        ],
+        [
+          "ɨ->ʔ",
+          3
+        ],
+        [
+          "ɒ->a",
+          2
+        ],
+        [
+          "p->ɒ",
+          2
+        ],
+        [
+          "uə->m",
+          2
+        ],
+        [
+          "ð->uə",
+          2
+        ],
+        [
+          "ɾ->p",
+          2
+        ],
+        [
+          "u->uə",
+          2
+        ],
+        [
+          "b̤->p",
+          2
+        ],
+        [
+          "ʔ->ɨ",
+          1
+        ],
+        [
+          "uə->ð",
+          1
+        ],
+        [
+          "ʂ->ɒ",
+          1
+        ],
+        [
+          "ɒ->p",
+          1
+        ],
+        [
+          "m->uə",
+          1
+        ],
+        [
+          "p->ɾ",
+          1
+        ],
+        [
+          "uə->u",
+          1
+        ],
+        [
+          "ʂ->t̪",
+          1
+        ],
+        [
+          "p->b̤",
+          1
+        ],
+        [
+          "ʂ->tʂ",
+          1
+        ],
+        [
+          "ð->u",
+          1
+        ]
+      ],
+      "classification": "ACOUSTIC_PHONE_PATTERN_STABLE",
+      "classification_calibration": {
+        "q25_word_mean": 0.46458333333333335,
+        "q75_word_mean": 0.6365674603174603,
+        "policy": "q25 or below is stable, q25-q75 is mostly stable, above q75 is unstable; thresholds are calibrated from this pilot's ten observed word means."
+      }
+    }
+  ],
+  "metrics": "Normalized NFC tokens from raw Allosaurus output; no phones are treated as canonical."
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": "stage2d2-batch1-phone-mapping-summary.v1",
+  "batch1_word_count": 25,
+  "batch1_words": [
+    "Nagar",
+    "Srinagar",
+    "Hyderabad",
+    "Bengaluru",
+    "Chandigarh",
+    "Chhattisgarh",
+    "Banerjee",
+    "Ahmedabad",
+    "Jee",
+    "Nagpur",
+    "Dimapur",
+    "Jaipur",
+    "Manipur",
+    "Raipur",
+    "Chatterjee",
+    "Gorakhpur",
+    "Mukherjee",
+    "Sambalpur",
+    "Aligarh",
+    "Allahabad",
+    "Jamshedpur",
+    "Udhampur",
+    "Azamgarh",
+    "Sultanpur",
+    "Bilaspur"
+  ],
+  "human_status": "LIKELY_STABLE",
+  "human_review_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+  "mapping_counts": {
+    "HIGH_CONFIDENCE": 0,
+    "PLAUSIBLE_NEEDS_REVIEW": 0,
+    "INVENTORY_GAP": 0,
+    "UNRESOLVED": 25
+  },
+  "representability_counts": {
+    "FULLY_REPRESENTABLE": 0,
+    "APPROXIMATELY_REPRESENTABLE": 0,
+    "INVENTORY_GAP": 0,
+    "UNRESOLVED": 25
+  },
+  "training_readiness_counts": {
+    "READY_FOR_EXPLICIT_TRAINING": 0,
+    "READY_AFTER_PHONE_REVIEW": 25,
+    "INVENTORY_GAP": 0,
+    "HOLD_FOR_LATER": 0
+  },
+  "phone_inventory": "swara-phones-v0",
+  "swara_phones_v1_freeze": "SWARA_PHONES_V1_FREEZE_DEFERRED",
+  "production_lexicon_modified": false,
+  "production_inventory_modified": false,
+  "training_performed": false,
+  "qwen_loaded": false
+}

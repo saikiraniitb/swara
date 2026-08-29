@@ -1,0 +1,25 @@
+{
+  "schema_version": "stage2d2f-recognizer-audit.v2",
+  "run_type": "EXECUTED_ALLOSAURUS_RUN",
+  "selected_recognizer": "Allosaurus",
+  "installed": true,
+  "version": "1.0.2",
+  "model_identifier": "uni2005",
+  "model_cache_path": "/Users/saikiran/Documents/swara/.venv-allosaurus/lib/python3.12/site-packages/allosaurus/pretrained/uni2005",
+  "model_size_bytes": 45724269,
+  "model_license": "GPL-3.0",
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "torch_version": "2.13.0",
+  "device": "cpu",
+  "mps_available": false,
+  "timestamp_support": true,
+  "input_policy": "Exactly 50 existing Batch-1 word-only clips; no re-extraction or resampling.",
+  "ctc_policy": "CTC alignment remains segmentation-only and is never treated as phone evidence.",
+  "one_clip_probe": {
+    "status": "SUCCESS",
+    "word": "Srinagar",
+    "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+    "non_empty": true,
+    "phone_output": "s̪ v iː ɴ ɒ b̞ ʌ l"
+  }
+}

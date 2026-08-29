@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage2d-phonetic-analysis-inventory-v0",
+  "production_inventory": false,
+  "units": [
+    "IPA segment/token",
+    "stress removed for comparison",
+    "vowel length retained",
+    "affricates grouped"
+  ],
+  "normalization_rules": [
+    "remove primary/secondary stress marks",
+    "remove whitespace, zero-width joiners, and tie marks",
+    "group common affricates/diphthongs and long vowels",
+    "retain vowel length and segment identity",
+    "do not map IPA tokens to v0 in this analysis layer"
+  ],
+  "not_swara_phones_v1": true
+}

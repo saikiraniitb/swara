@@ -1,0 +1,81 @@
+{
+  "schema_version": "stage2d2g-phone-evidence.v1",
+  "production_inventory_modified": false,
+  "swara_phones_v1_freeze": "DEFERRED",
+  "candidates": [
+    {
+      "candidate": "SCHWA",
+      "status": "CONFLICTING_EVIDENCE",
+      "supporting_evidence": [
+        "Prior Allosaurus outputs contain schwa-like symbols in several words.",
+        "Srinagar human answer was NO, so Srinagar is not positive human evidence."
+      ],
+      "limitations": "Recognizer-level symbols are not phoneme truth; the negative Srinagar result is word-specific."
+    },
+    {
+      "candidate": "TH",
+      "status": "NOT_RESOLVED",
+      "supporting_evidence": [
+        "No human observation identifies a TH/aspiration phone."
+      ],
+      "limitations": "No production aspiration distinction is justified."
+    },
+    {
+      "candidate": "T_RETROFLEX",
+      "status": "PLACE_DISTINCTION_SUPPORTED_PHONE_ID_UNRESOLVED",
+      "supporting_evidence": [
+        "Chandigarh human answer YES to a tongue-stop place question."
+      ],
+      "limitations": "The observation does not identify T, retroflexion, or a specific segment."
+    },
+    {
+      "candidate": "D_RETROFLEX",
+      "status": "PLACE_DISTINCTION_SUPPORTED_PHONE_ID_UNRESOLVED",
+      "supporting_evidence": [
+        "Chandigarh human answer YES to a tongue-stop place question."
+      ],
+      "limitations": "The observation does not identify D, retroflexion, or a specific segment."
+    },
+    {
+      "candidate": "W",
+      "status": "NOT_RESOLVED",
+      "supporting_evidence": [
+        "Prior W/V recognizer evidence was isolated and unconfirmed by this review."
+      ],
+      "limitations": "No repeated human or aligned acoustic distinction is available."
+    },
+    {
+      "candidate": "J",
+      "status": "SUPPORTED_EXISTING_PHONE",
+      "supporting_evidence": [
+        "Banerjee was perceived as J/affricate-like; v0 already contains J."
+      ],
+      "limitations": "This supports testing existing J first, not a new-phone freeze or a canonical lexical label."
+    },
+    {
+      "candidate": "NG",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "supporting_evidence": [
+        "Prior Allosaurus pilot contained repeated NG-like symbols in several words."
+      ],
+      "limitations": "No new human observation confirms an NG inventory decision."
+    },
+    {
+      "candidate": "SH",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "supporting_evidence": [
+        "Prior recognizer outputs contain SH-like symbols; Banerjee evidence favors examining J for the ending."
+      ],
+      "limitations": "The human observation does not establish SH versus affricate identity in a phone-transcription sense."
+    },
+    {
+      "candidate": "VOWEL_LENGTH",
+      "status": "NOT_RESOLVED",
+      "supporting_evidence": [
+        "Jamshedpur short/long question was not useful."
+      ],
+      "limitations": "The human-selected exemplar supports later comparison, not a length label."
+    }
+  ],
+  "decision": "No new phone is supported to freeze; existing J should be tested before any expansion."
+}

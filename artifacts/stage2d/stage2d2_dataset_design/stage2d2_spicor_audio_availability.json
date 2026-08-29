@@ -1,0 +1,850 @@
+{
+  "alternate_locations_found": 23884,
+  "archive_provenance": {
+    "archive_member_root": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/",
+    "archive_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz",
+    "archive_sha256": "ba490d4eb58b57bfe39c2a03bbefa0baf05380fd6c2bfd49111c1511bf09fab6",
+    "exists": true,
+    "extraction_previously_permitted": false,
+    "minimum_extracted_regular_file_bytes": 15238674631,
+    "pairing_rule": "archive WAV basename equals transcript JSON key",
+    "size_bytes": 13031453734,
+    "verification_source": "/Users/saikiran/Documents/tts-reference/moss-tts-nano/experiment/spicor_audit_v1",
+    "verified_member_count": 25162,
+    "verified_regular_file_bytes": 15238674631,
+    "verified_transcript_without_wav_count": 0,
+    "verified_wav_count": 25158,
+    "verified_wav_without_transcript_count": 0
+  },
+  "candidate_roots": [
+    {
+      "file_count": 1274,
+      "kind": "PARTIAL_PREPARED_AUDIO",
+      "path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k"
+    },
+    {
+      "extracted": false,
+      "kind": "COMPLETE_LOCAL_ARCHIVE",
+      "path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz",
+      "verified_member_count": 25158
+    },
+    {
+      "kind": "HISTORICAL_PROVENANCE_RECORDS",
+      "path": "/Users/saikiran/Documents/tts-reference/moss-tts-nano/experiment/spicor_audit_v1",
+      "source_only": true
+    }
+  ],
+  "currently_resolving": 1274,
+  "expected_wavs": 25158,
+  "full_corpus_exists_locally": true,
+  "inventory_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/manifests/master_inventory.jsonl",
+  "missing": 23884,
+  "missing_or_recoverable_examples": [
+    {
+      "alternate_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz::IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1000.wav",
+      "inventory_audio_path": null,
+      "resolution_basis": "verified_local_archive_member",
+      "resolved_path": null,
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1000.wav",
+      "status": "FOUND_ALTERNATE_LOCATION",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1000"
+    },
+    {
+      "alternate_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz::IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1001.wav",
+      "inventory_audio_path": null,
+      "resolution_basis": "verified_local_archive_member",
+      "resolved_path": null,
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1001.wav",
+      "status": "FOUND_ALTERNATE_LOCATION",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1001"
+    },
+    {
+      "alternate_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz::IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1002.wav",
+      "inventory_audio_path": null,
+      "resolution_basis": "verified_local_archive_member",
+      "resolved_path": null,
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1002.wav",
+      "status": "FOUND_ALTERNATE_LOCATION",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1002"
+    },
+    {
+      "alternate_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz::IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1003.wav",
+      "inventory_audio_path": null,
+      "resolution_basis": "verified_local_archive_member",
+      "resolved_path": null,
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1003.wav",
+      "status": "FOUND_ALTERNATE_LOCATION",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1003"
+    },
+    {
+      "alternate_path": "/Users/saikiran/Downloads/IISc_SPICORProject_English_Male_Spk001_HC.tar.gz::IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1007.wav",
+      "inventory_audio_path": null,
+      "resolution_basis": "verified_local_archive_member",
+      "resolved_path": null,
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1007.wav",
+      "status": "FOUND_ALTERNATE_LOCATION",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1007"
+    }
+  ],
+  "no_audio_copied": true,
+  "no_training_performed": true,
+  "qwen_loaded": false,
+  "recommended_recovery_method": "Use a non-destructive archive-aware resolver or extract only the needed members from the existing local tar.gz into a separately configured corpus root; do not rewrite the immutable source inventory or extract the full archive without sufficient disk headroom.",
+  "recoverable_without_download": 23884,
+  "resolving_examples": [
+    {
+      "alternate_path": null,
+      "inventory_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+      "resolution_basis": "prepared_audio_path_exists",
+      "resolved_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_107.wav",
+      "status": "RESOLVES",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_107"
+    },
+    {
+      "alternate_path": null,
+      "inventory_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1083.wav",
+      "resolution_basis": "prepared_audio_path_exists",
+      "resolved_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1083.wav",
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1083.wav",
+      "status": "RESOLVES",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1083"
+    },
+    {
+      "alternate_path": null,
+      "inventory_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1143.wav",
+      "resolution_basis": "prepared_audio_path_exists",
+      "resolved_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1143.wav",
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1143.wav",
+      "status": "RESOLVES",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143"
+    },
+    {
+      "alternate_path": null,
+      "inventory_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_116.wav",
+      "resolution_basis": "prepared_audio_path_exists",
+      "resolved_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_116.wav",
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_116.wav",
+      "status": "RESOLVES",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_116"
+    },
+    {
+      "alternate_path": null,
+      "inventory_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1222.wav",
+      "resolution_basis": "prepared_audio_path_exists",
+      "resolved_path": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1222.wav",
+      "source_wav_member": "IISc_SPICOR_Data/IISc_SPICORProject_English_Male_Spk001_HC/wav/IISc_SPICORProject_EN_M_AGRI_1222.wav",
+      "status": "RESOLVES",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1222"
+    }
+  ],
+  "review_queue_audio_availability": {
+    "by_word": {
+      "ahmedabad": {
+        "alternate_recovered": 11,
+        "audio_available_after_archive_resolution": 12,
+        "currently_resolved": 1,
+        "recurrence_count": 12
+      },
+      "aligarh": {
+        "alternate_recovered": 6,
+        "audio_available_after_archive_resolution": 6,
+        "currently_resolved": 0,
+        "recurrence_count": 6
+      },
+      "allahabad": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 6,
+        "currently_resolved": 2,
+        "recurrence_count": 6
+      },
+      "aurangabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "azamgarh": {
+        "alternate_recovered": 5,
+        "audio_available_after_archive_resolution": 5,
+        "currently_resolved": 0,
+        "recurrence_count": 5
+      },
+      "bahadurgarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "ballarpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 1,
+        "recurrence_count": 3
+      },
+      "banerjee": {
+        "alternate_recovered": 18,
+        "audio_available_after_archive_resolution": 18,
+        "currently_resolved": 0,
+        "recurrence_count": 18
+      },
+      "bengaluru": {
+        "alternate_recovered": 28,
+        "audio_available_after_archive_resolution": 28,
+        "currently_resolved": 0,
+        "recurrence_count": 28
+      },
+      "bhatnagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 1,
+        "recurrence_count": 3
+      },
+      "bhattacharjee": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "bilaspur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "brahmakumar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "brahmapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "chandigarh": {
+        "alternate_recovered": 21,
+        "audio_available_after_archive_resolution": 24,
+        "currently_resolved": 3,
+        "recurrence_count": 24
+      },
+      "chandrapur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "chatterjee": {
+        "alternate_recovered": 7,
+        "audio_available_after_archive_resolution": 7,
+        "currently_resolved": 0,
+        "recurrence_count": 7
+      },
+      "chattisgarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "chhatarpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "chhattisgarh": {
+        "alternate_recovered": 18,
+        "audio_available_after_archive_resolution": 19,
+        "currently_resolved": 1,
+        "recurrence_count": 19
+      },
+      "chikkaballapur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "chotanagpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "dharampur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "dibrugarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "dimapur": {
+        "alternate_recovered": 9,
+        "audio_available_after_archive_resolution": 9,
+        "currently_resolved": 0,
+        "recurrence_count": 9
+      },
+      "durgapur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "faridabad": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "farrukhabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "fatehgarh": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "ferozepur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "gandhinagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "garh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "giltspur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "gorakhpur": {
+        "alternate_recovered": 7,
+        "audio_available_after_archive_resolution": 7,
+        "currently_resolved": 0,
+        "recurrence_count": 7
+      },
+      "gurdaspur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "hoshiarpur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "hotspur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "hyderabad": {
+        "alternate_recovered": 29,
+        "audio_available_after_archive_resolution": 30,
+        "currently_resolved": 1,
+        "recurrence_count": 30
+      },
+      "jabalpur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "jagatsinghpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "jaipur": {
+        "alternate_recovered": 8,
+        "audio_available_after_archive_resolution": 9,
+        "currently_resolved": 1,
+        "recurrence_count": 9
+      },
+      "jajpur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "jalalabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "jalalpur": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "jamshedpur": {
+        "alternate_recovered": 6,
+        "audio_available_after_archive_resolution": 6,
+        "currently_resolved": 0,
+        "recurrence_count": 6
+      },
+      "jayanagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "jee": {
+        "alternate_recovered": 10,
+        "audio_available_after_archive_resolution": 10,
+        "currently_resolved": 0,
+        "recurrence_count": 10
+      },
+      "jodhpur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "kanpur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "kapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "khanpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "kharagpur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "kishangarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "kolhapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "kundapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "lakhanpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 2,
+        "recurrence_count": 4
+      },
+      "lakhimpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "lumpur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "mahbubnagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "mahendragarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "mainpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "manipur": {
+        "alternate_recovered": 8,
+        "audio_available_after_archive_resolution": 8,
+        "currently_resolved": 0,
+        "recurrence_count": 8
+      },
+      "mirzapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "mukherjee": {
+        "alternate_recovered": 7,
+        "audio_available_after_archive_resolution": 7,
+        "currently_resolved": 0,
+        "recurrence_count": 7
+      },
+      "muzaffarabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "muzaffarnagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "muzaffarpur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "nabarangpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "nagar": {
+        "alternate_recovered": 46,
+        "audio_available_after_archive_resolution": 49,
+        "currently_resolved": 3,
+        "recurrence_count": 49
+      },
+      "nagpur": {
+        "alternate_recovered": 10,
+        "audio_available_after_archive_resolution": 10,
+        "currently_resolved": 0,
+        "recurrence_count": 10
+      },
+      "narayanpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "nizamabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "padmanabhanagar": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "pithoragarh": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "raipur": {
+        "alternate_recovered": 8,
+        "audio_available_after_archive_resolution": 8,
+        "currently_resolved": 0,
+        "recurrence_count": 8
+      },
+      "rajgangpur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "rajkumar": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 1,
+        "recurrence_count": 4
+      },
+      "ramgarh": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "ramnagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "rampur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "rudraprayag": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "saharanpur": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "sambalpur": {
+        "alternate_recovered": 6,
+        "audio_available_after_archive_resolution": 7,
+        "currently_resolved": 1,
+        "recurrence_count": 7
+      },
+      "secunderabad": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "shahjahanpur": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "shahpur": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "shamshabad": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "shivajinagar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "shivakumar": {
+        "alternate_recovered": 4,
+        "audio_available_after_archive_resolution": 4,
+        "currently_resolved": 0,
+        "recurrence_count": 4
+      },
+      "shivkumar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "solapur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "sonepur": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "sonitpur": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "spur": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 1,
+        "recurrence_count": 3
+      },
+      "srinagar": {
+        "alternate_recovered": 39,
+        "audio_available_after_archive_resolution": 41,
+        "currently_resolved": 2,
+        "recurrence_count": 41
+      },
+      "sukumar": {
+        "alternate_recovered": 1,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 1,
+        "recurrence_count": 2
+      },
+      "sultanpur": {
+        "alternate_recovered": 5,
+        "audio_available_after_archive_resolution": 5,
+        "currently_resolved": 0,
+        "recurrence_count": 5
+      },
+      "sushilkumar": {
+        "alternate_recovered": 2,
+        "audio_available_after_archive_resolution": 2,
+        "currently_resolved": 0,
+        "recurrence_count": 2
+      },
+      "udaipur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 3,
+        "currently_resolved": 0,
+        "recurrence_count": 3
+      },
+      "udhampur": {
+        "alternate_recovered": 3,
+        "audio_available_after_archive_resolution": 6,
+        "currently_resolved": 3,
+        "recurrence_count": 6
+      }
+    },
+    "threshold_counts": {
+      "after_archive_resolution_with_at_least_10_audio": 10,
+      "after_archive_resolution_with_at_least_1_audio": 100,
+      "after_archive_resolution_with_at_least_3_audio": 54,
+      "after_archive_resolution_with_at_least_5_audio": 24,
+      "currently_with_at_least_10_audio": 0,
+      "currently_with_at_least_1_audio": 21,
+      "currently_with_at_least_3_audio": 3,
+      "currently_with_at_least_5_audio": 0,
+      "queue_words": 100
+    }
+  },
+  "root_cause_classification": "FULL_CORPUS_EXISTS_ELSEWHERE_LOCALLY",
+  "root_cause_evidence": "The prepared tree has 1,274 files, while the already-local Downloads archive has a historically verified 25,158-member WAV set paired 1:1 with the 25,158 transcript records.",
+  "schema_version": "stage2d2-spicor-audio-availability-v0.1",
+  "still_missing": 0,
+  "unique_expected_wav_names": 25158,
+  "validated_target_availability": {
+    "agrawal": {
+      "alternate_recovered_from_local_archive": 12,
+      "archive_audio_available_total": 14,
+      "capped_total_at_20": 14,
+      "currently_resolved": 2,
+      "quality_exclusions": {},
+      "raw_recurrence": 14,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 14
+    },
+    "gupta": {
+      "alternate_recovered_from_local_archive": 43,
+      "archive_audio_available_total": 47,
+      "capped_total_at_20": 20,
+      "currently_resolved": 4,
+      "quality_exclusions": {
+        "duplicate_transcript": 2,
+        "manifest_cleanup_flags": 3
+      },
+      "raw_recurrence": 47,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 42
+    },
+    "kashmir": {
+      "alternate_recovered_from_local_archive": 95,
+      "archive_audio_available_total": 99,
+      "capped_total_at_20": 20,
+      "currently_resolved": 4,
+      "quality_exclusions": {
+        "duplicate_transcript": 5,
+        "manifest_cleanup_flags": 3
+      },
+      "raw_recurrence": 99,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 91
+    },
+    "kumar": {
+      "alternate_recovered_from_local_archive": 174,
+      "archive_audio_available_total": 183,
+      "capped_total_at_20": 20,
+      "currently_resolved": 9,
+      "quality_exclusions": {
+        "duplicate_transcript": 11,
+        "manifest_cleanup_flags": 4
+      },
+      "raw_recurrence": 183,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 168
+    },
+    "mishra": {
+      "alternate_recovered_from_local_archive": 42,
+      "archive_audio_available_total": 45,
+      "capped_total_at_20": 20,
+      "currently_resolved": 3,
+      "quality_exclusions": {
+        "manifest_cleanup_flags": 3
+      },
+      "raw_recurrence": 45,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 42
+    },
+    "mumbai": {
+      "alternate_recovered_from_local_archive": 153,
+      "archive_audio_available_total": 162,
+      "capped_total_at_20": 20,
+      "currently_resolved": 9,
+      "quality_exclusions": {
+        "duplicate_transcript": 8,
+        "manifest_cleanup_flags": 6,
+        "numeric_token": 1
+      },
+      "raw_recurrence": 162,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 147
+    },
+    "sharma": {
+      "alternate_recovered_from_local_archive": 92,
+      "archive_audio_available_total": 100,
+      "capped_total_at_20": 20,
+      "currently_resolved": 8,
+      "quality_exclusions": {
+        "duplicate_transcript": 7
+      },
+      "raw_recurrence": 100,
+      "still_missing": 0,
+      "usable_total_if_archive_path_is_resolved": 93
+    }
+  }
+}

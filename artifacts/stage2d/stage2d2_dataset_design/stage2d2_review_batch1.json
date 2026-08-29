@@ -1,0 +1,355 @@
+{
+  "schema_version": "stage2d2-review-batch1-v0.1",
+  "selection_policy": "top 25 existing Tier-2 words by frozen Stage2D.1 review ordering; no phone labels assigned",
+  "words": [
+    {
+      "normalized_word": "nagar",
+      "occurrence_count": 49,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_3255:word:0025",
+        "IISc_SPICORProject_EN_M_WEAT_3469:word:0011",
+        "IISc_SPICORProject_EN_M_POLI_5715:word:0001",
+        "IISc_SPICORProject_EN_M_AGRI_1044:word:0024",
+        "IISc_SPICORProject_EN_M_ENTE_6968:word:0007"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Nagar"
+    },
+    {
+      "normalized_word": "srinagar",
+      "occurrence_count": 41,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0003",
+        "IISc_SPICORProject_EN_M_HEAL_3774:word:0024",
+        "IISc_SPICORProject_EN_M_AGRI_6624:word:0018",
+        "IISc_SPICORProject_EN_M_WEAT_2994:word:0011",
+        "IISc_SPICORProject_EN_M_ENTE_6198:word:0000"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Srinagar"
+    },
+    {
+      "normalized_word": "hyderabad",
+      "occurrence_count": 30,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_2104:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_6428:word:0011",
+        "IISc_SPICORProject_EN_M_ENTE_3701:word:0016",
+        "IISc_SPICORProject_EN_M_POLI_253:word:0022",
+        "IISc_SPICORProject_EN_M_HEAL_1028:word:0002"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Hyderabad"
+    },
+    {
+      "normalized_word": "bengaluru",
+      "occurrence_count": 28,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_6164:word:0000",
+        "IISc_SPICORProject_EN_M_AGRI_6274:word:0011",
+        "IISc_SPICORProject_EN_M_ENTE_4923:word:0009",
+        "IISc_SPICORProject_EN_M_POLI_1738:word:0008",
+        "IISc_SPICORProject_EN_M_OTHE_2590:word:0002"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Bengaluru"
+    },
+    {
+      "normalized_word": "chandigarh",
+      "occurrence_count": 24,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_1333:word:0000",
+        "IISc_SPICORProject_EN_M_OTHE_768:word:0003",
+        "IISc_SPICORProject_EN_M_AGRI_3174:word:0020",
+        "IISc_SPICORProject_EN_M_WEAT_288:word:0006",
+        "IISc_SPICORProject_EN_M_ENTE_5366:word:0004"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Chandigarh"
+    },
+    {
+      "normalized_word": "chhattisgarh",
+      "occurrence_count": 19,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_OTHE_704:word:0013",
+        "IISc_SPICORProject_EN_M_ENTE_5417:word:0000",
+        "IISc_SPICORProject_EN_M_ENTE_6522:word:0005",
+        "IISc_SPICORProject_EN_M_AGRI_4977:word:0020",
+        "IISc_SPICORProject_EN_M_POLI_875:word:0012"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Chhattisgarh"
+    },
+    {
+      "normalized_word": "banerjee",
+      "occurrence_count": 18,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_8248:word:0000",
+        "IISc_SPICORProject_EN_M_ENTE_3529:word:0019",
+        "IISc_SPICORProject_EN_M_OTHE_705:word:0006",
+        "IISc_SPICORProject_EN_M_AGRI_1821:word:0007",
+        "IISc_SPICORProject_EN_M_WEAT_433:word:0016"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Banerjee"
+    },
+    {
+      "normalized_word": "ahmedabad",
+      "occurrence_count": 12,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_7346:word:0012",
+        "IISc_SPICORProject_EN_M_EVAL_00238:word:0010",
+        "IISc_SPICORProject_EN_M_HEAL_1606:word:0016",
+        "IISc_SPICORProject_EN_M_ENTE_3516:word:0001",
+        "IISc_SPICORProject_EN_M_WEAT_2807:word:0010"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Ahmedabad"
+    },
+    {
+      "normalized_word": "jee",
+      "occurrence_count": 10,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_2431:word:0001",
+        "IISc_SPICORProject_EN_M_ENTE_7167:word:0019",
+        "IISc_SPICORProject_EN_M_ENTE_677:word:0004",
+        "IISc_SPICORProject_EN_M_ENTE_3895:word:0011",
+        "IISc_SPICORProject_EN_M_ENTE_3560:word:0011"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Jee"
+    },
+    {
+      "normalized_word": "nagpur",
+      "occurrence_count": 10,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_3545:word:0022",
+        "IISc_SPICORProject_EN_M_POLI_5744:word:0007",
+        "IISc_SPICORProject_EN_M_HEAL_120:word:0013",
+        "IISc_SPICORProject_EN_M_AGRI_4243:word:0006",
+        "IISc_SPICORProject_EN_M_ENTE_522:word:0021"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Nagpur"
+    },
+    {
+      "normalized_word": "dimapur",
+      "occurrence_count": 9,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_6261:word:0022",
+        "IISc_SPICORProject_EN_M_OTHE_2031:word:0008",
+        "IISc_SPICORProject_EN_M_HEAL_2878:word:0010",
+        "IISc_SPICORProject_EN_M_WEAT_1205:word:0008",
+        "IISc_SPICORProject_EN_M_ENTE_6262:word:0013"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Dimapur"
+    },
+    {
+      "normalized_word": "jaipur",
+      "occurrence_count": 9,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_5042:word:0010",
+        "IISc_SPICORProject_EN_M_HEAL_1479:word:0017",
+        "IISc_SPICORProject_EN_M_ENTE_4377:word:0002",
+        "IISc_SPICORProject_EN_M_OTHE_3324:word:0015",
+        "IISc_SPICORProject_EN_M_WEAT_2119:word:0014"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Jaipur"
+    },
+    {
+      "normalized_word": "manipur",
+      "occurrence_count": 8,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_1682:word:0023",
+        "IISc_SPICORProject_EN_M_POLI_6657:word:0011",
+        "IISc_SPICORProject_EN_M_AGRI_2891:word:0010",
+        "IISc_SPICORProject_EN_M_ENTE_3973:word:0019",
+        "IISc_SPICORProject_EN_M_ENTE_5995:word:0009"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Manipur"
+    },
+    {
+      "normalized_word": "raipur",
+      "occurrence_count": 8,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_1135:word:0017",
+        "IISc_SPICORProject_EN_M_ENTE_6522:word:0012",
+        "IISc_SPICORProject_EN_M_AGRI_1284:word:0012",
+        "IISc_SPICORProject_EN_M_OTHE_1035:word:0014",
+        "IISc_SPICORProject_EN_M_HEAL_2445:word:0017"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Raipur"
+    },
+    {
+      "normalized_word": "chatterjee",
+      "occurrence_count": 7,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_4084:word:0009",
+        "IISc_SPICORProject_EN_M_WEAT_4014:word:0005",
+        "IISc_SPICORProject_EN_M_POLI_3463:word:0020",
+        "IISc_SPICORProject_EN_M_POLI_1365:word:0018",
+        "IISc_SPICORProject_EN_M_POLI_2465:word:0009"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Chatterjee"
+    },
+    {
+      "normalized_word": "gorakhpur",
+      "occurrence_count": 7,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_6944:word:0000",
+        "IISc_SPICORProject_EN_M_OTHE_568:word:0006",
+        "IISc_SPICORProject_EN_M_WEAT_4702:word:0008",
+        "IISc_SPICORProject_EN_M_POLI_7843:word:0004",
+        "IISc_SPICORProject_EN_M_ENTE_226:word:0015"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Gorakhpur"
+    },
+    {
+      "normalized_word": "mukherjee",
+      "occurrence_count": 7,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_3091(1):word:0000",
+        "IISc_SPICORProject_EN_M_HEAL_2873:word:0011",
+        "IISc_SPICORProject_EN_M_AGRI_3176:word:0002",
+        "IISc_SPICORProject_EN_M_ENTE_1440:word:0006",
+        "IISc_SPICORProject_EN_M_WEAT_2323:word:0000"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Mukherjee"
+    },
+    {
+      "normalized_word": "sambalpur",
+      "occurrence_count": 7,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_5959:word:0000",
+        "IISc_SPICORProject_EN_M_FOOD_4567:word:0002",
+        "IISc_SPICORProject_EN_M_ENTE_4671:word:0008",
+        "IISc_SPICORProject_EN_M_AGRI_6797:word:0004",
+        "IISc_SPICORProject_EN_M_WEAT_4581:word:0009"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Sambalpur"
+    },
+    {
+      "normalized_word": "aligarh",
+      "occurrence_count": 6,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_792:word:0005",
+        "IISc_SPICORProject_EN_M_HEAL_2521:word:0001",
+        "IISc_SPICORProject_EN_M_ENTE_3530:word:0017",
+        "IISc_SPICORProject_EN_M_AGRI_6706:word:0015",
+        "IISc_SPICORProject_EN_M_ENTE_2330:word:0008"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Aligarh"
+    },
+    {
+      "normalized_word": "allahabad",
+      "occurrence_count": 6,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_1608:word:0022",
+        "IISc_SPICORProject_EN_M_ENTE_2172:word:0000",
+        "IISc_SPICORProject_EN_M_FOOD_1771:word:0011",
+        "IISc_SPICORProject_EN_M_AGRI_220:word:0017",
+        "IISc_SPICORProject_EN_M_ENTE_5003:word:0009"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Allahabad"
+    },
+    {
+      "normalized_word": "jamshedpur",
+      "occurrence_count": 6,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_3391:word:0006",
+        "IISc_SPICORProject_EN_M_AGRI_3841:word:0016",
+        "IISc_SPICORProject_EN_M_ENTE_178:word:0012",
+        "IISc_SPICORProject_EN_M_AGRI_5046:word:0007",
+        "IISc_SPICORProject_EN_M_AGRI_4750:word:0011"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Jamshedpur"
+    },
+    {
+      "normalized_word": "udhampur",
+      "occurrence_count": 6,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0002",
+        "IISc_SPICORProject_EN_M_POLI_8187:word:0000",
+        "IISc_SPICORProject_EN_M_AGRI_6870:word:0008",
+        "IISc_SPICORProject_EN_M_FOOD_3818:word:0002",
+        "IISc_SPICORProject_EN_M_ENTE_4251:word:0008"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Udhampur"
+    },
+    {
+      "normalized_word": "azamgarh",
+      "occurrence_count": 5,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_3530:word:0020",
+        "IISc_SPICORProject_EN_M_AGRI_5171:word:0011",
+        "IISc_SPICORProject_EN_M_POLI_8299:word:0011",
+        "IISc_SPICORProject_EN_M_WEAT_2906:word:0001",
+        "IISc_SPICORProject_EN_M_POLI_3869:word:0017"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Azamgarh"
+    },
+    {
+      "normalized_word": "sultanpur",
+      "occurrence_count": 5,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_POLI_7217:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_2023:word:0011",
+        "IISc_SPICORProject_EN_M_POLI_7663:word:0022",
+        "IISc_SPICORProject_EN_M_POLI_2864:word:0006",
+        "IISc_SPICORProject_EN_M_ENTE_6881:word:0012"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Sultanpur"
+    },
+    {
+      "normalized_word": "bilaspur",
+      "occurrence_count": 4,
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_3893:word:0007",
+        "IISc_SPICORProject_EN_M_HEAL_3813:word:0002",
+        "IISc_SPICORProject_EN_M_POLI_4650:word:0016",
+        "IISc_SPICORProject_EN_M_ENTE_2085:word:0012"
+      ],
+      "phone_sequence": null,
+      "status": "PENDING_HUMAN_REVIEW",
+      "word": "Bilaspur"
+    }
+  ]
+}

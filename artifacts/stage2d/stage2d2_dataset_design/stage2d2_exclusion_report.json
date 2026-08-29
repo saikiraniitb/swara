@@ -1,0 +1,11 @@
+{
+  "explicit_and_review_quality_exclusions": {
+    "duplicate_transcript": 47,
+    "manifest_cleanup_flags": 30,
+    "numeric_token": 1
+  },
+  "missing_audio_exclusions_after_archive_resolution": 0,
+  "no_inventory_gap_items_in_explicit_train": true,
+  "no_unresolved_phone_mappings_in_explicit_train": true,
+  "schema_version": "stage2d2-exclusion-report-v0.2"
+}

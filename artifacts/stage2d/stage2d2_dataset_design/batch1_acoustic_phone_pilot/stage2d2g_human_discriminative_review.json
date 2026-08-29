@@ -1,0 +1,43 @@
+{
+  "schema_version": "stage2d2g-human-discriminative-review.v1",
+  "observations": [
+    {
+      "word": "Srinagar",
+      "question": "Do you hear an 'uh'-like central vowel in the target consistently?",
+      "human_answer": "NO",
+      "human_statement": null,
+      "interpretation": "Do not use Srinagar as positive human evidence for SCHWA. Allosaurus schwa-like output for Srinagar is recognizer-level evidence only, not confirmed acoustic truth. This does not conclude SCHWA does not exist elsewhere.",
+      "evidence_scope": "Srinagar-specific human listening result",
+      "limitations": "The response does not test SCHWA in other lexical targets."
+    },
+    {
+      "word": "Chandigarh",
+      "question": "Does any tongue-stop sound noticeably different from ordinary English T or D?",
+      "human_answer": "YES",
+      "human_statement": null,
+      "interpretation": "PLACE_OF_ARTICULATION_DISTINCTION_SUPPORTED; exact phonetic identity remains unresolved. Do not automatically label the sound T_RETROFLEX or D_RETROFLEX.",
+      "evidence_scope": "Chandigarh-specific human perceptual observation",
+      "limitations": "The reviewer did not identify the stop as T versus D or as retroflex."
+    },
+    {
+      "word": "Jamshedpur",
+      "question": "Does the vowel sound consistently short or long, beyond speaking-rate differences?",
+      "human_answer": "NOT_USEFUL_FOR_REVIEWER",
+      "human_statement": "That's how Jamshedpur is pronounced.",
+      "interpretation": "Use IISc_SPICORProject_EN_M_AGRI_3841 as a HUMAN_REFERENCE_EXEMPLAR for lexical pronunciation. Do not force a short/long vowel judgment.",
+      "evidence_scope": "One human-selected Jamshedpur reference exemplar",
+      "limitations": "A single exemplar is not a corpus-wide phone or vowel-length label."
+    },
+    {
+      "word": "Banerjee",
+      "question": null,
+      "human_answer": "OBSERVATION",
+      "human_statement": "Banerjee is often ended like baner-G.",
+      "interpretation": "Treat this as a J/affricate-like perceptual realization of the final 'jee' component, not literal English G. Examine existing J first; do not require a new affricate phone without evidence that J is insufficient.",
+      "evidence_scope": "Banerjee human perceptual observation",
+      "limitations": "The statement is not an IPA or phone transcription."
+    }
+  ],
+  "production_phone_inventory_modified": false,
+  "canonical_lexicon_modified": false
+}

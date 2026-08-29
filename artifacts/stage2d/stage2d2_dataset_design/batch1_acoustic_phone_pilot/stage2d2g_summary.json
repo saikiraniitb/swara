@@ -1,0 +1,30 @@
+{
+  "schema_version": "stage2d2g-summary.v1",
+  "human_observation_count": 4,
+  "human_words": [
+    "Srinagar",
+    "Chandigarh",
+    "Jamshedpur",
+    "Banerjee"
+  ],
+  "srinagar_schwa": "NOT_SUPPORTED_BY_THIS_WORD",
+  "chandigarh": "PLACE_OF_ARTICULATION_DISTINCTION_SUPPORTED_PHONE_ID_UNRESOLVED",
+  "jamshedpur_reference_exemplar": "IISc_SPICORProject_EN_M_AGRI_3841",
+  "banerjee_existing_j_first": true,
+  "repeatability_classes": {
+    "MOSTLY_STABLE": 4,
+    "UNSTABLE": 3,
+    "ACOUSTIC_PHONE_PATTERN_STABLE": 3
+  },
+  "swara_phones_v1_freeze": "DEFERRED",
+  "production_phone_inventory_modified": false,
+  "canonical_lexicon_modified": false,
+  "training_performed": false,
+  "qwen_loaded": false,
+  "next_experiment": "REFERENCE-GUIDED CANDIDATE PRONUNCIATION TEST",
+  "next_experiment_words": [
+    "Jamshedpur",
+    "Banerjee",
+    "Chandigarh"
+  ]
+}

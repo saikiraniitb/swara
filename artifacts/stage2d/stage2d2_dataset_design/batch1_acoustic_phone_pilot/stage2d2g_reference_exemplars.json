@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage2d2g-reference-exemplars.v1",
+  "concept": "HUMAN_REFERENCE_EXEMPLAR",
+  "exemplars": [
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "audio_path": "/Users/saikiran/Documents/swara/artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav",
+      "source_audio_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3841.wav",
+      "purpose": "Trusted human-selected acoustic reference for later candidate-phone evaluation.",
+      "human_statement": "That's how Jamshedpur is pronounced.",
+      "is_phoneme_label": false,
+      "limitations": "One exemplar; not a complete lexical pronunciation annotation."
+    }
+  ],
+  "generalization_policy": "Future words may have one or more such exemplars; an exemplar is not a phone sequence."
+}

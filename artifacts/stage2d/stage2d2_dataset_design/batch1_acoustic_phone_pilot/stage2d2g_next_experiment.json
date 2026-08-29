@@ -1,0 +1,73 @@
+{
+  "schema_version": "stage2d2g-next-experiment.v1",
+  "name": "REFERENCE-GUIDED CANDIDATE PRONUNCIATION TEST",
+  "execute_now": false,
+  "objective": "Compare a small set of existing-v0 candidate sequences against human-selected SPICOR reference exemplars before considering inventory expansion.",
+  "candidate_words": [
+    "Jamshedpur",
+    "Banerjee",
+    "Chandigarh"
+  ],
+  "candidates": [
+    {
+      "word": "Jamshedpur",
+      "reference_exemplar": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "v0_candidates": [
+        [
+          "J",
+          "A",
+          "M",
+          "SH",
+          "I",
+          "D",
+          "P",
+          "U",
+          "R"
+        ],
+        [
+          "J",
+          "A",
+          "M",
+          "SH",
+          "I",
+          "D",
+          "P",
+          "U"
+        ]
+      ],
+      "why": "The two existing eSpeak-derived v0 approximations differ mainly in final rhotic handling; vowel length remains unresolved."
+    },
+    {
+      "word": "Banerjee",
+      "reference_exemplar": "existing Batch-1 human-review entries",
+      "v0_candidates": [
+        [
+          "B",
+          "A",
+          "N",
+          "A",
+          "J",
+          "II"
+        ]
+      ],
+      "why": "Tests whether existing J explains the human J/affricate-like observation without a new phone."
+    },
+    {
+      "word": "Chandigarh",
+      "reference_exemplar": "existing Batch-1 human-review entries",
+      "v0_candidates": [
+        [
+          "CH",
+          "A",
+          "N",
+          "D",
+          "I",
+          "G",
+          "AA"
+        ]
+      ],
+      "why": "Tests the current v0 approximation against the human-stable word while keeping place identity unresolved."
+    }
+  ],
+  "evaluation_policy": "Candidate synthesis versus reference exemplar; no human phone transcription and no production lexicon update."
+}

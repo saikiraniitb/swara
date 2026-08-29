@@ -1,0 +1,60 @@
+{
+  "schema_version": "stage2d2-batch1-phone-inventory-evidence.v1",
+  "current_inventory": "swara-phones-v0",
+  "production_inventory_modified": false,
+  "freeze_decision": "SWARA_PHONES_V1_FREEZE_DEFERRED",
+  "reason": "Batch-1 human review supports likely lexical stability but supplies no trusted phone labels; no v1 extension reaches converging evidence.",
+  "candidates": [
+    {
+      "symbol": "SCHWA",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "batch1_effect": "SUPPORT_UNCHANGED",
+      "supporting_words": [],
+      "lexical_target_count": 0,
+      "reproducible_across_repeated_occurrences": false,
+      "v0_approximation_identity_effect": "UNMEASURED",
+      "evidence": "Batch-1 supplies no trusted phone labels and cannot test schwa directly; prior Agrawal evidence is unchanged."
+    },
+    {
+      "symbol": "TH",
+      "status": "PROMISING_BUT_UNPROVEN",
+      "batch1_effect": "SUPPORT_UNCHANGED",
+      "supporting_words": [],
+      "lexical_target_count": 0,
+      "reproducible_across_repeated_occurrences": false,
+      "v0_approximation_identity_effect": "UNMEASURED",
+      "evidence": "Chhattisgarh/Chandigarh were reviewed for stability, but no trusted aspiration evidence was supplied."
+    },
+    {
+      "symbol": "T_RETROFLEX",
+      "status": "NOT_TESTABLE",
+      "batch1_effect": "SUPPORT_UNCHANGED",
+      "supporting_words": [],
+      "lexical_target_count": 0,
+      "reproducible_across_repeated_occurrences": false,
+      "v0_approximation_identity_effect": "UNMEASURED",
+      "evidence": "No trusted occurrence-level retroflex labels or acoustic phoneme recognizer."
+    },
+    {
+      "symbol": "D_RETROFLEX",
+      "status": "NOT_TESTABLE",
+      "batch1_effect": "SUPPORT_UNCHANGED",
+      "supporting_words": [],
+      "lexical_target_count": 0,
+      "reproducible_across_repeated_occurrences": false,
+      "v0_approximation_identity_effect": "UNMEASURED",
+      "evidence": "No trusted occurrence-level retroflex labels or acoustic phoneme recognizer."
+    },
+    {
+      "symbol": "W",
+      "status": "NOT_TESTABLE",
+      "batch1_effect": "SUPPORT_UNCHANGED",
+      "supporting_words": [],
+      "lexical_target_count": 0,
+      "reproducible_across_repeated_occurrences": false,
+      "v0_approximation_identity_effect": "UNMEASURED",
+      "evidence": "No trusted occurrence-level V/W labels or acoustic phoneme recognizer."
+    }
+  ],
+  "new_phone_candidates": []
+}

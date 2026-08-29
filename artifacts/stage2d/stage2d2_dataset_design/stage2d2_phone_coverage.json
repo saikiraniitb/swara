@@ -1,0 +1,110 @@
+{
+  "absent_phones": [
+    "AU",
+    "CH",
+    "D",
+    "E",
+    "H",
+    "II",
+    "J",
+    "N",
+    "NG",
+    "O",
+    "OO",
+    "S",
+    "U",
+    "Y"
+  ],
+  "explicit_train_utterance_count": 107,
+  "interpretation": "Counts measure lexical/utterance coverage only; repeated frames and repeated occurrences are not independent phoneme evidence.",
+  "inventory": "swara-phones-v0",
+  "phone_lexical_target_coverage": {
+    "A": [
+      "agrawal",
+      "kashmir",
+      "mishra",
+      "mumbai",
+      "sharma"
+    ],
+    "AA": [
+      "agrawal",
+      "gupta",
+      "kumar",
+      "sharma"
+    ],
+    "AI": [
+      "mumbai"
+    ],
+    "B": [
+      "mumbai"
+    ],
+    "EE": [
+      "kashmir"
+    ],
+    "G": [
+      "agrawal",
+      "gupta"
+    ],
+    "I": [
+      "mishra"
+    ],
+    "K": [
+      "kashmir",
+      "kumar"
+    ],
+    "L": [
+      "agrawal"
+    ],
+    "M": [
+      "kashmir",
+      "kumar",
+      "mishra",
+      "mumbai",
+      "sharma"
+    ],
+    "P": [
+      "gupta"
+    ],
+    "R": [
+      "agrawal",
+      "kashmir",
+      "kumar",
+      "mishra",
+      "sharma"
+    ],
+    "SH": [
+      "kashmir",
+      "mishra",
+      "sharma"
+    ],
+    "T": [
+      "gupta"
+    ],
+    "UU": [
+      "gupta",
+      "kumar"
+    ],
+    "V": [
+      "agrawal"
+    ]
+  },
+  "phone_utterance_coverage": {
+    "A": 75,
+    "AA": 59,
+    "AI": 16,
+    "B": 16,
+    "EE": 16,
+    "G": 27,
+    "I": 16,
+    "K": 32,
+    "L": 11,
+    "M": 80,
+    "P": 16,
+    "R": 75,
+    "SH": 48,
+    "T": 16,
+    "UU": 32,
+    "V": 11
+  },
+  "underrepresented_phones": []
+}

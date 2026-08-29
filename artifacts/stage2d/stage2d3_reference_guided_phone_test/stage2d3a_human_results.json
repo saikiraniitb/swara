@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "decoded_condition": "jamshedpur_candidate_02",
+      "final_experimental_status": "V0_CANDIDATE_SUPPORTED",
+      "human_observation": "candidate_02 was closest to the HUMAN_REFERENCE_EXEMPLAR.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "selected_review_label": "A",
+      "trajectory_validity": "RECORDED_IN_GENERATION_REPORT",
+      "winning_phone_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U"
+      ],
+      "word": "Jamshedpur"
+    },
+    {
+      "decoded_condition": "native",
+      "final_experimental_status": "NATIVE_PRONUNCIATION_ACCEPTABLE",
+      "human_observation": "native pronunciation of Banerjee was perfect; explicit candidates produced effectively no usable speech / pathological generation.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+      "selected_review_label": "C",
+      "trajectory_validity": "MAX_LENGTH_TRAJECTORY",
+      "winning_phone_sequence": null,
+      "word": "Banerjee"
+    },
+    {
+      "decoded_condition": "chandigarh_candidate_01",
+      "final_experimental_status": "V0_CANDIDATE_SUPPORTED",
+      "human_observation": "candidate with D was closest to the reference.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+      "selected_review_label": "B",
+      "trajectory_validity": "RECORDED_IN_GENERATION_REPORT",
+      "winning_phone_sequence": [
+        "CH",
+        "A",
+        "N",
+        "D",
+        "I",
+        "G",
+        "AA"
+      ],
+      "word": "Chandigarh"
+    },
+    {
+      "decoded_condition": "native",
+      "final_experimental_status": "NATIVE_PREFERRED",
+      "human_observation": "native was preferred; candidate_01 was normal but not preferred and candidate_02 was pathological.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+      "selected_review_label": "C",
+      "trajectory_validity": "RECORDED_IN_GENERATION_REPORT",
+      "winning_phone_sequence": null,
+      "word": "Nagar"
+    },
+    {
+      "decoded_condition": "nagpur_candidate_01",
+      "final_experimental_status": "V0_CANDIDATE_SUPPORTED",
+      "human_observation": "candidate_01 was closest to the HUMAN_REFERENCE_EXEMPLAR.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "selected_review_label": "B",
+      "trajectory_validity": "RECORDED_IN_GENERATION_REPORT",
+      "winning_phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U",
+        "R"
+      ],
+      "word": "Nagpur"
+    }
+  ],
+  "training_performed": false
+}

@@ -1,0 +1,532 @@
+{
+  "schema_version": "stage2d2-batch1-human-review-decisions.v1",
+  "human_review_source": "Stage2D.2 Batch-1 full-utterance listening",
+  "decision_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+  "phone_assignment": "NOT_PERFORMED; human listening status is not a phone label",
+  "decisions": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1044",
+        "IISc_SPICORProject_EN_M_ENTE_6968",
+        "IISc_SPICORProject_EN_M_HEAL_3255",
+        "IISc_SPICORProject_EN_M_POLI_5715",
+        "IISc_SPICORProject_EN_M_WEAT_3469"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 49,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6624",
+        "IISc_SPICORProject_EN_M_ENTE_138",
+        "IISc_SPICORProject_EN_M_ENTE_6198",
+        "IISc_SPICORProject_EN_M_HEAL_3774",
+        "IISc_SPICORProject_EN_M_WEAT_2994"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 41,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_2104",
+        "IISc_SPICORProject_EN_M_ENTE_3701",
+        "IISc_SPICORProject_EN_M_HEAL_1028",
+        "IISc_SPICORProject_EN_M_POLI_253",
+        "IISc_SPICORProject_EN_M_WEAT_6428"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 30,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6274",
+        "IISc_SPICORProject_EN_M_ENTE_4923",
+        "IISc_SPICORProject_EN_M_OTHE_2590",
+        "IISc_SPICORProject_EN_M_POLI_1738",
+        "IISc_SPICORProject_EN_M_WEAT_6164"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 28,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_3174",
+        "IISc_SPICORProject_EN_M_ENTE_5366",
+        "IISc_SPICORProject_EN_M_HEAL_1333",
+        "IISc_SPICORProject_EN_M_OTHE_768",
+        "IISc_SPICORProject_EN_M_WEAT_288"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 24,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_4977",
+        "IISc_SPICORProject_EN_M_ENTE_5417",
+        "IISc_SPICORProject_EN_M_ENTE_6522",
+        "IISc_SPICORProject_EN_M_OTHE_704",
+        "IISc_SPICORProject_EN_M_POLI_875"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 19,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1821",
+        "IISc_SPICORProject_EN_M_ENTE_3529",
+        "IISc_SPICORProject_EN_M_OTHE_705",
+        "IISc_SPICORProject_EN_M_POLI_8248",
+        "IISc_SPICORProject_EN_M_WEAT_433"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 18,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_3516",
+        "IISc_SPICORProject_EN_M_EVAL_00238",
+        "IISc_SPICORProject_EN_M_HEAL_1606",
+        "IISc_SPICORProject_EN_M_WEAT_2807",
+        "IISc_SPICORProject_EN_M_WEAT_7346"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 12,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_2431",
+        "IISc_SPICORProject_EN_M_ENTE_3560",
+        "IISc_SPICORProject_EN_M_ENTE_3895",
+        "IISc_SPICORProject_EN_M_ENTE_677",
+        "IISc_SPICORProject_EN_M_ENTE_7167"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 10,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_4243",
+        "IISc_SPICORProject_EN_M_ENTE_3545",
+        "IISc_SPICORProject_EN_M_ENTE_522",
+        "IISc_SPICORProject_EN_M_HEAL_120",
+        "IISc_SPICORProject_EN_M_POLI_5744"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 10,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_6261",
+        "IISc_SPICORProject_EN_M_ENTE_6262",
+        "IISc_SPICORProject_EN_M_HEAL_2878",
+        "IISc_SPICORProject_EN_M_OTHE_2031",
+        "IISc_SPICORProject_EN_M_WEAT_1205"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 9,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_4377",
+        "IISc_SPICORProject_EN_M_HEAL_1479",
+        "IISc_SPICORProject_EN_M_OTHE_3324",
+        "IISc_SPICORProject_EN_M_WEAT_2119",
+        "IISc_SPICORProject_EN_M_WEAT_5042"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 9,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_2891",
+        "IISc_SPICORProject_EN_M_ENTE_1682",
+        "IISc_SPICORProject_EN_M_ENTE_3973",
+        "IISc_SPICORProject_EN_M_ENTE_5995",
+        "IISc_SPICORProject_EN_M_POLI_6657"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 8,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1284",
+        "IISc_SPICORProject_EN_M_ENTE_1135",
+        "IISc_SPICORProject_EN_M_ENTE_6522",
+        "IISc_SPICORProject_EN_M_HEAL_2445",
+        "IISc_SPICORProject_EN_M_OTHE_1035"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 8,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_POLI_1365",
+        "IISc_SPICORProject_EN_M_POLI_2465",
+        "IISc_SPICORProject_EN_M_POLI_3463",
+        "IISc_SPICORProject_EN_M_POLI_4084",
+        "IISc_SPICORProject_EN_M_WEAT_4014"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 7,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_226",
+        "IISc_SPICORProject_EN_M_ENTE_6944",
+        "IISc_SPICORProject_EN_M_OTHE_568",
+        "IISc_SPICORProject_EN_M_POLI_7843",
+        "IISc_SPICORProject_EN_M_WEAT_4702"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 7,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_3176",
+        "IISc_SPICORProject_EN_M_ENTE_1440",
+        "IISc_SPICORProject_EN_M_HEAL_2873",
+        "IISc_SPICORProject_EN_M_POLI_3091(1)",
+        "IISc_SPICORProject_EN_M_WEAT_2323"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 7,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6797",
+        "IISc_SPICORProject_EN_M_ENTE_4671",
+        "IISc_SPICORProject_EN_M_FOOD_4567",
+        "IISc_SPICORProject_EN_M_POLI_5959",
+        "IISc_SPICORProject_EN_M_WEAT_4581"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 7,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6706",
+        "IISc_SPICORProject_EN_M_ENTE_2330",
+        "IISc_SPICORProject_EN_M_ENTE_3530",
+        "IISc_SPICORProject_EN_M_HEAL_2521",
+        "IISc_SPICORProject_EN_M_POLI_792"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 6,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_220",
+        "IISc_SPICORProject_EN_M_ENTE_2172",
+        "IISc_SPICORProject_EN_M_ENTE_5003",
+        "IISc_SPICORProject_EN_M_FOOD_1771",
+        "IISc_SPICORProject_EN_M_HEAL_1608"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 6,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_3841",
+        "IISc_SPICORProject_EN_M_AGRI_4750",
+        "IISc_SPICORProject_EN_M_AGRI_5046",
+        "IISc_SPICORProject_EN_M_ENTE_178",
+        "IISc_SPICORProject_EN_M_ENTE_3391"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 6,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6870",
+        "IISc_SPICORProject_EN_M_ENTE_138",
+        "IISc_SPICORProject_EN_M_ENTE_4251",
+        "IISc_SPICORProject_EN_M_FOOD_3818",
+        "IISc_SPICORProject_EN_M_POLI_8187"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 6,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_5171",
+        "IISc_SPICORProject_EN_M_ENTE_3530",
+        "IISc_SPICORProject_EN_M_POLI_3869",
+        "IISc_SPICORProject_EN_M_POLI_8299",
+        "IISc_SPICORProject_EN_M_WEAT_2906"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 5,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_6881",
+        "IISc_SPICORProject_EN_M_POLI_2864",
+        "IISc_SPICORProject_EN_M_POLI_7217",
+        "IISc_SPICORProject_EN_M_POLI_7663",
+        "IISc_SPICORProject_EN_M_WEAT_2023"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 5,
+      "reviewed_occurrence_count": 5,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "selected_utterance_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_3893",
+        "IISc_SPICORProject_EN_M_ENTE_2085",
+        "IISc_SPICORProject_EN_M_HEAL_3813",
+        "IISc_SPICORProject_EN_M_POLI_4650"
+      ],
+      "human_status": "LIKELY_STABLE",
+      "human_note": "No obvious pronunciation variant detected during practical full-utterance human review.",
+      "corpus_recurrence_count": 4,
+      "reviewed_occurrence_count": 4,
+      "confidence": "medium",
+      "canonical_pronunciation_supported": false,
+      "unresolved_questions": [
+        "No trusted exact lexical phone sequence is present in the repository for this Batch-1 target.",
+        "Human listening stability does not establish occurrence-level phonemes."
+      ]
+    }
+  ]
+}

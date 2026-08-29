@@ -1,0 +1,276 @@
+{
+  "schema_version": "stage2d3a-candidate-spec.v1",
+  "experiment": "STAGE2D.3A — REFERENCE-GUIDED PHONE CANDIDATE TEST",
+  "execute_now": false,
+  "checkpoint": {
+    "stage": "Stage2B",
+    "step": 25,
+    "sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+    "frozen": true
+  },
+  "runtime": {
+    "mask_mode": "target_context_1",
+    "dtype": "float32",
+    "deterministic": true,
+    "qwen_frozen": true,
+    "training": false
+  },
+  "generation_settings": {
+    "x_vector_only_mode": true,
+    "do_sample": false,
+    "subtalker_dosample": false,
+    "max_new_tokens": 512
+  },
+  "candidate_limit_per_word": 3,
+  "diagnostic_word_count": 5,
+  "cases": [
+    {
+      "word": "Jamshedpur",
+      "synthesis_sentence": "The committee visited Jamshedpur yesterday.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+      "reference_word_audio_path": "jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav",
+      "reference_context_audio_path": "jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__context.wav",
+      "candidates": [
+        {
+          "candidate_id": "jamshedpur_candidate_01",
+          "phone_sequence": [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U",
+            "R"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "eSpeak en-us-derived v0 approximation; existing J/SH conventions",
+          "distinctions_tested": "final rhotic/r-like ending versus no explicit final R",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which candidate best matches the human-selected Jamshedpur reference without relying on a short/long vowel label?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "canonical": false
+        },
+        {
+          "candidate_id": "jamshedpur_candidate_02",
+          "phone_sequence": [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "eSpeak en-gb-derived v0 approximation",
+          "distinctions_tested": "final r-like ending omitted; vowel length remains unresolved",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which candidate best matches the human-selected Jamshedpur reference without relying on a short/long vowel label?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+          "canonical": false
+        }
+      ],
+      "native_baseline_required": true,
+      "mask_mode": "target_context_1",
+      "candidates_are_not_canonical": true
+    },
+    {
+      "word": "Banerjee",
+      "synthesis_sentence": "The report mentioned Banerjee during the meeting.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+      "reference_word_audio_path": "banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__word.wav",
+      "reference_context_audio_path": "banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__context.wav",
+      "candidates": [
+        {
+          "candidate_id": "banerjee_candidate_01",
+          "phone_sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "existing-phone-first candidate from eSpeak dʒ and the Banerjee human observation",
+          "distinctions_tested": "whether existing J explains the final J/affricate-like realization",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Does existing J sound closer to the human-approved Banerjee reference than the SH contrast?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "canonical": false
+        },
+        {
+          "candidate_id": "banerjee_candidate_02",
+          "phone_sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "SH",
+            "II"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "contrastive existing-v0 SH approximation from prior analysis",
+          "distinctions_tested": "J versus plain SH in the final component",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Does existing J sound closer to the human-approved Banerjee reference than the SH contrast?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+          "canonical": false
+        }
+      ],
+      "native_baseline_required": true,
+      "mask_mode": "target_context_1",
+      "candidates_are_not_canonical": true
+    },
+    {
+      "word": "Chandigarh",
+      "synthesis_sentence": "The team travelled to Chandigarh for training.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+      "reference_word_audio_path": "chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__word.wav",
+      "reference_context_audio_path": "chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__context.wav",
+      "candidates": [
+        {
+          "candidate_id": "chandigarh_candidate_01",
+          "phone_sequence": [
+            "CH",
+            "A",
+            "N",
+            "D",
+            "I",
+            "G",
+            "AA"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "eSpeak-derived v0 approximation",
+          "distinctions_tested": "existing D-style stop against the human place-distinction reference",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which existing-v0 stop candidate better matches the reference, if either?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "canonical": false
+        },
+        {
+          "candidate_id": "chandigarh_candidate_02",
+          "phone_sequence": [
+            "CH",
+            "A",
+            "N",
+            "T",
+            "I",
+            "G",
+            "AA"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "contrastive existing-v0 T approximation motivated by the human T/D place question",
+          "distinctions_tested": "existing T versus D stop choice; not a retroflex label",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which existing-v0 stop candidate better matches the reference, if either?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+          "canonical": false
+        }
+      ],
+      "native_baseline_required": true,
+      "mask_mode": "target_context_1",
+      "candidates_are_not_canonical": true
+    },
+    {
+      "word": "Nagar",
+      "synthesis_sentence": "The district office in Nagar released the notice.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+      "reference_word_audio_path": "nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__word.wav",
+      "reference_context_audio_path": "nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__context.wav",
+      "candidates": [
+        {
+          "candidate_id": "nagar_candidate_01",
+          "phone_sequence": [
+            "N",
+            "A",
+            "G",
+            "A",
+            "R"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "rhotic eSpeak-derived v0 approximation",
+          "distinctions_tested": "explicit final R-like representation",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which Nagar candidate best matches the approved reference and provides a useful comparison for Srinagar?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+          "canonical": false
+        },
+        {
+          "candidate_id": "nagar_candidate_02",
+          "phone_sequence": [
+            "N",
+            "A",
+            "G",
+            "A"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "non-rhotic/central-vowel eSpeak-derived v0 approximation",
+          "distinctions_tested": "whether explicit final R is needed",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which Nagar candidate best matches the approved reference and provides a useful comparison for Srinagar?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+          "canonical": false
+        }
+      ],
+      "native_baseline_required": true,
+      "mask_mode": "target_context_1",
+      "candidates_are_not_canonical": true
+    },
+    {
+      "word": "Nagpur",
+      "synthesis_sentence": "The train arrived in Nagpur this morning.",
+      "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+      "reference_word_audio_path": "nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__word.wav",
+      "reference_context_audio_path": "nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__context.wav",
+      "candidates": [
+        {
+          "candidate_id": "nagpur_candidate_01",
+          "phone_sequence": [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U",
+            "R"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "eSpeak en-us-derived v0 approximation",
+          "distinctions_tested": "explicit final R-like PUR realization",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which existing-v0 PUR candidate best matches the human-approved Nagpur reference?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "canonical": false
+        },
+        {
+          "candidate_id": "nagpur_candidate_02",
+          "phone_sequence": [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U"
+          ],
+          "phone_inventory": "swara-phones-v0",
+          "provenance": "eSpeak en-gb-derived v0 approximation",
+          "distinctions_tested": "non-rhotic final PUR realization",
+          "known_information_loss": "Candidate only; not a canonical mapping. Existing v0 may lose analysis-level vowel/rhotic/place detail.",
+          "expected_question": "Which existing-v0 PUR candidate best matches the human-approved Nagpur reference?",
+          "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+          "canonical": false
+        }
+      ],
+      "native_baseline_required": true,
+      "mask_mode": "target_context_1",
+      "candidates_are_not_canonical": true
+    }
+  ],
+  "decision_policy": {
+    "V0_CANDIDATE_SUPPORTED": "Only after later human review clearly prefers one candidate.",
+    "V0_DISTINCTION_NOT_NEEDED": "Only after later human review finds candidates equivalent.",
+    "V0_REPRESENTATION_INSUFFICIENT": "Only after later human review finds no candidate matches the approved reference."
+  }
+}

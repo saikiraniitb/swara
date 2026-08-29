@@ -1,0 +1,14 @@
+{
+  "canonical_lexicon_changed": false,
+  "native_only_for_now": [
+    "Nagar",
+    "Banerjee"
+  ],
+  "phone_inventory_changed": false,
+  "ready_explicit": [
+    "Jamshedpur",
+    "Chandigarh",
+    "Nagpur"
+  ],
+  "training_performed": false
+}

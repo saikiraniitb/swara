@@ -1,0 +1,616 @@
+{
+  "schema_version": "stage2d2-batch1-normalized-hypotheses.v1",
+  "words": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "sources": {
+        "espeak_ng_en_us": [
+          "n",
+          "æ",
+          "ɡ",
+          "ɚ"
+        ],
+        "espeak_ng_en_gb": [
+          "n",
+          "a",
+          "ɡ",
+          "ə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "sources": {
+        "espeak_ng_en_us": [
+          "s",
+          "ɹ",
+          "iː",
+          "n",
+          "ə",
+          "ɡ",
+          "ɚ"
+        ],
+        "espeak_ng_en_gb": [
+          "s",
+          "ɹ",
+          "iː",
+          "n",
+          "ə",
+          "ɡ",
+          "ə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "sources": {
+        "espeak_ng_en_us": [
+          "h",
+          "aɪ",
+          "d",
+          "ɚ",
+          "ɹ",
+          "ɐ",
+          "b",
+          "ɑː",
+          "d"
+        ],
+        "espeak_ng_en_gb": [
+          "h",
+          "aɪ",
+          "d",
+          "ə",
+          "ɹ",
+          "ɐ",
+          "b",
+          "a",
+          "d"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "sources": {
+        "espeak_ng_en_us": [
+          "b",
+          "ɛ",
+          "ŋ",
+          "ɡ",
+          "ɐ",
+          "l",
+          "ʊ",
+          "ɹ",
+          "ɹ",
+          "uː"
+        ],
+        "espeak_ng_en_gb": [
+          "b",
+          "ɛ",
+          "ŋ",
+          "ɡ",
+          "ɐ",
+          "l",
+          "ʊə",
+          "ɹ",
+          "uː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "sources": {
+        "espeak_ng_en_us": [
+          "tʃ",
+          "ʌ",
+          "n",
+          "d",
+          "ɪ",
+          "ɡ",
+          "ɜː"
+        ],
+        "espeak_ng_en_gb": [
+          "tʃ",
+          "ʌ",
+          "n",
+          "d",
+          "ɪ",
+          "ɡ",
+          "ɜː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "sources": {
+        "espeak_ng_en_us": [
+          "tʃ",
+          "ʌ",
+          "ɾ",
+          "iː",
+          "s",
+          "ɡ",
+          "ɜː"
+        ],
+        "espeak_ng_en_gb": [
+          "tʃ",
+          "ʌ",
+          "t",
+          "iː",
+          "s",
+          "ɡ",
+          "ɜː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "sources": {
+        "espeak_ng_en_us": [
+          "b",
+          "æ",
+          "n",
+          "ɚ",
+          "dʒ",
+          "iː"
+        ],
+        "espeak_ng_en_gb": [
+          "b",
+          "a",
+          "n",
+          "ə",
+          "dʒ",
+          "iː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ɑː",
+          "m",
+          "ɪ",
+          "d",
+          "ɐ",
+          "b",
+          "ɑː",
+          "d"
+        ],
+        "espeak_ng_en_gb": [
+          "ɑː",
+          "m",
+          "ɪ",
+          "d",
+          "ɐ",
+          "b",
+          "a",
+          "d"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "sources": {
+        "espeak_ng_en_us": [
+          "dʒ",
+          "iː"
+        ],
+        "espeak_ng_en_gb": [
+          "dʒ",
+          "iː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "n",
+          "æ",
+          "ɡ",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "n",
+          "a",
+          "ɡ",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "d",
+          "ɪ",
+          "m",
+          "ɐ",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "d",
+          "ɪ",
+          "m",
+          "ɐ",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "dʒ",
+          "aɪ",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "dʒ",
+          "aɪ",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "m",
+          "ʌ",
+          "n",
+          "ɪ",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "m",
+          "ʌ",
+          "n",
+          "ɪ",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ɹ",
+          "aɪ",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "ɹ",
+          "aɪ",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "sources": {
+        "espeak_ng_en_us": [
+          "tʃ",
+          "æ",
+          "ɾ",
+          "ɚ",
+          "dʒ",
+          "iː"
+        ],
+        "espeak_ng_en_gb": [
+          "tʃ",
+          "a",
+          "t",
+          "ə",
+          "dʒ",
+          "iː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ɡ",
+          "ɔː",
+          "ɹ",
+          "ɐ",
+          "k",
+          "h",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "ɡ",
+          "ɔː",
+          "ɹ",
+          "ɐ",
+          "k",
+          "h",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "sources": {
+        "espeak_ng_en_us": [
+          "m",
+          "ʊ",
+          "k",
+          "ɜː",
+          "dʒ",
+          "iː"
+        ],
+        "espeak_ng_en_gb": [
+          "m",
+          "ʊ",
+          "k",
+          "ɜː",
+          "dʒ",
+          "iː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "s",
+          "æ",
+          "m",
+          "b",
+          "ɐ",
+          "l",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "s",
+          "a",
+          "m",
+          "b",
+          "ɐ",
+          "l",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ɐ",
+          "l",
+          "ɪ",
+          "ɡ",
+          "ɑː",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "ɐ",
+          "l",
+          "ɪ",
+          "ɡ",
+          "ɑː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ə",
+          "l",
+          "ɑː",
+          "h",
+          "ɐ",
+          "b",
+          "ɑː",
+          "d"
+        ],
+        "espeak_ng_en_gb": [
+          "ə",
+          "l",
+          "ɑː",
+          "h",
+          "ɐ",
+          "b",
+          "ɑː",
+          "d"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "dʒ",
+          "æ",
+          "m",
+          "ʃ",
+          "ɪ",
+          "d",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "dʒ",
+          "a",
+          "m",
+          "ʃ",
+          "ɪ",
+          "d",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "ʌ",
+          "d",
+          "h",
+          "ɐ",
+          "m",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "ʌ",
+          "d",
+          "h",
+          "ɐ",
+          "m",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "sources": {
+        "espeak_ng_en_us": [
+          "æ",
+          "z",
+          "ɐ",
+          "m",
+          "ɡ",
+          "ɑː",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "a",
+          "z",
+          "ɐ",
+          "m",
+          "ɡ",
+          "ɑː"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "s",
+          "ʌ",
+          "l",
+          "t",
+          "ɐ",
+          "n",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "s",
+          "ʌ",
+          "l",
+          "t",
+          "ɐ",
+          "n",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "sources": {
+        "espeak_ng_en_us": [
+          "b",
+          "ᵻ",
+          "l",
+          "æ",
+          "s",
+          "p",
+          "ʊ",
+          "ɹ"
+        ],
+        "espeak_ng_en_gb": [
+          "b",
+          "ɪ",
+          "l",
+          "a",
+          "s",
+          "p",
+          "ʊə"
+        ]
+      },
+      "analysis_inventory": "stage2d_phonetic_analysis_inventory_v0"
+    }
+  ]
+}

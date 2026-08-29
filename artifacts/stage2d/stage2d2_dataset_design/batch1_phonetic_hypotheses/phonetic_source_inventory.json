@@ -1,0 +1,39 @@
+{
+  "schema_version": "stage2d2-phonetic-source-inventory.v1",
+  "sources": [
+    {
+      "source_id": "espeak_ng_en_us",
+      "tool": "eSpeak NG",
+      "voice": "en-us",
+      "executable": "/opt/homebrew/bin/espeak-ng",
+      "version": "eSpeak NG text-to-speech: 1.52.0  Data at: /opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data",
+      "independent_system": false,
+      "usable": true,
+      "note": "Distinct eSpeak voice configurations; not independent pronunciation systems."
+    },
+    {
+      "source_id": "espeak_ng_en_gb",
+      "tool": "eSpeak NG",
+      "voice": "en-gb",
+      "executable": "/opt/homebrew/bin/espeak-ng",
+      "version": "eSpeak NG text-to-speech: 1.52.0  Data at: /opt/homebrew/Cellar/espeak-ng/1.52.0/share/espeak-ng-data",
+      "independent_system": false,
+      "usable": true,
+      "note": "Distinct eSpeak voice configurations; not independent pronunciation systems."
+    },
+    {
+      "source_id": "cmudict",
+      "tool": "CMUdict",
+      "usable": false,
+      "reason": "Not installed in the local environment."
+    },
+    {
+      "source_id": "repository_curated",
+      "tool": "Existing Swara curated evidence",
+      "usable": true,
+      "usable_for_batch1": false,
+      "reason": "No exact trusted curated phone mapping exists for these 25 words."
+    }
+  ],
+  "analysis_policy": "Source output is preserved verbatim; source configurations are not counted as independent systems."
+}

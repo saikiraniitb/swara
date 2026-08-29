@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "classification": "EXPLICIT_OVERRIDE_SUPPORTED",
+      "notes": "Current v0 candidate_02 won the blinded comparison.",
+      "phone_sequence": [
+        "J",
+        "A",
+        "M",
+        "SH",
+        "I",
+        "D",
+        "P",
+        "U"
+      ],
+      "word": "Jamshedpur"
+    },
+    {
+      "classification": "EXPLICIT_OVERRIDE_SUPPORTED",
+      "notes": "Current v0 D candidate won; this does not resolve finer place distinctions.",
+      "phone_sequence": [
+        "CH",
+        "A",
+        "N",
+        "D",
+        "I",
+        "G",
+        "AA"
+      ],
+      "word": "Chandigarh"
+    },
+    {
+      "classification": "EXPLICIT_OVERRIDE_SUPPORTED",
+      "notes": "Current v0 candidate_01 won the blinded comparison.",
+      "phone_sequence": [
+        "N",
+        "A",
+        "G",
+        "P",
+        "U",
+        "R"
+      ],
+      "word": "Nagpur"
+    },
+    {
+      "classification": "NATIVE_PREFERRED",
+      "notes": "Native was preferred; do not promote either candidate.",
+      "phone_sequence": null,
+      "secondary_classification": "UNRESOLVED",
+      "word": "Nagar"
+    },
+    {
+      "classification": "NATIVE_PREFERRED",
+      "notes": "Native was acceptable; both explicit candidates were pathological.",
+      "phone_sequence": null,
+      "secondary_classification": "EXPLICIT_OVERRIDE_UNSAFE",
+      "word": "Banerjee"
+    }
+  ],
+  "intervention_principle": "A pronunciation lexicon entry does not imply that an explicit override should always be applied; intervene only when the approved acoustic target is improved.",
+  "schema_version": "stage2d3b-pronunciation-intervention-policy.v1",
+  "swara_phones_v1_freeze": "DEFERRED",
+  "universal_pur_rule": "NOT_JUSTIFIED"
+}

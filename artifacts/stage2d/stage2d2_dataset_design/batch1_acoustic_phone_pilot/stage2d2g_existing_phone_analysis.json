@@ -1,0 +1,150 @@
+{
+  "schema_version": "stage2d2g-existing-phone-analysis.v1",
+  "inventory": "swara-phones-v0",
+  "production_change": false,
+  "policy": "Existing-phone-first; all entries below are analysis candidates, not canonical lexicon updates.",
+  "jee_family": [
+    {
+      "word": "Jee",
+      "v0_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "sequence": [
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "sequence": [
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely"
+          ]
+        }
+      ],
+      "existing_j_assessment": "STRUCTURALLY_ADEQUATE_CANDIDATE",
+      "confidence": "PLAUSIBLE_ANALYSIS_ONLY"
+    },
+    {
+      "word": "Banerjee",
+      "v0_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "TRAP approximated as A",
+            "length is represented coarsely",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely",
+            "schwa approximated as A"
+          ]
+        }
+      ],
+      "existing_j_assessment": "STRUCTURALLY_ADEQUATE_CANDIDATE",
+      "confidence": "PLAUSIBLE_ANALYSIS_ONLY"
+    },
+    {
+      "word": "Chatterjee",
+      "v0_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "sequence": [
+            "CH",
+            "A",
+            "T",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "TRAP approximated as A",
+            "flap approximated as T",
+            "length is represented coarsely",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "sequence": [
+            "CH",
+            "A",
+            "T",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely",
+            "schwa approximated as A"
+          ]
+        }
+      ],
+      "existing_j_assessment": "STRUCTURALLY_ADEQUATE_CANDIDATE",
+      "confidence": "PLAUSIBLE_ANALYSIS_ONLY"
+    },
+    {
+      "word": "Mukherjee",
+      "v0_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "sequence": [
+            "M",
+            "U",
+            "K",
+            "AA",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "sequence": [
+            "M",
+            "U",
+            "K",
+            "AA",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "length is represented coarsely"
+          ]
+        }
+      ],
+      "existing_j_assessment": "STRUCTURALLY_ADEQUATE_CANDIDATE",
+      "confidence": "PLAUSIBLE_ANALYSIS_ONLY"
+    }
+  ],
+  "conclusion": "The existing J symbol covers the dʒ/J-like component in the available hypotheses; no new affricate phone is justified by the Banerjee observation alone."
+}

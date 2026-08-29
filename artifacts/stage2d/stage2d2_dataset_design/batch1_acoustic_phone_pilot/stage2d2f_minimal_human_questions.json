@@ -1,0 +1,35 @@
+{
+  "schema_version": "stage2d2f-minimal-human-questions.v2",
+  "question_count": 4,
+  "questions": [
+    {
+      "feature": "SCHWA",
+      "word": "Srinagar",
+      "plain_language_question": "Do you hear an 'uh'-like central vowel in the target, consistently across the selected contexts?",
+      "evidence_status": "ACOUSTIC_SUPPORT_WEAK",
+      "phone_assignment_requested": false
+    },
+    {
+      "feature": "RETROFLEX",
+      "word": "Chandigarh",
+      "plain_language_question": "Does any tongue-stop sound noticeably different from ordinary English T or D?",
+      "evidence_status": "ACOUSTIC_SUPPORT_WEAK",
+      "phone_assignment_requested": false
+    },
+    {
+      "feature": "VOWEL_LENGTH",
+      "word": "Jamshedpur",
+      "plain_language_question": "Does the vowel sound consistently short or long, beyond speaking-rate differences?",
+      "evidence_status": "ACOUSTIC_SUPPORT_WEAK",
+      "phone_assignment_requested": false
+    },
+    {
+      "feature": "SH_AFFRICATE",
+      "word": "Banerjee",
+      "plain_language_question": "Does the consonant sound like SH or like an SH-plus-stop affricate?",
+      "evidence_status": "ACOUSTIC_SUPPORT_WEAK",
+      "phone_assignment_requested": false
+    }
+  ],
+  "policy": "Only repeated weak/strong acoustic signals with potential v0 loss are presented; no IPA or Swara label is requested."
+}

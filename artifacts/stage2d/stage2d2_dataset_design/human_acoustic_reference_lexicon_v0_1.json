@@ -1,0 +1,2295 @@
+{
+  "schema_version": "stage2d2h-human-acoustic-reference-lexicon.v1",
+  "stage": "STAGE2D.2H",
+  "production_inventory_modified": false,
+  "canonical_lexicon_modified": false,
+  "phone_mappings_created": 0,
+  "phone_mapping_policy": "Human acoustic references are not symbolic phone mappings.",
+  "principle": {
+    "acoustic_reference_lexicon": "What should this word sound like?",
+    "symbolic_pronunciation_lexicon": "How should Swara encode that pronunciation?",
+    "separation_is_deliberate": true
+  },
+  "entries": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "human_word_label": "Nagar",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_6968",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6968.wav",
+        "word_audio_path": "nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__word.wav",
+        "context_audio_path": "nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__context.wav",
+        "aligned_start": 3.943292877906976,
+        "aligned_end": 4.183493459302325,
+        "source_audio_duration_seconds": 12.050022675736962,
+        "transcript": "Employees from Pauri, Haridwar, Nainital, Udham Singh Nagar, Tehri, Uttarkashi, Almora, Bageshwar, Pithoragarh and other districts would take part in the training programme",
+        "target_char_span": [
+          54,
+          59
+        ],
+        "target_word_index": 7,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6968.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.8338065620375577
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "N",
+            "A",
+            "G",
+            "A"
+          ],
+          "losses": [
+            "TRAP approximated as A",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "N",
+            "A",
+            "G",
+            "A"
+          ],
+          "losses": [
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "human_word_label": "Srinagar",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_AGRI_6624",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6624",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_6624.wav",
+        "word_audio_path": "srinagar/srinagar__IISc_SPICORProject_EN_M_AGRI_6624__far__word.wav",
+        "context_audio_path": "srinagar/srinagar__IISc_SPICORProject_EN_M_AGRI_6624__far__context.wav",
+        "aligned_start": 7.505933077830188,
+        "aligned_end": 7.9462811517295595,
+        "source_audio_duration_seconds": 12.730022675736961,
+        "transcript": "The Agromet Field Unit organised a Farmer Awareness Programme under Gramin Krishi Mausam Sewa A M F U Srinagar at S K U A S T Shalimar campus on Saturday here",
+        "target_char_span": [
+          102,
+          110
+        ],
+        "target_word_index": 18,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_6624.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.7655763081067875
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "S",
+            "R",
+            "II",
+            "N",
+            "A",
+            "G",
+            "A"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "length is represented coarsely",
+            "r-colored schwa loses rhotic vowel detail",
+            "schwa approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "S",
+            "R",
+            "II",
+            "N",
+            "A",
+            "G",
+            "A"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "length is represented coarsely",
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "human_word_label": "Hyderabad",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_WEAT_6428",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_6428.wav",
+        "word_audio_path": "hyderabad/hyderabad__IISc_SPICORProject_EN_M_WEAT_6428__near__word.wav",
+        "context_audio_path": "hyderabad/hyderabad__IISc_SPICORProject_EN_M_WEAT_6428__near__context.wav",
+        "aligned_start": 3.427821306818182,
+        "aligned_end": 3.888873295454546,
+        "source_audio_duration_seconds": 4.410022675736961,
+        "transcript": "Two more people died due to electrocution in Miyapur area of Hyderabad",
+        "target_char_span": [
+          61,
+          70
+        ],
+        "target_word_index": 11,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_6428.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.7367109338000885
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "H",
+            "AI",
+            "D",
+            "A",
+            "R",
+            "A",
+            "B",
+            "AA",
+            "D"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "central vowel approximated as A",
+            "diphthong is represented by coarse AI",
+            "length/quality may be coarse",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "H",
+            "AI",
+            "D",
+            "A",
+            "R",
+            "A",
+            "B",
+            "A",
+            "D"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "central vowel approximated as A",
+            "diphthong is represented by coarse AI",
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "human_word_label": "Bengaluru",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_POLI_1738",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_POLI_1738",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_1738.wav",
+        "word_audio_path": "bengaluru/bengaluru__IISc_SPICORProject_EN_M_POLI_1738__diverse_context__word.wav",
+        "context_audio_path": "bengaluru/bengaluru__IISc_SPICORProject_EN_M_POLI_1738__diverse_context__context.wav",
+        "aligned_start": 3.003361636971047,
+        "aligned_end": 3.4838994988864145,
+        "source_audio_duration_seconds": 8.990022675736961,
+        "transcript": "Some developers based in Mumbai, N C R, Bengaluru and Pune are focusing on luxury projects while the majority stick to affordable homes",
+        "target_char_span": [
+          40,
+          49
+        ],
+        "target_word_index": 8,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_1738.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.7603394910745132
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "B",
+            "E",
+            "NG",
+            "G",
+            "A",
+            "L",
+            "U",
+            "R",
+            "R",
+            "UU"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "central vowel approximated as A",
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "B",
+            "E",
+            "NG",
+            "G",
+            "A",
+            "L",
+            "U",
+            "R",
+            "UU"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "centering diphthong loses its second element",
+            "central vowel approximated as A",
+            "length is represented coarsely"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "human_word_label": "Chandigarh",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_WEAT_288",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_288.wav",
+        "word_audio_path": "chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__word.wav",
+        "context_audio_path": "chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__context.wav",
+        "aligned_start": 1.8624562007874017,
+        "aligned_end": 2.3030372375328083,
+        "source_audio_duration_seconds": 7.630022675736962,
+        "transcript": "He could not get nomination from Chandigarh which is relatively a safe seat for the Congress and so he is sulking",
+        "target_char_span": [
+          33,
+          43
+        ],
+        "target_word_index": 6,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_288.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.5082280078093888
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "N",
+            "D",
+            "I",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "STRUT approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "N",
+            "D",
+            "I",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "STRUT approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "human_word_label": "Chhattisgarh",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_OTHE_704",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_704.wav",
+        "word_audio_path": "chhattisgarh/chhattisgarh__IISc_SPICORProject_EN_M_OTHE_704__medoid__word.wav",
+        "context_audio_path": "chhattisgarh/chhattisgarh__IISc_SPICORProject_EN_M_OTHE_704__medoid__context.wav",
+        "aligned_start": 4.827260666167665,
+        "aligned_end": 5.468224738023952,
+        "source_audio_duration_seconds": 6.690041666666667,
+        "transcript": "The B S P J C C alliance will get absolute majority in Chhattisgarh, she said",
+        "target_char_span": [
+          55,
+          67
+        ],
+        "target_word_index": 13,
+        "audio_source_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_704.wav",
+        "alignment_method": "existing_stage2d1b_exact_transcript_ctc",
+        "alignment_confidence": 0.573640577673906
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "T",
+            "II",
+            "S",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "STRUT approximated as A",
+            "flap approximated as T",
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "T",
+            "II",
+            "S",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "STRUT approximated as A",
+            "length is represented coarsely"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "human_word_label": "Banerjee",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_WEAT_433",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_433.wav",
+        "word_audio_path": "banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__word.wav",
+        "context_audio_path": "banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__context.wav",
+        "aligned_start": 5.552834439953811,
+        "aligned_end": 5.953761114318707,
+        "source_audio_duration_seconds": 8.68002267573696,
+        "transcript": "Fast moving consumer goods companies continue to be the biggest spender during Kumbh Mela, said Shekhar Banerjee, managing partner, Wavemaker India",
+        "target_char_span": [
+          104,
+          112
+        ],
+        "target_word_index": 16,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_433.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.3874433426614975
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "TRAP approximated as A",
+            "length is represented coarsely",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely",
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "human_word_label": "Ahmedabad",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_WEAT_2807",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_WEAT_2807",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_2807.wav",
+        "word_audio_path": "ahmedabad/ahmedabad__IISc_SPICORProject_EN_M_WEAT_2807__diverse_context__word.wav",
+        "context_audio_path": "ahmedabad/ahmedabad__IISc_SPICORProject_EN_M_WEAT_2807__diverse_context__context.wav",
+        "aligned_start": 3.7479993336886994,
+        "aligned_end": 4.168897654584222,
+        "source_audio_duration_seconds": 9.400022675736961,
+        "transcript": "Adani Gas has set up city gas distribution networks at Ahmedabad and Vadodara in Gujarat, Faridabad in Haryana and Khurja in Uttar Pradesh",
+        "target_char_span": [
+          55,
+          64
+        ],
+        "target_word_index": 10,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_2807.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.6656607217066554
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "AA",
+            "M",
+            "I",
+            "D",
+            "A",
+            "B",
+            "AA",
+            "D"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "AA",
+            "M",
+            "I",
+            "D",
+            "A",
+            "B",
+            "A",
+            "D"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "human_word_label": "Jee",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_7167",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_7167",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_7167.wav",
+        "word_audio_path": "jee/jee__IISc_SPICORProject_EN_M_ENTE_7167__near__word.wav",
+        "context_audio_path": "jee/jee__IISc_SPICORProject_EN_M_ENTE_7167__near__context.wav",
+        "aligned_start": 7.976001753507013,
+        "aligned_end": 8.116283191382765,
+        "source_audio_duration_seconds": 10.000022675736961,
+        "transcript": "The company has produced around nine movies so far, including blockbuster Jaane Tu Ya Jane Na, Ashutosh Gowariker's Khelenge Jee Jaan Se and Aisha",
+        "target_char_span": [
+          125,
+          128
+        ],
+        "target_word_index": 19,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_7167.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.10211556663030726
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "human_word_label": "Nagpur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_3545",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3545.wav",
+        "word_audio_path": "nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__word.wav",
+        "context_audio_path": "nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__context.wav",
+        "aligned_start": 7.668254310344826,
+        "aligned_end": 8.068685344827585,
+        "source_audio_duration_seconds": 9.29,
+        "transcript": "R S S chief Mohan Bhagwat and other leaders at the valedictory function of a training camp of Rashtriya Swayamsevak Sangh in Nagpur on Thursday",
+        "target_char_span": [
+          125,
+          131
+        ],
+        "target_word_index": 22,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3545.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.807847438634699
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "human_word_label": "Dimapur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_6261",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6261",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6261.wav",
+        "word_audio_path": "dimapur/dimapur__IISc_SPICORProject_EN_M_ENTE_6261__medoid__word.wav",
+        "context_audio_path": "dimapur/dimapur__IISc_SPICORProject_EN_M_ENTE_6261__medoid__context.wav",
+        "aligned_start": 7.928939051918735,
+        "aligned_end": 8.329390519187358,
+        "source_audio_duration_seconds": 8.87,
+        "transcript": "One month Yoga training was carried out at Unit Head Quarter Zubza, Kohima as well as Company locations deployed at Kohima and Dimapur",
+        "target_char_span": [
+          127,
+          134
+        ],
+        "target_word_index": 22,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_6261.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.9298249707407856
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "D",
+            "I",
+            "M",
+            "A",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "central vowel approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "D",
+            "I",
+            "M",
+            "A",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element",
+            "central vowel approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "human_word_label": "Jaipur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_HEAL_1479",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_HEAL_1479",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_1479.wav",
+        "word_audio_path": "jaipur/jaipur__IISc_SPICORProject_EN_M_HEAL_1479__near__word.wav",
+        "context_audio_path": "jaipur/jaipur__IISc_SPICORProject_EN_M_HEAL_1479__near__context.wav",
+        "aligned_start": 5.129391304347826,
+        "aligned_end": 5.470014945652174,
+        "source_audio_duration_seconds": 9.216848072562358,
+        "transcript": "The Cardiac Transplant Team from F E H I flew down to E H C C Hospital, Jaipur and retrieved the heart from the donor at one p m on Saturday",
+        "target_char_span": [
+          72,
+          78
+        ],
+        "target_word_index": 17,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_1479.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.6953612586843252
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "J",
+            "AI",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "diphthong is represented by coarse AI"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "J",
+            "AI",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element",
+            "diphthong is represented by coarse AI"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "human_word_label": "Manipur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_1682",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_1682",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1682.wav",
+        "word_audio_path": "manipur/manipur__IISc_SPICORProject_EN_M_ENTE_1682__medoid__word.wav",
+        "context_audio_path": "manipur/manipur__IISc_SPICORProject_EN_M_ENTE_1682__medoid__context.wav",
+        "aligned_start": 7.568970813679246,
+        "aligned_end": 7.94942172759434,
+        "source_audio_duration_seconds": 8.490022675736961,
+        "transcript": "These violations can be tackled only if the black A F P S A law is withdrawn in its entirety from Kashmir and Manipur",
+        "target_char_span": [
+          110,
+          117
+        ],
+        "target_word_index": 23,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1682.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.8764022901025201
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "M",
+            "A",
+            "N",
+            "I",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "STRUT approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "M",
+            "A",
+            "N",
+            "I",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "STRUT approximated as A",
+            "centering diphthong loses its second element"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "human_word_label": "Raipur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_1135",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_1135",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1135.wav",
+        "word_audio_path": "raipur/raipur__IISc_SPICORProject_EN_M_ENTE_1135__medoid__word.wav",
+        "context_audio_path": "raipur/raipur__IISc_SPICORProject_EN_M_ENTE_1135__medoid__context.wav",
+        "aligned_start": 5.628947982594937,
+        "aligned_end": 5.969489319620254,
+        "source_audio_duration_seconds": 6.330022675736961,
+        "transcript": "The panel discussion concluded with a summary of discussion by Professor Debdatta Pal of I I M Raipur",
+        "target_char_span": [
+          95,
+          101
+        ],
+        "target_word_index": 17,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_1135.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.6624596765923989
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "R",
+            "AI",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "diphthong is represented by coarse AI"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "R",
+            "AI",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "centering diphthong loses its second element",
+            "diphthong is represented by coarse AI"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "human_word_label": "Chaterjee",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_WEAT_4014",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_WEAT_4014",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_4014.wav",
+        "word_audio_path": "chatterjee/chatterjee__IISc_SPICORProject_EN_M_WEAT_4014__near__word.wav",
+        "context_audio_path": "chatterjee/chatterjee__IISc_SPICORProject_EN_M_WEAT_4014__near__context.wav",
+        "aligned_start": 2.6462165492957745,
+        "aligned_end": 3.0672055457746477,
+        "source_audio_duration_seconds": 8.540022675736962,
+        "transcript": "Masterminded by chief chef Chiranjib Chatterjee, Afraa has become a food destination for lovers of good food within a span of two years",
+        "target_char_span": [
+          37,
+          47
+        ],
+        "target_word_index": 5,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_WEAT_4014.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.47781856494951747
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": true
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "T",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "TRAP approximated as A",
+            "flap approximated as T",
+            "length is represented coarsely",
+            "r-colored schwa loses rhotic vowel detail"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "CH",
+            "A",
+            "T",
+            "A",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "length is represented coarsely",
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "human_word_label": "Ghorakpur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_OTHE_568",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_OTHE_568",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_568.wav",
+        "word_audio_path": "gorakhpur/gorakhpur__IISc_SPICORProject_EN_M_OTHE_568__near__word.wav",
+        "context_audio_path": "gorakhpur/gorakhpur__IISc_SPICORProject_EN_M_OTHE_568__near__context.wav",
+        "aligned_start": 1.6472154605263158,
+        "aligned_end": 2.1494152960526316,
+        "source_audio_duration_seconds": 4.580022675736961,
+        "transcript": "These people would be brought to Gorakhpur through Saunauli border, he said",
+        "target_char_span": [
+          33,
+          42
+        ],
+        "target_word_index": 6,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_OTHE_568.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.5344124308650061
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": true
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "G",
+            "OO",
+            "R",
+            "A",
+            "K",
+            "H",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "central vowel approximated as A",
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "G",
+            "OO",
+            "R",
+            "A",
+            "K",
+            "H",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "centering diphthong loses its second element",
+            "central vowel approximated as A",
+            "length is represented coarsely"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "human_word_label": "Mukherjee",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_POLI_3091(1)",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_POLI_3091(1)",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_3091(1).wav",
+        "word_audio_path": "mukherjee/mukherjee__IISc_SPICORProject_EN_M_POLI_3091_1__medoid__word.wav",
+        "context_audio_path": "mukherjee/mukherjee__IISc_SPICORProject_EN_M_POLI_3091_1__medoid__context.wav",
+        "aligned_start": 0.26077881097560973,
+        "aligned_end": 0.7221567073170732,
+        "source_audio_duration_seconds": 8.224512471655329,
+        "transcript": "Mukherjee, the Leader of the Lok Sabha who was the U P A Government's troubleshooter, is expected to file his nomination papers on Thursday",
+        "target_char_span": [
+          0,
+          9
+        ],
+        "target_word_index": 0,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_3091(1).wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.41437441217393073
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "M",
+            "U",
+            "K",
+            "AA",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "length is represented coarsely"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "M",
+            "U",
+            "K",
+            "AA",
+            "J",
+            "II"
+          ],
+          "losses": [
+            "NURSE quality approximated as AA",
+            "length is represented coarsely"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "human_word_label": "Sambalpur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_POLI_5959",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_POLI_5959",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5959.wav",
+        "word_audio_path": "sambalpur/sambalpur__IISc_SPICORProject_EN_M_POLI_5959__medoid__word.wav",
+        "context_audio_path": "sambalpur/sambalpur__IISc_SPICORProject_EN_M_POLI_5959__medoid__context.wav",
+        "aligned_start": 0.24032114361702128,
+        "aligned_end": 0.7209634308510638,
+        "source_audio_duration_seconds": 7.530022675736961,
+        "transcript": "Sambalpur M L A Jayanarayan Mishra and Bhawanipatna M L A Pradipta Naik are in the race for the L o P post",
+        "target_char_span": [
+          0,
+          9
+        ],
+        "target_word_index": 0,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5959.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.670369809936842
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "S",
+            "A",
+            "M",
+            "B",
+            "A",
+            "L",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A",
+            "central vowel approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "S",
+            "A",
+            "M",
+            "B",
+            "A",
+            "L",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element",
+            "central vowel approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "human_word_label": "Aligarh",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_3530",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3530",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3530.wav",
+        "word_audio_path": "azamgarh/azamgarh__IISc_SPICORProject_EN_M_ENTE_3530__medoid__word.wav",
+        "context_audio_path": "azamgarh/azamgarh__IISc_SPICORProject_EN_M_ENTE_3530__medoid__context.wav",
+        "aligned_start": 8.558054968287527,
+        "aligned_end": 8.998985200845667,
+        "source_audio_duration_seconds": 9.48,
+        "transcript": "The government also proposes a forensic university, one Ayush and one law university, three State universities in Aligarh, Saharanpur and Azamgarh",
+        "target_char_span": [
+          138,
+          146
+        ],
+        "target_word_index": 20,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3530.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.5061444855477492
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": true
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "A",
+            "S",
+            "A",
+            "M",
+            "G",
+            "AA",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A",
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "voicing distinction approximated as S"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "A",
+            "S",
+            "A",
+            "M",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "voicing distinction approximated as S"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "human_word_label": "Allahabad",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_ENTE_5003",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_ENTE_5003",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5003.wav",
+        "word_audio_path": "allahabad/allahabad__IISc_SPICORProject_EN_M_ENTE_5003__diverse_context__word.wav",
+        "context_audio_path": "allahabad/allahabad__IISc_SPICORProject_EN_M_ENTE_5003__diverse_context__context.wav",
+        "aligned_start": 3.3681021634615385,
+        "aligned_end": 3.8492596153846153,
+        "source_audio_duration_seconds": 8.34002267573696,
+        "transcript": "Similarly, the daylight murder of lawyer Ravi Tiwari in Allahabad proves that law and order hasgone for a toss in the state, she charged",
+        "target_char_span": [
+          56,
+          65
+        ],
+        "target_word_index": 9,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_5003.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.836781533940122
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "A",
+            "L",
+            "AA",
+            "H",
+            "A",
+            "B",
+            "AA",
+            "D"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "schwa approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "A",
+            "L",
+            "AA",
+            "H",
+            "A",
+            "B",
+            "AA",
+            "D"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "schwa approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "human_word_label": "Jamshedpur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_AGRI_3841",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3841.wav",
+        "word_audio_path": "jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav",
+        "context_audio_path": "jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__context.wav",
+        "aligned_start": 6.114961033007334,
+        "aligned_end": 6.676334504889975,
+        "source_audio_duration_seconds": 8.200022675736962,
+        "transcript": "They also agreed to include Deoghar under HRIDAY and different urban units in Ramgarh, Mango and Jamshedpur under AMRUT",
+        "target_char_span": [
+          97,
+          107
+        ],
+        "target_word_index": 16,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3841.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.7146054230524177
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "human_word_label": "Udhampur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_AGRI_6870",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_6870.wav",
+        "word_audio_path": "udhampur/udhampur__IISc_SPICORProject_EN_M_AGRI_6870__far__word.wav",
+        "context_audio_path": "udhampur/udhampur__IISc_SPICORProject_EN_M_AGRI_6870__far__context.wav",
+        "aligned_start": 4.9554857421875,
+        "aligned_end": 5.3166142578125,
+        "source_audio_duration_seconds": 6.420022675736962,
+        "transcript": "Insecticides has formulation facilities at Chopanki , Samba and Udhampur and Dahej",
+        "target_char_span": [
+          64,
+          72
+        ],
+        "target_word_index": 8,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_6870.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.6295785869388771
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": true,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_raw_acoustic_phone_predictions.jsonl",
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "A",
+            "D",
+            "H",
+            "A",
+            "M",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "STRUT approximated as A",
+            "central vowel approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "A",
+            "D",
+            "H",
+            "A",
+            "M",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "STRUT approximated as A",
+            "centering diphthong loses its second element",
+            "central vowel approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "human_word_label": "Azamgarh",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_POLI_8299",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_POLI_8299",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_8299.wav",
+        "word_audio_path": "azamgarh/azamgarh__IISc_SPICORProject_EN_M_POLI_8299__far__word.wav",
+        "context_audio_path": "azamgarh/azamgarh__IISc_SPICORProject_EN_M_POLI_8299__far__context.wav",
+        "aligned_start": 3.5689726758793974,
+        "aligned_end": 4.030132066582915,
+        "source_audio_duration_seconds": 7.9800226757369614,
+        "transcript": "Gautam, a former M P and M L C, is from Azamgarh, the constituency represented by Akhilesh Yadav in the Lok Sabha",
+        "target_char_span": [
+          40,
+          48
+        ],
+        "target_word_index": 11,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_8299.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.7968425526270957
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "A",
+            "S",
+            "A",
+            "M",
+            "G",
+            "AA",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A",
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "voicing distinction approximated as S"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "A",
+            "S",
+            "A",
+            "M",
+            "G",
+            "AA"
+          ],
+          "losses": [
+            "central vowel approximated as A",
+            "length/quality may be coarse",
+            "voicing distinction approximated as S"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "human_word_label": "Sultanpur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_POLI_7663",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_POLI_7663",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_7663.wav",
+        "word_audio_path": "sultanpur/sultanpur__IISc_SPICORProject_EN_M_POLI_7663__far__word.wav",
+        "context_audio_path": "sultanpur/sultanpur__IISc_SPICORProject_EN_M_POLI_7663__far__context.wav",
+        "aligned_start": 6.526058881578947,
+        "aligned_end": 7.066560690789474,
+        "source_audio_duration_seconds": 7.60702947845805,
+        "transcript": "In place of Sanjay Singh, his wife Amita, the former M L A from Amethi, has been given a party ticket from Sultanpur",
+        "target_char_span": [
+          107,
+          116
+        ],
+        "target_word_index": 22,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_7663.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.8781303803690929
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "S",
+            "A",
+            "L",
+            "T",
+            "A",
+            "N",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "STRUT approximated as A",
+            "central vowel approximated as A"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "S",
+            "A",
+            "L",
+            "T",
+            "A",
+            "N",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "STRUT approximated as A",
+            "centering diphthong loses its second element",
+            "central vowel approximated as A"
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "human_word_label": "Bilaspur",
+      "reference_status": "HUMAN_REFERENCE_CONFIRMED",
+      "reference": {
+        "human_supplied_identifier": "IISc_SPICORProject_EN_M_HEAL_3813",
+        "resolved_utterance_id": "IISc_SPICORProject_EN_M_HEAL_3813",
+        "source": "SPICOR",
+        "full_audio_path": "../../../../data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3813.wav",
+        "word_audio_path": "bilaspur/bilaspur__IISc_SPICORProject_EN_M_HEAL_3813__near__word.wav",
+        "context_audio_path": "bilaspur/bilaspur__IISc_SPICORProject_EN_M_HEAL_3813__near__context.wav",
+        "aligned_start": 1.8656030405405406,
+        "aligned_end": 2.387169481981982,
+        "source_audio_duration_seconds": 6.680022675736962,
+        "transcript": "Chattisgarh Sterlisation Bilaspur Raman Singh Surgery Narendra Modi Family Planning health",
+        "target_char_span": [
+          25,
+          33
+        ],
+        "target_word_index": 2,
+        "audio_source_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_3813.wav",
+        "alignment_method": "stage2d2_batch1_local_exact_transcript_ctc",
+        "alignment_confidence": 0.9230950796701548
+      },
+      "human_judgment": {
+        "word_only_pronunciation": "CORRECT_REFERENCE",
+        "review_scope": "human selected this occurrence as a correct pronunciation exemplar"
+      },
+      "canonical_phone_sequence": null,
+      "phone_mapping_status": "UNRESOLVED",
+      "evidence": {
+        "batch1_human_stability": true,
+        "human_reference_selected": true,
+        "allosaurus_available": false,
+        "espeak_hypotheses_available": true,
+        "batch1_review_index": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/batch1_human_review_index.json",
+        "allosaurus_evidence": null,
+        "espeak_evidence": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_source_pronunciations.json",
+        "family_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_acoustic_phone_pilot/stage2d2f_family_analysis.json",
+        "v0_analysis": "artifacts/stage2d/stage2d2_dataset_design/batch1_phonetic_hypotheses/batch1_v0_loss_analysis.json",
+        "allophone_output_is_not_canonical": true
+      },
+      "resolution": {
+        "human_supplied_identifier_preserved": true,
+        "identifier_was_resolved_without_guessing": true,
+        "human_label_differs_from_corpus_word": false
+      },
+      "existing_v0_analysis_candidates": [
+        {
+          "source_id": "espeak_ng_en_us",
+          "v0_sequence": [
+            "B",
+            "I",
+            "L",
+            "A",
+            "S",
+            "P",
+            "U",
+            "R"
+          ],
+          "losses": [
+            "English rhotic realization approximated as R",
+            "TRAP approximated as A",
+            "reduced vowel approximated as I"
+          ]
+        },
+        {
+          "source_id": "espeak_ng_en_gb",
+          "v0_sequence": [
+            "B",
+            "I",
+            "L",
+            "A",
+            "S",
+            "P",
+            "U"
+          ],
+          "losses": [
+            "centering diphthong loses its second element"
+          ]
+        }
+      ]
+    }
+  ],
+  "analysis_family_groups": {
+    "PUR": [
+      "Nagpur",
+      "Dimapur",
+      "Jaipur",
+      "Manipur",
+      "Raipur",
+      "Sambalpur",
+      "Udhampur",
+      "Sultanpur",
+      "Bilaspur"
+    ],
+    "NAGAR": [
+      "Nagar",
+      "Srinagar"
+    ],
+    "JEE": [
+      "Jee",
+      "Banerjee",
+      "Chatterjee",
+      "Mukherjee"
+    ],
+    "GARH": [
+      "Chandigarh",
+      "Chhattisgarh",
+      "Azamgarh"
+    ],
+    "ABAD": [
+      "Hyderabad",
+      "Ahmedabad",
+      "Allahabad"
+    ],
+    "OTHER": [
+      "Aligarh",
+      "Bengaluru",
+      "Gorakhpur",
+      "Jamshedpur"
+    ]
+  },
+  "stage2d3a": {
+    "schema_version": "stage2d3a-reference-guided-phone-test.v1",
+    "name": "STAGE2D.3A — REFERENCE-GUIDED PHONE CANDIDATE TEST",
+    "execute_now": false,
+    "candidate_word_count": 5,
+    "candidate_words": [
+      "Jamshedpur",
+      "Banerjee",
+      "Chandigarh",
+      "Nagar",
+      "Nagpur"
+    ],
+    "policy": "Candidate synthesis versus HUMAN_REFERENCE_EXEMPLAR; external outputs are hypotheses only and no production lexicon update is allowed.",
+    "cases": [
+      {
+        "word": "Jamshedpur",
+        "reference_utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+        "reference_audio": "jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav",
+        "candidate_v0_sequences": [
+          [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U",
+            "R"
+          ],
+          [
+            "J",
+            "A",
+            "M",
+            "SH",
+            "I",
+            "D",
+            "P",
+            "U"
+          ]
+        ],
+        "candidate_provenance": [
+          "Stage2D.2E eSpeak-derived v0 approximations",
+          "existing v0 approximation rules"
+        ],
+        "distinction_tested": "Existing-v0 final rhotic alternatives; compare against the human exemplar without forcing vowel length.",
+        "success_criterion": "A candidate is preferred only if its generated pronunciation is perceptually closer to the human-selected reference while preserving natural duration/prosody; no symbolic mapping is frozen by this test."
+      },
+      {
+        "word": "Banerjee",
+        "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_433",
+        "reference_audio": "banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__word.wav",
+        "candidate_v0_sequences": [
+          [
+            "B",
+            "A",
+            "N",
+            "A",
+            "J",
+            "II"
+          ]
+        ],
+        "candidate_provenance": [
+          "Stage2D.2E eSpeak-derived v0 approximations",
+          "existing v0 approximation rules"
+        ],
+        "distinction_tested": "Tests existing J for the human-perceived J/affricate-like ending.",
+        "success_criterion": "A candidate is preferred only if its generated pronunciation is perceptually closer to the human-selected reference while preserving natural duration/prosody; no symbolic mapping is frozen by this test."
+      },
+      {
+        "word": "Chandigarh",
+        "reference_utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+        "reference_audio": "chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__word.wav",
+        "candidate_v0_sequences": [
+          [
+            "CH",
+            "A",
+            "N",
+            "D",
+            "I",
+            "G",
+            "AA"
+          ]
+        ],
+        "candidate_provenance": [
+          "Stage2D.2E eSpeak-derived v0 approximations",
+          "existing v0 approximation rules"
+        ],
+        "distinction_tested": "Tests current v0 approximation against a human-supported place distinction while leaving identity unresolved.",
+        "success_criterion": "A candidate is preferred only if its generated pronunciation is perceptually closer to the human-selected reference while preserving natural duration/prosody; no symbolic mapping is frozen by this test."
+      },
+      {
+        "word": "Nagar",
+        "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_6968",
+        "reference_audio": "nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__word.wav",
+        "candidate_v0_sequences": [
+          [
+            "N",
+            "A",
+            "G",
+            "A",
+            "R"
+          ],
+          [
+            "N",
+            "A",
+            "G",
+            "A"
+          ]
+        ],
+        "candidate_provenance": [
+          "Stage2D.2E eSpeak-derived v0 approximations",
+          "existing v0 approximation rules"
+        ],
+        "distinction_tested": "Tests the shared Nagar reference with and without the v0 R-like ending.",
+        "success_criterion": "A candidate is preferred only if its generated pronunciation is perceptually closer to the human-selected reference while preserving natural duration/prosody; no symbolic mapping is frozen by this test."
+      },
+      {
+        "word": "Nagpur",
+        "reference_utterance_id": "IISc_SPICORProject_EN_M_ENTE_3545",
+        "reference_audio": "nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__word.wav",
+        "candidate_v0_sequences": [
+          [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U",
+            "R"
+          ],
+          [
+            "N",
+            "A",
+            "G",
+            "P",
+            "U"
+          ]
+        ],
+        "candidate_provenance": [
+          "Stage2D.2E eSpeak-derived v0 approximations",
+          "existing v0 approximation rules"
+        ],
+        "distinction_tested": "Tests shared PUR-family final realization using existing v0 alternatives.",
+        "success_criterion": "A candidate is preferred only if its generated pronunciation is perceptually closer to the human-selected reference while preserving natural duration/prosody; no symbolic mapping is frozen by this test."
+      }
+    ]
+  }
+}

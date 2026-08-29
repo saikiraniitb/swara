@@ -1,0 +1,15 @@
+{
+  "SWARA_PHONES_V1_FREEZE": "DEFERRED",
+  "new_phone_supported_to_freeze": false,
+  "notes": "Chandigarh supports the existing-v0 D candidate in this synthesis comparison but does not establish a production retroflex identity.",
+  "statuses": {
+    "D_RETROFLEX": "PROMISING_BUT_UNPROVEN",
+    "J": "SUPPORTED_EXISTING_PHONE",
+    "NG": "SUPPORTED_EXISTING_PHONE",
+    "SCHWA": "NOT_RESOLVED",
+    "SH": "SUPPORTED_EXISTING_PHONE",
+    "TH": "NOT_RESOLVED",
+    "T_RETROFLEX": "PROMISING_BUT_UNPROVEN",
+    "W": "NOT_RESOLVED"
+  }
+}

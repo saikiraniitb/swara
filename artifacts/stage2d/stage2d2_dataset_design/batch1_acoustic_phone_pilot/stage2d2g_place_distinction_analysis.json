@@ -1,0 +1,529 @@
+{
+  "schema_version": "stage2d2g-place-distinction-analysis.v1",
+  "human_anchor": {
+    "word": "Chandigarh",
+    "answer": "YES",
+    "interpretation": "PLACE_OF_ARTICULATION_DISTINCTION_SUPPORTED_PHONE_ID_UNRESOLVED"
+  },
+  "recognizer_observations": {
+    "Chandigarh": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 0,
+        "token_counts": {},
+        "occurrences": [],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 5,
+        "token_counts": {
+          "t͡ʃʲ": 4,
+          "ɕ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5366",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_OTHE_768",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_WEAT_288",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "ɕ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    },
+    "Chhattisgarh": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 3,
+        "token_counts": {
+          "tʂʰ": 2,
+          "ʂ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tʂʰ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tʂʰ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 5,
+        "token_counts": {
+          "tʂʰ": 2,
+          "t͡ʃʲ": 2,
+          "ʂ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4977",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tʂʰ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5417",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6522",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_OTHE_704",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tʂʰ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_POLI_875",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "t͡ʃʲ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    },
+    "Udhampur": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 3,
+        "token_counts": {
+          "tʂ": 1,
+          "ʂ": 2
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 3,
+        "token_counts": {
+          "tʂ": 1,
+          "ʂ": 2
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6870",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_FOOD_3818",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_POLI_8187",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    },
+    "Jamshedpur": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 4,
+        "token_counts": {
+          "ʂ": 4
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 5,
+        "token_counts": {
+          "tɕ": 3,
+          "ɕ": 1,
+          "ʂ": 4
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3841",
+            "hits": [
+              {
+                "sequence_index_zero_based": 1,
+                "token": "tɕ"
+              },
+              {
+                "sequence_index_zero_based": 4,
+                "token": "ɕ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tɕ"
+              },
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046",
+            "hits": [
+              {
+                "sequence_index_zero_based": 0,
+                "token": "tɕ"
+              },
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_178",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    },
+    "Hyderabad": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 5,
+        "token_counts": {
+          "tʂ": 4,
+          "ɻ̩": 3
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+            "hits": [
+              {
+                "sequence_index_zero_based": 4,
+                "token": "ɻ̩"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "tʂ"
+              },
+              {
+                "sequence_index_zero_based": 3,
+                "token": "ɻ̩"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+            "hits": [
+              {
+                "sequence_index_zero_based": 4,
+                "token": "tʂ"
+              },
+              {
+                "sequence_index_zero_based": 5,
+                "token": "ɻ̩"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 5,
+        "token_counts": {
+          "tʂ": 4,
+          "t͡ɕ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_2104",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3701",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "t͡ɕ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1028",
+            "hits": [
+              {
+                "sequence_index_zero_based": 3,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_POLI_253",
+            "hits": [
+              {
+                "sequence_index_zero_based": 2,
+                "token": "tʂ"
+              }
+            ]
+          },
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_WEAT_6428",
+            "hits": [
+              {
+                "sequence_index_zero_based": 4,
+                "token": "tʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    },
+    "Gorakhpur": {
+      "retroflex_like_symbols": {
+        "occurrence_count": 1,
+        "token_counts": {
+          "ʂ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+            "hits": [
+              {
+                "sequence_index_zero_based": 8,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      },
+      "marked_affricate_or_coronal_symbols": {
+        "occurrence_count": 1,
+        "token_counts": {
+          "ʂ": 1
+        },
+        "occurrences": [
+          {
+            "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4702",
+            "hits": [
+              {
+                "sequence_index_zero_based": 8,
+                "token": "ʂ"
+              }
+            ]
+          }
+        ],
+        "alignment_policy": "Sequence indices are recognizer-output positions only; no mapping to orthographic/phonetic word segments is asserted."
+      }
+    }
+  },
+  "cross_word_summary": {
+    "retroflex_like_sequence_observations": {
+      "Hyderabad": "5/5 occurrences contain at least one tʂ/ɻ-like token, but positions vary and no word alignment is available.",
+      "Chhattisgarh": "3/5 occurrences contain a tʂ/ʂ-like token, concentrated at sequence index 0.",
+      "Udhampur": "3/5 occurrences contain a ʂ/tʂ-like token at sequence index 2.",
+      "Jamshedpur": "4/5 occurrences contain ʂ at sequence index 3.",
+      "Gorakhpur": "1/5 occurrences contains ʂ, so evidence is weak.",
+      "Chandigarh": "0/5 contain the narrow tʂ/ʂ/ɻ-like set; all 5 have a marked initial affricate/coronal token and a final ɾ-like token. This does not localize the human-perceived stop."
+    },
+    "interpretation": "There is repeated cross-word recognizer-level evidence for marked coronal/retroflex-like symbols, but it is not aligned to orthographic segments and cannot identify T_RETROFLEX or D_RETROFLEX."
+  },
+  "production_phone_created": false
+}

@@ -1,0 +1,534 @@
+{
+  "schema_version": "stage2d2-batch1-source-agreement.v1",
+  "independent_system_count": 0,
+  "rows": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 3,
+          "source_a": "ɚ",
+          "source_b": "ə"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 6,
+          "source_a": "ɚ",
+          "source_b": "ə"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 3,
+          "source_a": "ɚ",
+          "source_b": "ə"
+        },
+        {
+          "position": 7,
+          "source_a": "ɑː",
+          "source_b": "a"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 6,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 8,
+          "source_a": "ɹ",
+          "source_b": "uː"
+        },
+        {
+          "position": 9,
+          "source_a": "uː",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "EXACT_AGREEMENT",
+      "differences": [],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "PLAUSIBLE",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 2,
+          "source_a": "ɾ",
+          "source_b": "t"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 3,
+          "source_a": "ɚ",
+          "source_b": "ə"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 6,
+          "source_a": "ɑː",
+          "source_b": "a"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "EXACT_AGREEMENT",
+      "differences": [],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "PLAUSIBLE",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 4,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 5,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 5,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 6,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 3,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 4,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 5,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 6,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 3,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 4,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 2,
+          "source_a": "ɾ",
+          "source_b": "t"
+        },
+        {
+          "position": 3,
+          "source_a": "ɚ",
+          "source_b": "ə"
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 7,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 8,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "EXACT_AGREEMENT",
+      "differences": [],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "PLAUSIBLE",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 7,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 8,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 5,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "EXACT_AGREEMENT",
+      "differences": [],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "PLAUSIBLE",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 7,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 8,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 6,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 7,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 0,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 6,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 7,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 8,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "candidate_source_count": 2,
+      "independent_source_count": 0,
+      "agreement_class": "MEANINGFUL_DISAGREEMENT",
+      "differences": [
+        {
+          "position": 1,
+          "source_a": "ᵻ",
+          "source_b": "ɪ"
+        },
+        {
+          "position": 3,
+          "source_a": "æ",
+          "source_b": "a"
+        },
+        {
+          "position": 6,
+          "source_a": "ʊ",
+          "source_b": "ʊə"
+        },
+        {
+          "position": 7,
+          "source_a": "ɹ",
+          "source_b": null
+        }
+      ],
+      "stress_only_difference": false,
+      "aggregate_candidate_status": "AMBIGUOUS",
+      "promotion_status": "NOT_PROMOTED"
+    }
+  ],
+  "counts": {
+    "EXACT_AGREEMENT": 4,
+    "NEAR_AGREEMENT": 0,
+    "MEANINGFUL_DISAGREEMENT": 21,
+    "SINGLE_SOURCE_ONLY": 0,
+    "NO_CANDIDATE": 0
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "schema_version": "stage2d2-batch1-candidate-pronunciation-lexicon.v1",
+  "status": "PROPOSAL_ONLY",
+  "phone_inventory": "swara-phones-v0",
+  "production_lexicon_modified": false,
+  "phone_inference_policy": "No spelling, CTC, or acoustic-only phone inference; trusted mappings only.",
+  "entries": [
+    {
+      "word": "Nagar",
+      "normalized_word": "nagar",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 49,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Srinagar",
+      "normalized_word": "srinagar",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 41,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Hyderabad",
+      "normalized_word": "hyderabad",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 30,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Bengaluru",
+      "normalized_word": "bengaluru",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 28,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chandigarh",
+      "normalized_word": "chandigarh",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 24,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chhattisgarh",
+      "normalized_word": "chhattisgarh",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 19,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Banerjee",
+      "normalized_word": "banerjee",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 18,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Ahmedabad",
+      "normalized_word": "ahmedabad",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 12,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jee",
+      "normalized_word": "jee",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 10,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Nagpur",
+      "normalized_word": "nagpur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 10,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Dimapur",
+      "normalized_word": "dimapur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 9,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jaipur",
+      "normalized_word": "jaipur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 9,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Manipur",
+      "normalized_word": "manipur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 8,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Raipur",
+      "normalized_word": "raipur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 8,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Chatterjee",
+      "normalized_word": "chatterjee",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 7,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Gorakhpur",
+      "normalized_word": "gorakhpur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 7,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Mukherjee",
+      "normalized_word": "mukherjee",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 7,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Sambalpur",
+      "normalized_word": "sambalpur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 7,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Aligarh",
+      "normalized_word": "aligarh",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 6,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Allahabad",
+      "normalized_word": "allahabad",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 6,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Jamshedpur",
+      "normalized_word": "jamshedpur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 6,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Udhampur",
+      "normalized_word": "udhampur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 6,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Azamgarh",
+      "normalized_word": "azamgarh",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 5,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Sultanpur",
+      "normalized_word": "sultanpur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 5,
+        "corpus_recurrence_count": 5,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    },
+    {
+      "word": "Bilaspur",
+      "normalized_word": "bilaspur",
+      "candidate_phone_sequence": null,
+      "inventory": "swara-phones-v0",
+      "mapping_status": "UNRESOLVED",
+      "evidence": {
+        "human_full_utterance_status": "LIKELY_STABLE",
+        "human_reviewed_occurrence_count": 4,
+        "corpus_recurrence_count": 4,
+        "trusted_curated_mapping": false,
+        "trusted_curated_source": null,
+        "ctc_as_phonetic_evidence": false,
+        "repository_g2p_or_dictionary": false
+      },
+      "uncertain_segments": [
+        "entire lexical phone sequence"
+      ],
+      "alternate_candidate": null,
+      "human_listening_distinguishes_alternatives": null,
+      "distinction_type": "UNRESOLVED",
+      "candidate_provenance": null,
+      "reason": "Human stability is not a phone label; no trusted exact lexical mapping exists for this target. Do not use orthography or CTC alignment as phonetic ground truth."
+    }
+  ]
+}

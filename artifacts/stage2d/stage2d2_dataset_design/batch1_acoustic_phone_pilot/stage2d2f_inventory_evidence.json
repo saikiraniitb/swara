@@ -1,0 +1,119 @@
+{
+  "schema_version": "stage2d2f-inventory-evidence.v2",
+  "production_inventory_modified": false,
+  "candidates": [
+    {
+      "candidate": "SCHWA",
+      "status": "ACOUSTIC_SUPPORT_WEAK",
+      "affected_words": [
+        "banerjee",
+        "bengaluru",
+        "chandigarh",
+        "chhattisgarh",
+        "jamshedpur",
+        "srinagar"
+      ],
+      "affected_word_count": 6,
+      "recognizer_occurrence_count": 17,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "POTENTIAL",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "ASPIRATION",
+      "status": "NOT_RESOLVED",
+      "affected_words": [
+        "hyderabad"
+      ],
+      "affected_word_count": 1,
+      "recognizer_occurrence_count": 2,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "NOT_ESTABLISHED",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "RETROFLEX",
+      "status": "ACOUSTIC_SUPPORT_WEAK",
+      "affected_words": [
+        "chhattisgarh",
+        "gorakhpur",
+        "hyderabad",
+        "jamshedpur",
+        "udhampur"
+      ],
+      "affected_word_count": 5,
+      "recognizer_occurrence_count": 13,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "POTENTIAL",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "W_V",
+      "status": "NOT_RESOLVED",
+      "affected_words": [
+        "srinagar"
+      ],
+      "affected_word_count": 1,
+      "recognizer_occurrence_count": 1,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "NOT_ESTABLISHED",
+      "v0_merge_risk": "UNMEASURED",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "NG",
+      "status": "ACOUSTIC_SUPPORT_WEAK",
+      "affected_words": [
+        "banerjee",
+        "chandigarh",
+        "jamshedpur",
+        "srinagar",
+        "udhampur"
+      ],
+      "affected_word_count": 5,
+      "recognizer_occurrence_count": 15,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "POTENTIAL",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "SH_AFFRICATE",
+      "status": "ACOUSTIC_SUPPORT_WEAK",
+      "affected_words": [
+        "banerjee",
+        "hyderabad",
+        "jamshedpur",
+        "udhampur"
+      ],
+      "affected_word_count": 4,
+      "recognizer_occurrence_count": 11,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "POTENTIAL",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    },
+    {
+      "candidate": "VOWEL_LENGTH",
+      "status": "ACOUSTIC_SUPPORT_WEAK",
+      "affected_words": [
+        "banerjee",
+        "bengaluru",
+        "chandigarh",
+        "chhattisgarh",
+        "nagpur",
+        "srinagar"
+      ],
+      "affected_word_count": 6,
+      "recognizer_occurrence_count": 13,
+      "independent_sources": 1,
+      "repeated_spicor_stability": "LIKELY_STABLE_HUMAN_REVIEW_ONLY",
+      "v0_merge_risk": "POTENTIAL",
+      "evidence_note": "Repeated recognizer symbols are acoustic evidence only; they do not establish a phoneme or justify a production inventory change."
+    }
+  ],
+  "decision": "No production phone is supported to freeze; repeated recognizer symbols are weak acoustic evidence only."
+}
