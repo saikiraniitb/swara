@@ -9,6 +9,18 @@ data/
 models/
 !src/swara/models/
 !src/swara/models/**
+# Version the small, curated Stage2B pronunciation manifests while keeping
+# source audio and review clips out of Git.
+!data/
+data/*
+!data/stage2b_pronunciation/
+data/stage2b_pronunciation/*
+!data/stage2b_pronunciation/*.json
+!data/stage2b_pronunciation/*.jsonl
+!data/stage2b_pronunciation/*.md
+!data/stage2b_pronunciation/review_clips/
+data/stage2b_pronunciation/review_clips/*
+!data/stage2b_pronunciation/review_clips/clip_manifest.jsonl
 # The source-tree exception above must never re-include interpreter bytecode.
 **/__pycache__/
 **/*.pyc

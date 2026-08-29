@@ -1,0 +1,18 @@
+{
+  "schema_version": "swara.stage2b.training_preflight.extended_gate_zero.v0",
+  "checkpoint": "models/qwen3-tts-12hz-0.6b-base",
+  "settings": {
+    "do_sample": false,
+    "subtalker_dosample": false,
+    "x_vector_only_mode": true,
+    "device": "cpu",
+    "dtype": "float32",
+    "max_new_tokens": 128
+  },
+  "results": [
+    {"text": "The meeting begins tomorrow.", "native_frames": 127, "integrated_frames": 127, "eos_index": 127, "token_equal": true, "waveform_equal": true, "waveform_max_abs_diff": 0.0, "native_token_sha256": "fb71544c111b49c4373ef91695650c0f3532ba119931a08d1c27d6f543c1b0cf", "integrated_token_sha256": "fb71544c111b49c4373ef91695650c0f3532ba119931a08d1c27d6f543c1b0cf"},
+    {"text": "Kolkata hosted the conference.", "native_frames": 33, "integrated_frames": 33, "eos_index": 33, "token_equal": true, "waveform_equal": true, "waveform_max_abs_diff": 0.0, "native_token_sha256": "9b370fd2342065662ae94050e1a9f4b0d981d0f1bcce8ef514a4e3fc7800cb7e", "integrated_token_sha256": "9b370fd2342065662ae94050e1a9f4b0d981d0f1bcce8ef514a4e3fc7800cb7e"},
+    {"text": "Ajinkya travelled to Bengaluru.", "native_frames": 31, "integrated_frames": 31, "eos_index": 31, "token_equal": true, "waveform_equal": true, "waveform_max_abs_diff": 0.0, "native_token_sha256": "899637a8c5f1e0b7411269ecc003b89c38dfe4c04f03da6ef8b4cbfbeae1d864", "integrated_token_sha256": "899637a8c5f1e0b7411269ecc003b89c38dfe4c04f03da6ef8b4cbfbeae1d864"}
+  ],
+  "note": "All token and waveform equality values were established by exact tensor comparison in the deterministic replay."
+}

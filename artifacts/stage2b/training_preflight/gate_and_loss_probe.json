@@ -1,0 +1,22 @@
+{
+  "schema_version": "swara.stage2b.training_preflight.gate_loss.v0",
+  "gate_gradient_probe": [
+    {"effective_gate": 0.0, "gate_gradient_norm": 0.0014432436, "bridge_gradient_norm": 0.0, "bridge_gradient_is_zero": true},
+    {"effective_gate": 0.001, "gate_gradient_norm": 0.0021241345, "bridge_gradient_norm": 0.0003242461, "bridge_gradient_is_zero": false}
+  ],
+  "real_qwen_teacher_forced_probe": {
+    "mixed_schedule_shape": [1, 10, 1024],
+    "target_shape": [1, 1, 16],
+    "main_logits_shape": [1, 1, 3072],
+    "residual_logits_shape": [1, 1, 15, 2048],
+    "target_ce_one_codebook": 0.0816193521,
+    "schedule_input_gradient_norm": 2.3787825,
+    "qwen_parameter_gradients": 0,
+    "status": "FROZEN_DECODER_SEAM_VALIDATED"
+  },
+  "synthetic_residual_native_ratio": {
+    "target": 0.59353895,
+    "non_target": 0.57367922,
+    "status": "GEOMETRY_PROBE_ONLY_NOT_QWEN_BASELINE"
+  }
+}

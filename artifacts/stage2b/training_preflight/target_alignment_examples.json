@@ -1,0 +1,38 @@
+{
+  "schema_version": "swara.stage2b.training_preflight.target_alignment.v0",
+  "codec": {
+    "asset": "models/qwen3-tts-12hz-0.6b-base/speech_tokenizer",
+    "input_sample_rate_hz": 24000,
+    "output_sample_rate_hz": 24000,
+    "frame_rate_hz": 12.5,
+    "codebook_count": 16,
+    "vocabulary_size": 2048,
+    "source_audio": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_1971.wav",
+    "source_samples": 191041,
+    "source_duration_seconds": 7.9600416667,
+    "encoded_shape": [100, 16],
+    "code_min": 1,
+    "code_max": 2047,
+    "decoded_samples": 192000
+  },
+  "aligner": {
+    "model": "facebook/wav2vec2-base-960h",
+    "revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+    "source": "src/swara/alignment/ctc_forced.py",
+    "coordinate_system": "python_unicode_code_points"
+  },
+  "examples": [
+    {
+      "transcript": "They also display a Yellow Pages like knowledge of Kolkata's eating establishments, the multicuisine restaurants getting the popular vote",
+      "target_text": "Kolkata's",
+      "source_span": [51, 60],
+      "audio_seconds": [2.5263674433, 3.0677318955],
+      "alignment_confidence": 0.7149196817,
+      "codec_frames": [31, 39],
+      "verified_phone_sequence": null,
+      "status": "LEXICAL_TIMING_ONLY"
+    }
+  ],
+  "verified_pronunciation_training_item_count": 0,
+  "note": "No phone strings were inferred from CTC alignment or manifests."
+}

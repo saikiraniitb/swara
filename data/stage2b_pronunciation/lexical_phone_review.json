@@ -1,0 +1,337 @@
+{
+  "schema_version": "stage2b.4b-lexical-phone-review-v1",
+  "pronunciation_system": "swara-phones-v0",
+  "verification_policy": "Human supplied pronunciation labels are frozen as provided; no IPA or dictionary normalization is permitted.",
+  "allowed_inventory": [
+    "A",
+    "AA",
+    "E",
+    "EE",
+    "I",
+    "II",
+    "O",
+    "OO",
+    "U",
+    "UU",
+    "AI",
+    "AU",
+    "K",
+    "G",
+    "T",
+    "D",
+    "N",
+    "P",
+    "B",
+    "M",
+    "Y",
+    "R",
+    "L",
+    "V",
+    "S",
+    "H",
+    "SH",
+    "CH",
+    "J",
+    "NG"
+  ],
+  "inventory_note": "The repository documents the first group as vowel-like units and the second group as common consonant-like units. It provides no target-specific pronunciation examples for these candidates.",
+  "targets": [
+    {
+      "target_text": "Agrawal",
+      "variants": [
+        {
+          "variant_id": "Agrawal-A",
+          "candidate_ids": [
+            "s2b4b-cand-001"
+          ],
+          "candidate_labels": [
+            "C001"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C001_Agrawal.wav",
+          "verified_phone_sequence": [
+            "A",
+            "G",
+            "R",
+            "A",
+            "V",
+            "AA",
+            "L"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-agrawal-a-v0",
+          "human_pronunciation": "uh-gruh-waal",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C001."
+        },
+        {
+          "variant_id": "Agrawal-B",
+          "candidate_ids": [
+            "s2b4b-cand-002"
+          ],
+          "candidate_labels": [
+            "C002"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C002_Agrawal.wav",
+          "verified_phone_sequence": null,
+          "status": "UNSUPPORTED_ALPHABET_VARIANT",
+          "override_id": null,
+          "human_pronunciation": "uhh-gruh-waal",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human confirmed a distinction from Agrawal A, but swara-phones-v0 cannot safely encode initial uh versus uhh without falsely substituting AA for duration."
+        }
+      ]
+    },
+    {
+      "target_text": "Singh",
+      "variants": [
+        {
+          "variant_id": "Singh-A",
+          "candidate_ids": [
+            "s2b4b-cand-003"
+          ],
+          "candidate_labels": [
+            "C003"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C003_Singh.wav",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-singh-a-v0",
+          "human_pronunciation": "sing",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C003."
+        },
+        {
+          "variant_id": "Singh-B",
+          "candidate_ids": [
+            "s2b4b-cand-004"
+          ],
+          "candidate_labels": [
+            "C004"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C004_Singh.wav",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG",
+            "H"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-singh-b-v0",
+          "human_pronunciation": "sing-h",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C004."
+        }
+      ]
+    },
+    {
+      "target_text": "Kumar",
+      "variants": [
+        {
+          "variant_id": "Kumar-A",
+          "candidate_ids": [
+            "s2b4b-cand-005",
+            "s2b4b-cand-006"
+          ],
+          "candidate_labels": [
+            "C005",
+            "C006"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C005_Kumar.wav",
+          "verified_phone_sequence": [
+            "K",
+            "UU",
+            "M",
+            "AA",
+            "R"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-kumar-a-v0",
+          "human_pronunciation": "koo-maar",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C005 and C006."
+        }
+      ]
+    },
+    {
+      "target_text": "Sharma",
+      "variants": [
+        {
+          "variant_id": "Sharma-A",
+          "candidate_ids": [
+            "s2b4b-cand-007",
+            "s2b4b-cand-008"
+          ],
+          "candidate_labels": [
+            "C007",
+            "C008"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C007_Sharma.wav",
+          "verified_phone_sequence": [
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-sharma-a-v0",
+          "human_pronunciation": "shur-maa",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C007 and C008."
+        }
+      ]
+    },
+    {
+      "target_text": "Gupta",
+      "variants": [
+        {
+          "variant_id": "Gupta-A",
+          "candidate_ids": [
+            "s2b4b-cand-009",
+            "s2b4b-cand-010"
+          ],
+          "candidate_labels": [
+            "C009",
+            "C010"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C009_Gupta.wav",
+          "verified_phone_sequence": [
+            "G",
+            "UU",
+            "P",
+            "T",
+            "AA"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-gupta-a-v0",
+          "human_pronunciation": "goop-taa",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C009 and C010."
+        }
+      ]
+    },
+    {
+      "target_text": "Mumbai",
+      "variants": [
+        {
+          "variant_id": "Mumbai-A",
+          "candidate_ids": [
+            "s2b4b-cand-011",
+            "s2b4b-cand-012"
+          ],
+          "candidate_labels": [
+            "C011",
+            "C012"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C011_Mumbai.wav",
+          "verified_phone_sequence": [
+            "M",
+            "A",
+            "M",
+            "B",
+            "AI"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-mumbai-a-v0",
+          "human_pronunciation": "mum-bai",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C011 and C012."
+        }
+      ]
+    },
+    {
+      "target_text": "Kashmir",
+      "variants": [
+        {
+          "variant_id": "Kashmir-A",
+          "candidate_ids": [
+            "s2b4b-cand-013",
+            "s2b4b-cand-014"
+          ],
+          "candidate_labels": [
+            "C013",
+            "C014"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C013_Kashmir.wav",
+          "verified_phone_sequence": [
+            "K",
+            "A",
+            "SH",
+            "M",
+            "EE",
+            "R"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-kashmir-a-v0",
+          "human_pronunciation": "kush-meer",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C013 and C014."
+        }
+      ]
+    },
+    {
+      "target_text": "Mishra",
+      "variants": [
+        {
+          "variant_id": "Mishra-A",
+          "candidate_ids": [
+            "s2b4b-cand-015",
+            "s2b4b-cand-016"
+          ],
+          "candidate_labels": [
+            "C015",
+            "C016"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C015_Mishra.wav",
+          "verified_phone_sequence": [
+            "M",
+            "I",
+            "SH",
+            "R",
+            "A"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-mishra-a-v0",
+          "human_pronunciation": "mish-ra",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C015 and C016."
+        }
+      ]
+    },
+    {
+      "target_text": "Sensharma",
+      "variants": [
+        {
+          "variant_id": "Sensharma-A",
+          "candidate_ids": [
+            "s2b4b-cand-020"
+          ],
+          "candidate_labels": [
+            "C020"
+          ],
+          "representative_clip": "data/stage2b_pronunciation/review_clips/C020_Sensharma.wav",
+          "verified_phone_sequence": [
+            "S",
+            "E",
+            "N",
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ],
+          "status": "VERIFIED",
+          "override_id": "stage2b-sensharma-a-v0",
+          "human_pronunciation": "sen shur-maa",
+          "phone_sequence_source": "human_review_stage2b_2026_08_28",
+          "verification_note": "Human supplied after listening to C020; no second occurrence exists for comparison."
+        }
+      ]
+    }
+  ],
+  "provenance": "human_review_stage2b_2026_08_28"
+}

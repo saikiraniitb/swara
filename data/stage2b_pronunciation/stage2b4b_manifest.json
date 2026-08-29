@@ -1,0 +1,629 @@
+{
+  "experiment_version": "stage2b.4b-mechanism-v1",
+  "foundation_checkpoint": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "pronunciation_provenance": "human_review_stage2b_2026_08_28",
+  "accepted_candidate_ids": [
+    "s2b4b-cand-001",
+    "s2b4b-cand-003",
+    "s2b4b-cand-004",
+    "s2b4b-cand-005",
+    "s2b4b-cand-006",
+    "s2b4b-cand-007",
+    "s2b4b-cand-008",
+    "s2b4b-cand-009",
+    "s2b4b-cand-010",
+    "s2b4b-cand-011",
+    "s2b4b-cand-012",
+    "s2b4b-cand-013",
+    "s2b4b-cand-014",
+    "s2b4b-cand-015",
+    "s2b4b-cand-016",
+    "s2b4b-cand-020"
+  ],
+  "train_candidate_ids": [
+    "s2b4b-cand-001",
+    "s2b4b-cand-003",
+    "s2b4b-cand-004",
+    "s2b4b-cand-005",
+    "s2b4b-cand-007",
+    "s2b4b-cand-009",
+    "s2b4b-cand-011",
+    "s2b4b-cand-013",
+    "s2b4b-cand-015",
+    "s2b4b-cand-020"
+  ],
+  "eval_seen_candidate_ids": [
+    "s2b4b-cand-006",
+    "s2b4b-cand-008",
+    "s2b4b-cand-010",
+    "s2b4b-cand-012",
+    "s2b4b-cand-014",
+    "s2b4b-cand-016"
+  ],
+  "trained_variant_ids": [
+    "Agrawal-A",
+    "Singh-A",
+    "Singh-B",
+    "Kumar-A",
+    "Sharma-A",
+    "Gupta-A",
+    "Mumbai-A",
+    "Kashmir-A",
+    "Mishra-A",
+    "Sensharma-A"
+  ],
+  "variants": {
+    "Agrawal-A": {
+      "target_text": "Agrawal",
+      "override_id": "stage2b-agrawal-a-v0",
+      "verified_phone_sequence": [
+        "A",
+        "G",
+        "R",
+        "A",
+        "V",
+        "AA",
+        "L"
+      ]
+    },
+    "Singh-A": {
+      "target_text": "Singh",
+      "override_id": "stage2b-singh-a-v0",
+      "verified_phone_sequence": [
+        "S",
+        "I",
+        "NG"
+      ]
+    },
+    "Singh-B": {
+      "target_text": "Singh",
+      "override_id": "stage2b-singh-b-v0",
+      "verified_phone_sequence": [
+        "S",
+        "I",
+        "NG",
+        "H"
+      ]
+    },
+    "Kumar-A": {
+      "target_text": "Kumar",
+      "override_id": "stage2b-kumar-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "AA",
+        "R"
+      ]
+    },
+    "Sharma-A": {
+      "target_text": "Sharma",
+      "override_id": "stage2b-sharma-a-v0",
+      "verified_phone_sequence": [
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ]
+    },
+    "Gupta-A": {
+      "target_text": "Gupta",
+      "override_id": "stage2b-gupta-a-v0",
+      "verified_phone_sequence": [
+        "G",
+        "UU",
+        "P",
+        "T",
+        "AA"
+      ]
+    },
+    "Mumbai-A": {
+      "target_text": "Mumbai",
+      "override_id": "stage2b-mumbai-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "AI"
+      ]
+    },
+    "Kashmir-A": {
+      "target_text": "Kashmir",
+      "override_id": "stage2b-kashmir-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "A",
+        "SH",
+        "M",
+        "EE",
+        "R"
+      ]
+    },
+    "Mishra-A": {
+      "target_text": "Mishra",
+      "override_id": "stage2b-mishra-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "I",
+        "SH",
+        "R",
+        "A"
+      ]
+    },
+    "Sensharma-A": {
+      "target_text": "Sensharma",
+      "override_id": "stage2b-sensharma-a-v0",
+      "verified_phone_sequence": [
+        "S",
+        "E",
+        "N",
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ]
+    }
+  },
+  "frozen_fixture_references": {
+    "transfer": "data/stage2b_pronunciation/evaluation_fixtures.json",
+    "unseen_name": "data/stage2b_pronunciation/evaluation_fixtures.json",
+    "general_english": "data/stage2b_pronunciation/evaluation_fixtures.json",
+    "eos": "data/stage2b_pronunciation/evaluation_fixtures.json"
+  },
+  "frozen_fixture_counts": {
+    "transfer_sentences": 34,
+    "unseen_name_sentences": 4,
+    "general_english_sentences": 4,
+    "eos_sentences": 2
+  },
+  "excluded_variants": {
+    "Agrawal-B": {
+      "candidate_ids": [
+        "s2b4b-cand-002"
+      ],
+      "status": "UNSUPPORTED_ALPHABET_VARIANT",
+      "reason": "Human-confirmed distinction from Agrawal A is not safely representable by swara-phones-v0."
+    }
+  },
+  "accepted_occurrences": [
+    {
+      "candidate_id": "s2b4b-cand-001",
+      "review_label": "C001",
+      "target_text": "Agrawal",
+      "variant_id": "Agrawal-A",
+      "override_id": "stage2b-agrawal-a-v0",
+      "verified_phone_sequence": [
+        "A",
+        "G",
+        "R",
+        "A",
+        "V",
+        "AA",
+        "L"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_107",
+      "source_span_start": 95,
+      "source_span_end": 102,
+      "audio_start_seconds": 5.304451690317196,
+      "audio_end_seconds": 5.684770868113523,
+      "alignment_confidence": 0.7733055665690024,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 66,
+      "codec_frame_end": 72,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 150
+    },
+    {
+      "candidate_id": "s2b4b-cand-003",
+      "review_label": "C003",
+      "target_text": "Singh",
+      "variant_id": "Singh-A",
+      "override_id": "stage2b-singh-a-v0",
+      "verified_phone_sequence": [
+        "S",
+        "I",
+        "NG"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1732.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_1732",
+      "source_span_start": 4,
+      "source_span_end": 9,
+      "audio_start_seconds": 0.4810927601809955,
+      "audio_end_seconds": 0.681548076923077,
+      "alignment_confidence": 0.6001532379343475,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 6,
+      "codec_frame_end": 9,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 56
+    },
+    {
+      "candidate_id": "s2b4b-cand-004",
+      "review_label": "C004",
+      "target_text": "Singh",
+      "variant_id": "Singh-B",
+      "override_id": "stage2b-singh-b-v0",
+      "verified_phone_sequence": [
+        "S",
+        "I",
+        "NG",
+        "H"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_4510.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_4510",
+      "source_span_start": 77,
+      "source_span_end": 82,
+      "audio_start_seconds": 5.567835784313726,
+      "audio_end_seconds": 5.828202205882353,
+      "alignment_confidence": 0.7708832993518835,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 69,
+      "codec_frame_end": 73,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 90
+    },
+    {
+      "candidate_id": "s2b4b-cand-005",
+      "review_label": "C005",
+      "target_text": "Kumar",
+      "variant_id": "Kumar-A",
+      "override_id": "stage2b-kumar-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "AA",
+        "R"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_7184.wav",
+      "source_id": "IISc_SPICORProject_EN_M_ENTE_7184",
+      "source_span_start": 26,
+      "source_span_end": 31,
+      "audio_start_seconds": 1.7813005281690144,
+      "audio_end_seconds": 2.061505105633803,
+      "alignment_confidence": 0.9047684357704509,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 22,
+      "codec_frame_end": 26,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 89
+    },
+    {
+      "candidate_id": "s2b4b-cand-006",
+      "review_label": "C006",
+      "target_text": "Kumar",
+      "variant_id": "Kumar-A",
+      "override_id": "stage2b-kumar-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "AA",
+        "R"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_973.wav",
+      "source_id": "IISc_SPICORProject_EN_M_FOOD_973",
+      "source_span_start": 88,
+      "source_span_end": 93,
+      "audio_start_seconds": 5.0129226718403554,
+      "audio_end_seconds": 5.293646341463416,
+      "alignment_confidence": 0.9643427462350743,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 62,
+      "codec_frame_end": 67,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 114
+    },
+    {
+      "candidate_id": "s2b4b-cand-007",
+      "review_label": "C007",
+      "target_text": "Sharma",
+      "variant_id": "Sharma-A",
+      "override_id": "stage2b-sharma-a-v0",
+      "verified_phone_sequence": [
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_423.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_423",
+      "source_span_start": 14,
+      "source_span_end": 20,
+      "audio_start_seconds": 1.0427672413793103,
+      "audio_end_seconds": 1.363618700265252,
+      "alignment_confidence": 0.6986559685184636,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 13,
+      "codec_frame_end": 18,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 95
+    },
+    {
+      "candidate_id": "s2b4b-cand-008",
+      "review_label": "C008",
+      "target_text": "Sharma",
+      "variant_id": "Sharma-A",
+      "override_id": "stage2b-sharma-a-v0",
+      "verified_phone_sequence": [
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_7155.wav",
+      "source_id": "IISc_SPICORProject_EN_M_FOOD_7155",
+      "source_span_start": 32,
+      "source_span_end": 38,
+      "audio_start_seconds": 2.1036433189655175,
+      "audio_end_seconds": 2.4041637931034483,
+      "alignment_confidence": 0.8577958688626687,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 26,
+      "codec_frame_end": 31,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 73
+    },
+    {
+      "candidate_id": "s2b4b-cand-009",
+      "review_label": "C009",
+      "target_text": "Gupta",
+      "variant_id": "Gupta-A",
+      "override_id": "stage2b-gupta-a-v0",
+      "verified_phone_sequence": [
+        "G",
+        "UU",
+        "P",
+        "T",
+        "AA"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_6063.wav",
+      "source_id": "IISc_SPICORProject_EN_M_ENTE_6063",
+      "source_span_start": 67,
+      "source_span_end": 72,
+      "audio_start_seconds": 3.4461374113475176,
+      "audio_end_seconds": 3.7667083333333333,
+      "alignment_confidence": 0.952702503990156,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 43,
+      "codec_frame_end": 48,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 71
+    },
+    {
+      "candidate_id": "s2b4b-cand-010",
+      "review_label": "C010",
+      "target_text": "Gupta",
+      "variant_id": "Gupta-A",
+      "override_id": "stage2b-gupta-a-v0",
+      "verified_phone_sequence": [
+        "G",
+        "UU",
+        "P",
+        "T",
+        "AA"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_4112.wav",
+      "source_id": "IISc_SPICORProject_EN_M_FOOD_4112",
+      "source_span_start": 43,
+      "source_span_end": 48,
+      "audio_start_seconds": 2.5251123991935485,
+      "audio_end_seconds": 2.805680443548387,
+      "alignment_confidence": 0.9054385334153746,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 31,
+      "codec_frame_end": 36,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 63
+    },
+    {
+      "candidate_id": "s2b4b-cand-011",
+      "review_label": "C011",
+      "target_text": "Mumbai",
+      "variant_id": "Mumbai-A",
+      "override_id": "stage2b-mumbai-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "AI"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_5618.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_5618",
+      "source_span_start": 38,
+      "source_span_end": 44,
+      "audio_start_seconds": 2.4055344827586205,
+      "audio_end_seconds": 2.686180172413793,
+      "alignment_confidence": 0.8910423871420375,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 30,
+      "codec_frame_end": 34,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 110
+    },
+    {
+      "candidate_id": "s2b4b-cand-012",
+      "review_label": "C012",
+      "target_text": "Mumbai",
+      "variant_id": "Mumbai-A",
+      "override_id": "stage2b-mumbai-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "AI"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_315.wav",
+      "source_id": "IISc_SPICORProject_EN_M_ENTE_315",
+      "source_span_start": 73,
+      "source_span_end": 79,
+      "audio_start_seconds": 4.408417300380228,
+      "audio_end_seconds": 4.789144249049429,
+      "alignment_confidence": 0.6510983254184215,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 55,
+      "codec_frame_end": 60,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 66
+    },
+    {
+      "candidate_id": "s2b4b-cand-013",
+      "review_label": "C013",
+      "target_text": "Kashmir",
+      "variant_id": "Kashmir-A",
+      "override_id": "stage2b-kashmir-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "A",
+        "SH",
+        "M",
+        "EE",
+        "R"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_137.wav",
+      "source_id": "IISc_SPICORProject_EN_M_ENTE_137",
+      "source_span_start": 128,
+      "source_span_end": 135,
+      "audio_start_seconds": 6.817625968992249,
+      "audio_end_seconds": 7.218662790697675,
+      "alignment_confidence": 0.8153916752574949,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 85,
+      "codec_frame_end": 91,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 98
+    },
+    {
+      "candidate_id": "s2b4b-cand-014",
+      "review_label": "C014",
+      "target_text": "Kashmir",
+      "variant_id": "Kashmir-A",
+      "override_id": "stage2b-kashmir-a-v0",
+      "verified_phone_sequence": [
+        "K",
+        "A",
+        "SH",
+        "M",
+        "EE",
+        "R"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+      "source_id": "IISc_SPICORProject_EN_M_ENTE_138",
+      "source_span_start": 133,
+      "source_span_end": 140,
+      "audio_start_seconds": 6.568793565683646,
+      "audio_end_seconds": 6.949302949061662,
+      "alignment_confidence": 0.9189241413370182,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 82,
+      "codec_frame_end": 87,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 94
+    },
+    {
+      "candidate_id": "s2b4b-cand-015",
+      "review_label": "C015",
+      "target_text": "Mishra",
+      "variant_id": "Mishra-A",
+      "override_id": "stage2b-mishra-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "I",
+        "SH",
+        "R",
+        "A"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6732.wav",
+      "source_id": "IISc_SPICORProject_EN_M_AGRI_6732",
+      "source_span_start": 49,
+      "source_span_end": 55,
+      "audio_start_seconds": 3.186824034334764,
+      "audio_end_seconds": 3.4473819742489273,
+      "alignment_confidence": 0.7924983745053814,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 39,
+      "codec_frame_end": 44,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 117
+    },
+    {
+      "candidate_id": "s2b4b-cand-016",
+      "review_label": "C016",
+      "target_text": "Mishra",
+      "variant_id": "Mishra-A",
+      "override_id": "stage2b-mishra-a-v0",
+      "verified_phone_sequence": [
+        "M",
+        "I",
+        "SH",
+        "R",
+        "A"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_2846.wav",
+      "source_id": "IISc_SPICORProject_EN_M_FOOD_2846",
+      "source_span_start": 25,
+      "source_span_end": 31,
+      "audio_start_seconds": 2.0871211604095565,
+      "audio_end_seconds": 2.327942832764505,
+      "alignment_confidence": 0.6317547008607133,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 26,
+      "codec_frame_end": 30,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 74
+    },
+    {
+      "candidate_id": "s2b4b-cand-020",
+      "review_label": "C020",
+      "target_text": "Sensharma",
+      "variant_id": "Sensharma-A",
+      "override_id": "stage2b-sensharma-a-v0",
+      "verified_phone_sequence": [
+        "S",
+        "E",
+        "N",
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ],
+      "audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3645.wav",
+      "source_id": "IISc_SPICORProject_EN_M_WEAT_3645",
+      "source_span_start": 64,
+      "source_span_end": 73,
+      "audio_start_seconds": 4.172761467889908,
+      "audio_end_seconds": 4.654233944954128,
+      "alignment_confidence": 0.6234560624198423,
+      "alignment_source": "Wav2Vec2ExactTranscriptAligner",
+      "alignment_version": "22aad52d435eb6dbaf354bdad9b0da84ce7d615c",
+      "codec_frame_start": 52,
+      "codec_frame_end": 59,
+      "codec_frame_rate_hz": 12.5,
+      "codec_total_frames": 83
+    }
+  ]
+}

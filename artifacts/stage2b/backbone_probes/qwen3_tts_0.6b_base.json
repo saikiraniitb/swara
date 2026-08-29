@@ -1,0 +1,95 @@
+{
+  "probe_version": "swara.stage2b.backbone-probe.v0",
+  "candidate": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "local_path": "models/qwen3-tts-12hz-0.6b-base",
+  "local_asset_complete": true,
+  "asset_evidence": {
+    "model_file": "models/qwen3-tts-12hz-0.6b-base/model.safetensors",
+    "model_file_size_bytes": 1829344272,
+    "speech_tokenizer_model": "models/qwen3-tts-tokenizer-12hz/model.safetensors",
+    "provenance_record": "PROVENANCE.md:183",
+    "model_sha256_recorded_by_provenance": "180b3b10eb1c9f1b4db7806d5475bae3071c0243c299d49926bab1da3b6946f6",
+    "tokenizer_sha256_recorded_by_provenance": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+  },
+  "config_probe": {
+    "advertised_model_size": "0.6B",
+    "safetensors_tensor_parameter_count": 914643008,
+    "talker_hidden_size": 1024,
+    "talker_text_hidden_size": 2048,
+    "talker_text_vocab_size": 151936,
+    "talker_layers": 28,
+    "talker_attention_heads": 16,
+    "talker_key_value_heads": 8,
+    "talker_num_code_groups": 16,
+    "talker_position_id_per_seconds": 13,
+    "talker_max_position_embeddings": 32768,
+    "code_predictor_hidden_size": 1024,
+    "code_predictor_layers": 5,
+    "code_predictor_vocab_size": 2048,
+    "speaker_encoder_dim": 1024,
+    "speaker_encoder_sample_rate_hz": 24000
+  },
+  "tokenizer_probe": {
+    "class": "Qwen2TokenizerFast",
+    "offset_unit": "fast-tokenizer character offsets validated against Python strings",
+    "examples": [
+      {
+        "text": "Kolkata hosted the conference.",
+        "tokens": ["K", "olkata", "Ġhosted", "Ġthe", "Ġconference", "."],
+        "offsets": [[0, 1], [1, 7], [7, 14], [14, 18], [18, 29], [29, 30]]
+      },
+      {
+        "text": "Ajinkya travelled to Bengaluru.",
+        "tokens": ["Aj", "ink", "ya", "Ġtravelled", "Ġto", "ĠBengal", "uru", "."],
+        "offsets": [[0, 2], [2, 5], [5, 7], [7, 17], [17, 20], [20, 27], [27, 30], [30, 31]]
+      }
+    ],
+    "current_inference_helper_retains_offsets": false,
+    "alignment_conclusion": "feasible through direct fast-tokenizer calls, pending full wrapped-prompt validation in 2B.3B"
+  },
+  "native_smoke": {
+    "status": "pass",
+    "texts": [
+      "The meeting begins tomorrow.",
+      "Kolkata hosted the conference.",
+      "Ajinkya travelled to Bengaluru."
+    ],
+    "reference_audio": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_116.wav",
+    "language": "English",
+    "x_vector_only_mode": true,
+    "do_sample": false,
+    "max_new_tokens": 64,
+    "seed": null,
+    "seed_note": "No seed argument is exposed by the existing QwenFoundationTTS wrapper; this smoke establishes local viability only.",
+    "device": "cpu",
+    "attention_implementation": "manual PyTorch (flash-attn unavailable)",
+    "results": [
+      {
+        "text": "The meeting begins tomorrow.",
+        "waveform_samples": 46080,
+        "waveform_duration_seconds": 1.92,
+        "sample_rate_hz": 24000,
+        "elapsed_seconds": 72.799
+      },
+      {
+        "text": "Kolkata hosted the conference.",
+        "waveform_samples": 63360,
+        "waveform_duration_seconds": 2.64,
+        "sample_rate_hz": 24000,
+        "elapsed_seconds": 50.588
+      },
+      {
+        "text": "Ajinkya travelled to Bengaluru.",
+        "waveform_samples": 57600,
+        "waveform_duration_seconds": 2.4,
+        "sample_rate_hz": 24000,
+        "elapsed_seconds": 29.786
+      }
+    ],
+    "exact_acoustic_frame_count": null,
+    "exact_eos_frame": null,
+    "unavailable_because": "QwenFoundationTTS.generate exposes waveform only; it does not return native code frames or EOS index",
+    "wav_written": false
+  },
+  "scope": "read-only local inspection plus one bounded native smoke; no download, speech adaptation, or Stage2B integration"
+}

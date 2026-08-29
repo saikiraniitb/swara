@@ -1,0 +1,48 @@
+{
+  "artifact_version": "swara.stage2b.qwen-gate-zero.v0",
+  "candidate": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "source_text": "Kolkata hosted the conference.",
+  "settings": {
+    "x_vector_only_mode": true,
+    "do_sample": false,
+    "max_new_tokens": 2,
+    "device": "cpu",
+    "attention_implementation": "manual PyTorch",
+    "wav_written": false
+  },
+  "runtime": {
+    "projection_calls": 4,
+    "source_bearing_projection_calls": 2,
+    "conditioned_native_positions": [3, 4, 5, 6, 7, 8]
+  },
+  "level_1_projected_text": {
+    "status": "PASS",
+    "shape": "native call shapes",
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "level_2_mixed_talker_input": {
+    "status": "PASS",
+    "shape": [1, 10, 1024],
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "attention_mask_equal": true,
+    "position_ids_equal": true
+  },
+  "level_3_first_step_logits": {
+    "status": "PASS",
+    "shape": [1, 10, 3072],
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "argmax_equal": true
+  },
+  "level_4_acoustic_tokens": {
+    "status": "NOT_STRICTLY_COMPARABLE",
+    "reason": "existing QwenFoundationTTS wrapper exposes decoded waveform only"
+  },
+  "level_5_waveform": {
+    "status": "NOT_STRICTLY_COMPARABLE",
+    "reason": "no token-returning diagnostic wrapper was added"
+  },
+  "training": "none"
+}

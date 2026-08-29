@@ -1,0 +1,26 @@
+{
+  "schema_version": "stage2c2a.artifact-analysis.v1",
+  "source": "artifacts/stage2c_reference/stage2c1_local_masking",
+  "generation_rows": 22,
+  "what_is_observed": [
+    "Stage2C.1 rows contain deterministic text, phone sequence, mask mode, target and active native positions, residual ratios, target energy fraction, frame count, EOS metadata, duration, and token hashes.",
+    "All inspected Stage2C.1 outputs report acoustic_eos; eos_index equals the retained acoustic frame count.",
+    "The artifact contains no per-step q0 logits, top-k decisions, or saved full token trajectories; Stage2C.2A adds those observations for the next Colab run.",
+    "The inspected WAVs are mono 24 kHz and the durations correspond to the reported frame counts at the established 12.5 Hz codec rate."
+  ],
+  "comparison": [
+    {"case": "Kumar A", "full_seconds": 2.56, "target_only_seconds": 12.16, "target_context_1_seconds": 2.32, "full_frames": 32, "target_only_frames": 152, "target_context_1_frames": 29},
+    {"case": "Kumar B", "full_seconds": 11.60, "target_only_seconds": 11.52, "target_context_1_seconds": 11.92, "full_frames": 145, "target_only_frames": 144, "target_context_1_frames": 149},
+    {"case": "Mumbai A", "full_seconds": 2.48, "target_only_seconds": 2.48, "target_context_1_seconds": 2.40, "full_frames": 31, "target_only_frames": 31, "target_context_1_frames": 30},
+    {"case": "Mumbai B", "full_seconds": 2.48, "target_only_seconds": 4.24, "target_context_1_seconds": 2.64, "full_frames": 31, "target_only_frames": 53, "target_context_1_frames": 33},
+    {"case": "Singh A", "full_seconds": 2.40, "target_only_seconds": 2.24, "target_context_1_seconds": 2.56, "full_frames": 30, "target_only_frames": 28, "target_context_1_frames": 32},
+    {"case": "Singh B", "full_seconds": 2.32, "target_only_seconds": 2.16, "target_context_1_seconds": 2.40, "full_frames": 29, "target_only_frames": 27, "target_context_1_frames": 30},
+    {"case": "General English, no override", "native_seconds": 11.92, "target_only_seconds": 11.92, "target_context_1_seconds": 11.92, "native_frames": 149, "target_only_frames": 149, "target_context_1_frames": 149}
+  ],
+  "interpretation": [
+    "target_context_1 rescued Kumar A and reduced the Mumbai B excursion relative to target_only, but did not rescue Kumar B.",
+    "The cases have comparable target residual ratios, so residual magnitude alone is not established as the cause.",
+    "The case-specific response and the large duration changes are consistent with early discrete acoustic choices entering different autoregressive trajectories, but this is not proven without per-step traces.",
+    "Localized no-override modes are true no-op controls in the artifact; the full no-override row is the legacy full-residual behavior and is not a no-op."
+  ]
+}

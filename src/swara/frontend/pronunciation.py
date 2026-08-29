@@ -28,6 +28,7 @@ class CompiledOverride:
     language: str
     source: str
     priority: int
+    pronunciation_system: str = PRONUNCIATION_ALPHABET_ID
 
 
 class PronunciationCompiler:
@@ -54,7 +55,7 @@ class PronunciationCompiler:
                 language=override.language,
                 source=override.source,
                 priority=override.priority,
+                pronunciation_system=override.pronunciation_system,
             )
             for index, (override, source_span, normalized_span) in enumerate(ordered)
         )
-

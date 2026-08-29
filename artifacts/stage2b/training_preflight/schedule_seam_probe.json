@@ -1,0 +1,85 @@
+{
+  "schema_version": "swara.stage2b.training_preflight.schedule_seam.v0",
+  "status": "passed",
+  "model_id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "model_path": "models/qwen3-tts-12hz-0.6b-base",
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 1,
+  "text": "Kolkata hosted the conference.",
+  "reference_audio": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_116.wav",
+  "target_construction": {
+    "source_encoded_shape": [53, 16],
+    "probe_target_shape": [1, 2, 16],
+    "codebook_count": 16,
+    "frame_rate_hz": 12.5,
+    "vocabulary_size": 2048,
+    "source": "local Qwen codec encoded_debug target; first two real frames used for bounded probe",
+    "eos_target": "not present in codec-encoded real-audio targets; lambda_eos=0"
+  },
+  "schedule": {
+    "inputs_embeds_shape": [1, 10, 1024],
+    "trailing_text_hidden_shape": [1, 6, 1024],
+    "attention_mask_shape": [1, 10],
+    "position_ids_shape": [3, 1, 10],
+    "schedule_version": "swara.stage2b.qwen.teacher-schedule.xvector.v0",
+    "native_conditioned_gate_zero_inputs_equal": true,
+    "native_conditioned_gate_zero_attention_equal": true,
+    "native_conditioned_gate_zero_positions_equal": true
+  },
+  "logits": {
+    "main_shape": [1, 2, 3072],
+    "residual_shape": [1, 2, 15, 2048],
+    "gate_zero_main_max_abs_diff": 0.0,
+    "gate_zero_residual_max_abs_diff": 0.0,
+    "gate_zero_main_mean_abs_diff": 0.0,
+    "gate_zero_residual_mean_abs_diff": 0.0
+  },
+  "loss_masks": {
+    "target_frame_mask": [[true, false]],
+    "non_target_frame_mask": [[false, true]],
+    "valid_acoustic_mask": [[true, true]],
+    "eos_mask": [[false, false]]
+  },
+  "nonzero_gate_probe": {
+    "gate": 0.001,
+    "target_codebooks": [0, 1, 2, 3],
+    "target_ce": 3.645711898803711,
+    "preservation_kl": 0.000008120439815684222,
+    "total_loss_lambda_preserve_1": 3.6457200050354004,
+    "gate_gradient_norm": 1.2507141828536987,
+    "bridge_gradient_norm": 0.041798342019319534,
+    "qwen_parameter_gradient_tensor_count": 0,
+    "qwen_state_changed": false,
+    "all_outputs_finite": true
+  },
+  "zero_gate_gradient_regression": {
+    "gate": 0.0,
+    "gate_gradient_norm": 0.0014432436,
+    "bridge_gradient_norm": 0.0,
+    "bridge_gradient_is_exactly_zero": true,
+    "probe_type": "existing small differentiable bridge geometry probe"
+  },
+  "residual_native_norm_ratio": {
+    "gate_zero": {
+      "target": 0.0,
+      "non_target": 0.0
+    },
+    "gate_0.001": {
+      "target": 0.010677126274827154,
+      "non_target": 0.011616854033833756
+    }
+  },
+  "timing_seconds": {
+    "native_forward": 41.667617082595825,
+    "gate_zero_forward": 9.866613149642944,
+    "nonzero_conditioned_forward": 6.239946126937866,
+    "backward": 6.235090970993042
+  },
+  "memory": {
+    "peak_cuda_memory": "NOT_MEASURED",
+    "process_max_rss_bytes_approx": 2185658368,
+    "note": "macOS resource max RSS convention; CPU run only"
+  },
+  "optimizer_or_training": false
+}

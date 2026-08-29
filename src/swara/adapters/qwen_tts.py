@@ -20,9 +20,17 @@ class QwenFoundationTTS:
         self.reference_text = reference_text
 
     @classmethod
-    def from_local_path(cls, path: str | Path, reference_audio: str | None = None, reference_text: str | None = None) -> "QwenFoundationTTS":
+    def from_local_path(
+        cls,
+        path: str | Path,
+        reference_audio: str | None = None,
+        reference_text: str | None = None,
+        *,
+        device_map: str | None = "cpu",
+        dtype: Any = "float32",
+    ) -> "QwenFoundationTTS":
         from qwen_tts import Qwen3TTSModel
-        model = Qwen3TTSModel.from_pretrained(str(path), local_files_only=True, device_map="cpu", dtype="float32")
+        model = Qwen3TTSModel.from_pretrained(str(path), local_files_only=True, device_map=device_map, dtype=dtype)
         return cls(model, reference_audio, reference_text)
 
     def generate(self, text: str, language: str = "English", **settings: Any) -> tuple[AudioWaveform, float]:

@@ -1,0 +1,13 @@
+# Colab supplies CUDA-enabled torch/torchaudio. Do not replace it blindly.
+einops==0.8.2
+huggingface-hub==0.36.2
+librosa==0.11.0
+neucodec==0.0.6
+numpy==2.0.2
+pytest==8.4.2
+safetensors==0.6.2
+soundfile==0.13.1
+torchao==0.17.0
+torchtune==0.6.1
+transformers==4.57.3
+vector-quantize-pytorch==1.17.8

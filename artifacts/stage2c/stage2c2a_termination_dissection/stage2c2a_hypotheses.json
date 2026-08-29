@@ -1,0 +1,12 @@
+{
+  "schema_version": "stage2c2a.hypotheses.v1",
+  "training_performed": false,
+  "hypotheses": [
+    {"id": "H1", "statement": "EOS suppression is caused primarily by excessive residual magnitude.", "status": "UNRESOLVED", "evidence": "The duration failures are not ordered by the recorded target residual ratios; a scale probe is required."},
+    {"id": "H2", "statement": "EOS suppression is caused by insufficient local context.", "status": "PARTIALLY_SUPPORTED", "evidence": "target_context_1 rescues Kumar A and reduces Mumbai B relative to target_only, but Kumar B remains long; context alone is insufficient."},
+    {"id": "H3", "statement": "The altered pronunciation representation changes early acoustic token choices, which then autoregressively sends Qwen onto a long but internally valid trajectory.", "status": "SUPPORTED_AS_A_WORKING_MECHANISM", "evidence": "Case-specific acoustic_eos trajectories and large frame-count changes are consistent with this mechanism; the new per-step trace will test it directly."},
+    {"id": "H4", "statement": "There is a runner/decoding inconsistency unrelated to the pronunciation residual.", "status": "CURRENTLY_UNSUPPORTED", "evidence": "The inspected rows use consistent deterministic settings and EOS metadata; no runner-only cause is visible in the artifact."},
+    {"id": "H5", "statement": "Termination instability is specific to certain phone-sequence perturbations rather than a general consequence of unseen-name conditioning.", "status": "PARTIALLY_SUPPORTED", "evidence": "Kumar B and Mumbai B are unstable while Singh, Mumbai A, Kumar A under target_context_1, and localized controls are short; Dasharatha A/B provides the planned unseen-name test."}
+  ],
+  "next_evidence": "Run the 18-generation Stage2C.2A Colab panel with compact q0 step traces, residual scales, and the Kumar context_2 sample."
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "stage2b.4b-fixtures-v1",
+  "status": "frozen_before_training_pending_verified_targets",
+  "transfer": {
+    "Kolkata": [
+      "The research team travelled from Kolkata yesterday.",
+      "Kolkata will host the research symposium next month."
+    ],
+    "Bengaluru": [
+      "The conference in Bengaluru begins on Monday.",
+      "Researchers returned to Bengaluru after the workshop."
+    ],
+    "Ajinkya": [
+      "Ajinkya presented the final report.",
+      "The committee thanked Ajinkya after the presentation."
+    ],
+    "Banerjee": [
+      "Professor Banerjee joined the panel discussion.",
+      "The report was reviewed by Banerjee yesterday."
+    ],
+    "Arundhati": [
+      "Arundhati presented the new book.",
+      "The interview with Arundhati begins tomorrow."
+    ],
+    "Ashutosh": [
+      "Ashutosh prepared the final report.",
+      "The team contacted Ashutosh after the meeting."
+    ],
+    "Konkona": [
+      "Konkona discussed the film yesterday.",
+      "The panel interviewed Konkona after the screening."
+    ],
+    "Sensharma": [
+      "Sensharma spoke at the event yesterday.",
+      "The article about Sensharma was published today."
+    ],
+    "Agrawal": [
+      "Minister Agrawal addressed the committee after lunch.",
+      "The report from Agrawal arrived before the deadline."
+    ],
+    "Singh": [
+      "Singh presented the findings at the conference.",
+      "The research team thanked Singh after the review."
+    ],
+    "Kumar": [
+      "Kumar will lead the project meeting tomorrow.",
+      "The final document was approved by Kumar yesterday."
+    ],
+    "Sharma": [
+      "Sharma joined the delegation at the station.",
+      "The director asked Sharma to review the proposal."
+    ],
+    "Gupta": [
+      "Gupta submitted the revised budget this morning.",
+      "The committee invited Gupta to the policy discussion."
+    ],
+    "Mumbai": [
+      "The flight to Mumbai leaves after sunset.",
+      "Researchers returned from Mumbai on Tuesday."
+    ],
+    "Kashmir": [
+      "The report described the route through Kashmir.",
+      "The delegation visited Kashmir during the spring."
+    ],
+    "Mishra": [
+      "Mishra explained the results during the interview.",
+      "The editor spoke with Mishra after the announcement."
+    ],
+    "Prayagraj": [
+      "The delegation travelled through Prayagraj last spring.",
+      "Prayagraj will host the regional meeting next year."
+    ]
+  },
+  "unseen_name": [
+    "Anirban joined the review panel.",
+    "The committee invited Ashwini to the meeting.",
+    "Chandrashekhar submitted the final report.",
+    "The researchers met Karthik after the seminar."
+  ],
+  "general_english": [
+    "The meeting begins tomorrow.",
+    "The quarterly review starts next week.",
+    "The train arrives before noon.",
+    "Please send the revised document today."
+  ],
+  "control": {
+    "policy": "evaluate each corresponding text with no pronunciation override",
+    "override": null
+  },
+  "eos": [
+    "The short meeting ends now.",
+    "This deliberately longer sentence checks stable stopping behavior after conditioning."
+  ]
+}

@@ -1,0 +1,1576 @@
+{
+  "artifact_version": "swara.stage2b.qwen-alignment.v0",
+  "items": [
+    {
+      "case": "ascii",
+      "source_text": "The meeting begins tomorrow.",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        785,
+        6438,
+        12033,
+        16577,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "The",
+        "Ġmeeting",
+        "Ġbegins",
+        "Ġtomorrow",
+        ".",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          25,
+          33
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          40,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          60
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          61,
+          73
+        ],
+        [
+          73,
+          82
+        ],
+        [
+          82,
+          83
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "The",
+          "source_span": [
+            0,
+            3
+          ],
+          "normalized_span": [
+            0,
+            3
+          ],
+          "override_id": null
+        },
+        {
+          "index": 1,
+          "value": "meeting",
+          "source_span": [
+            4,
+            11
+          ],
+          "normalized_span": [
+            4,
+            11
+          ],
+          "override_id": null
+        },
+        {
+          "index": 2,
+          "value": "begins",
+          "source_span": [
+            12,
+            18
+          ],
+          "normalized_span": [
+            12,
+            18
+          ],
+          "override_id": null
+        },
+        {
+          "index": 3,
+          "value": "tomorrow",
+          "source_span": [
+            19,
+            27
+          ],
+          "normalized_span": [
+            19,
+            27
+          ],
+          "override_id": null
+        },
+        {
+          "index": 4,
+          "value": ".",
+          "source_span": [
+            27,
+            28
+          ],
+          "normalized_span": [
+            27,
+            28
+          ],
+          "override_id": null
+        },
+        {
+          "index": 5,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 1,
+          "overlap": 7,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 5,
+          "swara_position": 2,
+          "overlap": 6,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 3,
+          "overlap": 8,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 7,
+          "swara_position": 4,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    },
+    {
+      "case": "indian_names",
+      "source_text": "Ajinkya travelled to Bengaluru.",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        61073,
+        766,
+        7755,
+        45268,
+        311,
+        49020,
+        20915,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "Aj",
+        "ink",
+        "ya",
+        "Ġtravelled",
+        "Ġto",
+        "ĠBengal",
+        "uru",
+        ".",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          24
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          29,
+          39
+        ],
+        [
+          39,
+          42
+        ],
+        [
+          42,
+          49
+        ],
+        [
+          49,
+          52
+        ],
+        [
+          52,
+          53
+        ],
+        [
+          53,
+          63
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          64,
+          76
+        ],
+        [
+          76,
+          85
+        ],
+        [
+          85,
+          86
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "Ajinkya",
+          "source_span": [
+            0,
+            7
+          ],
+          "normalized_span": [
+            0,
+            7
+          ],
+          "override_id": null
+        },
+        {
+          "index": 1,
+          "value": "travelled",
+          "source_span": [
+            8,
+            17
+          ],
+          "normalized_span": [
+            8,
+            17
+          ],
+          "override_id": null
+        },
+        {
+          "index": 2,
+          "value": "to",
+          "source_span": [
+            18,
+            20
+          ],
+          "normalized_span": [
+            18,
+            20
+          ],
+          "override_id": null
+        },
+        {
+          "index": 3,
+          "value": "Bengaluru",
+          "source_span": [
+            21,
+            30
+          ],
+          "normalized_span": [
+            21,
+            30
+          ],
+          "override_id": null
+        },
+        {
+          "index": 4,
+          "value": ".",
+          "source_span": [
+            30,
+            31
+          ],
+          "normalized_span": [
+            30,
+            31
+          ],
+          "override_id": null
+        },
+        {
+          "index": 5,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 2,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 0,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 5,
+          "swara_position": 0,
+          "overlap": 2,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 1,
+          "overlap": 9,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 7,
+          "swara_position": 2,
+          "overlap": 2,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 8,
+          "swara_position": 3,
+          "overlap": 6,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 9,
+          "swara_position": 3,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 10,
+          "swara_position": 4,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    },
+    {
+      "case": "punctuation",
+      "source_text": "Wait... Really?!",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        14190,
+        1112,
+        28208,
+        25984,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "Wait",
+        "...",
+        "ĠReally",
+        "?!",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          29,
+          36
+        ],
+        [
+          36,
+          38
+        ],
+        [
+          38,
+          48
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          49,
+          61
+        ],
+        [
+          61,
+          70
+        ],
+        [
+          70,
+          71
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "Wait",
+          "source_span": [
+            0,
+            4
+          ],
+          "normalized_span": [
+            0,
+            4
+          ],
+          "override_id": null
+        },
+        {
+          "index": 1,
+          "value": ".",
+          "source_span": [
+            4,
+            5
+          ],
+          "normalized_span": [
+            4,
+            5
+          ],
+          "override_id": null
+        },
+        {
+          "index": 2,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        },
+        {
+          "index": 3,
+          "value": ".",
+          "source_span": [
+            5,
+            6
+          ],
+          "normalized_span": [
+            5,
+            6
+          ],
+          "override_id": null
+        },
+        {
+          "index": 4,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        },
+        {
+          "index": 5,
+          "value": ".",
+          "source_span": [
+            6,
+            7
+          ],
+          "normalized_span": [
+            6,
+            7
+          ],
+          "override_id": null
+        },
+        {
+          "index": 6,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        },
+        {
+          "index": 7,
+          "value": "Really",
+          "source_span": [
+            8,
+            14
+          ],
+          "normalized_span": [
+            8,
+            14
+          ],
+          "override_id": null
+        },
+        {
+          "index": 8,
+          "value": "?",
+          "source_span": [
+            14,
+            15
+          ],
+          "normalized_span": [
+            14,
+            15
+          ],
+          "override_id": null
+        },
+        {
+          "index": 9,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        },
+        {
+          "index": 10,
+          "value": "!",
+          "source_span": [
+            15,
+            16
+          ],
+          "normalized_span": [
+            15,
+            16
+          ],
+          "override_id": null
+        },
+        {
+          "index": 11,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 4,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 1,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 3,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 5,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": null
+        },
+        {
+          "native_position": 5,
+          "swara_position": 7,
+          "overlap": 6,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 8,
+          "overlap": 1,
+          "weight": 0.5,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 10,
+          "overlap": 1,
+          "weight": 0.5,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    },
+    {
+      "case": "repeated_words",
+      "source_text": "Ravi met Ravi after the meeting.",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        49,
+        6190,
+        2270,
+        431,
+        6190,
+        1283,
+        279,
+        6438,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "R",
+        "avi",
+        "Ġmet",
+        "ĠR",
+        "avi",
+        "Ġafter",
+        "Ġthe",
+        "Ġmeeting",
+        ".",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          26,
+          30
+        ],
+        [
+          30,
+          32
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          35,
+          41
+        ],
+        [
+          41,
+          45
+        ],
+        [
+          45,
+          53
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          54,
+          64
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          65,
+          77
+        ],
+        [
+          77,
+          86
+        ],
+        [
+          86,
+          87
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "Ravi",
+          "source_span": [
+            0,
+            4
+          ],
+          "normalized_span": [
+            0,
+            4
+          ],
+          "override_id": null
+        },
+        {
+          "index": 1,
+          "value": "met",
+          "source_span": [
+            5,
+            8
+          ],
+          "normalized_span": [
+            5,
+            8
+          ],
+          "override_id": null
+        },
+        {
+          "index": 2,
+          "value": "Ravi",
+          "source_span": [
+            9,
+            13
+          ],
+          "normalized_span": [
+            9,
+            13
+          ],
+          "override_id": null
+        },
+        {
+          "index": 3,
+          "value": "after",
+          "source_span": [
+            14,
+            19
+          ],
+          "normalized_span": [
+            14,
+            19
+          ],
+          "override_id": null
+        },
+        {
+          "index": 4,
+          "value": "the",
+          "source_span": [
+            20,
+            23
+          ],
+          "normalized_span": [
+            20,
+            23
+          ],
+          "override_id": null
+        },
+        {
+          "index": 5,
+          "value": "meeting",
+          "source_span": [
+            24,
+            31
+          ],
+          "normalized_span": [
+            24,
+            31
+          ],
+          "override_id": null
+        },
+        {
+          "index": 6,
+          "value": ".",
+          "source_span": [
+            31,
+            32
+          ],
+          "normalized_span": [
+            31,
+            32
+          ],
+          "override_id": null
+        },
+        {
+          "index": 7,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 0,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 5,
+          "swara_position": 1,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 2,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 7,
+          "swara_position": 2,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 8,
+          "swara_position": 3,
+          "overlap": 5,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 9,
+          "swara_position": 4,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 10,
+          "swara_position": 5,
+          "overlap": 7,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 11,
+          "swara_position": 6,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    },
+    {
+      "case": "unicode_nfc",
+      "source_text": "Café in Hyderabad",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        34,
+        2577,
+        963,
+        304,
+        68447,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "C",
+        "af",
+        "Ã©",
+        "Ġin",
+        "ĠHyderabad",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          25,
+          26
+        ],
+        [
+          27,
+          30
+        ],
+        [
+          30,
+          40
+        ],
+        [
+          40,
+          50
+        ],
+        [
+          50,
+          51
+        ],
+        [
+          51,
+          63
+        ],
+        [
+          63,
+          72
+        ],
+        [
+          72,
+          73
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "Café",
+          "source_span": [
+            0,
+            5
+          ],
+          "normalized_span": [
+            0,
+            4
+          ],
+          "override_id": null
+        },
+        {
+          "index": 1,
+          "value": "in",
+          "source_span": [
+            6,
+            8
+          ],
+          "normalized_span": [
+            5,
+            7
+          ],
+          "override_id": null
+        },
+        {
+          "index": 2,
+          "value": "Hyderabad",
+          "source_span": [
+            9,
+            18
+          ],
+          "normalized_span": [
+            8,
+            17
+          ],
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 4,
+          "swara_position": 0,
+          "overlap": 2,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 5,
+          "swara_position": 0,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 1,
+          "overlap": 2,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 7,
+          "swara_position": 2,
+          "overlap": 9,
+          "weight": 1,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    },
+    {
+      "case": "override",
+      "source_text": "Kolkata hosted the conference.",
+      "native_token_ids": [
+        151644,
+        77091,
+        198,
+        42,
+        62692,
+        21009,
+        279,
+        9816,
+        13,
+        151645,
+        198,
+        151644,
+        77091,
+        198
+      ],
+      "native_token_strings": [
+        "<|im_start|>",
+        "assistant",
+        "Ċ",
+        "K",
+        "olkata",
+        "Ġhosted",
+        "Ġthe",
+        "Ġconference",
+        ".",
+        "<|im_end|>",
+        "Ċ",
+        "<|im_start|>",
+        "assistant",
+        "Ċ"
+      ],
+      "native_offsets": [
+        [
+          0,
+          12
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          22,
+          23
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          29,
+          36
+        ],
+        [
+          36,
+          40
+        ],
+        [
+          40,
+          51
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          52,
+          62
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          63,
+          75
+        ],
+        [
+          75,
+          84
+        ],
+        [
+          84,
+          85
+        ]
+      ],
+      "user_content_mask": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "swara_units": [
+        {
+          "index": 0,
+          "value": "K",
+          "source_span": [
+            0,
+            7
+          ],
+          "normalized_span": [
+            0,
+            7
+          ],
+          "override_id": "override-0"
+        },
+        {
+          "index": 1,
+          "value": "O",
+          "source_span": [
+            0,
+            7
+          ],
+          "normalized_span": [
+            0,
+            7
+          ],
+          "override_id": "override-0"
+        },
+        {
+          "index": 2,
+          "value": "L",
+          "source_span": [
+            0,
+            7
+          ],
+          "normalized_span": [
+            0,
+            7
+          ],
+          "override_id": "override-0"
+        },
+        {
+          "index": 3,
+          "value": "hosted",
+          "source_span": [
+            8,
+            14
+          ],
+          "normalized_span": [
+            8,
+            14
+          ],
+          "override_id": null
+        },
+        {
+          "index": 4,
+          "value": "the",
+          "source_span": [
+            15,
+            18
+          ],
+          "normalized_span": [
+            15,
+            18
+          ],
+          "override_id": null
+        },
+        {
+          "index": 5,
+          "value": "conference",
+          "source_span": [
+            19,
+            29
+          ],
+          "normalized_span": [
+            19,
+            29
+          ],
+          "override_id": null
+        },
+        {
+          "index": 6,
+          "value": ".",
+          "source_span": [
+            29,
+            30
+          ],
+          "normalized_span": [
+            29,
+            30
+          ],
+          "override_id": null
+        },
+        {
+          "index": 7,
+          "value": "sentence_end",
+          "source_span": null,
+          "normalized_span": null,
+          "override_id": null
+        }
+      ],
+      "alignment_edges": [
+        {
+          "native_position": 3,
+          "swara_position": 0,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 3,
+          "swara_position": 1,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 3,
+          "swara_position": 2,
+          "overlap": 1,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 4,
+          "swara_position": 0,
+          "overlap": 6,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 4,
+          "swara_position": 1,
+          "overlap": 6,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 4,
+          "swara_position": 2,
+          "overlap": 6,
+          "weight": 0.33333333,
+          "override_id": "override-0"
+        },
+        {
+          "native_position": 5,
+          "swara_position": 3,
+          "overlap": 6,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 6,
+          "swara_position": 4,
+          "overlap": 3,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 7,
+          "swara_position": 5,
+          "overlap": 10,
+          "weight": 1,
+          "override_id": null
+        },
+        {
+          "native_position": 8,
+          "swara_position": 6,
+          "overlap": 1,
+          "weight": 1,
+          "override_id": null
+        }
+      ],
+      "unmatched_native_positions": [],
+      "unmatched_swara_positions": [],
+      "conditioned_native_positions": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "offset_coordinate_system": "python_unicode_code_points"
+    }
+  ]
+}

@@ -42,6 +42,7 @@ class LinguisticSequence:
     normalized_text: str
     tokens: tuple[LinguisticToken, ...]
     language_spans: tuple[LanguageSpan, ...]
+    compiled_overrides: tuple[CompiledOverride, ...] = ()
 
 
 def _is_punctuation(character: str) -> bool:
@@ -109,7 +110,14 @@ class LinguisticTokenizer:
             tokens.append(LinguisticToken(LinguisticTokenKind.GRAPHEME, span.expected_text or "", self._language_for(span, language_spans, default_language), document.normalized_to_source(span), span))
             index = end
 
-        return LinguisticSequence("swara.linguistic.v0", document.source_text, document.normalized_text, tuple(tokens), language_spans)
+        return LinguisticSequence(
+            "swara.linguistic.v0",
+            document.source_text,
+            document.normalized_text,
+            tuple(tokens),
+            language_spans,
+            overrides,
+        )
 
     @staticmethod
     def _language_for(span: TextSpan, language_spans: tuple[LanguageSpan, ...], default_language: str) -> str:

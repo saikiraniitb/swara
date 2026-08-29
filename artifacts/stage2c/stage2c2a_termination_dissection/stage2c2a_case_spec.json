@@ -1,0 +1,33 @@
+{
+  "schema_version": "stage2c2a.case-spec.v1",
+  "experiment": "stage2c2a_termination_dissection",
+  "training_performed": false,
+  "checkpoint": {
+    "relative_reference": "artifacts/stage2b_reference/swara_stage2b_reference/checkpoint/step025.pt",
+    "step": 25,
+    "gate": 0.009277756325900555
+  },
+  "generation_settings": {
+    "x_vector_only_mode": true,
+    "do_sample": false,
+    "subtalker_dosample": false,
+    "max_new_tokens": 512,
+    "device": "Colab T4 / float32"
+  },
+  "trace_panel": [
+    {"id": "kumar_a_context1", "text": "Kumar attended the meeting today.", "target": "Kumar", "phones": ["K", "UU", "M", "AA", "R"], "mask_mode": "target_context_1"},
+    {"id": "kumar_b_context1", "text": "Kumar attended the meeting today.", "target": "Kumar", "phones": ["K", "UU", "M", "EE", "R"], "mask_mode": "target_context_1"},
+    {"id": "mumbai_b_context1", "text": "Mumbai hosted the meeting today.", "target": "Mumbai", "phones": ["M", "A", "M", "B", "EE"], "mask_mode": "target_context_1"},
+    {"id": "general_english_native", "text": "The meeting begins tomorrow.", "target": null, "phones": null, "mask_mode": "native"},
+    {"id": "dasharatha_a_context1", "text": "Dasharatha ruled the kingdom wisely.", "target": "Dasharatha", "phones": ["D", "A", "SH", "A", "R", "A", "T", "H", "A"], "mask_mode": "target_context_1"},
+    {"id": "dasharatha_b_context1", "text": "Dasharatha ruled the kingdom wisely.", "target": "Dasharatha", "phones": ["D", "A", "SH", "A", "R", "A", "T", "A"], "mask_mode": "target_context_1"}
+  ],
+  "scale_probe": {
+    "kumar_b_context1": [0.0, 0.25, 0.5, 0.75, 1.0],
+    "dasharatha_a_context1": [0.0, 0.5, 1.0],
+    "dasharatha_b_context1": [0.0, 0.5, 1.0]
+  },
+  "locality_width_probe": {"kumar_b_context2": "target_context_2", "dasharatha_context_2": "deferred unless context_1 is unstable"},
+  "planned_generation_count": 18,
+  "count_breakdown": {"trace_panel": 6, "kumar_scale": 5, "dasharatha_scales": 6, "kumar_context_2": 1}
+}
