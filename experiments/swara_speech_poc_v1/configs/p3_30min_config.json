@@ -1,0 +1,93 @@
+{
+  "schema_version": "swara.speech_poc.p3.config.v1",
+  "run_id": "swara_speech_poc_p3_30min_v1",
+  "seed": 20260823,
+  "model": {
+    "trainable_parameters": 13393283,
+    "width": 160,
+    "linguistic_encoder_layers": 3,
+    "acoustic_decoder_layers": 5,
+    "attention_heads": 4,
+    "ffn_width": 640,
+    "codec_vocabulary": 65536,
+    "acoustic_bos_id": 65536,
+    "reference_prefix": false
+  },
+  "data": {
+    "alignment_manifest": "experiments/swara_speech_poc_v1/data/alignment_manifest.jsonl",
+    "train_manifest": "data/spicor_eng_m_spk001_v1/manifests/debug_30min_train.jsonl",
+    "validation_manifest": "data/spicor_eng_m_spk001_v1/manifests/debug_30min_val.jsonl",
+    "train_rows": 267,
+    "validation_rows": 45,
+    "cached_codec_rows": 312
+  },
+  "codec": {
+    "model": "neuphonic/distill-neucodec",
+    "revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+    "frozen": true
+  },
+  "optimizer": {
+    "type": "AdamW",
+    "learning_rate": 0.0003,
+    "betas": [0.9, 0.999],
+    "weight_decay": 0.01,
+    "exclude_bias_and_norm_from_decay": true,
+    "gradient_clip": 1.0,
+    "warmup_steps": 150
+  },
+  "batching": {
+    "ordering": "deterministic_length_bucketed",
+    "microbatch_real_frame_cap": 1024,
+    "optimizer_real_frame_minimum": 8192,
+    "hard_frame_cap": 4096
+  },
+  "maximum_optimizer_steps": 3000,
+  "evaluation_steps": [1, 250, 500, 1000, 1500, 2000, 2500, 3000],
+  "listening_steps": [250, 500, 1000, 1500, 2000, 2500, 3000],
+  "teacher_forcing_schedule": [
+    {"start": 1, "end": 200, "probability": 1.0},
+    {"start": 201, "end": 500, "probability": 0.9},
+    {"start": 501, "end": 800, "probability": 0.75},
+    {"start": 801, "end": 1200, "probability": 0.5},
+    {"start": 1201, "end": 3000, "probability": 0.25}
+  ],
+  "validation_listening_panel": [
+    "IISc_SPICORProject_EN_M_LIBR_1867-154071-0022",
+    "IISc_SPICORProject_EN_M_LJSP_LJ018-0332",
+    "IISc_SPICORProject_EN_M_AGRI_116",
+    "IISc_SPICORProject_EN_M_AGRI_2592",
+    "IISc_SPICORProject_EN_M_POLI_415",
+    "IISc_SPICORProject_EN_M_ENTE_6952",
+    "IISc_SPICORProject_EN_M_ENTE_7315",
+    "IISc_SPICORProject_EN_M_AGRI_7084",
+    "IISc_SPICORProject_EN_M_ENTE_560",
+    "IISc_SPICORProject_EN_M_WEAT_4283"
+  ],
+  "train_listening_panel": [
+    "IISc_SPICORProject_EN_M_AGRI_1143",
+    "IISc_SPICORProject_EN_M_AGRI_1222",
+    "IISc_SPICORProject_EN_M_AGRI_2140"
+  ],
+  "text_swap_pairs": [
+    ["IISc_SPICORProject_EN_M_AGRI_116", "IISc_SPICORProject_EN_M_AGRI_256"],
+    ["IISc_SPICORProject_EN_M_AGRI_256", "IISc_SPICORProject_EN_M_AGRI_2592"],
+    ["IISc_SPICORProject_EN_M_AGRI_2592", "IISc_SPICORProject_EN_M_AGRI_4068"],
+    ["IISc_SPICORProject_EN_M_AGRI_4068", "IISc_SPICORProject_EN_M_AGRI_7084"],
+    ["IISc_SPICORProject_EN_M_AGRI_7084", "IISc_SPICORProject_EN_M_ENTE_157"]
+  ],
+  "stop_gates": {
+    "max_nonself_similarity": 0.9,
+    "minimum_text_swap_change": 0.25,
+    "pathological_repeated_token_share": 0.9,
+    "pathological_longest_run_frames": 50,
+    "duration_median_relative_error": 0.15,
+    "duration_p90_relative_error": 0.25,
+    "monotonicity_violations": 0
+  },
+  "checkpoint_policy": {
+    "official": ["initial.pt", "best.pt", "final.pt"],
+    "temporary_recovery": "recovery_latest.pt",
+    "recovery_every_steps": 50,
+    "best_rule": "minimum validation acoustic CE plus duration Smooth-L1"
+  }
+}

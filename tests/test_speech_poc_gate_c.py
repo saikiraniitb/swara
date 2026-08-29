@@ -151,6 +151,21 @@ class DurationPredictorTests(unittest.TestCase):
         with self.assertRaisesRegex(DurationContractError,"per-unit"):
             predictor.validate_plan(torch.tensor([[76]]),torch.tensor([[True]]),torch.tensor([[False]]))
 
+    def test_validate_plan_normalizes_masks_to_duration_device(self):
+        durations=torch.tensor([[2,0]],dtype=torch.long)
+        lexical=torch.tensor([[True,False]],dtype=torch.bool,device="cpu")
+        padding=torch.tensor([[False,True]],dtype=torch.bool,device="cpu")
+        self.assertEqual(self.predictor.validate_plan(durations,lexical,padding).item(),2)
+
+    @unittest.skipUnless(torch.cuda.is_available(),"CUDA device-normalization regression")
+    def test_validate_plan_accepts_cuda_durations_and_cpu_masks(self):
+        durations=torch.tensor([[2,0]],dtype=torch.long,device="cuda")
+        lexical=torch.tensor([[True,False]],dtype=torch.bool,device="cpu")
+        padding=torch.tensor([[False,True]],dtype=torch.bool,device="cpu")
+        totals=self.predictor.validate_plan(durations,lexical,padding)
+        self.assertEqual(totals.device.type,"cuda")
+        self.assertEqual(totals.item(),2)
+
 
 class ExpansionTests(unittest.TestCase):
     def batch(self):

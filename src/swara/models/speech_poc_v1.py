@@ -163,6 +163,59 @@ class AlignmentUnitAdapter(nn.Module):
         totals = torch.tensor(target_total_frames, dtype=torch.long, device=device)
         return AlignmentUnitBatch(states, padding, lexical, durations, totals, tuple(provenance))
 
+    def for_inference(self, encoded: EncodedLinguisticBatch) -> AlignmentUnitBatch:
+        """Insert structural edge slots without requiring target alignments.
+
+        This constructs the same unit ordering used by accepted supervision:
+        utterance start, immutable LinguisticSequence units, utterance end. The
+        duration predictor owns the integer plan produced after this boundary.
+        """
+
+        batch_size, linguistic_width, state_width = encoded.states.shape
+        max_units = linguistic_width + 2
+        device, dtype = encoded.states.device, encoded.states.dtype
+        states = torch.zeros(batch_size, max_units, state_width, device=device, dtype=dtype)
+        padding = torch.ones(batch_size, max_units, dtype=torch.bool, device=device)
+        lexical = torch.zeros(batch_size, max_units, dtype=torch.bool, device=device)
+        durations = torch.zeros(batch_size, max_units, dtype=torch.long, device=device)
+        provenance: list[tuple[AlignmentUnitProvenance, ...]] = []
+        for batch_index, linguistic_row in enumerate(encoded.provenance):
+            row_length = len(linguistic_row) + 2
+            padding[batch_index, :row_length] = False
+            states[batch_index, 0] = self.structural_silence_embedding.weight[0]
+            states[batch_index, 1 : row_length - 1] = encoded.states[batch_index, : len(linguistic_row)]
+            states[batch_index, row_length - 1] = self.structural_silence_embedding.weight[1]
+            row_provenance = [
+                AlignmentUnitProvenance(0, None, "boundary", "utterance_start", None, None, "utterance_start_silence")
+            ]
+            for alignment_index, unit in enumerate(linguistic_row, 1):
+                lexical[batch_index, alignment_index] = unit.token_kind in {"grapheme", "pronunciation"}
+                row_provenance.append(
+                    AlignmentUnitProvenance(
+                        alignment_index,
+                        unit.linguistic_unit_index,
+                        unit.token_kind,
+                        unit.token_value,
+                        unit.source_span,
+                        unit.normalized_span,
+                        "predicted_duration",
+                    )
+                )
+            row_provenance.append(
+                AlignmentUnitProvenance(
+                    row_length - 1,
+                    None,
+                    "boundary",
+                    "utterance_end",
+                    None,
+                    None,
+                    "utterance_end_silence",
+                )
+            )
+            provenance.append(tuple(row_provenance))
+        totals = torch.zeros(batch_size, dtype=torch.long, device=device)
+        return AlignmentUnitBatch(states, padding, lexical, durations, totals, tuple(provenance))
+
 
 @dataclass(frozen=True, slots=True)
 class DurationPredictorConfig:
@@ -234,6 +287,8 @@ class DurationPredictor(nn.Module):
     def validate_plan(self, durations: Tensor, lexical_mask: Tensor, padding_mask: Tensor) -> Tensor:
         if durations.dtype not in {torch.int8, torch.int16, torch.int32, torch.int64, torch.uint8}:
             raise DurationContractError("inferred duration plan must be integer")
+        lexical_mask = lexical_mask.to(device=durations.device, dtype=torch.bool)
+        padding_mask = padding_mask.to(device=durations.device, dtype=torch.bool)
         if torch.any(durations < 0):
             raise DurationContractError("inferred duration plan contains negative values")
         if torch.any(durations[lexical_mask & ~padding_mask] < 1):
