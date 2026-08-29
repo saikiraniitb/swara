@@ -1,0 +1,14 @@
+{
+  "schema_version": "stage2d4-colab-plan-v0.1",
+  "runner": "scripts/run_stage2d4_bounded_training.py",
+  "baseline_runner": "scripts/run_stage2d4_baseline_evaluation.py",
+  "environment": "existing Stage2B/Stage2C compatible Colab bundle",
+  "qwen_bundle_unchanged": true,
+  "expected_environment_variables": ["SWARA_STAGE2B4B_BUNDLE_ROOT", "SWARA_STAGE2B4B_DEVICE_MAP", "SWARA_STAGE2B4B_DTYPE", "HF_HUB_OFFLINE", "TRANSFORMERS_OFFLINE"],
+  "baseline_command": "python scripts/run_stage2d4_baseline_evaluation.py --baseline --checkpoint <step025.pt> --output-dir <Drive>/swara/stage2d4_runs/stage2d4_v1_medium_baseline_step025",
+  "dry_run_command": "python scripts/run_stage2d4_bounded_training.py --dry-run --checkpoint <step025.pt> --config artifacts/stage2d/stage2d4_training_implementation/stage2d4_training_config.json",
+  "training_command": "python scripts/run_stage2d4_bounded_training.py --train --checkpoint <step025.pt> --output-dir <Drive>/swara/stage2d4_runs/stage2d4_v1_medium_training",
+  "source_overlay": "Reuse current src/swara and runner overlay; do not rebuild the large Qwen bundle.",
+  "no_training_in_this_checkpoint": true,
+  "metadata_semantics": {"qwen_weights_loaded_from_checkpoint": false, "runtime_qwen_loaded": true}
+}

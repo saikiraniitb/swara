@@ -1,0 +1,40 @@
+{
+  "architecture_expansion": false,
+  "schema_version": "stage2d4-experiment-variants-v0.1",
+  "variants": [
+    {
+      "id": "V0",
+      "isolates": "whether validated interventions can be learned at all",
+      "loss": "current target CE + non-target native KL (+ optional EOS KL)",
+      "name": "POSITIVE_ONLY_BASELINE",
+      "native_preservation": "evaluation only",
+      "train_sets": [
+        "POSITIVE_INTERVENTION"
+      ]
+    },
+    {
+      "id": "V1",
+      "isolates": "whether intervention learning coexists with native behavior preservation",
+      "loss": "V0 loss plus existing native-preservation KL orchestration; no new architecture",
+      "name": "POSITIVE_PLUS_NATIVE_PRESERVATION",
+      "recommended": true,
+      "train_sets": [
+        "POSITIVE_INTERVENTION",
+        "NATIVE_PRESERVATION_TARGETED",
+        "NATIVE_PRESERVATION_GENERAL"
+      ]
+    },
+    {
+      "id": "V2",
+      "isolates": "whether measured early q0 divergence predicts or prevents trajectory regressions",
+      "loss": "V1; trajectory metrics added as an eval gate, optional q0 term only as a later ablation",
+      "name": "V1_WITH_TRAJECTORY_SAFETY_ABLATION",
+      "recommended_for_first_run": false,
+      "train_sets": [
+        "POSITIVE_INTERVENTION",
+        "NATIVE_PRESERVATION_TARGETED",
+        "NATIVE_PRESERVATION_GENERAL"
+      ]
+    }
+  ]
+}

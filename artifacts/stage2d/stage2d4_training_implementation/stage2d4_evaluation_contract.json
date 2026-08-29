@@ -1,0 +1,14 @@
+{
+  "schema_version": "stage2d4-evaluation-contract-v0.1",
+  "groups": [
+    {"name": "POSITIVE_HELD_OUT_CONTEXT", "words": ["Jamshedpur", "Chandigarh", "Nagpur"]},
+    {"name": "HUMAN_GOLD_REFERENCE", "utterance_ids": ["IISc_SPICORProject_EN_M_AGRI_3841", "IISc_SPICORProject_EN_M_WEAT_288", "IISc_SPICORProject_EN_M_ENTE_3545"]},
+    {"name": "TARGETED_NATIVE", "words": ["Nagar", "Banerjee"]},
+    {"name": "GENERAL_NATIVE", "source": "stage2d4_general_native_preservation.jsonl", "count": 100},
+    {"name": "MECHANISM_REGRESSION", "words": ["Singh", "Mumbai", "Kumar"]},
+    {"name": "EXTERNAL_HOLDOUT", "words": ["Dasharatha", "Anirban", "Ashwini", "Chandrashekhar", "Karthik"]}
+  ],
+  "trajectory_metrics": ["q0_kl_per_step", "mean_q0_kl", "max_q0_kl", "top1_divergence_count", "first_divergent_q0_step", "eos_logit_divergence", "generated_frame_count", "eos_index", "trajectory_class"],
+  "trajectory_classes": ["NORMAL_TRAJECTORY", "LONG_TRAJECTORY", "MAX_LENGTH_TRAJECTORY", "FAILED"],
+  "no_duration_cap_substitute": true
+}

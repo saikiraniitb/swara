@@ -1,0 +1,9 @@
+{
+  "qwen_all_requires_grad_false": true,
+  "qwen_gradients_absent": true,
+  "qwen_forward_mode": "teacher_forced",
+  "real_qwen_teacher_forced_call_count": 4,
+  "qwen_gradient_norm": 0.0,
+  "runtime_qwen_loaded": true,
+  "qwen_weights_loaded_from_checkpoint": false
+}

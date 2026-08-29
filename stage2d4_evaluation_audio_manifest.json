@@ -1,0 +1,68 @@
+{
+  "count": 10,
+  "items": [
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav",
+      "sha256": "a2f9dcb3fceeec81949f7a7b3d6a9cd466685958306febd844c2827c7cb6fa20",
+      "size_bytes": 62788,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__word.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__context.wav",
+      "sha256": "f1bb77d676dc96d7c083bf223c9610e278d48fd168cfd1b3ac563fc0fee677a1",
+      "size_bytes": 102480,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/jamshedpur/jamshedpur__IISc_SPICORProject_EN_M_AGRI_3841__near__context.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__word.wav",
+      "sha256": "a5004e2f02aa469fba462e8bafb3a6fa6ea09bcff1a45a02d4ca121826373d0c",
+      "size_bytes": 52136,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__word.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__context.wav",
+      "sha256": "ade92e75fb296adc4e197ab41ea3540948005550a6106be424aad4bad0dd6a85",
+      "size_bytes": 91824,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/chandigarh/chandigarh__IISc_SPICORProject_EN_M_WEAT_288__diverse_context__context.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__word.wav",
+      "sha256": "41c5f6f51815a10f378e433b535d75b277864bc97f50ba8b368304fd982b4df8",
+      "size_bytes": 48594,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__word.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__context.wav",
+      "sha256": "170616d0f75ff0e50a025391b4bbb69726ae29d7424d26185c25adbff059a541",
+      "size_bytes": 88284,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/nagpur/nagpur__IISc_SPICORProject_EN_M_ENTE_3545__medoid__context.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__word.wav",
+      "sha256": "f7d93e002179c13dfb9440ec0226d25990ed801dc7f7f166bf27a717c90f7d64",
+      "size_bytes": 34462,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__word.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__context.wav",
+      "sha256": "56775de47ca554a69a496206f351d9c09540cc7a6e17c863992025f0470c2cfb",
+      "size_bytes": 74152,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/nagar/nagar__IISc_SPICORProject_EN_M_ENTE_6968__diverse_context__context.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__word.wav",
+      "sha256": "fbe60472a47474c467b234e0ca81a71ee33c65f4ed4e6982c0be24c49ee6deec",
+      "size_bytes": 48638,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__word.wav"
+    },
+    {
+      "packaged_path": "repo/data/stage2d_evaluation_audio/human_reference/banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__context.wav",
+      "sha256": "08d2da4d06929bfa62d86462b70a4a74862e2f0a7fcb12b851f58b304950a6f6",
+      "size_bytes": 88328,
+      "source_path": "artifacts/stage2d/stage2d2_dataset_design/batch1_human_review/banerjee/banerjee__IISc_SPICORProject_EN_M_WEAT_433__diverse_context__context.wav"
+    }
+  ],
+  "purpose": "Only compact human reference clips needed for blinded baseline listening; no full review WAV set.",
+  "schema_version": "stage2d4-evaluation-audio-manifest-v0.1",
+  "total_bytes": 691686
+}

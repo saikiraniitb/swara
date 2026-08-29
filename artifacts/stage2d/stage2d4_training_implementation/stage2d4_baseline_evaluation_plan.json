@@ -1,0 +1,40 @@
+{
+  "schema_version": "stage2d4-baseline-evaluation-plan-v0.1",
+  "purpose": "Evaluation-only BEFORE-training baseline against untouched Stage2B step025.",
+  "checkpoint": {
+    "logical_name": "Stage2B step025",
+    "step": 25,
+    "sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+    "qwen_weights_loaded_from_checkpoint": false
+  },
+  "runtime": {
+    "dtype": "float32",
+    "mask_mode": "target_context_1",
+    "deterministic": true,
+    "qwen_frozen": true,
+    "optimizer_created": false,
+    "backward_executed": false
+  },
+  "generation_config": {
+    "x_vector_only_mode": true,
+    "do_sample": false,
+    "subtalker_dosample": false,
+    "max_new_tokens": 512
+  },
+  "groups": [
+    {"name": "POSITIVE_HELD_OUT_CONTEXT", "source": "stage2d4_positive_interventions.jsonl", "selection": {"split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT"}, "count": 7, "conditions": ["native", "step025_explicit_intervention"]},
+    {"name": "HUMAN_GOLD_REFERENCE", "source": "stage2d4_positive_interventions.jsonl", "selection": {"is_human_gold_reference": true}, "utterance_ids": ["IISc_SPICORProject_EN_M_AGRI_3841", "IISc_SPICORProject_EN_M_WEAT_288", "IISc_SPICORProject_EN_M_ENTE_3545"], "count": 3, "conditions": ["native", "step025_explicit_intervention"]},
+    {"name": "TARGETED_NATIVE", "source": "stage2d4_targeted_native_preservation.jsonl", "selection": {"all_rows": true}, "words": ["Nagar", "Banerjee"], "count": 10, "conditions": ["native", "stage2d4_no_override_conditioned"]},
+    {"name": "GENERAL_NATIVE", "source": "stage2d4_general_native_preservation.jsonl", "selection": {"all_rows": true}, "count": 100, "conditions": ["native", "stage2d4_no_override_conditioned"]},
+    {"name": "MECHANISM_REGRESSION", "source": "data/stage2b_pronunciation/accepted_manifest.jsonl", "selection": {"first_verified_row_per_target_text": true}, "words": ["Singh", "Mumbai", "Kumar"], "count": 3, "conditions": ["native", "step025_explicit_intervention"]},
+    {"name": "EXTERNAL_HOLDOUT", "source": "data/stage2b_pronunciation/evaluation_fixtures.json and artifacts/stage2c/stage2c2a_termination_dissection/stage2c2a_case_spec.json", "words": ["Dasharatha", "Anirban", "Ashwini", "Chandrashekhar", "Karthik"], "count": 5, "conditions": ["native"]}
+  ],
+  "counts": {"fixtures": 128, "generation_records": 251},
+  "metrics": {
+    "teacher_forced": ["mean_q0_kl", "max_q0_kl", "top1_divergence_count", "first_divergent_q0_step", "eos_logit_divergence"],
+    "autoregressive": ["generated_frame_count", "eos_index", "trajectory_class", "waveform_path", "termination_reason"]
+  },
+  "trajectory_classes": ["NORMAL_TRAJECTORY", "LONG_TRAJECTORY", "MAX_LENGTH_TRAJECTORY", "FAILED"],
+  "output_root": "stage2d4_runs/stage2d4_v1_medium_baseline_step025",
+  "before_after_comparison_keys": ["fixture_id", "group", "condition", "text", "phone_sequence", "model_identity", "step025_sha256", "source_git_sha", "evaluation_contract_sha256", "generation_config", "waveform_sha256", "teacher_forced_metrics", "trajectory_metrics"]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "real_graph_dry_run": true,
+  "environment": {"gpu": "Tesla T4", "dtype": "float32", "transformers": "4.57.3", "qwen_frozen": true},
+  "dataset_entries": 124,
+  "real_qwen_teacher_forced_call_count": 4,
+  "real_backward_count": 1,
+  "disposable_optimizer_step": "performed_and_reverted",
+  "persistent_checkpoint_written": false,
+  "training_performed": false,
+  "qwen_autoregressive_generation_performed": false,
+  "step025_sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+  "historical_raw_metadata": {"checkpoint.initialized.qwen_loaded": false},
+  "metadata_clarification": {
+    "qwen_weights_loaded_from_checkpoint": false,
+    "runtime_qwen_loaded": true,
+    "meaning": "The historical field refers to Qwen weights not being loaded from the step025 bridge/gate checkpoint; the Colab runtime did instantiate and exercise frozen Qwen."
+  },
+  "colab_evidence_path": "MyDrive/swara/stage2d4_runs/stage2d4_v1_medium_dry_run_v2/"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "stage2d4-sampling-plan-v0.1",
+  "train_examples": 124,
+  "batch_size": 8,
+  "batches_per_epoch": 16,
+  "epochs": 4,
+  "optimizer_steps": 64,
+  "classes": {
+    "POSITIVE_INTERVENTION": 14,
+    "NATIVE_PRESERVATION_TARGETED": 10,
+    "NATIVE_PRESERVATION": 100
+  },
+  "policy": "No oversampling. Deterministically shuffle each class and distribute the 14 positives round-robin across the 16 batches, then fill remaining capacity with native samples.",
+  "per_epoch_exposure": {
+    "POSITIVE_INTERVENTION": 14,
+    "NATIVE_PRESERVATION_TARGETED": 10,
+    "NATIVE_PRESERVATION": 100
+  },
+  "positive_batch_coverage": "At least one positive occurs in each of the first 14 batches; all positive examples occur exactly once per epoch.",
+  "determinism": "random.Random(seed + epoch), with stable input ordering and no replacement"
+}

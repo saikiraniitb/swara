@@ -1,0 +1,41 @@
+{
+  "schema_version": "stage2d4-training-config-v0.1",
+  "stage": "STAGE2D.4",
+  "variant": "V1_POSITIVE_PLUS_NATIVE_PRESERVATION",
+  "seed": 20260829,
+  "mask_mode": "target_context_1",
+  "base_checkpoint": {
+    "logical_name": "Stage2B step025",
+    "path": "run_artifacts/stage2b4b_pronunciation_v0/checkpoints/step025.pt",
+    "sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+    "qwen_frozen": true
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "gate_learning_rate": 0.001,
+    "bridge_learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "gradient_accumulation_steps": 1
+  },
+  "sampling": {
+    "batch_size": 8,
+    "positive_oversampling": false,
+    "policy": "deterministic structured batches; positives are distributed round-robin across epoch batches",
+    "epochs": 4,
+    "warmup_optimizer_steps": 5,
+    "estimated_optimizer_steps": 64
+  },
+  "loss": {
+    "target_codebooks": [0, 1, 2, 3],
+    "lambda_preserve": 1.0,
+    "lambda_eos": 0.0,
+    "trajectory_loss": false,
+    "native_pronunciation_ce": false
+  },
+  "checkpoints": {
+    "steps": [0, 5, 32, 64],
+    "store_qwen_weights": false
+  },
+  "design_only": true,
+  "training_enabled_in_this_checkpoint": false
+}

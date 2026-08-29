@@ -1,0 +1,72 @@
+{
+  "archive_backed_design": true,
+  "checkpoint_modified": false,
+  "design_only": true,
+  "general_native_count": 100,
+  "gold_references": {
+    "Chandigarh": "IISc_SPICORProject_EN_M_WEAT_288",
+    "Jamshedpur": "IISc_SPICORProject_EN_M_AGRI_3841",
+    "Nagpur": "IISc_SPICORProject_EN_M_ENTE_3545"
+  },
+  "gold_references_excluded_from_training": true,
+  "human_gold_count": 3,
+  "no_phone_labels_on_native_records": true,
+  "no_universal_pur_rule": true,
+  "positive_eval_count": 7,
+  "positive_intervention_words": [
+    "Jamshedpur",
+    "Chandigarh",
+    "Nagpur"
+  ],
+  "positive_train_count": 14,
+  "quality_usable_archive_backed_occurrences": {
+    "Chandigarh": 24,
+    "Jamshedpur": 6,
+    "Nagpur": 8
+  },
+  "qwen_loaded": false,
+  "raw_recurrence": {
+    "Chandigarh": 25,
+    "Jamshedpur": 6,
+    "Nagpur": 10
+  },
+  "recommended_scale": "MEDIUM",
+  "schema_version": "stage2d4-training-design-v0.1",
+  "selected_positive_counts": {
+    "Chandigarh": {
+      "eval_seen_word_unseen_context": 3,
+      "human_gold": 1,
+      "quality_usable_archive_backed": 24,
+      "raw_recurrence": 25,
+      "selected_non_gold": 9,
+      "train": 6
+    },
+    "Jamshedpur": {
+      "eval_seen_word_unseen_context": 2,
+      "human_gold": 1,
+      "quality_usable_archive_backed": 6,
+      "raw_recurrence": 6,
+      "selected_non_gold": 5,
+      "train": 3
+    },
+    "Nagpur": {
+      "eval_seen_word_unseen_context": 2,
+      "human_gold": 1,
+      "quality_usable_archive_backed": 8,
+      "raw_recurrence": 10,
+      "selected_non_gold": 7,
+      "train": 5
+    }
+  },
+  "source_inventory": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/manifests/master_inventory.jsonl",
+  "stage": "STAGE2D.4",
+  "status": "READY_FOR_STAGE2D4_TRAINING_IMPLEMENTATION",
+  "swara_phones_v0_modified": false,
+  "targeted_native_count": 10,
+  "targeted_native_preservation_words": [
+    "Nagar",
+    "Banerjee"
+  ],
+  "total_train_examples_recommended": 124,
+  "training_performed": false
+}

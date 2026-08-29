@@ -1,0 +1,8 @@
+{
+  "evidence_source": "authoritative user-supplied Stage2D.4 real Colab dry-run result",
+  "source_git_sha_at_dry_run": "73d17c2b52d29d587e757b6364219ac8aee2813e",
+  "step025_sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+  "colab_evidence_path": "MyDrive/swara/stage2d4_runs/stage2d4_v1_medium_dry_run_v2/",
+  "wav_copied_locally": false,
+  "persistent_checkpoint_copied_locally": false
+}

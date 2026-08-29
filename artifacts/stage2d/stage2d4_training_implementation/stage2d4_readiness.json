@@ -1,0 +1,16 @@
+{
+  "schema_version": "stage2d4-readiness-v0.1",
+  "status": "READY_FOR_STAGE2D4_DRY_RUN",
+  "dataset_contract": "implemented",
+  "mixed_batch_contract": "implemented",
+  "loss_masking_contract": "implemented",
+  "checkpoint_initialization_contract": "implemented",
+  "deterministic_sampling": "implemented",
+  "trajectory_metrics": "implemented_evaluation_only",
+  "colab_runner": "implemented_safe_dry_run_entrypoint",
+  "remaining_before_training": ["run dry-run in model-equipped environment", "inspect gradients and Qwen freeze", "obtain explicit authorization before any training"],
+  "training_performed": false,
+  "qwen_loaded": false,
+  "swara_phones_v0_modified": false,
+  "canonical_lexicon_modified": false
+}

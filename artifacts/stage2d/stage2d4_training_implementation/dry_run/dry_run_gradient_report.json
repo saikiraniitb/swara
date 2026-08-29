@@ -1,0 +1,8 @@
+{
+  "phase": "bridge_and_gate",
+  "trainable_gradient_count": 5,
+  "trainable_names": ["gate", "bridge.normalization.weight", "bridge.normalization.bias", "bridge.projection.weight", "bridge.projection.bias"],
+  "trainable_gradient_norm": 1.8908691445422066,
+  "qwen_gradient_norm": 0.0,
+  "qwen_gradients_absent": true
+}

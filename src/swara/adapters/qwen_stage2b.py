@@ -154,6 +154,7 @@ class QwenStage2BConditioningResult:
     active_residual_positions: tuple[int, ...] = ()
     residual_native_norm_ratios: dict[str, float] = field(default_factory=dict)
     residual_energy_fraction_target: float | None = None
+    q0_logits_per_step: Tensor | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -163,6 +164,7 @@ class QwenStage2BNativeTrace:
     position_ids: Tensor | None
     first_step_logits: Tensor | None
     acoustic_trace: "QwenAcousticGenerationTrace | None" = None
+    q0_logits_per_step: Tensor | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -503,6 +505,7 @@ class _QwenRuntimeHooks:
         self.attention_mask: Tensor | None = None
         self.position_ids: Tensor | None = None
         self.first_step_logits: Tensor | None = None
+        self.q0_logits_per_step: list[Tensor] = []
         self.native_region_sq: dict[str, float] = {"target": 0.0, "context": 0.0, "non_target": 0.0}
         self.residual_region_sq: dict[str, float] = {"target": 0.0, "context": 0.0, "non_target": 0.0}
 
@@ -562,6 +565,15 @@ class _QwenRuntimeHooks:
     def logits(self, _module: nn.Module, _inputs: tuple[Any, ...], output: Tensor) -> None:
         if self.first_step_logits is None:
             self.first_step_logits = output.detach().clone()
+        if output.ndim == 3:
+            row = output[0, -1]
+        elif output.ndim == 2:
+            row = output[-1]
+        elif output.ndim == 1:
+            row = output
+        else:
+            raise QwenStage2BIntegrationError("Qwen q0 logits have an unsupported shape")
+        self.q0_logits_per_step.append(row.detach().float().cpu())
 
 
 def _detach_optional(value: Any) -> Tensor | None:
@@ -896,6 +908,7 @@ class QwenStage2BAdapter:
             runtime.position_ids,
             runtime.first_step_logits,
             acoustic_trace,
+            torch.stack(runtime.q0_logits_per_step) if runtime.q0_logits_per_step else None,
         )
 
     def diagnostic_native_generation(
@@ -1146,6 +1159,7 @@ class QwenStage2BAdapter:
             position_ids=runtime.position_ids,
             first_step_logits=runtime.first_step_logits,
             acoustic_trace=acoustic_trace,
+            q0_logits_per_step=(torch.stack(runtime.q0_logits_per_step) if runtime.q0_logits_per_step else None),
             mask_mode=self.config.mask_mode,
             target_native_positions=tuple(position_sets["target"]),
             active_residual_positions=tuple(sorted(active_positions)),

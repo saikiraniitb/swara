@@ -1,0 +1,16 @@
+{
+  "examples_per_target": {
+    "Chandigarh": 6,
+    "Jamshedpur": 3,
+    "Nagpur": 5
+  },
+  "fractions": {
+    "Chandigarh": 0.42857142857142855,
+    "Jamshedpur": 0.21428571428571427,
+    "Nagpur": 0.35714285714285715
+  },
+  "gini": 0.14285714285714285,
+  "max": 6,
+  "metric": "Gini coefficient over positive TRAIN occurrence counts",
+  "min": 3
+}

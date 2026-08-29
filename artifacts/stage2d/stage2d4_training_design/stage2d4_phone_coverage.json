@@ -1,0 +1,89 @@
+{
+  "absent_phones": [
+    "AI",
+    "AU",
+    "B",
+    "E",
+    "EE",
+    "H",
+    "II",
+    "K",
+    "L",
+    "NG",
+    "O",
+    "OO",
+    "S",
+    "T",
+    "UU",
+    "V",
+    "Y"
+  ],
+  "count_unit_note": "Counts are lexical phone occurrences in distinct training utterances; codec frames are not counted as phonetic evidence.",
+  "inventory": "swara-phones-v0",
+  "lexical_targets_by_phone": {
+    "A": [
+      "Chandigarh",
+      "Jamshedpur",
+      "Nagpur"
+    ],
+    "AA": [
+      "Chandigarh"
+    ],
+    "CH": [
+      "Chandigarh"
+    ],
+    "D": [
+      "Chandigarh",
+      "Jamshedpur"
+    ],
+    "G": [
+      "Chandigarh",
+      "Nagpur"
+    ],
+    "I": [
+      "Chandigarh",
+      "Jamshedpur"
+    ],
+    "J": [
+      "Jamshedpur"
+    ],
+    "M": [
+      "Jamshedpur"
+    ],
+    "N": [
+      "Chandigarh",
+      "Nagpur"
+    ],
+    "P": [
+      "Jamshedpur",
+      "Nagpur"
+    ],
+    "R": [
+      "Nagpur"
+    ],
+    "SH": [
+      "Jamshedpur"
+    ],
+    "U": [
+      "Jamshedpur",
+      "Nagpur"
+    ]
+  },
+  "phone_occurrence_counts": {
+    "A": 14,
+    "AA": 6,
+    "CH": 6,
+    "D": 9,
+    "G": 11,
+    "I": 9,
+    "J": 3,
+    "M": 3,
+    "N": 11,
+    "P": 8,
+    "R": 5,
+    "SH": 3,
+    "U": 8
+  },
+  "train_utterance_count": 14,
+  "underrepresented_phones_threshold_lt_2": []
+}

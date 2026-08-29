@@ -1,0 +1,326 @@
+{
+  "gold_reference_ids_not_training_pairs": [
+    "IISc_SPICORProject_EN_M_AGRI_3841",
+    "IISc_SPICORProject_EN_M_WEAT_288",
+    "IISc_SPICORProject_EN_M_ENTE_3545"
+  ],
+  "pair_count": 21,
+  "pairs": [
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_115.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_115.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh- lotus Herbals has launched whiteglow Skin Whitening and Brightening Serum plus Moisturiser",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_115"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_115:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_2138.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_2138.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh- Haryana Government has given sanction for the prosecution of Suresh Chaudhary, Drug Control Officer, Fatehabad, under the Prevention of Corruption Act",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2138"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2138:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_3453.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_3453.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh- Life is a journey and we are all trying incessantly to achieve our aims professing our goals",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_3453"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_3453:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_178.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_178.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "On the sidelines of the festival training is being imparted in Ranchi, Jamshedpur, Deogarh and Dhanbad",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_178"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_178:word:0012",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Jamshedpur"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_5506.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_5506.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Development works on Ranchi Jamshedpur road also remained a point of discussion in the meeting",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_5506"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5506:word:0004",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Jamshedpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5744.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_POLI_5744.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "They first floated the name of ex Nagpur M P Vilas Muttemwar's son Vishal, but local party workers resisted his nomination tooth and nail",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_5744"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_5744:word:0007",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_WEAT_1716.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_WEAT_1716.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Similar increases in mortality have been observed during heat waves in Nagpur, Bhubaneshwar and Surat",
+        "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1716"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1716:word:0011",
+      "same_text_same_audio_setup": true,
+      "split": "EVAL_SEEN_WORD_UNSEEN_CONTEXT",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3174.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_3174.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "It is imperative they understand different work environments and cultures, says Atul Khanna, the director of Strawberry Fields High School, Chandigarh",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_3174"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_3174:word:0020",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_AGRI_452.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_AGRI_452.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh Aam Aadmi Party's candidate Gul Panag was joined by singer Rabbi Shergill at Rose Garden here during her poll campaigning on Sunday",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_452"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_452:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_3548.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_3548.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh- In the second year of the March exam series, Cambridge has seen uptake of its exams more than double",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3548"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3548:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_6113.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_6113.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh school events- Display of athletic skills at Saint Soldier school",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6113"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6113:word:0000",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1333.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1333.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Chandigarh- The National Vector Borne Disease Control Programme, U T Chandigarh organised threeday regional workshop cumannual action plan meet at Chandigarh",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1333"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1333:word:0020",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_2081.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_HEAL_2081.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Titled as Intervening to Save Hearts, the renowned international cardiologist Doctor H K Bali organised it under the aegis of The Heart Foundation Chandigarh",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2081"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2081:word:0023",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Chandigarh"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_4750.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_4750.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Tayo Rolls limited is a metal fabrication and processing company in Jamshedpur and a subsidiary of Tata Steel",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4750"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4750:word:0011",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Jamshedpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_5046.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_5046.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Having fled Kanpur, Rabi had returned to Jamshedpur and started ragpicking which was his source of income, said Nathani",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5046"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5046:word:0007",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Jamshedpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3391.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_3391.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Also, faculties of M G M, Jamshedpur and P M C H, Dhanbad would be given promotion as per the timelines fixed by the Medical Council of India",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3391"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3391:word:0006",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Jamshedpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_4243.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_AGRI_4243.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Darjeeling Tea, Tirupati Laddu, Kangra Paintings, Nagpur Orange and Kashmir Pashmina are among the registered G Is in India",
+        "utterance_id": "IISc_SPICORProject_EN_M_AGRI_4243"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4243:word:0006",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_3486.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_ENTE_3486.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "He set up tailoring shops in Pune, Nagpur and Bhandara, but somehow his skills did not impress customers any more",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_3486"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_3486:word:0007",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_522.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_ENTE_522.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Fadnavis and Gadkari attended the M S S's state conclave last August and the inauguration of the Baliraja Research Institute at Nagpur in December",
+        "utterance_id": "IISc_SPICORProject_EN_M_ENTE_522"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_522:word:0021",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_120.wav",
+      "native_reference": {
+        "audio_resolver_path": "data/stage2d_spicor_selected_audio/archive/IISc_SPICORProject_EN_M_HEAL_120.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "Formal beginning of Sangh took place in Doctor Hedgewar's house in Sukrawadi of Nagpur Training in drill, march et cetera was imparted on Sundays",
+        "utterance_id": "IISc_SPICORProject_EN_M_HEAL_120"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_120:word:0013",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    },
+    {
+      "intervention_audio": "spicor://archive/IISc_SPICORProject_EN_M_POLI_4035.wav",
+      "native_reference": {
+        "audio_resolver_path": "spicor://archive/IISc_SPICORProject_EN_M_POLI_4035.wav",
+        "override_id": null,
+        "same_text_same_audio_setup": true,
+        "transcript": "The Railways had provided six helpline numbers at Nagpur, Sewagram, Wardha, Ballarshah, Betul, Itarsi and Gondiya",
+        "utterance_id": "IISc_SPICORProject_EN_M_POLI_4035"
+      },
+      "occurrence_id": "IISc_SPICORProject_EN_M_POLI_4035:word:0008",
+      "same_text_same_audio_setup": true,
+      "split": "TRAIN",
+      "teacher_forced_history_requirement": "future native and conditioned comparison must share target acoustic history",
+      "word": "Nagpur"
+    }
+  ],
+  "schema_version": "stage2d4-trajectory-pairing-plan-v0.1"
+}

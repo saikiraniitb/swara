@@ -1,0 +1,10 @@
+{
+  "q0_metrics": {
+    "positive_intervention": {"mean_q0_kl": 0.0012785966973751783, "max_q0_kl": 0.006953049451112747, "top1_divergence_count": 0},
+    "targeted_native": {"max_q0_kl": "~5.96e-08", "top1_divergence_count": 0},
+    "general_native": {"max_q0_kl": "~5.96e-08", "top1_divergence_count": 0}
+  },
+  "native_noise_interpretation": "The reported native max q0 KL is approximate floating-point noise.",
+  "trajectory_evaluation_executed": true,
+  "autoregressive_generation_executed": false
+}

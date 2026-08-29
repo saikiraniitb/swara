@@ -1,0 +1,33 @@
+{
+  "current_stage2b_objective": {
+    "available_helpers": [
+      "compute_qwen_split_target_ce",
+      "compute_qwen_split_preservation_kl",
+      "masked_logits_kl"
+    ],
+    "eos_preservation": "optional masked EOS-logit KL",
+    "non_target_preservation": "masked logits KL against frozen native logits",
+    "not_present": [
+      "residual-energy penalty",
+      "q0 trajectory loss",
+      "learned word-level gate"
+    ],
+    "positive_target": "masked codebook CE on target frames, default q0-q3",
+    "schedule": "gate-only warmup followed by bridge plus gate in the established implementation"
+  },
+  "future_loss_change_requires_pilot": true,
+  "qwen_frozen": true,
+  "recommended_minimal_formulation": {
+    "learned_intervention_gate": "not required now; explicit override-present vs no-override path already selects intervention",
+    "name": "V1_POSITIVE_PLUS_NATIVE_PRESERVATION",
+    "native_loss": "native-preservation KL only when a conditioned-vs-native teacher-forced path is explicitly constructed; otherwise exact no-op is the contract",
+    "positive_loss": "existing target CE + non-target native KL; retain optional EOS preservation",
+    "residual_penalty": "defer; it could suppress a needed local intervention"
+  },
+  "schema_version": "stage2d4-loss-design-v0.1",
+  "support_audit": {
+    "general_native_preservation": "Use the existing native KL/evaluation path; do not invent a word-level gate.",
+    "positive_intervention": "SUPPORTED by current target CE plus non-target native preservation KL.",
+    "targeted_native_preservation": "The no-override path is already an exact localized no-op. Records carry no phone labels; use as preservation/evaluation controls. They do not create a gradient for a nonexistent intervention."
+  }
+}

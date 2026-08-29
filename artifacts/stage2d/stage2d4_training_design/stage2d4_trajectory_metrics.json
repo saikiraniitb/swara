@@ -1,0 +1,35 @@
+{
+  "generation_metrics": [
+    "output_codec_frame_count",
+    "decoded_duration_seconds",
+    "eos_frame",
+    "trajectory_class"
+  ],
+  "initial_role": "evaluation gate for every positive and native-preservation comparison",
+  "loss_recommendation": "evaluation-only in first bounded experiment; add a q0 term only after observing a reproducible regression and an ablation plan",
+  "pathology_policy": "do not treat a long trajectory alone as phone failure; report NORMAL/LONG/MAX_LENGTH/FAILED separately",
+  "purpose": "trajectory-safety measurement; not a duration cap and not initially a training loss",
+  "schema_version": "stage2d4-trajectory-metrics-v0.1",
+  "teacher_forced_metrics": [
+    {
+      "metric": "q0_kl_per_step",
+      "scope": "native vs conditioned under shared target acoustic history"
+    },
+    {
+      "metric": "q0_top1_divergence_count",
+      "scope": "all valid q0 decoding positions"
+    },
+    {
+      "metric": "first_q0_divergent_step",
+      "scope": "early trajectory risk"
+    },
+    {
+      "metric": "eos_logit_divergence",
+      "scope": "termination preservation"
+    },
+    {
+      "metric": "native_conditioned_margin_at_risk_points",
+      "scope": "decision sensitivity"
+    }
+  ]
+}

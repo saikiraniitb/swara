@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "checks": [
+        "held-out contexts",
+        "human gold reference",
+        "trajectory class"
+      ],
+      "conditions": [
+        "native",
+        "pre_training_supported_v0",
+        "post_training_explicit"
+      ],
+      "set": "POSITIVE_SEEN_WORD_TRANSFER",
+      "words": [
+        "Jamshedpur",
+        "Chandigarh",
+        "Nagpur"
+      ]
+    },
+    {
+      "checks": [
+        "same text",
+        "localized residual no-op",
+        "q0 preservation"
+      ],
+      "conditions": [
+        "native",
+        "post_training_no_intervention"
+      ],
+      "set": "NEGATIVE_NATIVE_PREFERRED",
+      "words": [
+        "Nagar",
+        "Banerjee"
+      ]
+    },
+    {
+      "checks": [
+        "ordinary transcript diversity",
+        "q0 KL",
+        "duration/trajectory regression"
+      ],
+      "set": "GENERAL_NATIVE_PRESERVATION",
+      "source": "stage2d2_native_preservation_set.jsonl"
+    },
+    {
+      "checks": [
+        "existing causal contrast remains intact"
+      ],
+      "set": "PHONE_CONTRAST_FIXTURES",
+      "training_usage": "evaluation only",
+      "words": [
+        "Singh",
+        "Mumbai",
+        "Kumar"
+      ]
+    },
+    {
+      "expected": "no guaranteed improvement; monitor unintended behavior",
+      "set": "EXTERNAL_UNSEEN",
+      "training_usage": "evaluation only",
+      "words": [
+        "Dasharatha",
+        "Anirban",
+        "Ashwini",
+        "Chandrashekhar",
+        "Karthik"
+      ]
+    }
+  ],
+  "schema_version": "stage2d4-evaluation-matrix-v0.1",
+  "split_reference": {
+    "human_gold_occurrences": [
+      "IISc_SPICORProject_EN_M_AGRI_3841:word:0016",
+      "IISc_SPICORProject_EN_M_WEAT_288:word:0006",
+      "IISc_SPICORProject_EN_M_ENTE_3545:word:0022"
+    ],
+    "positive_eval_occurrences": [
+      "IISc_SPICORProject_EN_M_ENTE_178:word:0012",
+      "IISc_SPICORProject_EN_M_ENTE_5506:word:0004",
+      "IISc_SPICORProject_EN_M_HEAL_2138:word:0000",
+      "IISc_SPICORProject_EN_M_HEAL_3453:word:0000",
+      "IISc_SPICORProject_EN_M_HEAL_115:word:0000",
+      "IISc_SPICORProject_EN_M_POLI_5744:word:0007",
+      "IISc_SPICORProject_EN_M_WEAT_1716:word:0011"
+    ],
+    "positive_train_occurrences": [
+      "IISc_SPICORProject_EN_M_AGRI_4750:word:0011",
+      "IISc_SPICORProject_EN_M_AGRI_5046:word:0007",
+      "IISc_SPICORProject_EN_M_ENTE_3391:word:0006",
+      "IISc_SPICORProject_EN_M_AGRI_3174:word:0020",
+      "IISc_SPICORProject_EN_M_HEAL_1333:word:0020",
+      "IISc_SPICORProject_EN_M_HEAL_2081:word:0023",
+      "IISc_SPICORProject_EN_M_AGRI_452:word:0000",
+      "IISc_SPICORProject_EN_M_ENTE_3548:word:0000",
+      "IISc_SPICORProject_EN_M_ENTE_6113:word:0000",
+      "IISc_SPICORProject_EN_M_AGRI_4243:word:0006",
+      "IISc_SPICORProject_EN_M_ENTE_522:word:0021",
+      "IISc_SPICORProject_EN_M_ENTE_3486:word:0007",
+      "IISc_SPICORProject_EN_M_HEAL_120:word:0013",
+      "IISc_SPICORProject_EN_M_POLI_4035:word:0008"
+    ]
+  }
+}

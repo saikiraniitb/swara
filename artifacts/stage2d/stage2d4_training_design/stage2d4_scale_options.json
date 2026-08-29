@@ -1,0 +1,105 @@
+{
+  "options": [
+    {
+      "evaluation_example_count_excluding_gold": 3,
+      "general_native_preservation": 50,
+      "human_review_burden": "No new human review; uses frozen Stage2D.3 evidence and existing native set.",
+      "lexical_balance": {
+        "examples_per_target": {
+          "Chandigarh": 3,
+          "Jamshedpur": 3,
+          "Nagpur": 3
+        },
+        "fractions": {
+          "Chandigarh": 0.3333333333333333,
+          "Jamshedpur": 0.3333333333333333,
+          "Nagpur": 0.3333333333333333
+        },
+        "gini": 0.0,
+        "max": 3,
+        "metric": "Gini coefficient over positive TRAIN occurrence counts",
+        "min": 3
+      },
+      "name": "SMALL",
+      "positive_intervention": {
+        "eval_seen_word_unseen_context": 3,
+        "human_gold_reference": 3,
+        "per_word": {
+          "Chandigarh": {
+            "eval": 1,
+            "gold": 1,
+            "train": 3
+          },
+          "Jamshedpur": {
+            "eval": 1,
+            "gold": 1,
+            "train": 3
+          },
+          "Nagpur": {
+            "eval": 1,
+            "gold": 1,
+            "train": 3
+          }
+        },
+        "train": 9
+      },
+      "risk": "SMALL has only three positive train contexts per word where recurrence permits; MEDIUM remains single-speaker and needs native/Qwen preservation checks.",
+      "targeted_native_preservation": 6,
+      "training_example_count": 65,
+      "unique_positive_words": 3
+    },
+    {
+      "evaluation_example_count_excluding_gold": 7,
+      "general_native_preservation": 100,
+      "human_review_burden": "No new human review; uses frozen Stage2D.3 evidence and existing native set.",
+      "lexical_balance": {
+        "examples_per_target": {
+          "Chandigarh": 6,
+          "Jamshedpur": 3,
+          "Nagpur": 5
+        },
+        "fractions": {
+          "Chandigarh": 0.42857142857142855,
+          "Jamshedpur": 0.21428571428571427,
+          "Nagpur": 0.35714285714285715
+        },
+        "gini": 0.14285714285714285,
+        "max": 6,
+        "metric": "Gini coefficient over positive TRAIN occurrence counts",
+        "min": 3
+      },
+      "name": "MEDIUM",
+      "positive_intervention": {
+        "eval_seen_word_unseen_context": 7,
+        "human_gold_reference": 3,
+        "per_word": {
+          "Chandigarh": {
+            "eval": 3,
+            "gold": 1,
+            "train": 6
+          },
+          "Jamshedpur": {
+            "eval": 2,
+            "gold": 1,
+            "train": 3
+          },
+          "Nagpur": {
+            "eval": 2,
+            "gold": 1,
+            "train": 5
+          }
+        },
+        "train": 14
+      },
+      "risk": "SMALL has only three positive train contexts per word where recurrence permits; MEDIUM remains single-speaker and needs native/Qwen preservation checks.",
+      "targeted_native_preservation": 10,
+      "training_example_count": 124,
+      "unique_positive_words": 3
+    }
+  ],
+  "recommended": {
+    "name": "MEDIUM",
+    "reason": "SMALL provides only three positive training contexts per word; MEDIUM provides 14 positive train examples for the current quality-filtered inventory while remaining bounded and fully held out from the three gold references."
+  },
+  "schema_version": "stage2d4-scale-options-v0.1"
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "stage2d4-checkpoint-contract-v0.1",
+  "checkpoint_steps": [0, 5, 32, 64],
+  "included": ["bridge_state_dict", "gate", "optimizer_state_dict", "step", "dataset_sha256", "config", "source_git_commit", "evaluation_contract_sha256", "base_checkpoint_sha256"],
+  "excluded": ["Qwen model weights", "Qwen optimizer state", "audio", "codec model weights"],
+  "base_checkpoint_sha256": "2d4bb1896f17f96c38e11ce78bafb0eab060d044fcb2cd0796ba4a93d5e6969a",
+  "initialization": "Load bridge_state_dict and gate from frozen Stage2B step025; do not random-initialize the Stage2D.4 run.",
+  "dry_run": "No persistent training checkpoint may be written."
+}

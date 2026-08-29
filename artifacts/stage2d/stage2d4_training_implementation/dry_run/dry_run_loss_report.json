@@ -1,0 +1,10 @@
+{
+  "target_ce": 3.1109867095947266,
+  "preservation_kl": 0.00048215093556791544,
+  "total": 3.11146879196167,
+  "lambda_preserve": 1.0,
+  "lambda_eos": 0.0,
+  "positive_target_range": [22, 24],
+  "native_target_ranges": [[], []],
+  "native_pronunciation_ce": 0.0
+}

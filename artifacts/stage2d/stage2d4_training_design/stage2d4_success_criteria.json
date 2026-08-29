@@ -1,0 +1,25 @@
+{
+  "failure_policy": "training CE alone cannot declare success; any positive gain with native or trajectory regression is not a successful intervention experiment",
+  "frozen_before_training": true,
+  "general": [
+    "ordinary native set has bounded preservation KL",
+    "no systematic SPICOR speaker/accent takeover",
+    "duration and trajectory distributions do not regress materially"
+  ],
+  "mechanism": [
+    "Singh/Mumbai/Kumar causal contrast fixtures remain usable",
+    "Qwen stays frozen",
+    "swara-phones-v0 remains unchanged"
+  ],
+  "negative": [
+    "Nagar no-intervention output remains native-equivalent",
+    "Banerjee remains native-preferred and explicit override is not introduced",
+    "no-override localized residual remains exact/no-op"
+  ],
+  "positive": [
+    "validated intervention improves blinded pronunciation relative to native/pre-training baseline on held-out contexts",
+    "improvement is present on human gold references not used in training",
+    "no new LONG or MAX_LENGTH trajectory regression attributable to intervention"
+  ],
+  "schema_version": "stage2d4-success-criteria-v0.1"
+}

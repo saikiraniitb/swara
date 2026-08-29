@@ -1,0 +1,18 @@
+{
+  "schema_version": "stage2d4-loss-contract-v0.1",
+  "variant": "V1_POSITIVE_PLUS_NATIVE_PRESERVATION",
+  "positive_intervention": {
+    "target_ce": "compute_qwen_split_target_ce on POSITIVE_INTERVENTION rows and target frame masks only",
+    "preservation_kl": "compute_qwen_split_preservation_kl on non-target frames against frozen native teacher-forced logits",
+    "eos_preservation": "optional existing masked q0 KL; default lambda_eos=0.0"
+  },
+  "native_preservation": {
+    "target_ce": 0.0,
+    "preservation_kl": "available against native teacher-forced logits when a conditioned comparison path is constructed",
+    "phone_supervision": null,
+    "intervention_required": false
+  },
+  "mixed_batch_rule": "Native rows are excluded from the CE index before CE computation; they cannot create an empty target CE mask error.",
+  "not_added": ["residual-energy penalty", "q0 trajectory loss", "hidden-state loss", "intervention classifier", "word-level gate"],
+  "production_phone_inventory_modified": false
+}

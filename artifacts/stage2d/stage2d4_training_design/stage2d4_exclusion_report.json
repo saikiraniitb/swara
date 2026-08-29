@@ -1,0 +1,20 @@
+{
+  "general_native_exclusions": {},
+  "gold_references_excluded_from_training": [
+    "IISc_SPICORProject_EN_M_AGRI_3841",
+    "IISc_SPICORProject_EN_M_WEAT_288",
+    "IISc_SPICORProject_EN_M_ENTE_3545"
+  ],
+  "policy": "No unsupported or unresolved symbolic phone sequence is included in POSITIVE_INTERVENTION rows.",
+  "positive_exclusions": {
+    "Jamshedpur:excluded_requested_reference": 1,
+    "Nagpur:excluded_requested_reference": 1,
+    "Nagpur:manifest_cleanup_flags": 2
+  },
+  "schema_version": "stage2d4-exclusion-report-v0.1",
+  "targeted_native_exclusions": {},
+  "unresolved_phone_mapping_exclusions": {
+    "Banerjee": "explicit override unsafe; no phone label",
+    "Nagar": "native-preferred; no phone label"
+  }
+}

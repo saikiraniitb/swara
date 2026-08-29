@@ -1,0 +1,7 @@
+{
+  "train_examples": 124,
+  "counts": {"POSITIVE_INTERVENTION": 14, "NATIVE_PRESERVATION_TARGETED": 10, "NATIVE_PRESERVATION": 100},
+  "gold_references_excluded": true,
+  "sample_plan": ["1 positive intervention", "1 targeted native preservation", "1 general native preservation"],
+  "dataset_membership_changed": false
+}
