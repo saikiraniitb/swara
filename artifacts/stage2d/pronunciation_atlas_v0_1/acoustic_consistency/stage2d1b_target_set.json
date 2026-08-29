@@ -1,0 +1,519 @@
+{
+  "absent_targets": [
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 28,
+      "normalized_word": "bengaluru",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Bengaluru"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 18,
+      "normalized_word": "banerjee",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Banerjee"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 10,
+      "normalized_word": "nagpur",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Nagpur"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 20,
+      "normalized_word": "kolkata",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Kolkata"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 5,
+      "normalized_word": "arundhati",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Arundhati"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 6,
+      "normalized_word": "ashutosh",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Ashutosh"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 7,
+      "normalized_word": "chatterjee",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Chatterjee"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 7,
+      "normalized_word": "mukherjee",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Mukherjee"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 1,
+      "normalized_word": "prayagraj",
+      "status": "NO_LOCAL_AUDIO_IN_PREPARED_CORPUS",
+      "word": "Prayagraj"
+    }
+  ],
+  "category_counts": {
+    "CURATED_INDIAN_ANCHOR": 9,
+    "ENGLISH_CONTROL": 10,
+    "INDIAN_NAME_PLACE": 6,
+    "PHONE_CONTRAST_INTEREST": 6
+  },
+  "max_occurrences_per_target": 5,
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "selection": [
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 14,
+      "local_audio_occurrence_count": 2,
+      "normalized_word": "agrawal",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_107:word:0014",
+        "IISc_SPICORProject_EN_M_ENTE_6231:word:0017"
+      ],
+      "sampled_occurrence_count": 2,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Agrawal"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 331,
+      "local_audio_occurrence_count": 12,
+      "normalized_word": "singh",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1369:word:0017",
+        "IISc_SPICORProject_EN_M_WEAT_1450:word:0016",
+        "IISc_SPICORProject_EN_M_POLI_6052:word:0019",
+        "IISc_SPICORProject_EN_M_POLI_1001:word:0005",
+        "IISc_SPICORProject_EN_M_OTHE_1097:word:0016"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Singh"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 183,
+      "local_audio_occurrence_count": 9,
+      "normalized_word": "kumar",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_7184:word:0007",
+        "IISc_SPICORProject_EN_M_WEAT_3832:word:0007",
+        "IISc_SPICORProject_EN_M_OTHE_456:word:0011",
+        "IISc_SPICORProject_EN_M_OTHE_2454:word:0011",
+        "IISc_SPICORProject_EN_M_OTHE_1659:word:0006"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Kumar"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 100,
+      "local_audio_occurrence_count": 8,
+      "normalized_word": "sharma",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_423:word:0002",
+        "IISc_SPICORProject_EN_M_POLI_3412:word:0000",
+        "IISc_SPICORProject_EN_M_OTHE_41:word:0006",
+        "IISc_SPICORProject_EN_M_OTHE_272:word:0013",
+        "IISc_SPICORProject_EN_M_HEAL_2141:word:0004"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Sharma"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 47,
+      "local_audio_occurrence_count": 4,
+      "normalized_word": "gupta",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_6063:word:0010",
+        "IISc_SPICORProject_EN_M_WEAT_4739:word:0005",
+        "IISc_SPICORProject_EN_M_WEAT_1767:word:0012",
+        "IISc_SPICORProject_EN_M_FOOD_4112:word:0005"
+      ],
+      "sampled_occurrence_count": 4,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Gupta"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 162,
+      "local_audio_occurrence_count": 9,
+      "normalized_word": "mumbai",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_5618:word:0007",
+        "IISc_SPICORProject_EN_M_WEAT_1830:word:0014",
+        "IISc_SPICORProject_EN_M_POLI_2941:word:0005",
+        "IISc_SPICORProject_EN_M_OTHE_2923:word:0001",
+        "IISc_SPICORProject_EN_M_WEAT_6514:word:0019"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Mumbai"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 99,
+      "local_audio_occurrence_count": 4,
+      "normalized_word": "kashmir",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_137:word:0024",
+        "IISc_SPICORProject_EN_M_HEAL_2035:word:0008",
+        "IISc_SPICORProject_EN_M_HEAL_1621:word:0013",
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0025"
+      ],
+      "sampled_occurrence_count": 4,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Kashmir"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 45,
+      "local_audio_occurrence_count": 3,
+      "normalized_word": "mishra",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_6732:word:0010",
+        "IISc_SPICORProject_EN_M_FOOD_2846:word:0003",
+        "IISc_SPICORProject_EN_M_HEAL_1956:word:0025"
+      ],
+      "sampled_occurrence_count": 3,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Mishra"
+    },
+    {
+      "category": "CURATED_INDIAN_ANCHOR",
+      "corpus_occurrence_count": 3,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "sensharma",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_3645:word:0010"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Sensharma"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 30,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "hyderabad",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_2104:word:0000"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Hyderabad"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 41,
+      "local_audio_occurrence_count": 2,
+      "normalized_word": "srinagar",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0003",
+        "IISc_SPICORProject_EN_M_POLI_1039:word:0013"
+      ],
+      "sampled_occurrence_count": 2,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Srinagar"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 24,
+      "local_audio_occurrence_count": 3,
+      "normalized_word": "chandigarh",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_1333:word:0000",
+        "IISc_SPICORProject_EN_M_HEAL_1333:word:0010",
+        "IISc_SPICORProject_EN_M_HEAL_1333:word:0020"
+      ],
+      "sampled_occurrence_count": 3,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Chandigarh"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 12,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "ahmedabad",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_7346:word:0012"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Ahmedabad"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 7,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "konkona",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_WEAT_3645:word:0009"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Konkona"
+    },
+    {
+      "category": "INDIAN_NAME_PLACE",
+      "corpus_occurrence_count": 19,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "chhattisgarh",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_OTHE_704:word:0013"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Chhattisgarh"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 18,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "kashmiri",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_1173:word:0011"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Kashmiri"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 6,
+      "local_audio_occurrence_count": 3,
+      "normalized_word": "udhampur",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0002",
+        "IISc_SPICORProject_EN_M_FOOD_3818:word:0010",
+        "IISc_SPICORProject_EN_M_FOOD_3818:word:0002"
+      ],
+      "sampled_occurrence_count": 3,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Udhampur"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 6,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "baramulla",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_138:word:0004"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Baramulla"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 4,
+      "local_audio_occurrence_count": 2,
+      "normalized_word": "brijmohan",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_107:word:0013",
+        "IISc_SPICORProject_EN_M_ENTE_6231:word:0016"
+      ],
+      "sampled_occurrence_count": 2,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Brijmohan"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 9,
+      "local_audio_occurrence_count": 2,
+      "normalized_word": "vikas",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_4300:word:0009",
+        "IISc_SPICORProject_EN_M_ENTE_6550:word:0000"
+      ],
+      "sampled_occurrence_count": 2,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Vikas"
+    },
+    {
+      "category": "PHONE_CONTRAST_INTEREST",
+      "corpus_occurrence_count": 32,
+      "local_audio_occurrence_count": 1,
+      "normalized_word": "vijay",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_ENTE_5743:word:0001"
+      ],
+      "sampled_occurrence_count": 1,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "Vijay"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 3495,
+      "local_audio_occurrence_count": 197,
+      "normalized_word": "said",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1314:word:0022",
+        "IISc_SPICORProject_EN_M_LJSP_LJ037-0250:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_7000:word:0005",
+        "IISc_SPICORProject_EN_M_WEAT_6964:word:0020",
+        "IISc_SPICORProject_EN_M_WEAT_4802:word:0005"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "said"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 445,
+      "local_audio_occurrence_count": 24,
+      "normalized_word": "people",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1369:word:0005",
+        "IISc_SPICORProject_EN_M_WEAT_1598:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_5474:word:0012",
+        "IISc_SPICORProject_EN_M_WEAT_3510:word:0003",
+        "IISc_SPICORProject_EN_M_WEAT_1281:word:0012"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "people"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 442,
+      "local_audio_occurrence_count": 27,
+      "normalized_word": "government",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1737:word:0018",
+        "IISc_SPICORProject_EN_M_WEAT_1672:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_895:word:0017",
+        "IISc_SPICORProject_EN_M_WEAT_6514:word:0004",
+        "IISc_SPICORProject_EN_M_WEAT_2578:word:0014"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "government"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 474,
+      "local_audio_occurrence_count": 25,
+      "normalized_word": "water",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_107:word:0010",
+        "IISc_SPICORProject_EN_M_AGRI_7192:word:0000",
+        "IISc_SPICORProject_EN_M_WEAT_971:word:0013",
+        "IISc_SPICORProject_EN_M_WEAT_5584:word:0003",
+        "IISc_SPICORProject_EN_M_WEAT_2489:word:0001"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "water"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 550,
+      "local_audio_occurrence_count": 29,
+      "normalized_word": "time",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1596:word:0001",
+        "IISc_SPICORProject_EN_M_WEAT_1576:word:0006",
+        "IISc_SPICORProject_EN_M_OTHE_507:word:0002",
+        "IISc_SPICORProject_EN_M_OTHE_2939:word:0008",
+        "IISc_SPICORProject_EN_M_OTHE_2898:word:0002"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "time"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 295,
+      "local_audio_occurrence_count": 15,
+      "normalized_word": "work",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_2172:word:0007",
+        "IISc_SPICORProject_EN_M_WEAT_5186:word:0018",
+        "IISc_SPICORProject_EN_M_POLI_4593:word:0004",
+        "IISc_SPICORProject_EN_M_LJSP_LJ018-0168:word:0012",
+        "IISc_SPICORProject_EN_M_LIBR_2002-139469-0079:word:0005"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "work"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 333,
+      "local_audio_occurrence_count": 20,
+      "normalized_word": "world",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_1895:word:0015",
+        "IISc_SPICORProject_EN_M_WEAT_6803:word:0008",
+        "IISc_SPICORProject_EN_M_WEAT_679:word:0023",
+        "IISc_SPICORProject_EN_M_WEAT_5404:word:0017",
+        "IISc_SPICORProject_EN_M_WEAT_5292:word:0007"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "world"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 147,
+      "local_audio_occurrence_count": 6,
+      "normalized_word": "report",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_FOOD_2413:word:0006",
+        "IISc_SPICORProject_EN_M_LJSP_LJ040-0014:word:0016",
+        "IISc_SPICORProject_EN_M_LJSP_LJ011-0014:word:0002",
+        "IISc_SPICORProject_EN_M_HEAL_831:word:0014",
+        "IISc_SPICORProject_EN_M_POLI_781:word:0021"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "report"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 203,
+      "local_audio_occurrence_count": 16,
+      "normalized_word": "development",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_AGRI_2853:word:0013",
+        "IISc_SPICORProject_EN_M_WEAT_92:word:0009",
+        "IISc_SPICORProject_EN_M_POLI_6961:word:0015",
+        "IISc_SPICORProject_EN_M_POLI_4714:word:0013",
+        "IISc_SPICORProject_EN_M_POLI_3924:word:0020"
+      ],
+      "sampled_occurrence_count": 5,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "development"
+    },
+    {
+      "category": "ENGLISH_CONTROL",
+      "corpus_occurrence_count": 130,
+      "local_audio_occurrence_count": 2,
+      "normalized_word": "meeting",
+      "occurrence_ids": [
+        "IISc_SPICORProject_EN_M_FOOD_7443:word:0007",
+        "IISc_SPICORProject_EN_M_POLI_3412:word:0018"
+      ],
+      "sampled_occurrence_count": 2,
+      "sampling_policy": "deterministic context-diverse greedy sample, max five, occurrence_id tie-break",
+      "target_word": "meeting"
+    }
+  ],
+  "target_count": 31
+}

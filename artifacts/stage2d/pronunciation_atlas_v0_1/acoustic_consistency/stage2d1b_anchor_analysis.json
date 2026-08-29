@@ -1,0 +1,633 @@
+{
+  "anchors": [
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 14,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-001"
+          ],
+          "human_pronunciation": "uh-gruh-waal",
+          "invalid_symbols": [],
+          "normalized_word": "agrawal",
+          "override_id": "stage2b-agrawal-a-v0",
+          "target_text": "Agrawal",
+          "variant_id": "Agrawal-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "A",
+            "G",
+            "R",
+            "A",
+            "V",
+            "AA",
+            "L"
+          ]
+        },
+        {
+          "candidate_ids": [
+            "s2b4b-cand-002"
+          ],
+          "human_pronunciation": "uhh-gruh-waal",
+          "invalid_symbols": [],
+          "normalized_word": "agrawal",
+          "override_id": null,
+          "target_text": "Agrawal",
+          "variant_id": "Agrawal-B",
+          "verification_provenance": null,
+          "verification_status": "UNSUPPORTED_ALPHABET_VARIANT",
+          "verified_phone_sequence": null
+        }
+      ],
+      "duration_cv": 0.035421697874263705,
+      "duration_mean_seconds": 0.39055380562154873,
+      "duration_std_seconds": 0.013834078906370414,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0014",
+      "normalized_word": "agrawal",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.506832198065512,
+      "pairwise_composite_distance_median": 2.506832198065512,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 0.7738370444924005,
+      "sampled_occurrence_count": 2,
+      "target_word": "Agrawal",
+      "usable_aligned_occurrence_count": 2,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "following_word",
+            "group_count": 2,
+            "group_mean_word_duration_seconds": {
+              "and": 0.3204627737682384,
+              "was": 0.28066773119381283
+            },
+            "group_sizes": {
+              "and": 2,
+              "was": 2
+            },
+            "high_group": "and",
+            "low_group": "was",
+            "range_seconds": 0.039795042574425565
+          },
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.3793303777657176
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.7776721252551243
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": {
+          "association_only": true,
+          "factor": "following_word",
+          "group_count": 2,
+          "group_mean_word_duration_seconds": {
+            "and": 0.3204627737682384,
+            "was": 0.28066773119381283
+          },
+          "group_sizes": {
+            "and": 2,
+            "was": 2
+          },
+          "high_group": "and",
+          "low_group": "was",
+          "range_seconds": 0.039795042574425565
+        }
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 47,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-009",
+            "s2b4b-cand-010"
+          ],
+          "human_pronunciation": "goop-taa",
+          "invalid_symbols": [],
+          "normalized_word": "gupta",
+          "override_id": "stage2b-gupta-a-v0",
+          "target_text": "Gupta",
+          "variant_id": "Gupta-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "G",
+            "UU",
+            "P",
+            "T",
+            "AA"
+          ]
+        }
+      ],
+      "duration_cv": 0.07644261008841716,
+      "duration_mean_seconds": 0.3005652524810256,
+      "duration_std_seconds": 0.0229759924015337,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4739:word:0005",
+      "normalized_word": "gupta",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.1492691243842708,
+      "pairwise_composite_distance_median": 3.0684167526426127,
+      "pairwise_distance_count": 6,
+      "relative_variability_score": 0.9471932556827148,
+      "sampled_occurrence_count": 4,
+      "target_word": "Gupta",
+      "usable_aligned_occurrence_count": 4,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.5304718824006708
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.026589692967251225
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 99,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-013",
+            "s2b4b-cand-014"
+          ],
+          "human_pronunciation": "kush-meer",
+          "invalid_symbols": [],
+          "normalized_word": "kashmir",
+          "override_id": "stage2b-kashmir-a-v0",
+          "target_text": "Kashmir",
+          "variant_id": "Kashmir-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "K",
+            "A",
+            "SH",
+            "M",
+            "EE",
+            "R"
+          ]
+        }
+      ],
+      "duration_cv": 0.048731545198387884,
+      "duration_mean_seconds": 0.39572685744297875,
+      "duration_std_seconds": 0.019284381239698518,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_137:word:0024",
+      "normalized_word": "kashmir",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.682434144817188,
+      "pairwise_composite_distance_median": 2.6554582153552673,
+      "pairwise_distance_count": 6,
+      "relative_variability_score": 0.819716588421561,
+      "sampled_occurrence_count": 4,
+      "target_word": "Kashmir",
+      "usable_aligned_occurrence_count": 4,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.12067806621670085
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.816617632231667
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 183,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-005",
+            "s2b4b-cand-006"
+          ],
+          "human_pronunciation": "koo-maar",
+          "invalid_symbols": [],
+          "normalized_word": "kumar",
+          "override_id": "stage2b-kumar-a-v0",
+          "target_text": "Kumar",
+          "variant_id": "Kumar-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "K",
+            "UU",
+            "M",
+            "AA",
+            "R"
+          ]
+        }
+      ],
+      "duration_cv": 0.03195109766739839,
+      "duration_mean_seconds": 0.2846123442204175,
+      "duration_std_seconds": 0.00909367680753377,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3832:word:0007",
+      "normalized_word": "kumar",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.982429537593225,
+      "pairwise_composite_distance_median": 2.997671593897965,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9253548475924765,
+      "sampled_occurrence_count": 5,
+      "target_word": "Kumar",
+      "usable_aligned_occurrence_count": 5,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.9655856060611271
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.09270796652809066
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 45,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-015",
+            "s2b4b-cand-016"
+          ],
+          "human_pronunciation": "mish-ra",
+          "invalid_symbols": [],
+          "normalized_word": "mishra",
+          "override_id": "stage2b-mishra-a-v0",
+          "target_text": "Mishra",
+          "variant_id": "Mishra-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "M",
+            "I",
+            "SH",
+            "R",
+            "A"
+          ]
+        }
+      ],
+      "duration_cv": 0.044712176959291014,
+      "duration_mean_seconds": 0.25393169840788526,
+      "duration_std_seconds": 0.011353839034786681,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_FOOD_2846:word:0003",
+      "normalized_word": "mishra",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.9162237053312055,
+      "pairwise_composite_distance_median": 2.906222125653657,
+      "pairwise_distance_count": 3,
+      "relative_variability_score": 0.8971252013157186,
+      "sampled_occurrence_count": 3,
+      "target_word": "Mishra",
+      "usable_aligned_occurrence_count": 3,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.5208876672232908
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.4083343543095372
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 162,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-011",
+            "s2b4b-cand-012"
+          ],
+          "human_pronunciation": "mum-bai",
+          "invalid_symbols": [],
+          "normalized_word": "mumbai",
+          "override_id": "stage2b-mumbai-a-v0",
+          "target_text": "Mumbai",
+          "variant_id": "Mumbai-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "M",
+            "A",
+            "M",
+            "B",
+            "AI"
+          ]
+        }
+      ],
+      "duration_cv": 0.14324545114875384,
+      "duration_mean_seconds": 0.2886865005657842,
+      "duration_std_seconds": 0.04135302801410074,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5618:word:0007",
+      "normalized_word": "mumbai",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.301297133189687,
+      "pairwise_composite_distance_median": 3.2949525326897127,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.0171228579268166,
+      "sampled_occurrence_count": 5,
+      "target_word": "Mumbai",
+      "usable_aligned_occurrence_count": 5,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 3,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-020"
+          ],
+          "human_pronunciation": "sen shur-maa",
+          "invalid_symbols": [],
+          "normalized_word": "sensharma",
+          "override_id": "stage2b-sensharma-a-v0",
+          "target_text": "Sensharma",
+          "variant_id": "Sensharma-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "E",
+            "N",
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ]
+        }
+      ],
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.48147247706422025,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3645:word:0010",
+      "normalized_word": "sensharma",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Sensharma",
+      "usable_aligned_occurrence_count": 1,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.61464634406139
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.8969273183119569
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 100,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-007",
+            "s2b4b-cand-008"
+          ],
+          "human_pronunciation": "shur-maa",
+          "invalid_symbols": [],
+          "normalized_word": "sharma",
+          "override_id": "stage2b-sharma-a-v0",
+          "target_text": "Sharma",
+          "variant_id": "Sharma-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ]
+        }
+      ],
+      "duration_cv": 0.09455203614922411,
+      "duration_mean_seconds": 0.3006823355410857,
+      "duration_std_seconds": 0.02843012705951387,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_OTHE_272:word:0013",
+      "normalized_word": "sharma",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.9102694274708925,
+      "pairwise_composite_distance_median": 2.82428267495806,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.8718312137873382,
+      "sampled_occurrence_count": 5,
+      "target_word": "Sharma",
+      "usable_aligned_occurrence_count": 5,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "canonical_phone_replaced": false,
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.7457978442161857
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.3180768503843206
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "corpus_recurrence_count": 331,
+      "curated_phone_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-003"
+          ],
+          "human_pronunciation": "sing",
+          "invalid_symbols": [],
+          "normalized_word": "singh",
+          "override_id": "stage2b-singh-a-v0",
+          "target_text": "Singh",
+          "variant_id": "Singh-A",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG"
+          ]
+        },
+        {
+          "candidate_ids": [
+            "s2b4b-cand-004"
+          ],
+          "human_pronunciation": "sing-h",
+          "invalid_symbols": [],
+          "normalized_word": "singh",
+          "override_id": "stage2b-singh-b-v0",
+          "target_text": "Singh",
+          "variant_id": "Singh-B",
+          "verification_provenance": null,
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG",
+            "H"
+          ]
+        }
+      ],
+      "duration_cv": 0.1221484616878356,
+      "duration_mean_seconds": 0.20039620150480825,
+      "duration_std_seconds": 0.02447808774189785,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1450:word:0016",
+      "normalized_word": "singh",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.5464671897833684,
+      "pairwise_composite_distance_median": 3.6387633859595376,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.1232542434914514,
+      "sampled_occurrence_count": 5,
+      "target_word": "Singh",
+      "usable_aligned_occurrence_count": 5,
+      "v0_inventory_assessment": "not decided from acoustic descriptors alone"
+    }
+  ],
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1"
+}

@@ -1,0 +1,75 @@
+{
+  "atlas_version": "pronunciation_atlas_v0_1",
+  "corpus_source": {
+    "manifest": "data/spicor_eng_m_spk001_v1/manifests/master_inventory.jsonl",
+    "selection_policy": "master_inventory.jsonl only; overlapping train/val/test manifests are not rescanned"
+  },
+  "dasharatha": {
+    "occurrence_count": 0,
+    "status": "EXTERNAL_UNSEEN_PROBE"
+  },
+  "evidence_policy": {
+    "audio_loaded": false,
+    "canonical_phone_candidate": "existing curated human review only",
+    "occurrence_realization_evidence": "metadata only; acoustic phone realization UNMEASURED",
+    "production_phone_inventory_modified": false,
+    "qwen_loaded": false,
+    "training_performed": false
+  },
+  "occurrence_index_record_format": {
+    "lexical_occurrence_tuple": [
+      "word_index",
+      "surface_form",
+      "normalized_word",
+      "[span_start, span_end]",
+      "preceding_word",
+      "following_word",
+      "interest_signals"
+    ],
+    "occurrence_id": "derived as utterance_id + ':word:' + zero-padded word_index",
+    "record": "one per utterance; full_transcript appears once"
+  },
+  "outputs": [
+    "atlas_summary.json",
+    "candidate_phone_extensions.json",
+    "consistency_report.json",
+    "curated_anchor_analysis.json",
+    "data_quality_report.json",
+    "holdout_plan.json",
+    "occurrence_index.jsonl",
+    "swara_phones_v1_proposal.json",
+    "top_recurrent_words.json",
+    "training_pronunciation_candidates.json",
+    "vocabulary.json"
+  ],
+  "pronunciation_interest_unique_word_count": 320,
+  "recurrence_buckets": {
+    "1": 23941,
+    "10-24": 2542,
+    "100+": 455,
+    "2-4": 11314,
+    "25-49": 1059,
+    "5-9": 3811,
+    "50-99": 533
+  },
+  "recurring_word_counts": {
+    "2": 19714,
+    "5": 8400,
+    "10": 4589,
+    "25": 2047,
+    "50": 988,
+    "100": 455
+  },
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "swara_phones_v0": {
+    "automatic_g2p_available": false,
+    "curated_representable_variant_count": 10,
+    "curated_representable_variant_rate": 0.9090909090909091,
+    "curated_variant_count": 11,
+    "inventory_id": "swara-phones-v0",
+    "ordinary_vocabulary_automatic_coverage_rate": 0.0
+  },
+  "total_lexical_token_count": 447735,
+  "transcript_count": 25158,
+  "unique_normalized_word_count": 43655
+}

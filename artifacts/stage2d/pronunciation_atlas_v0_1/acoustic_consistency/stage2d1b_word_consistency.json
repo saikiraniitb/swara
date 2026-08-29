@@ -1,0 +1,1108 @@
+{
+  "classification_policy": {
+    "context_variant": "context association with >=2 observations per compared group and duration range >=25% of word mean, or relative variability >1.5",
+    "multimodal": "not asserted with this bounded five-occurrence sample; no phoneme inference",
+    "outlier": "distance to medoid exceeds max(3x control baseline, median + 3 MAD)",
+    "stable": "relative variability <= 1.5 when baseline exists and no context/outlier signal"
+  },
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "words": [
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.035421697874263705,
+      "duration_mean_seconds": 0.39055380562154873,
+      "duration_std_seconds": 0.013834078906370414,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0014",
+      "normalized_word": "agrawal",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.506832198065512,
+      "pairwise_composite_distance_median": 2.506832198065512,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 0.7738370444924005,
+      "sampled_occurrence_count": 2,
+      "target_word": "Agrawal",
+      "usable_aligned_occurrence_count": 2
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "following_word",
+            "group_count": 2,
+            "group_mean_word_duration_seconds": {
+              "and": 0.3204627737682384,
+              "was": 0.28066773119381283
+            },
+            "group_sizes": {
+              "and": 2,
+              "was": 2
+            },
+            "high_group": "and",
+            "low_group": "was",
+            "range_seconds": 0.039795042574425565
+          },
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.3793303777657176
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.7776721252551243
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": {
+          "association_only": true,
+          "factor": "following_word",
+          "group_count": 2,
+          "group_mean_word_duration_seconds": {
+            "and": 0.3204627737682384,
+            "was": 0.28066773119381283
+          },
+          "group_sizes": {
+            "and": 2,
+            "was": 2
+          },
+          "high_group": "and",
+          "low_group": "was",
+          "range_seconds": 0.039795042574425565
+        }
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.07644261008841716,
+      "duration_mean_seconds": 0.3005652524810256,
+      "duration_std_seconds": 0.0229759924015337,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4739:word:0005",
+      "normalized_word": "gupta",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.1492691243842708,
+      "pairwise_composite_distance_median": 3.0684167526426127,
+      "pairwise_distance_count": 6,
+      "relative_variability_score": 0.9471932556827148,
+      "sampled_occurrence_count": 4,
+      "target_word": "Gupta",
+      "usable_aligned_occurrence_count": 4
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.5304718824006708
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.026589692967251225
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.048731545198387884,
+      "duration_mean_seconds": 0.39572685744297875,
+      "duration_std_seconds": 0.019284381239698518,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_137:word:0024",
+      "normalized_word": "kashmir",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.682434144817188,
+      "pairwise_composite_distance_median": 2.6554582153552673,
+      "pairwise_distance_count": 6,
+      "relative_variability_score": 0.819716588421561,
+      "sampled_occurrence_count": 4,
+      "target_word": "Kashmir",
+      "usable_aligned_occurrence_count": 4
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.12067806621670085
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.816617632231667
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.03195109766739839,
+      "duration_mean_seconds": 0.2846123442204175,
+      "duration_std_seconds": 0.00909367680753377,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3832:word:0007",
+      "normalized_word": "kumar",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.982429537593225,
+      "pairwise_composite_distance_median": 2.997671593897965,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9253548475924765,
+      "sampled_occurrence_count": 5,
+      "target_word": "Kumar",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.9655856060611271
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.09270796652809066
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.044712176959291014,
+      "duration_mean_seconds": 0.25393169840788526,
+      "duration_std_seconds": 0.011353839034786681,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_FOOD_2846:word:0003",
+      "normalized_word": "mishra",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.9162237053312055,
+      "pairwise_composite_distance_median": 2.906222125653657,
+      "pairwise_distance_count": 3,
+      "relative_variability_score": 0.8971252013157186,
+      "sampled_occurrence_count": 3,
+      "target_word": "Mishra",
+      "usable_aligned_occurrence_count": 3
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.5208876672232908
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.4083343543095372
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.14324545114875384,
+      "duration_mean_seconds": 0.2886865005657842,
+      "duration_std_seconds": 0.04135302801410074,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5618:word:0007",
+      "normalized_word": "mumbai",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.301297133189687,
+      "pairwise_composite_distance_median": 3.2949525326897127,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.0171228579268166,
+      "sampled_occurrence_count": 5,
+      "target_word": "Mumbai",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.48147247706422025,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3645:word:0010",
+      "normalized_word": "sensharma",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Sensharma",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.61464634406139
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.8969273183119569
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.09455203614922411,
+      "duration_mean_seconds": 0.3006823355410857,
+      "duration_std_seconds": 0.02843012705951387,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_OTHE_272:word:0013",
+      "normalized_word": "sharma",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.9102694274708925,
+      "pairwise_composite_distance_median": 2.82428267495806,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.8718312137873382,
+      "sampled_occurrence_count": 5,
+      "target_word": "Sharma",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "CURATED_INDIAN_ANCHOR",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.7457978442161857
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.3180768503843206
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.1221484616878356,
+      "duration_mean_seconds": 0.20039620150480825,
+      "duration_std_seconds": 0.02447808774189785,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1450:word:0016",
+      "normalized_word": "singh",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.5464671897833684,
+      "pairwise_composite_distance_median": 3.6387633859595376,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.1232542434914514,
+      "sampled_occurrence_count": 5,
+      "target_word": "Singh",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.18543725213675577
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.3807335149678018
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.05688704277904065,
+      "duration_mean_seconds": 0.4727979850345882,
+      "duration_std_seconds": 0.02689607920050684,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_POLI_3924:word:0020",
+      "normalized_word": "development",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.953300811635771,
+      "pairwise_composite_distance_median": 2.965292611918191,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9153597407248384,
+      "sampled_occurrence_count": 5,
+      "target_word": "development",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.14726021067079043
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.3291361771865058
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.04661034661440417,
+      "duration_mean_seconds": 0.36462179516667065,
+      "duration_std_seconds": 0.016995148255884798,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1737:word:0018",
+      "normalized_word": "government",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.1120787687347655,
+      "pairwise_composite_distance_median": 3.203224239891661,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9888071409634097,
+      "sampled_occurrence_count": 5,
+      "target_word": "government",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.1472021382759101,
+      "duration_mean_seconds": 0.29055709889694237,
+      "duration_std_seconds": 0.042770626248874996,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_FOOD_7443:word:0007",
+      "normalized_word": "meeting",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.2628377025596533,
+      "pairwise_composite_distance_median": 3.2628377025596533,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 1.0072092924111835,
+      "sampled_occurrence_count": 2,
+      "target_word": "meeting",
+      "usable_aligned_occurrence_count": 2
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.23953366782829846
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.04055398446953018
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.06506371449411952,
+      "duration_mean_seconds": 0.2565033927072768,
+      "duration_std_seconds": 0.016689063509879275,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1281:word:0012",
+      "normalized_word": "people",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.4196715220205416,
+      "pairwise_composite_distance_median": 3.3917315424682837,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.0469976867860211,
+      "sampled_occurrence_count": 5,
+      "target_word": "people",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.3572137568615438
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.6246987728420649
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.10924868723033389,
+      "duration_mean_seconds": 0.308572104067249,
+      "duration_std_seconds": 0.033711097285248924,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_POLI_781:word:0021",
+      "normalized_word": "report",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.1010300838636025,
+      "pairwise_composite_distance_median": 3.1581466585501157,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9748920881947699,
+      "sampled_occurrence_count": 5,
+      "target_word": "report",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.8056737118948921
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.9425848932933935
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.09431642537100998,
+      "duration_mean_seconds": 0.17633431746779377,
+      "duration_std_seconds": 0.016631222493799152,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4802:word:0005",
+      "normalized_word": "said",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.020485263707725,
+      "pairwise_composite_distance_median": 2.95823728658627,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9131818238674598,
+      "sampled_occurrence_count": 5,
+      "target_word": "said",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.2836880060110066
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.9828123088952117
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.14164333844518778,
+      "duration_mean_seconds": 0.18462055450973078,
+      "duration_std_seconds": 0.026150271686360034,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2898:word:0002",
+      "normalized_word": "time",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.247996751706961,
+      "pairwise_composite_distance_median": 3.2161289375289512,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 0.9927907075888165,
+      "sampled_occurrence_count": 5,
+      "target_word": "time",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.6676179240584756
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.2080440173195122
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.07138697748758227,
+      "duration_mean_seconds": 0.2523885991818996,
+      "duration_std_seconds": 0.01801725924792069,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_2489:word:0001",
+      "normalized_word": "water",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.4804321347169536,
+      "pairwise_composite_distance_median": 3.548993117139389,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.0955429513033745,
+      "sampled_occurrence_count": 5,
+      "target_word": "water",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.2597728742922837
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.29777340371475614
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.07885017978634025,
+      "duration_mean_seconds": 0.18034471734484478,
+      "duration_std_seconds": 0.014220213386157724,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_2172:word:0007",
+      "normalized_word": "work",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.3103103746469533,
+      "pairwise_composite_distance_median": 3.352532118890231,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.0348971696030782,
+      "sampled_occurrence_count": 5,
+      "target_word": "work",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "ENGLISH_CONTROL",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.04292816944794636
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.1116821285350335
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.15154918264925285,
+      "duration_mean_seconds": 0.1965513201126586,
+      "duration_std_seconds": 0.029787191911705063,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_679:word:0023",
+      "normalized_word": "world",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.581782836655192,
+      "pairwise_composite_distance_median": 3.619173164995231,
+      "pairwise_distance_count": 10,
+      "relative_variability_score": 1.1172069146340708,
+      "sampled_occurrence_count": 5,
+      "target_word": "world",
+      "usable_aligned_occurrence_count": 5
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.3604855898123329,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_7346:word:0012",
+      "normalized_word": "ahmedabad",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Ahmedabad",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": null
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": null
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.04545454545454527,
+      "duration_mean_seconds": 0.4404602390852395,
+      "duration_std_seconds": 0.020020919958419897,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1333:word:0020",
+      "normalized_word": "chandigarh",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.74988659284076,
+      "pairwise_composite_distance_median": 2.9246812123621155,
+      "pairwise_distance_count": 3,
+      "relative_variability_score": 0.9028233589800112,
+      "sampled_occurrence_count": 3,
+      "target_word": "Chandigarh",
+      "usable_aligned_occurrence_count": 3
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.6409640718562875,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_OTHE_704:word:0013",
+      "normalized_word": "chhattisgarh",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Chhattisgarh",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.5409655748663103,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_2104:word:0000",
+      "normalized_word": "hyderabad",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Hyderabad",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.4012270642201834,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3645:word:0009",
+      "normalized_word": "konkona",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Konkona",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "INDIAN_NAME_PLACE",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.06842328984483621,
+      "duration_mean_seconds": 0.4209004389216221,
+      "duration_std_seconds": 0.02879939272815293,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_138:word:0003",
+      "normalized_word": "srinagar",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.185185142026435,
+      "pairwise_composite_distance_median": 3.185185142026435,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 0.9832386301599713,
+      "sampled_occurrence_count": 2,
+      "target_word": "Srinagar",
+      "usable_aligned_occurrence_count": 2
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.4606166219839143,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_138:word:0004",
+      "normalized_word": "baramulla",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Baramulla",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.07921176148669115,
+      "duration_mean_seconds": 0.5307428379916259,
+      "duration_std_seconds": 0.04204107509376224,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0013",
+      "normalized_word": "brijmohan",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.1234465589707034,
+      "pairwise_composite_distance_median": 2.1234465589707034,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 0.6554892707216236,
+      "sampled_occurrence_count": 2,
+      "target_word": "Brijmohan",
+      "usable_aligned_occurrence_count": 2
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.4212211956521741,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1173:word:0011",
+      "normalized_word": "kashmiri",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Kashmiri",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "ACOUSTICALLY_STABLE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.9999999999999998
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.9999999999999999
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.00014906705835464437,
+      "duration_mean_seconds": 0.3804438984019912,
+      "duration_std_seconds": 5.671165280375802e-05,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_FOOD_3818:word:0002",
+      "normalized_word": "udhampur",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 2.9040003985189022,
+      "pairwise_composite_distance_median": 2.9230665952440296,
+      "pairwise_distance_count": 3,
+      "relative_variability_score": 0.9023249408810213,
+      "sampled_occurrence_count": 3,
+      "target_word": "Udhampur",
+      "usable_aligned_occurrence_count": 3
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.0,
+      "duration_mean_seconds": 0.22033746189024384,
+      "duration_std_seconds": 0.0,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_ENTE_5743:word:0001",
+      "normalized_word": "vijay",
+      "outlier_count": 0,
+      "outlier_threshold": null,
+      "pairwise_composite_distance_mean": null,
+      "pairwise_composite_distance_median": null,
+      "pairwise_distance_count": 0,
+      "relative_variability_score": null,
+      "sampled_occurrence_count": 1,
+      "target_word": "Vijay",
+      "usable_aligned_occurrence_count": 1
+    },
+    {
+      "acoustic_phone_sequence": "NOT_INFERRED",
+      "acoustic_realization_consistency": "MEASURED_AS_DESCRIPTORS_ONLY",
+      "category": "PHONE_CONTRAST_INTEREST",
+      "classification": "INSUFFICIENT_EVIDENCE",
+      "cluster_count": null,
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "control_baseline_median_distance": 3.239483320044302,
+      "duration_cv": 0.127925543868063,
+      "duration_mean_seconds": 0.33063710972825927,
+      "duration_std_seconds": 0.04229693208495199,
+      "evidence_limit": "Acoustic distance does not establish a phoneme or pronunciation variant.",
+      "medoid_occurrence_id": "IISc_SPICORProject_EN_M_AGRI_4300:word:0009",
+      "normalized_word": "vikas",
+      "outlier_count": 0,
+      "outlier_threshold": 9.718449960132906,
+      "pairwise_composite_distance_mean": 3.3410374314805273,
+      "pairwise_composite_distance_median": 3.3410374314805273,
+      "pairwise_distance_count": 1,
+      "relative_variability_score": 1.0313488607296908,
+      "sampled_occurrence_count": 2,
+      "target_word": "Vikas",
+      "usable_aligned_occurrence_count": 2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "baseline_metric": "median of per-control-word median composite distances",
+  "baseline_value": 3.239483320044302,
+  "composite_metric": "length-normalized DTW Euclidean distance on per-occurrence normalized MFCC frames + 0.25 * absolute log word-duration ratio",
+  "control_words": [
+    "said",
+    "people",
+    "government",
+    "water",
+    "time",
+    "work",
+    "world",
+    "report",
+    "development",
+    "meeting"
+  ],
+  "normalization": "MFCC coefficients z-normalized within each occurrence; no acoustic phoneme labels",
+  "per_word_median_composite_distances": {
+    "development": 2.965292611918191,
+    "government": 3.203224239891661,
+    "meeting": 3.2628377025596533,
+    "people": 3.3917315424682837,
+    "report": 3.1581466585501157,
+    "said": 2.95823728658627,
+    "time": 3.2161289375289512,
+    "water": 3.548993117139389,
+    "work": 3.352532118890231,
+    "world": 3.619173164995231
+  },
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "usable_control_word_count": 10
+}

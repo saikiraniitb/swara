@@ -1,0 +1,45 @@
+{
+  "external_mythology_name": {
+    "status": "EXTERNAL_UNSEEN_PROBE",
+    "word": "Dasharatha"
+  },
+  "leakage_policy": "Do not use evaluation transcript/audio occurrences as training occurrences.",
+  "phone_contrast": {
+    "curated": [
+      "Singh A/B"
+    ],
+    "external": [
+      "Dasharatha A/B"
+    ],
+    "status": "EVALUATION_ONLY"
+  },
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "seen_word_unseen_context": {
+    "source": "existing Stage2B evaluation fixtures",
+    "status": "PLANNED_NO_TRAINING",
+    "words": [
+      "agrawal",
+      "gupta",
+      "kashmir",
+      "kumar",
+      "mishra",
+      "mumbai",
+      "sensharma",
+      "sharma",
+      "singh"
+    ]
+  },
+  "unseen_name_known_context": {
+    "training_labels": false,
+    "words": [
+      "Anirban",
+      "Ashwini",
+      "Chandrashekhar",
+      "Karthik"
+    ]
+  },
+  "unseen_word_known_phone_composition": {
+    "items": [],
+    "status": "REQUIRES_HUMAN_PHONE_ANNOTATION"
+  }
+}

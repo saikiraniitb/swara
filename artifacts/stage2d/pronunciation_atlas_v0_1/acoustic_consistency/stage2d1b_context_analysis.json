@@ -1,0 +1,514 @@
+{
+  "interpretation": "Associations only; no causal claim. Groups require at least two sampled observations.",
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "words": [
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "agrawal",
+      "target_word": "Agrawal"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "following_word",
+            "group_count": 2,
+            "group_mean_word_duration_seconds": {
+              "and": 0.3204627737682384,
+              "was": 0.28066773119381283
+            },
+            "group_sizes": {
+              "and": 2,
+              "was": 2
+            },
+            "high_group": "and",
+            "low_group": "was",
+            "range_seconds": 0.039795042574425565
+          },
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.3793303777657176
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.7776721252551243
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": {
+          "association_only": true,
+          "factor": "following_word",
+          "group_count": 2,
+          "group_mean_word_duration_seconds": {
+            "and": 0.3204627737682384,
+            "was": 0.28066773119381283
+          },
+          "group_sizes": {
+            "and": 2,
+            "was": 2
+          },
+          "high_group": "and",
+          "low_group": "was",
+          "range_seconds": 0.039795042574425565
+        }
+      },
+      "normalized_word": "gupta",
+      "target_word": "Gupta"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.5304718824006708
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.026589692967251225
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "kashmir",
+      "target_word": "Kashmir"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.12067806621670085
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.816617632231667
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "kumar",
+      "target_word": "Kumar"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.9655856060611271
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.09270796652809066
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "mishra",
+      "target_word": "Mishra"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.5208876672232908
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.4083343543095372
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "mumbai",
+      "target_word": "Mumbai"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "sensharma",
+      "target_word": "Sensharma"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.61464634406139
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.8969273183119569
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "sharma",
+      "target_word": "Sharma"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.7457978442161857
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.3180768503843206
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "singh",
+      "target_word": "Singh"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.18543725213675577
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.3807335149678018
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "development",
+      "target_word": "development"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.14726021067079043
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.3291361771865058
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "government",
+      "target_word": "government"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "meeting",
+      "target_word": "meeting"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.23953366782829846
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.04055398446953018
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "people",
+      "target_word": "people"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.3572137568615438
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.6246987728420649
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "report",
+      "target_word": "report"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.8056737118948921
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.9425848932933935
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "said",
+      "target_word": "said"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.2836880060110066
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.9828123088952117
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "time",
+      "target_word": "time"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.6676179240584756
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.2080440173195122
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "water",
+      "target_word": "water"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.2597728742922837
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.29777340371475614
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "work",
+      "target_word": "work"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": 0.04292816944794636
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": -0.1116821285350335
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "world",
+      "target_word": "world"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "ahmedabad",
+      "target_word": "Ahmedabad"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": null
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": null
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "chandigarh",
+      "target_word": "Chandigarh"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "chhattisgarh",
+      "target_word": "Chhattisgarh"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "hyderabad",
+      "target_word": "Hyderabad"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "konkona",
+      "target_word": "Konkona"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "srinagar",
+      "target_word": "Srinagar"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "baramulla",
+      "target_word": "Baramulla"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "brijmohan",
+      "target_word": "Brijmohan"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "kashmiri",
+      "target_word": "Kashmiri"
+    },
+    {
+      "context_analysis": {
+        "associations": [
+          {
+            "association_only": true,
+            "factor": "utterance_duration_seconds",
+            "pearson_r_with_word_duration": -0.9999999999999998
+          },
+          {
+            "association_only": true,
+            "factor": "speech_rate_proxy_tokens_per_second",
+            "pearson_r_with_word_duration": 0.9999999999999999
+          }
+        ],
+        "status": "MEASURED_ASSOCIATIONS",
+        "strongest_effect": null
+      },
+      "normalized_word": "udhampur",
+      "target_word": "Udhampur"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "vijay",
+      "target_word": "Vijay"
+    },
+    {
+      "context_analysis": {
+        "associations": [],
+        "status": "INSUFFICIENT_EVIDENCE",
+        "strongest_effect": null
+      },
+      "normalized_word": "vikas",
+      "target_word": "Vikas"
+    }
+  ]
+}

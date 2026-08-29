@@ -1,0 +1,1400 @@
+{
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "top_n": 30,
+  "words": [
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "Marketing",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        },
+        {
+          "following_word": "European",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1001:word:0016",
+          "preceding_word": "across",
+          "word_index": 16
+        },
+        {
+          "following_word": "processing",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1007:word:0007",
+          "preceding_word": "expedite",
+          "word_index": 7
+        },
+        {
+          "following_word": "Pariwan",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0010",
+          "preceding_word": "in",
+          "word_index": 10
+        },
+        {
+          "following_word": "said",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0015",
+          "preceding_word": "unfortunately",
+          "word_index": 15
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "the",
+      "occurrence_count": 26531,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "THE": 2,
+        "The": 3272,
+        "the": 23257
+      },
+      "utterance_count": 16092,
+      "word": "THE"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "District",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0003",
+          "preceding_word": "Officer",
+          "word_index": 3
+        },
+        {
+          "following_word": "Batauli",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0020",
+          "preceding_word": "centres",
+          "word_index": 20
+        },
+        {
+          "following_word": "tax",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1007:word:0009",
+          "preceding_word": "processing",
+          "word_index": 9
+        },
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1015:word:0004",
+          "preceding_word": "out",
+          "word_index": 4
+        },
+        {
+          "following_word": "two",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1021:word:0012",
+          "preceding_word": "corner",
+          "word_index": 12
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "of",
+      "occurrence_count": 12690,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "OF": 4,
+        "Of": 76,
+        "of": 12610
+      },
+      "utterance_count": 10059,
+      "word": "OF"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "Bataikela",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0015",
+          "preceding_word": "Sedam",
+          "word_index": 15
+        },
+        {
+          "following_word": "Bird",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1001:word:0012",
+          "preceding_word": "Lime",
+          "word_index": 12
+        },
+        {
+          "following_word": "tax",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1007:word:0012",
+          "preceding_word": "returns",
+          "word_index": 12
+        },
+        {
+          "following_word": "paddled",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1012:word:0006",
+          "preceding_word": "kayaks",
+          "word_index": 6
+        },
+        {
+          "following_word": "back",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1012:word:0011",
+          "preceding_word": "Island",
+          "word_index": 11
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "and",
+      "occurrence_count": 12437,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "And": 104,
+        "and": 12333
+      },
+      "utterance_count": 10249,
+      "word": "And"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "issue",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0003",
+          "preceding_word": "Apple",
+          "word_index": 3
+        },
+        {
+          "following_word": "existing",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0011",
+          "preceding_word": "dividends",
+          "word_index": 11
+        },
+        {
+          "following_word": "dividends",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0020",
+          "preceding_word": "superior",
+          "word_index": 20
+        },
+        {
+          "following_word": "Sheep",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1012:word:0008",
+          "preceding_word": "paddled",
+          "word_index": 8
+        },
+        {
+          "following_word": "stop",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1014:word:0013",
+          "preceding_word": "Sikkim",
+          "word_index": 13
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "to",
+      "occurrence_count": 10438,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "TO": 1,
+        "To": 107,
+        "to": 10330
+      },
+      "utterance_count": 8696,
+      "word": "TO"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "piecemeal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1003:word:0005",
+          "preceding_word": "on",
+          "word_index": 5
+        },
+        {
+          "following_word": "Water",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0005",
+          "preceding_word": "was",
+          "word_index": 5
+        },
+        {
+          "following_word": "filled",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1015:word:0005",
+          "preceding_word": "of",
+          "word_index": 5
+        },
+        {
+          "following_word": "close",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1024:word:0020",
+          "preceding_word": "is",
+          "word_index": 20
+        },
+        {
+          "following_word": "comprehensive",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_102:word:0013",
+          "preceding_word": "took",
+          "word_index": 13
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "a",
+      "occurrence_count": 9612,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "A": 1612,
+        "a": 8000
+      },
+      "utterance_count": 7926,
+      "word": "A"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0009",
+          "preceding_word": "located",
+          "word_index": 9
+        },
+        {
+          "following_word": "our",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1012:word:0003",
+          "preceding_word": "out",
+          "word_index": 3
+        },
+        {
+          "following_word": "Sikkim",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1014:word:0011",
+          "preceding_word": "Rice",
+          "word_index": 11
+        },
+        {
+          "following_word": "China",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1014:word:0016",
+          "preceding_word": "entry",
+          "word_index": 16
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1021:word:0009",
+          "preceding_word": "appeared",
+          "word_index": 9
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "in",
+      "occurrence_count": 8210,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "IN": 1,
+        "In": 509,
+        "in": 7700
+      },
+      "utterance_count": 7061,
+      "word": "IN"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "appointed",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0010",
+          "preceding_word": "Agrawal",
+          "word_index": 10
+        },
+        {
+          "following_word": "nonfunctional",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0018",
+          "preceding_word": "plant",
+          "word_index": 18
+        },
+        {
+          "following_word": "prepared",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1017:word:0014",
+          "preceding_word": "Barfi",
+          "word_index": 14
+        },
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1024:word:0019",
+          "preceding_word": "Nehyan",
+          "word_index": 19
+        },
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1071:word:0001",
+          "preceding_word": "Lily",
+          "word_index": 1
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "is",
+      "occurrence_count": 4042,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Is": 36,
+        "is": 4006
+      },
+      "utterance_count": 3654,
+      "word": "Is"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "Batauli",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1000:word:0012",
+          "preceding_word": "appointed",
+          "word_index": 12
+        },
+        {
+          "following_word": "some",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0020",
+          "preceding_word": "nonfunctional",
+          "word_index": 20
+        },
+        {
+          "following_word": "Boldenone",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1036:word:0009",
+          "preceding_word": "positive",
+          "word_index": 9
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1037:word:0013",
+          "preceding_word": "trade",
+          "word_index": 13
+        },
+        {
+          "following_word": "being",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1050:word:0001",
+          "preceding_word": "Known",
+          "word_index": 1
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "for",
+      "occurrence_count": 3980,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "FOR": 3,
+        "For": 153,
+        "for": 3824
+      },
+      "utterance_count": 3705,
+      "word": "FOR"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "pay",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0008",
+          "preceding_word": "shares",
+          "word_index": 8
+        },
+        {
+          "following_word": "tested",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1036:word:0006",
+          "preceding_word": "filly",
+          "word_index": 6
+        },
+        {
+          "following_word": "outplayed",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1041:word:0011",
+          "preceding_word": "rivals",
+          "word_index": 11
+        },
+        {
+          "following_word": "location",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1112:word:0004",
+          "preceding_word": "customers",
+          "word_index": 4
+        },
+        {
+          "following_word": "down",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1119:word:0006",
+          "preceding_word": "Mint",
+          "word_index": 6
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "that",
+      "occurrence_count": 3740,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "That": 76,
+        "that": 3664
+      },
+      "utterance_count": 3511,
+      "word": "That"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0004",
+          "preceding_word": "there",
+          "word_index": 4
+        },
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_102:word:0004",
+          "preceding_word": "Sopore",
+          "word_index": 4
+        },
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1044:word:0001",
+          "preceding_word": "He",
+          "word_index": 1
+        },
+        {
+          "following_word": "marked",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0002",
+          "preceding_word": "occasion",
+          "word_index": 2
+        },
+        {
+          "following_word": "selected",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_110:word:0013",
+          "preceding_word": "India",
+          "word_index": 13
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "was",
+      "occurrence_count": 3659,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Was": 8,
+        "was": 3651
+      },
+      "utterance_count": 3315,
+      "word": "Was"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "plant",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1009:word:0016",
+          "preceding_word": "the",
+          "word_index": 16
+        },
+        {
+          "following_word": "Meenakshi",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1021:word:0002",
+          "preceding_word": "Matteson",
+          "word_index": 2
+        },
+        {
+          "following_word": "that",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1165:word:0001",
+          "preceding_word": "Officials",
+          "word_index": 1
+        },
+        {
+          "following_word": "on",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1228:word:0022",
+          "preceding_word": "Rose",
+          "word_index": 22
+        },
+        {
+          "following_word": "in",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_127:word:0020",
+          "preceding_word": "Chavaltanpipat",
+          "word_index": 20
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "said",
+      "occurrence_count": 3495,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "said": 3495
+      },
+      "utterance_count": 3443,
+      "word": "said"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "a",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1003:word:0004",
+          "preceding_word": "bought",
+          "word_index": 4
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1015:word:0008",
+          "preceding_word": "crater",
+          "word_index": 8
+        },
+        {
+          "following_word": "Sunday",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1015:word:0017",
+          "preceding_word": "Mannuthy",
+          "word_index": 17
+        },
+        {
+          "following_word": "Urban",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1039:word:0007",
+          "preceding_word": "workshop",
+          "word_index": 7
+        },
+        {
+          "following_word": "patents",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1043:word:0008",
+          "preceding_word": "infringing",
+          "word_index": 8
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "on",
+      "occurrence_count": 3313,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "On": 178,
+        "on": 3135
+      },
+      "utterance_count": 3096,
+      "word": "On"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "Lally",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1031:word:0001",
+          "preceding_word": "Along",
+          "word_index": 1
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0004",
+          "preceding_word": "marked",
+          "word_index": 4
+        },
+        {
+          "following_word": "business",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1100:word:0020",
+          "preceding_word": "nationalism",
+          "word_index": 20
+        },
+        {
+          "following_word": "an",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1138:word:0018",
+          "preceding_word": "store",
+          "word_index": 18
+        },
+        {
+          "following_word": "bipolar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1197:word:0011",
+          "preceding_word": "struggle",
+          "word_index": 11
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "with",
+      "occurrence_count": 3116,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "With": 105,
+        "with": 3011
+      },
+      "utterance_count": 2957,
+      "word": "With"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "A",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1041:word:0001",
+          "preceding_word": "N",
+          "word_index": 1
+        },
+        {
+          "following_word": "A",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0020",
+          "preceding_word": "M",
+          "word_index": 20
+        },
+        {
+          "following_word": "would",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1281:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        },
+        {
+          "following_word": "Cloud",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1406:word:0014",
+          "preceding_word": "make",
+          "word_index": 14
+        },
+        {
+          "following_word": "A",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1508:word:0019",
+          "preceding_word": "told",
+          "word_index": 19
+        }
+      ],
+      "interest_signals": [
+        "capitalized_noninitial_weak_heuristic"
+      ],
+      "normalized_word": "i",
+      "occurrence_count": 3095,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "I": 2541,
+        "i": 554
+      },
+      "utterance_count": 2469,
+      "word": "I"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "argued",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0015",
+          "preceding_word": "which",
+          "word_index": 15
+        },
+        {
+          "following_word": "snapped",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1021:word:0015",
+          "preceding_word": "photos",
+          "word_index": 15
+        },
+        {
+          "following_word": "disclosed",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1029:word:0005",
+          "preceding_word": "says",
+          "word_index": 5
+        },
+        {
+          "following_word": "was",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1044:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        },
+        {
+          "following_word": "says",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1083:word:0015",
+          "preceding_word": "Cult",
+          "word_index": 15
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "he",
+      "occurrence_count": 2971,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "He": 633,
+        "he": 2338
+      },
+      "utterance_count": 2657,
+      "word": "He"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "Vettikkal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1015:word:0013",
+          "preceding_word": "tollway",
+          "word_index": 13
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1057:word:0014",
+          "preceding_word": "done",
+          "word_index": 14
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1071:word:0019",
+          "preceding_word": "behalf",
+          "word_index": 19
+        },
+        {
+          "following_word": "Coffee",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1178:word:0012",
+          "preceding_word": "Centre",
+          "word_index": 12
+        },
+        {
+          "following_word": "Noida",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1222:word:0001",
+          "preceding_word": "Production",
+          "word_index": 1
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "at",
+      "occurrence_count": 2660,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "At": 139,
+        "at": 2521
+      },
+      "utterance_count": 2501,
+      "word": "At"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "per",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1037:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        },
+        {
+          "following_word": "refugees",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_104:word:0012",
+          "preceding_word": "counted",
+          "word_index": 12
+        },
+        {
+          "following_word": "journalist",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_109:word:0009",
+          "preceding_word": "Cezanne",
+          "word_index": 9
+        },
+        {
+          "following_word": "one",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_110:word:0015",
+          "preceding_word": "selected",
+          "word_index": 15
+        },
+        {
+          "following_word": "well",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1117:word:0008",
+          "preceding_word": "Hazratbal",
+          "word_index": 8
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "as",
+      "occurrence_count": 2483,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "As": 191,
+        "as": 2292
+      },
+      "utterance_count": 2218,
+      "word": "As"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "U",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1001:word:0007",
+          "preceding_word": "push",
+          "word_index": 7
+        },
+        {
+          "following_word": "Saint",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1096:word:0003",
+          "preceding_word": "shared",
+          "word_index": 3
+        },
+        {
+          "following_word": "his",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1138:word:0005",
+          "preceding_word": "dead",
+          "word_index": 5
+        },
+        {
+          "following_word": "Uralungal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1165:word:0017",
+          "preceding_word": "roads",
+          "word_index": 17
+        },
+        {
+          "following_word": "Justin",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1167:word:0014",
+          "preceding_word": "Water",
+          "word_index": 14
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "by",
+      "occurrence_count": 2436,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "By": 59,
+        "by": 2377
+      },
+      "utterance_count": 2287,
+      "word": "By"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "includes",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1117:word:0005",
+          "preceding_word": "Kashmiriyat",
+          "word_index": 5
+        },
+        {
+          "following_word": "without",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1194:word:0018",
+          "preceding_word": "play",
+          "word_index": 18
+        },
+        {
+          "following_word": "pays",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1286:word:0016",
+          "preceding_word": "as",
+          "word_index": 16
+        },
+        {
+          "following_word": "takes",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1330:word:0010",
+          "preceding_word": "because",
+          "word_index": 10
+        },
+        {
+          "following_word": "takes",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1336:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "it",
+      "occurrence_count": 2361,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "IT": 3,
+        "It": 532,
+        "it": 1826
+      },
+      "utterance_count": 2190,
+      "word": "IT"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "girlfriend",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1021:word:0020",
+          "preceding_word": "and",
+          "word_index": 20
+        },
+        {
+          "following_word": "issues",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1029:word:0007",
+          "preceding_word": "disclosed",
+          "word_index": 7
+        },
+        {
+          "following_word": "fans",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1029:word:0010",
+          "preceding_word": "to",
+          "word_index": 10
+        },
+        {
+          "following_word": "absence",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1029:word:0022",
+          "preceding_word": "behind",
+          "word_index": 22
+        },
+        {
+          "following_word": "behalf",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1071:word:0017",
+          "preceding_word": "on",
+          "word_index": 17
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "his",
+      "occurrence_count": 2087,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "His": 118,
+        "his": 1969
+      },
+      "utterance_count": 1796,
+      "word": "His"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "BlackBerry",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1041:word:0008",
+          "preceding_word": "tools",
+          "word_index": 8
+        },
+        {
+          "following_word": "Maharashtra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1053:word:0010",
+          "preceding_word": "elections",
+          "word_index": 10
+        },
+        {
+          "following_word": "Apple",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1077:word:0005",
+          "preceding_word": "support",
+          "word_index": 5
+        },
+        {
+          "following_word": "Ibbluru",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1083:word:0005",
+          "preceding_word": "stretch",
+          "word_index": 5
+        },
+        {
+          "following_word": "cellular",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1120:word:0008",
+          "preceding_word": "liver",
+          "word_index": 8
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "from",
+      "occurrence_count": 2063,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "From": 72,
+        "from": 1991
+      },
+      "utterance_count": 1961,
+      "word": "From"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "superior",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1002:word:0018",
+          "preceding_word": "would",
+          "word_index": 18
+        },
+        {
+          "following_word": "bought",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1003:word:0002",
+          "preceding_word": "would",
+          "word_index": 2
+        },
+        {
+          "following_word": "done",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1057:word:0012",
+          "preceding_word": "can",
+          "word_index": 12
+        },
+        {
+          "following_word": "used",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1112:word:0011",
+          "preceding_word": "can't",
+          "word_index": 11
+        },
+        {
+          "following_word": "provided",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1194:word:0004",
+          "preceding_word": "will",
+          "word_index": 4
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "be",
+      "occurrence_count": 1920,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "BE": 1,
+        "Be": 10,
+        "be": 1909
+      },
+      "utterance_count": 1855,
+      "word": "BE"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_118:word:0014",
+          "preceding_word": "P",
+          "word_index": 14
+        },
+        {
+          "following_word": "you",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1196:word:0004",
+          "preceding_word": "Yes",
+          "word_index": 4
+        },
+        {
+          "following_word": "likely",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1228:word:0014",
+          "preceding_word": "rates",
+          "word_index": 14
+        },
+        {
+          "following_word": "using",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1231:word:0001",
+          "preceding_word": "Netizens",
+          "word_index": 1
+        },
+        {
+          "following_word": "proud",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1289:word:0022",
+          "preceding_word": "Vikramaditya",
+          "word_index": 22
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "are",
+      "occurrence_count": 1856,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "ARE": 1,
+        "Are": 23,
+        "are": 1832
+      },
+      "utterance_count": 1747,
+      "word": "ARE"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "low",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1093:word:0004",
+          "preceding_word": "pseudostem",
+          "word_index": 4
+        },
+        {
+          "following_word": "the",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1220:word:0003",
+          "preceding_word": "already",
+          "word_index": 3
+        },
+        {
+          "following_word": "however",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1352:word:0003",
+          "preceding_word": "leaders",
+          "word_index": 3
+        },
+        {
+          "following_word": "its",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1412:word:0012",
+          "preceding_word": "to",
+          "word_index": 12
+        },
+        {
+          "following_word": "new",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1554:word:0013",
+          "preceding_word": "Missouri",
+          "word_index": 13
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "have",
+      "occurrence_count": 1736,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Have": 18,
+        "have": 1718
+      },
+      "utterance_count": 1669,
+      "word": "Have"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "justified",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1014:word:0001",
+          "preceding_word": "Lu",
+          "word_index": 1
+        },
+        {
+          "following_word": "deteriorated",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1022:word:0010",
+          "preceding_word": "card",
+          "word_index": 10
+        },
+        {
+          "following_word": "also",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1041:word:0004",
+          "preceding_word": "P",
+          "word_index": 4
+        },
+        {
+          "following_word": "proposed",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_109:word:0013",
+          "preceding_word": "Gladwell",
+          "word_index": 13
+        },
+        {
+          "following_word": "opened",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1197:word:0005",
+          "preceding_word": "Singh",
+          "word_index": 5
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "has",
+      "occurrence_count": 1729,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Has": 5,
+        "has": 1724
+      },
+      "utterance_count": 1671,
+      "word": "Has"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "year",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1033:word:0008",
+          "preceding_word": "earlier",
+          "word_index": 8
+        },
+        {
+          "following_word": "norm",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_104:word:0001",
+          "preceding_word": "Following",
+          "word_index": 1
+        },
+        {
+          "following_word": "will",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1057:word:0018",
+          "preceding_word": "level",
+          "word_index": 18
+        },
+        {
+          "following_word": "is",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1083:word:0000",
+          "preceding_word": null,
+          "word_index": 0
+        },
+        {
+          "following_word": "programme",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1290:word:0022",
+          "preceding_word": "in",
+          "word_index": 22
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "this",
+      "occurrence_count": 1687,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "THIS": 1,
+        "This": 422,
+        "this": 1264
+      },
+      "utterance_count": 1645,
+      "word": "THIS"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "written",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1033:word:0002",
+          "preceding_word": "Chattopadhyay",
+          "word_index": 2
+        },
+        {
+          "following_word": "suggested",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1143:word:0002",
+          "preceding_word": "Modi",
+          "word_index": 2
+        },
+        {
+          "following_word": "entered",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1267:word:0003",
+          "preceding_word": "X",
+          "word_index": 3
+        },
+        {
+          "following_word": "allegedly",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1427:word:0001",
+          "preceding_word": "Sushant",
+          "word_index": 1
+        },
+        {
+          "following_word": "slept",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1451:word:0001",
+          "preceding_word": "Soules",
+          "word_index": 1
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "had",
+      "occurrence_count": 1629,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Had": 7,
+        "had": 1622
+      },
+      "utterance_count": 1529,
+      "word": "Had"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": null,
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1031:word:0014",
+          "preceding_word": "A",
+          "word_index": 14
+        },
+        {
+          "following_word": "has",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1041:word:0003",
+          "preceding_word": "A",
+          "word_index": 3
+        },
+        {
+          "following_word": "U",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1119:word:0012",
+          "preceding_word": "R",
+          "word_index": 12
+        },
+        {
+          "following_word": "are",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_118:word:0013",
+          "preceding_word": "S",
+          "word_index": 13
+        },
+        {
+          "following_word": "and",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1222:word:0006",
+          "preceding_word": "U",
+          "word_index": 6
+        }
+      ],
+      "interest_signals": [
+        "capitalized_noninitial_weak_heuristic"
+      ],
+      "normalized_word": "p",
+      "occurrence_count": 1629,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "P": 1542,
+        "p": 87
+      },
+      "utterance_count": 1408,
+      "word": "P"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "M",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1044:word:0020",
+          "preceding_word": "and",
+          "word_index": 20
+        },
+        {
+          "following_word": "E",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_118:word:0007",
+          "preceding_word": "and",
+          "word_index": 7
+        },
+        {
+          "following_word": "E",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1300:word:0015",
+          "preceding_word": "Lynton",
+          "word_index": 15
+        },
+        {
+          "following_word": "Water",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1308:word:0015",
+          "preceding_word": "A",
+          "word_index": 15
+        },
+        {
+          "following_word": "Ds",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1399:word:0026",
+          "preceding_word": "N",
+          "word_index": 26
+        }
+      ],
+      "interest_signals": [
+        "capitalized_noninitial_weak_heuristic"
+      ],
+      "normalized_word": "c",
+      "occurrence_count": 1465,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "C": 1411,
+        "c": 54
+      },
+      "utterance_count": 1222,
+      "word": "C"
+    },
+    {
+      "canonical_phone_candidates": [],
+      "canonical_phone_source": "none_no_automatic_g2p",
+      "contexts_sample": [
+        {
+          "following_word": "increase",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1057:word:0019",
+          "preceding_word": "this",
+          "word_index": 19
+        },
+        {
+          "following_word": "feature",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1167:word:0001",
+          "preceding_word": "Samved",
+          "word_index": 1
+        },
+        {
+          "following_word": "be",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1194:word:0003",
+          "preceding_word": "fruits",
+          "word_index": 3
+        },
+        {
+          "following_word": "be",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1220:word:0012",
+          "preceding_word": "gadgets",
+          "word_index": 12
+        },
+        {
+          "following_word": "start",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1222:word:0009",
+          "preceding_word": "Telangana",
+          "word_index": 9
+        }
+      ],
+      "interest_signals": [],
+      "normalized_word": "will",
+      "occurrence_count": 1464,
+      "pronunciation_interest": false,
+      "surface_forms": {
+        "Will": 16,
+        "will": 1448
+      },
+      "utterance_count": 1388,
+      "word": "Will"
+    }
+  ]
+}

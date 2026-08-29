@@ -1,0 +1,1497 @@
+{
+  "clip_directory": "human_review_clips",
+  "context_padding_seconds": 0.3,
+  "default_listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+  "entry_count": 25,
+  "failure_count": 0,
+  "schema_version": "stage2d1b-human-review.v1",
+  "source_review_manifest": "artifacts/stage2d/pronunciation_atlas_v0_1/acoustic_consistency/human_review_manifest.jsonl",
+  "word_only_padding_seconds": 0.075,
+  "words": [
+    {
+      "acoustic_class": "INSUFFICIENT_EVIDENCE",
+      "analyzed_sample_count": 2,
+      "corpus_occurrence_count": 14,
+      "listening_question": "Do the available occurrences sound like the same underlying pronunciation or a meaningful pronunciation variant?",
+      "normalized_word": "agrawal",
+      "relative_variability": 0.7738370444924005,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 5.704787666944909,
+          "aligned_start_seconds": 5.304451690317196,
+          "alignment_confidence": 0.7440965052545743,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 1.000375,
+              "frame_count": 24009,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 144115,
+              "source_start_sample": 120106
+            },
+            "full_utterance": {
+              "byte_size": 575566,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 11.990041666666666,
+              "frame_count": 287761,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.550375,
+              "frame_count": 13209,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 138715,
+              "source_start_sample": 125506
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__context.wav",
+            "full_utterance": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__full.wav",
+            "word_only": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__context.wav",
+          "following_word": "Parliamentary",
+          "full_utterance_audio_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__full.wav",
+          "normalized_word": "agrawal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_107:word:0014",
+          "preceding_word": "Brijmohan",
+          "review_item_id": "agrawal-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_107.wav",
+          "target_source_span": [
+            95,
+            102
+          ],
+          "target_word": "Agrawal",
+          "transcript": "The occasion was marked with the presence of Agriculture and Water Resource Minister Brijmohan Agrawal, Parliamentary Secretary Tokhan Sahu, M I A Shrichand Sundrani and others",
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_107",
+          "word_only_clip_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_AGRI_107__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 7.655513917004049,
+          "aligned_start_seconds": 7.274742282388664,
+          "alignment_confidence": 0.6626794062906404,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.9808333333333333,
+              "frame_count": 23540,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 190933,
+              "source_start_sample": 167393
+            },
+            "full_utterance": {
+              "byte_size": 475246,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 9.900041666666667,
+              "frame_count": 237601,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.5308333333333334,
+              "frame_count": 12740,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 185533,
+              "source_start_sample": 172793
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__context.wav",
+            "full_utterance": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__full.wav",
+            "word_only": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__context.wav",
+          "following_word": "talked",
+          "full_utterance_audio_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__full.wav",
+          "normalized_word": "agrawal",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_6231:word:0017",
+          "preceding_word": "Brijmohan",
+          "review_item_id": "agrawal-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_6231.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_6231.wav",
+          "target_source_span": [
+            119,
+            126
+          ],
+          "target_word": "Agrawal",
+          "transcript": "In response to the discussion held at legislative Assembly on Friday, Minister for the aforesaid departments Brijmohan Agrawal talked at first about the",
+          "utterance_id": "IISc_SPICORProject_EN_M_ENTE_6231",
+          "word_only_clip_path": "human_review_clips/agrawal/agrawal__IISc_SPICORProject_EN_M_ENTE_6231__near__word.wav"
+        }
+      ],
+      "target_word": "Agrawal"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 4,
+      "corpus_occurrence_count": 47,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "gupta",
+      "relative_variability": 0.9471932556827148,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 2.805680443548387,
+          "aligned_start_seconds": 2.5251123991935485,
+          "alignment_confidence": 0.9110912165783441,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.880625,
+              "frame_count": 21135,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 74537,
+              "source_start_sample": 53402
+            },
+            "full_utterance": {
+              "byte_size": 238606,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 4.970041666666667,
+              "frame_count": 119281,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.430625,
+              "frame_count": 10335,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 69137,
+              "source_start_sample": 58802
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__context.wav",
+            "full_utterance": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__full.wav",
+            "word_only": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__context.wav",
+          "following_word": "was",
+          "full_utterance_audio_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__full.wav",
+          "normalized_word": "gupta",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_4112:word:0005",
+          "preceding_word": "Sangeeta",
+          "review_item_id": "gupta-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_4112.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_4112.wav",
+          "target_source_span": [
+            43,
+            48
+          ],
+          "target_word": "Gupta",
+          "transcript": "Principal Commissioner Income Tax Sangeeta Gupta was the chief guest on the occasion",
+          "utterance_id": "IISc_SPICORProject_EN_M_FOOD_4112",
+          "word_only_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_FOOD_4112__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 1.8450430327868854,
+          "aligned_start_seconds": 1.5642756147540984,
+          "alignment_confidence": 0.9789025639805911,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8808333333333334,
+              "frame_count": 21140,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 51482,
+              "source_start_sample": 30342
+            },
+            "full_utterance": {
+              "byte_size": 352366,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 7.340041666666667,
+              "frame_count": 176161,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.43083333333333335,
+              "frame_count": 10340,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 46082,
+              "source_start_sample": 35742
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__context.wav",
+            "full_utterance": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__full.wav",
+            "word_only": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__context.wav",
+          "following_word": "was",
+          "full_utterance_audio_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__full.wav",
+          "normalized_word": "gupta",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_4739:word:0005",
+          "preceding_word": "off",
+          "review_item_id": "gupta-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_4739.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_4739.wav",
+          "target_source_span": [
+            20,
+            25
+          ],
+          "target_word": "Gupta",
+          "transcript": "Based on a tip off, Gupta was arrested from near Fountain crossing, Chandni Chowk, while he was on the lookout for another victim",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_4739",
+          "word_only_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_4739__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 5.325895649779736,
+          "aligned_start_seconds": 5.005541024229075,
+          "alignment_confidence": 0.9380153635489563,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.9204166666666667,
+              "frame_count": 22090,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 135022,
+              "source_start_sample": 112932
+            },
+            "full_utterance": {
+              "byte_size": 436366,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 9.090041666666666,
+              "frame_count": 218161,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.47041666666666665,
+              "frame_count": 11290,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 129622,
+              "source_start_sample": 118332
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__context.wav",
+            "full_utterance": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__full.wav",
+            "word_only": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__context.wav",
+          "following_word": "and",
+          "full_utterance_audio_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__full.wav",
+          "normalized_word": "gupta",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1767:word:0012",
+          "preceding_word": "of",
+          "review_item_id": "gupta-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1767.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1767.wav",
+          "target_source_span": [
+            73,
+            78
+          ],
+          "target_word": "Gupta",
+          "transcript": "Reports said two teams of the AntiCorruption Bureau raided the houses of Gupta and Khajuria this afternoon and seized some documents",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1767",
+          "word_only_clip_path": "human_review_clips/gupta/gupta__IISc_SPICORProject_EN_M_WEAT_1767__near__word.wav"
+        }
+      ],
+      "target_word": "Gupta"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 4,
+      "corpus_occurrence_count": 99,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "kashmir",
+      "relative_variability": 0.819716588421561,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 6.949302949061662,
+          "aligned_start_seconds": 6.568793565683646,
+          "alignment_confidence": 0.9194735143474556,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.9805416666666666,
+              "frame_count": 23533,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 173984,
+              "source_start_sample": 150451
+            },
+            "full_utterance": {
+              "byte_size": 358604,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 7.47,
+              "frame_count": 179280,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.5305416666666667,
+              "frame_count": 12733,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 168584,
+              "source_start_sample": 155851
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__context.wav",
+            "full_utterance": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__full.wav",
+            "word_only": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__context.wav",
+          "following_word": null,
+          "full_utterance_audio_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__full.wav",
+          "normalized_word": "kashmir",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_138:word:0025",
+          "preceding_word": "and",
+          "review_item_id": "kashmir-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_138.wav",
+          "target_source_span": [
+            133,
+            140
+          ],
+          "target_word": "Kashmir",
+          "transcript": "On the Udhampur Srinagar Baramulla rail link project, he said that the work was halted because of a law and order issue in Jammu and Kashmir",
+          "utterance_id": "IISc_SPICORProject_EN_M_ENTE_138",
+          "word_only_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_138__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 7.218662790697675,
+          "aligned_start_seconds": 6.817625968992249,
+          "alignment_confidence": 0.8063002710722732,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 1.0010416666666666,
+              "frame_count": 24025,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 180448,
+              "source_start_sample": 156423
+            },
+            "full_utterance": {
+              "byte_size": 372526,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 7.760041666666667,
+              "frame_count": 186241,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.5510416666666667,
+              "frame_count": 13225,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 175048,
+              "source_start_sample": 161823
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__context.wav",
+            "full_utterance": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__full.wav",
+            "word_only": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__context.wav",
+          "following_word": null,
+          "full_utterance_audio_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__full.wav",
+          "normalized_word": "kashmir",
+          "occurrence_id": "IISc_SPICORProject_EN_M_ENTE_137:word:0024",
+          "preceding_word": "and",
+          "review_item_id": "kashmir-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_137.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_ENTE_137.wav",
+          "target_source_span": [
+            128,
+            135
+          ],
+          "target_word": "Kashmir",
+          "transcript": "A law meant to aid the recovery of debts but could result in the backdoor acquisition of property by non Kashmiris in Jammu and Kashmir",
+          "utterance_id": "IISc_SPICORProject_EN_M_ENTE_137",
+          "word_only_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_ENTE_137__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 3.2058333333333335,
+          "aligned_start_seconds": 2.7850677083333335,
+          "alignment_confidence": 0.8504083843997173,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 1.0207916666666668,
+              "frame_count": 24499,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 84140,
+              "source_start_sample": 59641
+            },
+            "full_utterance": {
+              "byte_size": 265486,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 5.5300416666666665,
+              "frame_count": 132721,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.5707916666666667,
+              "frame_count": 13699,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 78740,
+              "source_start_sample": 65041
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__context.wav",
+            "full_utterance": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__full.wav",
+            "word_only": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__context.wav",
+          "following_word": "as",
+          "full_utterance_audio_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__full.wav",
+          "normalized_word": "kashmir",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2035:word:0008",
+          "preceding_word": "in",
+          "review_item_id": "kashmir-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2035.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2035.wav",
+          "target_source_span": [
+            46,
+            53
+          ],
+          "target_word": "Kashmir",
+          "transcript": "Also there is no Deputy Director Dentistry in Kashmir as the post is lying vacant",
+          "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2035",
+          "word_only_clip_path": "human_review_clips/kashmir/kashmir__IISc_SPICORProject_EN_M_HEAL_2035__near__word.wav"
+        }
+      ],
+      "target_word": "Kashmir"
+    },
+    {
+      "acoustic_class": "INSUFFICIENT_EVIDENCE",
+      "analyzed_sample_count": 1,
+      "corpus_occurrence_count": 18,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "kashmiri",
+      "relative_variability": null,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 4.071804891304348,
+          "aligned_start_seconds": 3.6505836956521738,
+          "alignment_confidence": 0.8046958825953633,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 1.02125,
+              "frame_count": 24510,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 104924,
+              "source_start_sample": 80414
+            },
+            "full_utterance": {
+              "byte_size": 332206,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 6.920041666666667,
+              "frame_count": 166081,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.57125,
+              "frame_count": 13710,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 99524,
+              "source_start_sample": 85814
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__context.wav",
+            "full_utterance": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__full.wav",
+            "word_only": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__context.wav",
+          "following_word": "Migrants",
+          "full_utterance_audio_path": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__full.wav",
+          "normalized_word": "kashmiri",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1173:word:0011",
+          "preceding_word": "for",
+          "review_item_id": "kashmiri-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1173.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1173.wav",
+          "target_source_span": [
+            58,
+            66
+          ],
+          "target_word": "Kashmiri",
+          "transcript": "and two seats for Person with Disability and one seat for Kashmiri Migrants in B A, B Ed",
+          "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1173",
+          "word_only_clip_path": "human_review_clips/kashmiri/kashmiri__IISc_SPICORProject_EN_M_HEAL_1173__medoid__word.wav"
+        }
+      ],
+      "target_word": "Kashmiri"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 5,
+      "corpus_occurrence_count": 183,
+      "listening_question": "Is the core vowel/consonant pronunciation stable across full sentence contexts?",
+      "normalized_word": "kumar",
+      "relative_variability": 0.9253548475924765,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 4.227502429328622,
+          "aligned_start_seconds": 3.9470046378091874,
+          "alignment_confidence": 0.8507920200566021,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8805416666666667,
+              "frame_count": 21133,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 108661,
+              "source_start_sample": 87528
+            },
+            "full_utterance": {
+              "byte_size": 272206,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 5.670041666666667,
+              "frame_count": 136081,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.43054166666666666,
+              "frame_count": 10333,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 103261,
+              "source_start_sample": 92928
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__context.wav",
+            "full_utterance": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__full.wav",
+            "word_only": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__context.wav",
+          "following_word": "will",
+          "full_utterance_audio_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__full.wav",
+          "normalized_word": "kumar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2454:word:0011",
+          "preceding_word": "Nitish",
+          "review_item_id": "kumar-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2454.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2454.wav",
+          "target_source_span": [
+            61,
+            66
+          ],
+          "target_word": "Kumar",
+          "transcript": "The A A P convenor said that incumbent Chief Minister Nitish Kumar will get another",
+          "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2454",
+          "word_only_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_2454__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 4.553124459654179,
+          "aligned_start_seconds": 4.2522572046109515,
+          "alignment_confidence": 0.8955981283422798,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.900875,
+              "frame_count": 21621,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 116475,
+              "source_start_sample": 94854
+            },
+            "full_utterance": {
+              "byte_size": 334126,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 6.960041666666666,
+              "frame_count": 167041,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.450875,
+              "frame_count": 10821,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 111075,
+              "source_start_sample": 100254
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__context.wav",
+            "full_utterance": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__full.wav",
+            "word_only": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__context.wav",
+          "following_word": "gas",
+          "full_utterance_audio_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__full.wav",
+          "normalized_word": "kumar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3832:word:0007",
+          "preceding_word": "Ananth",
+          "review_item_id": "kumar-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3832.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3832.wav",
+          "target_source_span": [
+            59,
+            64
+          ],
+          "target_word": "Kumar",
+          "transcript": "Fertiliser ministry chemical feedstock Myanmar Iran Ananth Kumar gas pooling petroleum ministry",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3832",
+          "word_only_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_WEAT_3832__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 2.068353678929766,
+          "aligned_start_seconds": 1.7872182274247492,
+          "alignment_confidence": 0.8008255716661441,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8811666666666667,
+              "frame_count": 21148,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 56841,
+              "source_start_sample": 35693
+            },
+            "full_utterance": {
+              "byte_size": 288246,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 6.004208333333334,
+              "frame_count": 144101,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.43116666666666664,
+              "frame_count": 10348,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 51441,
+              "source_start_sample": 41093
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__context.wav",
+            "full_utterance": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__full.wav",
+            "word_only": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__context.wav",
+          "following_word": "If",
+          "full_utterance_audio_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__full.wav",
+          "normalized_word": "kumar",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_1659:word:0006",
+          "preceding_word": "says",
+          "review_item_id": "kumar-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_1659.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_1659.wav",
+          "target_source_span": [
+            29,
+            34
+          ],
+          "target_word": "Kumar",
+          "transcript": "This is just a barrier, says Kumar, If it breaks once boxing will get a medal at every Olympics",
+          "utterance_id": "IISc_SPICORProject_EN_M_OTHE_1659",
+          "word_only_clip_path": "human_review_clips/kumar/kumar__IISc_SPICORProject_EN_M_OTHE_1659__near__word.wav"
+        }
+      ],
+      "target_word": "Kumar"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 3,
+      "corpus_occurrence_count": 45,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "mishra",
+      "relative_variability": 0.8971252013157186,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 9.735532670454544,
+          "aligned_start_seconds": 9.4751171875,
+          "alignment_confidence": 0.6770783729042051,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8604583333333333,
+              "frame_count": 20651,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 240853,
+              "source_start_sample": 220202
+            },
+            "full_utterance": {
+              "byte_size": 507734,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 10.576875,
+              "frame_count": 253845,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.4104583333333333,
+              "frame_count": 9851,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 235453,
+              "source_start_sample": 225602
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__context.wav",
+            "full_utterance": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__full.wav",
+            "word_only": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__context.wav",
+          "following_word": null,
+          "full_utterance_audio_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__full.wav",
+          "normalized_word": "mishra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_1956:word:0025",
+          "preceding_word": "Kumar",
+          "review_item_id": "mishra-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1956.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_1956.wav",
+          "target_source_span": [
+            150,
+            156
+          ],
+          "target_word": "Mishra",
+          "transcript": "Sonepur- The National Dengue Day was observed at the Tarbha C H C of Subarnmapur district under the chairmanship of hospital incharge Dr Khirod Kumar Mishra",
+          "utterance_id": "IISc_SPICORProject_EN_M_HEAL_1956",
+          "word_only_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_HEAL_1956__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 2.327942832764505,
+          "aligned_start_seconds": 2.0871211604095565,
+          "alignment_confidence": 0.6379276134208242,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.840875,
+              "frame_count": 20181,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 63071,
+              "source_start_sample": 42890
+            },
+            "full_utterance": {
+              "byte_size": 282286,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 5.880041666666667,
+              "frame_count": 141121,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.390875,
+              "frame_count": 9381,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 57671,
+              "source_start_sample": 48290
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__context.wav",
+            "full_utterance": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__full.wav",
+            "word_only": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__context.wav",
+          "following_word": "of",
+          "full_utterance_audio_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__full.wav",
+          "normalized_word": "mishra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_FOOD_2846:word:0003",
+          "preceding_word": "Neelkanth",
+          "review_item_id": "mishra-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_2846.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_FOOD_2846.wav",
+          "target_source_span": [
+            25,
+            31
+          ],
+          "target_word": "Mishra",
+          "transcript": "Unlikely, says Neelkanth Mishra of Credit Suisse, because of the low demand for credit now",
+          "utterance_id": "IISc_SPICORProject_EN_M_FOOD_2846",
+          "word_only_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_FOOD_2846__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 3.4473819742489273,
+          "aligned_start_seconds": 3.186824034334764,
+          "alignment_confidence": 0.7944419441343725,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.860625,
+              "frame_count": 20655,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 89938,
+              "source_start_sample": 69283
+            },
+            "full_utterance": {
+              "byte_size": 448364,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 9.34,
+              "frame_count": 224160,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.410625,
+              "frame_count": 9855,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 84538,
+              "source_start_sample": 74683
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__context.wav",
+            "full_utterance": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__full.wav",
+            "word_only": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__context.wav",
+          "following_word": "will",
+          "full_utterance_audio_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__full.wav",
+          "normalized_word": "mishra",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_6732:word:0010",
+          "preceding_word": "Kalraj",
+          "review_item_id": "mishra-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6732.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_6732.wav",
+          "target_source_span": [
+            49,
+            55
+          ],
+          "target_word": "Mishra",
+          "transcript": "The B J P leader said that Union minister Kalraj Mishra will go to Himachal Pradesh while Water Resources minister Uma Bharai will visit Assam",
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_6732",
+          "word_only_clip_path": "human_review_clips/mishra/mishra__IISc_SPICORProject_EN_M_AGRI_6732__near__word.wav"
+        }
+      ],
+      "target_word": "Mishra"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 5,
+      "corpus_occurrence_count": 162,
+      "listening_question": "Is the final vowel/diphthong realization stable across full sentence contexts?",
+      "normalized_word": "mumbai",
+      "relative_variability": 1.0171228579268166,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 0.6615566037735848,
+          "aligned_start_seconds": 0.40094339622641506,
+          "alignment_confidence": 0.4108990138455387,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8606666666666667,
+              "frame_count": 20656,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 23078,
+              "source_start_sample": 2422
+            },
+            "full_utterance": {
+              "byte_size": 204044,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 4.25,
+              "frame_count": 102000,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.4106666666666667,
+              "frame_count": 9856,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 17678,
+              "source_start_sample": 7822
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__context.wav",
+            "full_utterance": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__full.wav",
+            "word_only": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__context.wav",
+          "following_word": "News",
+          "full_utterance_audio_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__full.wav",
+          "normalized_word": "mumbai",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_2923:word:0001",
+          "preceding_word": "Home",
+          "review_item_id": "mumbai-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2923.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_2923.wav",
+          "target_source_span": [
+            5,
+            11
+          ],
+          "target_word": "Mumbai",
+          "transcript": "Home Mumbai News Sharad Pawar's N C P cosying up to B J P",
+          "utterance_id": "IISc_SPICORProject_EN_M_OTHE_2923",
+          "word_only_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_OTHE_2923__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 2.686180172413793,
+          "aligned_start_seconds": 2.4055344827586205,
+          "alignment_confidence": 0.8916701402265906,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8807083333333333,
+              "frame_count": 21137,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 71669,
+              "source_start_sample": 50532
+            },
+            "full_utterance": {
+              "byte_size": 418606,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 8.720041666666667,
+              "frame_count": 209281,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.43070833333333336,
+              "frame_count": 10337,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 66269,
+              "source_start_sample": 55932
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__context.wav",
+            "full_utterance": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__full.wav",
+            "word_only": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__context.wav",
+          "following_word": "last",
+          "full_utterance_audio_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__full.wav",
+          "normalized_word": "mumbai",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_5618:word:0007",
+          "preceding_word": "in",
+          "review_item_id": "mumbai-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_5618.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_5618.wav",
+          "target_source_span": [
+            38,
+            44
+          ],
+          "target_word": "Mumbai",
+          "transcript": "At the Mint Luxury Conference held in Mumbai last week, I moderated a conversation with Milner on why manners maketh a man",
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5618",
+          "word_only_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_AGRI_5618__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 4.2765632267441855,
+          "aligned_start_seconds": 3.995474563953488,
+          "alignment_confidence": 0.5292619411064793,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.881125,
+              "frame_count": 21147,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 109838,
+              "source_start_sample": 88691
+            },
+            "full_utterance": {
+              "byte_size": 248686,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 5.180041666666667,
+              "frame_count": 124321,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.431125,
+              "frame_count": 10347,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 104438,
+              "source_start_sample": 94091
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__context.wav",
+            "full_utterance": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__full.wav",
+            "word_only": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__context.wav",
+          "following_word": "Harbour",
+          "full_utterance_audio_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__full.wav",
+          "normalized_word": "mumbai",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1830:word:0014",
+          "preceding_word": "the",
+          "review_item_id": "mumbai-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1830.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1830.wav",
+          "target_source_span": [
+            73,
+            79
+          ],
+          "target_word": "Mumbai",
+          "transcript": "Our reader spotted a flock of seagulls on a chilly Mumbai morning at the Mumbai Harbour",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1830",
+          "word_only_clip_path": "human_review_clips/mumbai/mumbai__IISc_SPICORProject_EN_M_WEAT_1830__near__word.wav"
+        }
+      ],
+      "target_word": "Mumbai"
+    },
+    {
+      "acoustic_class": "INSUFFICIENT_EVIDENCE",
+      "analyzed_sample_count": 1,
+      "corpus_occurrence_count": 3,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "sensharma",
+      "relative_variability": null,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 4.654233944954128,
+          "aligned_start_seconds": 4.172761467889908,
+          "alignment_confidence": 0.6251312038922419,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 1.0815,
+              "frame_count": 25956,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 118902,
+              "source_start_sample": 92946
+            },
+            "full_utterance": {
+              "byte_size": 314926,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 6.560041666666667,
+              "frame_count": 157441,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.6315,
+              "frame_count": 15156,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 113502,
+              "source_start_sample": 98346
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__context.wav",
+            "full_utterance": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__full.wav",
+            "word_only": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__context.wav",
+          "following_word": "film",
+          "full_utterance_audio_path": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__full.wav",
+          "normalized_word": "sensharma",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_3645:word:0010",
+          "preceding_word": "Konkona",
+          "review_item_id": "sensharma-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3645.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_3645.wav",
+          "target_source_span": [
+            64,
+            73
+          ],
+          "target_word": "Sensharma",
+          "transcript": "Lipstick Under My Burkha box office collection day six- Konkona Sensharma film had a strong Wednesday",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_3645",
+          "word_only_clip_path": "human_review_clips/sensharma/sensharma__IISc_SPICORProject_EN_M_WEAT_3645__medoid__word.wav"
+        }
+      ],
+      "target_word": "Sensharma"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 5,
+      "corpus_occurrence_count": 100,
+      "listening_question": "Across these full utterances, does the target word have the same underlying pronunciation, with only natural changes in prosody, speaking rate, stress, and coarticulation?",
+      "normalized_word": "sharma",
+      "relative_variability": 0.8718312137873382,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 1.363618700265252,
+          "aligned_start_seconds": 1.0427672413793103,
+          "alignment_confidence": 0.6998885130164642,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.920875,
+              "frame_count": 22101,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 39927,
+              "source_start_sample": 17826
+            },
+            "full_utterance": {
+              "byte_size": 362926,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 7.560041666666667,
+              "frame_count": 181441,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.470875,
+              "frame_count": 11301,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 34527,
+              "source_start_sample": 23226
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__context.wav",
+            "full_utterance": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__full.wav",
+            "word_only": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__context.wav",
+          "following_word": "who",
+          "full_utterance_audio_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__full.wav",
+          "normalized_word": "sharma",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_423:word:0002",
+          "preceding_word": "chairman",
+          "review_item_id": "sharma-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_423.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_423.wav",
+          "target_source_span": [
+            14,
+            20
+          ],
+          "target_word": "Sharma",
+          "transcript": "TRAI chairman Sharma, who has accused Apple of colonising data, may be looking at regulating internet giants on this pretext",
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_423",
+          "word_only_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_AGRI_423__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 4.651082142857143,
+          "aligned_start_seconds": 4.370413392857143,
+          "alignment_confidence": 0.7831523451592702,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8807083333333333,
+              "frame_count": 21137,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 118826,
+              "source_start_sample": 97689
+            },
+            "full_utterance": {
+              "byte_size": 404206,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 8.420041666666666,
+              "frame_count": 202081,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.43070833333333336,
+              "frame_count": 10337,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 113426,
+              "source_start_sample": 103089
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__context.wav",
+            "full_utterance": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__full.wav",
+            "word_only": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__context.wav",
+          "following_word": "that",
+          "full_utterance_audio_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__full.wav",
+          "normalized_word": "sharma",
+          "occurrence_id": "IISc_SPICORProject_EN_M_OTHE_272:word:0013",
+          "preceding_word": "Vinay",
+          "review_item_id": "sharma-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_272.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_OTHE_272.wav",
+          "target_source_span": [
+            86,
+            92
+          ],
+          "target_word": "Sharma",
+          "transcript": "The High Court failed to appreciate before awarding death sentence to appellant Vinay Sharma that he was juvenile at the time of the incident, it said",
+          "utterance_id": "IISc_SPICORProject_EN_M_OTHE_272",
+          "word_only_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_OTHE_272__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 1.8639197741596638,
+          "aligned_start_seconds": 1.5432454044117647,
+          "alignment_confidence": 0.8292704641765914,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.92075,
+              "frame_count": 22098,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 51935,
+              "source_start_sample": 29837
+            },
+            "full_utterance": {
+              "byte_size": 457966,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 9.540041666666667,
+              "frame_count": 228961,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.47075,
+              "frame_count": 11298,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 46535,
+              "source_start_sample": 35237
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__context.wav",
+            "full_utterance": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__full.wav",
+            "word_only": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__context.wav",
+          "following_word": "Life",
+          "full_utterance_audio_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__full.wav",
+          "normalized_word": "sharma",
+          "occurrence_id": "IISc_SPICORProject_EN_M_HEAL_2141:word:0004",
+          "preceding_word": "Bageshwar",
+          "review_item_id": "sharma-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2141.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_HEAL_2141.wav",
+          "target_source_span": [
+            22,
+            28
+          ],
+          "target_word": "Sharma",
+          "transcript": "To all from Bageshwar Sharma: Life is like a river which has many turns, so enjoy every turn because these turns never return",
+          "utterance_id": "IISc_SPICORProject_EN_M_HEAL_2141",
+          "word_only_clip_path": "human_review_clips/sharma/sharma__IISc_SPICORProject_EN_M_HEAL_2141__near__word.wav"
+        }
+      ],
+      "target_word": "Sharma"
+    },
+    {
+      "acoustic_class": "ACOUSTICALLY_STABLE",
+      "analyzed_sample_count": 5,
+      "corpus_occurrence_count": 331,
+      "listening_question": "Does the final realization sound consistently the same, or do some utterances contain a clearly different final release / h-like ending?",
+      "normalized_word": "singh",
+      "relative_variability": 1.1232542434914514,
+      "selected_review_entries": [
+        {
+          "aligned_end_seconds": 2.265321742957746,
+          "aligned_start_seconds": 2.104944982394366,
+          "alignment_confidence": 0.6084881090033527,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.7604166666666666,
+              "frame_count": 18250,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 61568,
+              "source_start_sample": 43318
+            },
+            "full_utterance": {
+              "byte_size": 409966,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 8.540041666666667,
+              "frame_count": 204961,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.3104166666666667,
+              "frame_count": 7450,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 56168,
+              "source_start_sample": 48718
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__context.wav",
+            "full_utterance": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__full.wav",
+            "word_only": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__word.wav"
+          },
+          "context_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__context.wav",
+          "following_word": "Nagar",
+          "full_utterance_audio_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__full.wav",
+          "normalized_word": "singh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_POLI_1001:word:0005",
+          "preceding_word": "Udham",
+          "review_item_id": "singh-farthest_from_medoid",
+          "role": "far",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_1001.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_POLI_1001.wav",
+          "target_source_span": [
+            30,
+            35
+          ],
+          "target_word": "Singh",
+          "transcript": "This year, the Nainital Udham Singh Nagar M P and Bharatiya Janata Party state president Ajay Bhatt will inaugurate the Nanda Devi Mahotsav",
+          "utterance_id": "IISc_SPICORProject_EN_M_POLI_1001",
+          "word_only_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_POLI_1001__far__word.wav"
+        },
+        {
+          "aligned_end_seconds": 5.28717972972973,
+          "aligned_start_seconds": 5.066880574324324,
+          "alignment_confidence": 0.7221775249209397,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8203333333333334,
+              "frame_count": 19688,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 134093,
+              "source_start_sample": 114405
+            },
+            "full_utterance": {
+              "byte_size": 355726,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 7.410041666666666,
+              "frame_count": 177841,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.37033333333333335,
+              "frame_count": 8888,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 128693,
+              "source_start_sample": 119805
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__context.wav",
+            "full_utterance": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__full.wav",
+            "word_only": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__word.wav"
+          },
+          "context_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__context.wav",
+          "following_word": "from",
+          "full_utterance_audio_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__full.wav",
+          "normalized_word": "singh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_WEAT_1450:word:0016",
+          "preceding_word": "Kartar",
+          "review_item_id": "singh-medoid_typical",
+          "role": "medoid",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1450.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_WEAT_1450.wav",
+          "target_source_span": [
+            87,
+            92
+          ],
+          "target_word": "Singh",
+          "transcript": "We are hopeful that the coming days would also witness rain in the region, said Kartar Singh from Kala Sanghian village",
+          "utterance_id": "IISc_SPICORProject_EN_M_WEAT_1450",
+          "word_only_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_WEAT_1450__medoid__word.wav"
+        },
+        {
+          "aligned_end_seconds": 5.488329682779456,
+          "aligned_start_seconds": 5.2880256797583085,
+          "alignment_confidence": 0.7794347660504057,
+          "alignment_model": "facebook/wav2vec2-base-960h",
+          "alignment_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+          "clip_metadata": {
+            "context": {
+              "duration_seconds": 0.8003333333333333,
+              "frame_count": 19208,
+              "padding_seconds": 0.3,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 138920,
+              "source_start_sample": 119712
+            },
+            "full_utterance": {
+              "byte_size": 318286,
+              "copied_byte_for_byte": true,
+              "duration_seconds": 6.630041666666667,
+              "frame_count": 159121,
+              "sample_rate_hz": 24000
+            },
+            "word_only": {
+              "duration_seconds": 0.35033333333333333,
+              "frame_count": 8408,
+              "padding_seconds": 0.075,
+              "sample_rate_hz": 24000,
+              "source_end_sample": 133520,
+              "source_start_sample": 125112
+            }
+          },
+          "clip_paths": {
+            "context": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__context.wav",
+            "full_utterance": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__full.wav",
+            "word_only": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__word.wav"
+          },
+          "context_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__context.wav",
+          "following_word": "took",
+          "full_utterance_audio_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__full.wav",
+          "normalized_word": "singh",
+          "occurrence_id": "IISc_SPICORProject_EN_M_AGRI_1369:word:0017",
+          "preceding_word": "Honey",
+          "review_item_id": "singh-nearest_to_medoid",
+          "role": "near",
+          "source_audio_path": "data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1369.wav",
+          "source_audio_path_resolved": "/Users/saikiran/Documents/swara/data/spicor_eng_m_spk001_v1/audio_24k/IISc_SPICORProject_EN_M_AGRI_1369.wav",
+          "target_source_span": [
+            94,
+            99
+          ],
+          "target_word": "Singh",
+          "transcript": "Musician Badshah feels bad when people claim that he became a houseold name after Yo Yo Honey Singh took a break",
+          "utterance_id": "IISc_SPICORProject_EN_M_AGRI_1369",
+          "word_only_clip_path": "human_review_clips/singh/singh__IISc_SPICORProject_EN_M_AGRI_1369__near__word.wav"
+        }
+      ],
+      "target_word": "Singh"
+    }
+  ]
+}

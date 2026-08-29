@@ -1,0 +1,219 @@
+{
+  "decisions": [
+    {
+      "acoustic_consistency_result": {
+        "classification": "INSUFFICIENT_EVIDENCE",
+        "relative_variability_score": 0.7738370444924005,
+        "usable_aligned_occurrence_count": 2
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 14,
+      "human_notes": "Same underlying pronunciation across both reviewed occurrences.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "agrawal",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_AGRI_107",
+        "IISc_SPICORProject_EN_M_ENTE_6231"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Agrawal"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 0.9471932556827148,
+        "usable_aligned_occurrence_count": 4
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 47,
+      "human_notes": "Same underlying pronunciation across reviewed occurrences.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "gupta",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_FOOD_4112",
+        "IISc_SPICORProject_EN_M_WEAT_4739",
+        "IISc_SPICORProject_EN_M_WEAT_1767"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Gupta"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 0.819716588421561,
+        "usable_aligned_occurrence_count": 4
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 99,
+      "human_notes": "Same underlying pronunciation across reviewed occurrences.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "kashmir",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_ENTE_138",
+        "IISc_SPICORProject_EN_M_ENTE_137",
+        "IISc_SPICORProject_EN_M_HEAL_2035"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Kashmir"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "INSUFFICIENT_EVIDENCE",
+        "relative_variability_score": null,
+        "usable_aligned_occurrence_count": 1
+      },
+      "canonical_pronunciation_supported": false,
+      "confidence": "medium",
+      "corpus_occurrence_count": 18,
+      "human_notes": "Human judgment identifies a different pronunciation from Kashmir; no phone sequence is inferred or collapsed.",
+      "human_verdict": "DISTINCT_LEXICAL_FORM",
+      "normalized_word": "kashmiri",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_HEAL_1173"
+      ],
+      "unresolved_questions": [
+        "Obtain a trusted curated phone sequence before training."
+      ],
+      "unreviewed_selected_utterances": [],
+      "word": "Kashmiri"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 0.9253548475924765,
+        "usable_aligned_occurrence_count": 5
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 183,
+      "human_notes": "Same underlying pronunciation. One occurrence is influenced by the preceding word; treated as context/coarticulation, not a pronunciation variant.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "kumar",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_OTHE_2454",
+        "IISc_SPICORProject_EN_M_WEAT_3832",
+        "IISc_SPICORProject_EN_M_OTHE_1659"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Kumar"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 0.8971252013157186,
+        "usable_aligned_occurrence_count": 3
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 45,
+      "human_notes": "Same underlying pronunciation across reviewed occurrences.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "mishra",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_HEAL_1956",
+        "IISc_SPICORProject_EN_M_FOOD_2846",
+        "IISc_SPICORProject_EN_M_AGRI_6732"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Mishra"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 1.0171228579268166,
+        "usable_aligned_occurrence_count": 5
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 162,
+      "human_notes": "Same underlying pronunciation across reviewed occurrences.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "mumbai",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_OTHE_2923",
+        "IISc_SPICORProject_EN_M_AGRI_5618"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [
+        "IISc_SPICORProject_EN_M_WEAT_1830"
+      ],
+      "word": "Mumbai"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "INSUFFICIENT_EVIDENCE",
+        "relative_variability_score": null,
+        "usable_aligned_occurrence_count": 1
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "low",
+      "corpus_occurrence_count": 3,
+      "human_notes": "The pronunciation sounds correct/fine, but only one reviewed occurrence exists; corpus-level consistency is not proven.",
+      "human_verdict": "INSUFFICIENT_EVIDENCE",
+      "normalized_word": "sensharma",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_WEAT_3645"
+      ],
+      "unresolved_questions": [
+        "Review additional occurrences before claiming corpus-level consistency."
+      ],
+      "unreviewed_selected_utterances": [],
+      "word": "Sensharma"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 0.8718312137873382,
+        "usable_aligned_occurrence_count": 5
+      },
+      "canonical_pronunciation_supported": true,
+      "confidence": "high",
+      "corpus_occurrence_count": 100,
+      "human_notes": "Same underlying pronunciation. OTHE_272 is sharper; treated as acoustic/prosodic realization variation unless future evidence establishes a phonemic distinction.",
+      "human_verdict": "CANONICAL_STABLE",
+      "normalized_word": "sharma",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_AGRI_423",
+        "IISc_SPICORProject_EN_M_OTHE_272",
+        "IISc_SPICORProject_EN_M_HEAL_2141"
+      ],
+      "unresolved_questions": [],
+      "unreviewed_selected_utterances": [],
+      "word": "Sharma"
+    },
+    {
+      "acoustic_consistency_result": {
+        "classification": "ACOUSTICALLY_STABLE",
+        "relative_variability_score": 1.1232542434914514,
+        "usable_aligned_occurrence_count": 5
+      },
+      "canonical_pronunciation_supported": false,
+      "confidence": "medium",
+      "corpus_occurrence_count": 331,
+      "human_notes": "Full-utterance pronunciation sounds good and consistent. Word-only clips do not resolve the precise final release; do not choose S I NG or S I NG H universally.",
+      "human_verdict": "CANONICAL_STABLE_PHONE_DETAIL_UNRESOLVED",
+      "normalized_word": "singh",
+      "reviewed_utterances": [
+        "IISc_SPICORProject_EN_M_POLI_1001",
+        "IISc_SPICORProject_EN_M_WEAT_1450",
+        "IISc_SPICORProject_EN_M_AGRI_1369"
+      ],
+      "unresolved_questions": [
+        "Resolve the natural final release before selecting a canonical phone detail."
+      ],
+      "unreviewed_selected_utterances": [],
+      "word": "Singh"
+    }
+  ],
+  "no_phone_inference": true,
+  "provenance": "human_review_stage2d1b_2026_08_29",
+  "schema_version": "stage2d1-human-review-consolidation-v0.1"
+}

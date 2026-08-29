@@ -1,0 +1,125 @@
+{
+  "current_inventory_id": "swara-phones-v0",
+  "production_inventory_modified": false,
+  "proposals": [
+    {
+      "confidence": "high",
+      "corpus_occurrence_evidence": {
+        "agrawal": 14
+      },
+      "curated_evidence": {
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-001"
+            ],
+            "human_pronunciation": "uh-gruh-waal",
+            "invalid_symbols": [],
+            "normalized_word": "agrawal",
+            "override_id": "stage2b-agrawal-a-v0",
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "A",
+              "G",
+              "R",
+              "A",
+              "V",
+              "AA",
+              "L"
+            ]
+          },
+          {
+            "candidate_ids": [
+              "s2b4b-cand-002"
+            ],
+            "human_pronunciation": "uhh-gruh-waal",
+            "invalid_symbols": [],
+            "normalized_word": "agrawal",
+            "override_id": null,
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-B",
+            "verification_provenance": null,
+            "verification_status": "UNSUPPORTED_ALPHABET_VARIANT",
+            "verified_phone_sequence": null
+          }
+        ]
+      },
+      "distinction": "schwa quality/quantity distinct from the coarse A vowel",
+      "external_probe_evidence": {
+        "case": "Agrawal A/B",
+        "source": "Stage2B human review"
+      },
+      "include_in_v1_recommendation": true,
+      "supporting_words": [
+        "Agrawal"
+      ],
+      "symbol": "SCHWA",
+      "why_v0_is_insufficient": "Human review confirmed Agrawal A versus Agrawal B differs in initial uh versus uhh; substituting AA would falsely encode duration as vowel identity."
+    },
+    {
+      "confidence": "medium",
+      "corpus_occurrence_evidence": {
+        "dasharatha": 0
+      },
+      "curated_evidence": {},
+      "distinction": "atomic aspiration-bearing dental/alveolar stop category, not T followed by H",
+      "external_probe_evidence": {
+        "case": "Dasharatha A/B",
+        "variants": [
+          "D A SH A R A T H A",
+          "D A SH A R A T A"
+        ]
+      },
+      "include_in_v1_recommendation": true,
+      "supporting_words": [
+        "Dasharatha"
+      ],
+      "symbol": "TH",
+      "why_v0_is_insufficient": "The external Dasharatha probe showed the existing T H sequence and T sequence do not safely capture the intended distinction; v0 has no atomic aspirated-stop symbol."
+    },
+    {
+      "confidence": "low",
+      "corpus_occurrence_evidence": {
+        "dasharatha": 0
+      },
+      "curated_evidence": {},
+      "distinction": "retroflex stop place distinct from v0 T",
+      "external_probe_evidence": {
+        "case": "Dasharatha",
+        "status": "human failure probe only"
+      },
+      "include_in_v1_recommendation": false,
+      "supporting_words": [
+        "Dasharatha"
+      ],
+      "symbol": "T_RETROFLEX",
+      "why_v0_is_insufficient": "v0 contains no retroflex place distinction, which is relevant to Indian/Sanskrit name coverage but is not acoustically measured here."
+    },
+    {
+      "confidence": "low",
+      "corpus_occurrence_evidence": {},
+      "curated_evidence": {},
+      "distinction": "retroflex voiced stop place distinct from v0 D",
+      "external_probe_evidence": {},
+      "include_in_v1_recommendation": false,
+      "supporting_words": [],
+      "symbol": "D_RETROFLEX",
+      "why_v0_is_insufficient": "v0 contains no retroflex place distinction; no corpus or curated acoustic evidence establishes this as a first extension."
+    },
+    {
+      "confidence": "low",
+      "corpus_occurrence_evidence": {},
+      "curated_evidence": {},
+      "distinction": "labio-velar approximant distinct from v0 V",
+      "external_probe_evidence": {},
+      "include_in_v1_recommendation": false,
+      "supporting_words": [],
+      "symbol": "W",
+      "why_v0_is_insufficient": "v0 has V but no W; this is a candidate category for future review, not an established SPICOR finding in this atlas."
+    }
+  ],
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1"
+}

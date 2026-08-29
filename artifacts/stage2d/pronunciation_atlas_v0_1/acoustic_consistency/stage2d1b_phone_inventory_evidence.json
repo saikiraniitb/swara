@@ -1,0 +1,62 @@
+{
+  "conclusion": "No new phone is sufficiently supported to freeze from this study.",
+  "evidence": [
+    {
+      "phoneme_claim": false,
+      "reason": "Agrawal has curated human evidence, but this descriptor study cannot identify schwa or prove a phoneme distinction.",
+      "status": "SUPPORT_UNCHANGED",
+      "supporting_acoustic_targets": [
+        "agrawal",
+        "kashmiri",
+        "vijay"
+      ],
+      "symbol": "SCHWA"
+    },
+    {
+      "phoneme_claim": false,
+      "reason": "No occurrence-level aspirated-stop labels exist; acoustic clustering is not a phone proof.",
+      "status": "NOT_TESTABLE_FROM_CURRENT_DATA",
+      "supporting_acoustic_targets": [
+        "agrawal",
+        "kashmiri",
+        "vijay"
+      ],
+      "symbol": "TH"
+    },
+    {
+      "phoneme_claim": false,
+      "reason": "No trustworthy occurrence-level retroflex labels or acoustic phone recognizer.",
+      "status": "NOT_TESTABLE_FROM_CURRENT_DATA",
+      "supporting_acoustic_targets": [
+        "agrawal",
+        "kashmiri",
+        "vijay"
+      ],
+      "symbol": "T_RETROFLEX"
+    },
+    {
+      "phoneme_claim": false,
+      "reason": "No trustworthy occurrence-level retroflex labels or acoustic phone recognizer.",
+      "status": "NOT_TESTABLE_FROM_CURRENT_DATA",
+      "supporting_acoustic_targets": [
+        "agrawal",
+        "kashmiri",
+        "vijay"
+      ],
+      "symbol": "D_RETROFLEX"
+    },
+    {
+      "phoneme_claim": false,
+      "reason": "No trustworthy occurrence-level V/W labels or acoustic phone recognizer.",
+      "status": "NOT_TESTABLE_FROM_CURRENT_DATA",
+      "supporting_acoustic_targets": [
+        "agrawal",
+        "kashmiri",
+        "vijay"
+      ],
+      "symbol": "W"
+    }
+  ],
+  "production_inventory_modified": false,
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1"
+}

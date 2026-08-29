@@ -1,0 +1,723 @@
+{
+  "entries": [
+    {
+      "canonical_phone_sequence": [
+        "A",
+        "G",
+        "R",
+        "A",
+        "V",
+        "AA",
+        "L"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 14,
+      "evidence": {
+        "acoustic": {
+          "classification": "INSUFFICIENT_EVIDENCE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.7738370444924005
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-001"
+            ],
+            "human_pronunciation": "uh-gruh-waal",
+            "override_id": "stage2b-agrawal-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "A",
+              "G",
+              "R",
+              "A",
+              "V",
+              "AA",
+              "L"
+            ]
+          },
+          {
+            "candidate_ids": [
+              "s2b4b-cand-002"
+            ],
+            "human_pronunciation": "uhh-gruh-waal",
+            "override_id": null,
+            "phone_sequence_source": null,
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-B",
+            "verification_status": "UNSUPPORTED_ALPHABET_VARIANT",
+            "verified_phone_sequence": null
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_AGRI_107",
+          "IISc_SPICORProject_EN_M_ENTE_6231"
+        ]
+      },
+      "normalized_word": "agrawal",
+      "notes": "Same underlying pronunciation across both reviewed occurrences. Existing Agrawal-B remains an unsupported v0 variant and is not promoted or collapsed into this entry.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-001"
+          ],
+          "human_pronunciation": "uh-gruh-waal",
+          "override_id": "stage2b-agrawal-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Agrawal",
+          "variant_id": "Agrawal-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "A",
+            "G",
+            "R",
+            "A",
+            "V",
+            "AA",
+            "L"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Agrawal"
+    },
+    {
+      "canonical_phone_sequence": [
+        "G",
+        "UU",
+        "P",
+        "T",
+        "AA"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 47,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.9471932556827148
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-009",
+              "s2b4b-cand-010"
+            ],
+            "human_pronunciation": "goop-taa",
+            "override_id": "stage2b-gupta-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Gupta",
+            "variant_id": "Gupta-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "G",
+              "UU",
+              "P",
+              "T",
+              "AA"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_FOOD_4112",
+          "IISc_SPICORProject_EN_M_WEAT_4739",
+          "IISc_SPICORProject_EN_M_WEAT_1767"
+        ]
+      },
+      "normalized_word": "gupta",
+      "notes": "Same underlying pronunciation across reviewed occurrences.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-009",
+            "s2b4b-cand-010"
+          ],
+          "human_pronunciation": "goop-taa",
+          "override_id": "stage2b-gupta-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Gupta",
+          "variant_id": "Gupta-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "G",
+            "UU",
+            "P",
+            "T",
+            "AA"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Gupta"
+    },
+    {
+      "canonical_phone_sequence": [
+        "K",
+        "A",
+        "SH",
+        "M",
+        "EE",
+        "R"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 99,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.819716588421561
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-013",
+              "s2b4b-cand-014"
+            ],
+            "human_pronunciation": "kush-meer",
+            "override_id": "stage2b-kashmir-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Kashmir",
+            "variant_id": "Kashmir-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "K",
+              "A",
+              "SH",
+              "M",
+              "EE",
+              "R"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_ENTE_138",
+          "IISc_SPICORProject_EN_M_ENTE_137",
+          "IISc_SPICORProject_EN_M_HEAL_2035"
+        ]
+      },
+      "normalized_word": "kashmir",
+      "notes": "Same underlying pronunciation across reviewed occurrences.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-013",
+            "s2b4b-cand-014"
+          ],
+          "human_pronunciation": "kush-meer",
+          "override_id": "stage2b-kashmir-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Kashmir",
+          "variant_id": "Kashmir-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "K",
+            "A",
+            "SH",
+            "M",
+            "EE",
+            "R"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Kashmir"
+    },
+    {
+      "canonical_phone_sequence": null,
+      "canonical_status": "DISTINCT_LEXICAL_FORM",
+      "confidence": "medium",
+      "corpus_occurrence_count": 18,
+      "evidence": {
+        "acoustic": {
+          "classification": "INSUFFICIENT_EVIDENCE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": null
+        },
+        "curated": [],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_HEAL_1173"
+        ]
+      },
+      "normalized_word": "kashmiri",
+      "notes": "Human judgment identifies a different pronunciation from Kashmir; no phone sequence is inferred or collapsed. Kashmir remains a separate lexical entry.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [],
+      "phone_sequence_status": "NO_CURATED_PHONE_SEQUENCE",
+      "word": "Kashmiri"
+    },
+    {
+      "canonical_phone_sequence": [
+        "K",
+        "UU",
+        "M",
+        "AA",
+        "R"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 183,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.9253548475924765
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-005",
+              "s2b4b-cand-006"
+            ],
+            "human_pronunciation": "koo-maar",
+            "override_id": "stage2b-kumar-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Kumar",
+            "variant_id": "Kumar-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "K",
+              "UU",
+              "M",
+              "AA",
+              "R"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_OTHE_2454",
+          "IISc_SPICORProject_EN_M_WEAT_3832",
+          "IISc_SPICORProject_EN_M_OTHE_1659"
+        ]
+      },
+      "normalized_word": "kumar",
+      "notes": "Same underlying pronunciation. One occurrence is influenced by the preceding word; treated as context/coarticulation, not a pronunciation variant.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-005",
+            "s2b4b-cand-006"
+          ],
+          "human_pronunciation": "koo-maar",
+          "override_id": "stage2b-kumar-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Kumar",
+          "variant_id": "Kumar-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "K",
+            "UU",
+            "M",
+            "AA",
+            "R"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Kumar"
+    },
+    {
+      "canonical_phone_sequence": [
+        "M",
+        "I",
+        "SH",
+        "R",
+        "A"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 45,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.8971252013157186
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-015",
+              "s2b4b-cand-016"
+            ],
+            "human_pronunciation": "mish-ra",
+            "override_id": "stage2b-mishra-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Mishra",
+            "variant_id": "Mishra-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "M",
+              "I",
+              "SH",
+              "R",
+              "A"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_HEAL_1956",
+          "IISc_SPICORProject_EN_M_FOOD_2846",
+          "IISc_SPICORProject_EN_M_AGRI_6732"
+        ]
+      },
+      "normalized_word": "mishra",
+      "notes": "Same underlying pronunciation across reviewed occurrences.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-015",
+            "s2b4b-cand-016"
+          ],
+          "human_pronunciation": "mish-ra",
+          "override_id": "stage2b-mishra-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Mishra",
+          "variant_id": "Mishra-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "M",
+            "I",
+            "SH",
+            "R",
+            "A"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Mishra"
+    },
+    {
+      "canonical_phone_sequence": [
+        "M",
+        "A",
+        "M",
+        "B",
+        "AI"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 162,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 1.0171228579268166
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-011",
+              "s2b4b-cand-012"
+            ],
+            "human_pronunciation": "mum-bai",
+            "override_id": "stage2b-mumbai-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Mumbai",
+            "variant_id": "Mumbai-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "M",
+              "A",
+              "M",
+              "B",
+              "AI"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_OTHE_2923",
+          "IISc_SPICORProject_EN_M_AGRI_5618"
+        ]
+      },
+      "normalized_word": "mumbai",
+      "notes": "Same underlying pronunciation across reviewed occurrences.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-011",
+            "s2b4b-cand-012"
+          ],
+          "human_pronunciation": "mum-bai",
+          "override_id": "stage2b-mumbai-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Mumbai",
+          "variant_id": "Mumbai-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "M",
+            "A",
+            "M",
+            "B",
+            "AI"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Mumbai"
+    },
+    {
+      "canonical_phone_sequence": [
+        "S",
+        "E",
+        "N",
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ],
+      "canonical_status": "INSUFFICIENT_EVIDENCE",
+      "confidence": "low",
+      "corpus_occurrence_count": 3,
+      "evidence": {
+        "acoustic": {
+          "classification": "INSUFFICIENT_EVIDENCE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": null
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-020"
+            ],
+            "human_pronunciation": "sen shur-maa",
+            "override_id": "stage2b-sensharma-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Sensharma",
+            "variant_id": "Sensharma-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "E",
+              "N",
+              "SH",
+              "A",
+              "R",
+              "M",
+              "AA"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_WEAT_3645"
+        ]
+      },
+      "normalized_word": "sensharma",
+      "notes": "The pronunciation sounds correct/fine, but only one reviewed occurrence exists; corpus-level consistency is not proven.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-020"
+          ],
+          "human_pronunciation": "sen shur-maa",
+          "override_id": "stage2b-sensharma-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Sensharma",
+          "variant_id": "Sensharma-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "E",
+            "N",
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ]
+        }
+      ],
+      "phone_sequence_status": "CURATED_SINGLE_OCCURRENCE_ONLY",
+      "word": "Sensharma"
+    },
+    {
+      "canonical_phone_sequence": [
+        "SH",
+        "A",
+        "R",
+        "M",
+        "AA"
+      ],
+      "canonical_status": "CANONICAL_STABLE",
+      "confidence": "high",
+      "corpus_occurrence_count": 100,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 0.8718312137873382
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-007",
+              "s2b4b-cand-008"
+            ],
+            "human_pronunciation": "shur-maa",
+            "override_id": "stage2b-sharma-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Sharma",
+            "variant_id": "Sharma-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "SH",
+              "A",
+              "R",
+              "M",
+              "AA"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_AGRI_423",
+          "IISc_SPICORProject_EN_M_OTHE_272",
+          "IISc_SPICORProject_EN_M_HEAL_2141"
+        ]
+      },
+      "normalized_word": "sharma",
+      "notes": "Same underlying pronunciation. OTHE_272 is sharper; treated as acoustic/prosodic realization variation unless future evidence establishes a phonemic distinction.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-007",
+            "s2b4b-cand-008"
+          ],
+          "human_pronunciation": "shur-maa",
+          "override_id": "stage2b-sharma-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Sharma",
+          "variant_id": "Sharma-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "SH",
+            "A",
+            "R",
+            "M",
+            "AA"
+          ]
+        }
+      ],
+      "phone_sequence_status": "SUPPORTED_BY_CURATED_EVIDENCE_AND_REVIEW",
+      "word": "Sharma"
+    },
+    {
+      "canonical_phone_sequence": null,
+      "canonical_status": "CANONICAL_STABLE_PHONE_DETAIL_UNRESOLVED",
+      "confidence": "medium",
+      "corpus_occurrence_count": 331,
+      "evidence": {
+        "acoustic": {
+          "classification": "ACOUSTICALLY_STABLE",
+          "evidence_limit": "Acoustic descriptors do not establish occurrence-level phonemes.",
+          "relative_variability_score": 1.1232542434914514
+        },
+        "curated": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-003"
+            ],
+            "human_pronunciation": "sing",
+            "override_id": "stage2b-singh-a-v0",
+            "phone_sequence_source": null,
+            "target_text": "Singh",
+            "variant_id": "Singh-A",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "I",
+              "NG"
+            ]
+          },
+          {
+            "candidate_ids": [
+              "s2b4b-cand-004"
+            ],
+            "human_pronunciation": "sing-h",
+            "override_id": "stage2b-singh-b-v0",
+            "phone_sequence_source": null,
+            "target_text": "Singh",
+            "variant_id": "Singh-B",
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "I",
+              "NG",
+              "H"
+            ]
+          }
+        ],
+        "human_review": "human_review_stage2d1b_2026_08_29",
+        "reviewed_utterances": [
+          "IISc_SPICORProject_EN_M_POLI_1001",
+          "IISc_SPICORProject_EN_M_WEAT_1450",
+          "IISc_SPICORProject_EN_M_AGRI_1369"
+        ]
+      },
+      "normalized_word": "singh",
+      "notes": "Full-utterance pronunciation sounds good and consistent. Word-only clips do not resolve the precise final release; do not choose S I NG or S I NG H universally.",
+      "phone_inventory": "swara-phones-v0",
+      "phone_sequence_candidates": [
+        {
+          "candidate_ids": [
+            "s2b4b-cand-003"
+          ],
+          "human_pronunciation": "sing",
+          "override_id": "stage2b-singh-a-v0",
+          "phone_sequence_source": null,
+          "target_text": "Singh",
+          "variant_id": "Singh-A",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG"
+          ]
+        },
+        {
+          "candidate_ids": [
+            "s2b4b-cand-004"
+          ],
+          "human_pronunciation": "sing-h",
+          "override_id": "stage2b-singh-b-v0",
+          "phone_sequence_source": null,
+          "target_text": "Singh",
+          "variant_id": "Singh-B",
+          "verification_status": "VERIFIED",
+          "verified_phone_sequence": [
+            "S",
+            "I",
+            "NG",
+            "H"
+          ]
+        }
+      ],
+      "phone_sequence_status": "MULTIPLE_CURATED_PHONE_VARIANTS_UNRESOLVED",
+      "word": "Singh"
+    }
+  ],
+  "phone_inventory": "swara-phones-v0",
+  "production_phone_inventory_modified": false,
+  "schema_version": "stage2d1-canonical-pronunciation-lexicon-v0.1"
+}

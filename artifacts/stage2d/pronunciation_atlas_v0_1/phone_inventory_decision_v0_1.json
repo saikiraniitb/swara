@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "evidence": "Agrawal A/B is a human-confirmed distinction, but the acoustic study does not prove a phone and v0 cannot safely encode B.",
+      "freeze_decision": false,
+      "status": "PROMISING_BUT_UNPROVEN",
+      "symbol": "SCHWA"
+    },
+    {
+      "evidence": "Dasharatha A/B is an external failure probe only; no SPICOR occurrence or curated acoustic phone evidence exists.",
+      "freeze_decision": false,
+      "status": "PROMISING_BUT_UNPROVEN",
+      "symbol": "TH"
+    },
+    {
+      "evidence": "No trusted occurrence-level retroflex labels or acoustic phone recognizer.",
+      "freeze_decision": false,
+      "status": "NOT_TESTABLE",
+      "symbol": "T_RETROFLEX"
+    },
+    {
+      "evidence": "No trusted occurrence-level retroflex labels or acoustic phone recognizer.",
+      "freeze_decision": false,
+      "status": "NOT_TESTABLE",
+      "symbol": "D_RETROFLEX"
+    },
+    {
+      "evidence": "No trusted occurrence-level V/W labels or acoustic phone recognizer.",
+      "freeze_decision": false,
+      "status": "NOT_TESTABLE",
+      "symbol": "W"
+    }
+  ],
+  "current_inventory": "swara-phones-v0",
+  "freeze_decision": "SWARA_PHONES_V1_FREEZE_DEFERRED",
+  "production_inventory_modified": false,
+  "reason": "The available evidence supports targeted hypotheses but does not provide converging occurrence-level acoustic and curated evidence sufficient to freeze any extension.",
+  "schema_version": "stage2d1-phone-inventory-decision-v0.1"
+}

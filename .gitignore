@@ -66,3 +66,13 @@ evaluations/
 /experiments/swara_speech_poc_v1/reports/*.json
 /experiments/swara_speech_poc_v1/reports/d3_rungs/*.json
 /research/rca/d3_rung267/listening_metrics.json
+
+# Stage2D human-review audio is derived from the canonical corpus and is not
+# source-controlled; keep the accompanying manifests and research records.
+/artifacts/stage2d/pronunciation_atlas_v0_1/acoustic_consistency/human_review_clips/
+
+# Large reproducible atlas indexes remain local; compact evidence summaries
+# under the same atlas directory remain versionable.
+/artifacts/stage2d/pronunciation_atlas_v0_1/occurrence_index.jsonl
+/artifacts/stage2d/pronunciation_atlas_v0_1/vocabulary.json
+/artifacts/stage2d/pronunciation_atlas_v0_1/consistency_report.json

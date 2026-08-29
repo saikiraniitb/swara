@@ -1,0 +1,59 @@
+{
+  "alignment": {
+    "aligned_occurrence_count": 100,
+    "aligner_model": "facebook/wav2vec2-base-960h",
+    "aligner_revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+    "failed_occurrence_count": 0,
+    "method_used": "local pinned exact-transcript Wav2Vec2 CTC aligner",
+    "trustworthy_word_level_alignment_preexisted": false
+  },
+  "audio_scope": "bounded sampled occurrences only; no full-corpus feature cache",
+  "category_distribution": {
+    "CURATED_INDIAN_ANCHOR": 9,
+    "ENGLISH_CONTROL": 10,
+    "INDIAN_NAME_PLACE": 6,
+    "PHONE_CONTRAST_INTEREST": 6
+  },
+  "classification_counts": {
+    "ACOUSTICALLY_STABLE": 18,
+    "CONTEXT_VARIANT": 0,
+    "INSUFFICIENT_EVIDENCE": 13,
+    "LIKELY_DATA_OR_ALIGNMENT_OUTLIER": 0,
+    "MULTIMODAL_CANDIDATE": 0,
+    "UNALIGNED": 0
+  },
+  "dasharatha": {
+    "corpus_occurrence_count": 0,
+    "status": "EXTERNAL_UNSEEN_PROBE"
+  },
+  "english_control_baseline": {
+    "median_of_control_medians": 3.239483320044302,
+    "metric": "median composite MFCC-DTW plus duration distance",
+    "usable_control_word_count": 10
+  },
+  "human_review_panel_size": 25,
+  "outputs": [
+    "human_review_manifest.jsonl",
+    "stage2d1b_alignment_report.json",
+    "stage2d1b_anchor_analysis.json",
+    "stage2d1b_context_analysis.json",
+    "stage2d1b_control_baseline.json",
+    "stage2d1b_occurrence_sample.jsonl",
+    "stage2d1b_outliers.json",
+    "stage2d1b_phone_inventory_evidence.json",
+    "stage2d1b_summary.json",
+    "stage2d1b_target_set.json",
+    "stage2d1b_word_consistency.json"
+  ],
+  "phone_inventory": {
+    "new_phone_sufficiently_supported_to_freeze": false,
+    "production_inventory_modified": false
+  },
+  "qwen_loaded": false,
+  "review_clips_created": 0,
+  "sampled_occurrence_count": 100,
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "status": "READY_FOR_STAGE2D1B_HUMAN_REVIEW",
+  "target_word_count": 31,
+  "training_performed": false
+}

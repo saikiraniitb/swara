@@ -1,0 +1,9 @@
+{
+  "context_clip_count": 25,
+  "failures": [],
+  "schema_version": "stage2d1b-human-review-clips.v1",
+  "selected_entry_count": 25,
+  "source_audio_modified": false,
+  "successful_entry_count": 25,
+  "word_only_clip_count": 25
+}

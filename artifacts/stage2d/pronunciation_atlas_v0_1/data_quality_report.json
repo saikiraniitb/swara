@@ -1,0 +1,460 @@
+{
+  "abbreviation_candidate_token_count": 372,
+  "empty_transcript_count": 29,
+  "exact_duplicate_transcript_group_count": 1,
+  "exact_duplicate_transcript_groups_sample": [
+    {
+      "transcript": "Nivedita Dadu, dermatologist from Skinology Skin and Hair Clinic, tells how-",
+      "utterance_ids": [
+        "IISc_SPICORProject_EN_M_HEAL_1533",
+        "IISc_SPICORProject_EN_M_HEAL_2449"
+      ]
+    }
+  ],
+  "inconsistent_spelling_sample": [
+    {
+      "normalized_word": "a",
+      "surface_forms": [
+        "A",
+        "a"
+      ]
+    },
+    {
+      "normalized_word": "aamir",
+      "surface_forms": [
+        "Aamir",
+        "aamir"
+      ]
+    },
+    {
+      "normalized_word": "aao",
+      "surface_forms": [
+        "Aao",
+        "aao"
+      ]
+    },
+    {
+      "normalized_word": "aap",
+      "surface_forms": [
+        "AAP",
+        "Aap",
+        "aap"
+      ]
+    },
+    {
+      "normalized_word": "aatma",
+      "surface_forms": [
+        "Aatma",
+        "aatma"
+      ]
+    },
+    {
+      "normalized_word": "ab",
+      "surface_forms": [
+        "AB",
+        "Ab"
+      ]
+    },
+    {
+      "normalized_word": "abbe",
+      "surface_forms": [
+        "Abbe",
+        "abbe"
+      ]
+    },
+    {
+      "normalized_word": "abdel",
+      "surface_forms": [
+        "Abdel",
+        "abdel"
+      ]
+    },
+    {
+      "normalized_word": "ability",
+      "surface_forms": [
+        "Ability",
+        "ability"
+      ]
+    },
+    {
+      "normalized_word": "abolishing",
+      "surface_forms": [
+        "Abolishing",
+        "abolishing"
+      ]
+    },
+    {
+      "normalized_word": "abortion",
+      "surface_forms": [
+        "Abortion",
+        "abortion"
+      ]
+    },
+    {
+      "normalized_word": "about",
+      "surface_forms": [
+        "About",
+        "about"
+      ]
+    },
+    {
+      "normalized_word": "above",
+      "surface_forms": [
+        "Above",
+        "above"
+      ]
+    },
+    {
+      "normalized_word": "absence",
+      "surface_forms": [
+        "Absence",
+        "absence"
+      ]
+    },
+    {
+      "normalized_word": "absolute",
+      "surface_forms": [
+        "Absolute",
+        "absolute"
+      ]
+    },
+    {
+      "normalized_word": "absolutely",
+      "surface_forms": [
+        "Absolutely",
+        "absolutely"
+      ]
+    },
+    {
+      "normalized_word": "abuse",
+      "surface_forms": [
+        "Abuse",
+        "abuse"
+      ]
+    },
+    {
+      "normalized_word": "abuses",
+      "surface_forms": [
+        "Abuses",
+        "abuses"
+      ]
+    },
+    {
+      "normalized_word": "academic",
+      "surface_forms": [
+        "Academic",
+        "academic"
+      ]
+    },
+    {
+      "normalized_word": "academics",
+      "surface_forms": [
+        "Academics",
+        "academics"
+      ]
+    },
+    {
+      "normalized_word": "academy",
+      "surface_forms": [
+        "ACADEMY",
+        "Academy",
+        "academy"
+      ]
+    },
+    {
+      "normalized_word": "accelerated",
+      "surface_forms": [
+        "Accelerated",
+        "accelerated"
+      ]
+    },
+    {
+      "normalized_word": "acceptance",
+      "surface_forms": [
+        "Acceptance",
+        "acceptance"
+      ]
+    },
+    {
+      "normalized_word": "accepting",
+      "surface_forms": [
+        "Accepting",
+        "accepting"
+      ]
+    },
+    {
+      "normalized_word": "access",
+      "surface_forms": [
+        "Access",
+        "access"
+      ]
+    },
+    {
+      "normalized_word": "accident",
+      "surface_forms": [
+        "Accident",
+        "accident"
+      ]
+    },
+    {
+      "normalized_word": "accidental",
+      "surface_forms": [
+        "Accidental",
+        "accidental"
+      ]
+    },
+    {
+      "normalized_word": "accord",
+      "surface_forms": [
+        "Accord",
+        "accord"
+      ]
+    },
+    {
+      "normalized_word": "according",
+      "surface_forms": [
+        "According",
+        "according"
+      ]
+    },
+    {
+      "normalized_word": "accordingly",
+      "surface_forms": [
+        "Accordingly",
+        "accordingly"
+      ]
+    },
+    {
+      "normalized_word": "account",
+      "surface_forms": [
+        "Account",
+        "account"
+      ]
+    },
+    {
+      "normalized_word": "accountability",
+      "surface_forms": [
+        "Accountability",
+        "accountability"
+      ]
+    },
+    {
+      "normalized_word": "accountant",
+      "surface_forms": [
+        "Accountant",
+        "accountant"
+      ]
+    },
+    {
+      "normalized_word": "accountants",
+      "surface_forms": [
+        "Accountants",
+        "accountants"
+      ]
+    },
+    {
+      "normalized_word": "accounts",
+      "surface_forms": [
+        "Accounts",
+        "accounts"
+      ]
+    },
+    {
+      "normalized_word": "accumulation",
+      "surface_forms": [
+        "Accumulation",
+        "accumulation"
+      ]
+    },
+    {
+      "normalized_word": "accused",
+      "surface_forms": [
+        "Accused",
+        "accused"
+      ]
+    },
+    {
+      "normalized_word": "ace",
+      "surface_forms": [
+        "Ace",
+        "ace"
+      ]
+    },
+    {
+      "normalized_word": "achieve",
+      "surface_forms": [
+        "Achieve",
+        "achieve"
+      ]
+    },
+    {
+      "normalized_word": "acid",
+      "surface_forms": [
+        "Acid",
+        "acid"
+      ]
+    },
+    {
+      "normalized_word": "acne",
+      "surface_forms": [
+        "Acne",
+        "acne"
+      ]
+    },
+    {
+      "normalized_word": "acquisition",
+      "surface_forms": [
+        "Acquisition",
+        "acquisition"
+      ]
+    },
+    {
+      "normalized_word": "across",
+      "surface_forms": [
+        "Across",
+        "across"
+      ]
+    },
+    {
+      "normalized_word": "act",
+      "surface_forms": [
+        "Act",
+        "act"
+      ]
+    },
+    {
+      "normalized_word": "acting",
+      "surface_forms": [
+        "Acting",
+        "acting"
+      ]
+    },
+    {
+      "normalized_word": "action",
+      "surface_forms": [
+        "Action",
+        "action"
+      ]
+    },
+    {
+      "normalized_word": "actions",
+      "surface_forms": [
+        "Actions",
+        "actions"
+      ]
+    },
+    {
+      "normalized_word": "active",
+      "surface_forms": [
+        "Active",
+        "active"
+      ]
+    },
+    {
+      "normalized_word": "activist",
+      "surface_forms": [
+        "Activist",
+        "activist"
+      ]
+    },
+    {
+      "normalized_word": "activities",
+      "surface_forms": [
+        "Activities",
+        "activities"
+      ]
+    }
+  ],
+  "inconsistent_spelling_word_count": 5626,
+  "lexical_token_count": 447735,
+  "manifest": "data/spicor_eng_m_spk001_v1/manifests/master_inventory.jsonl",
+  "manifest_source_duplicate_text_groups": "reported_by_source_manifest_fields_where_available",
+  "mixed_alphanumeric_token_count": 18,
+  "non_speech_annotation_count": 238,
+  "non_speech_annotation_sample": [
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    },
+    {
+      "transcript": "In the raid, six women (including five foreign nationals) and half a dozen customers were nabbed from Rose Berry parlour",
+      "utterance_id": "IISc_SPICORProject_EN_M_AGRI_5785"
+    }
+  ],
+  "numeric_token_count": 27,
+  "punctuation_only_difference_group_count": 0,
+  "punctuation_only_difference_groups_sample": [],
+  "transcript_count": 25158
+}

@@ -1,0 +1,1015 @@
+{
+  "no_training_performed": true,
+  "schema_version": "stage2d1-pronunciation-atlas-v0.1",
+  "selection_policy": "rank human-verified anchors first; do not use frequency alone; no automatic G2P or acoustic phone inference",
+  "tiers": {
+    "HOLDOUT_GENERALIZATION": {
+      "existing_frozen_fixture_reference": "data/stage2b_pronunciation/evaluation_fixtures.json",
+      "transfer_fixtures": "existing Stage2B transfer fixtures for curated anchors; no audio labels added here",
+      "unseen_name_fixtures": [
+        "Anirban",
+        "Ashwini",
+        "Chandrashekhar",
+        "Karthik"
+      ]
+    },
+    "TIER_1_HIGH_CONFIDENCE": [
+      {
+        "normalized_word": "agrawal",
+        "occurrence_count": 14,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-001"
+            ],
+            "human_pronunciation": "uh-gruh-waal",
+            "invalid_symbols": [],
+            "normalized_word": "agrawal",
+            "override_id": "stage2b-agrawal-a-v0",
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "A",
+              "G",
+              "R",
+              "A",
+              "V",
+              "AA",
+              "L"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "gupta",
+        "occurrence_count": 47,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-009",
+              "s2b4b-cand-010"
+            ],
+            "human_pronunciation": "goop-taa",
+            "invalid_symbols": [],
+            "normalized_word": "gupta",
+            "override_id": "stage2b-gupta-a-v0",
+            "target_text": "Gupta",
+            "variant_id": "Gupta-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "G",
+              "UU",
+              "P",
+              "T",
+              "AA"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "kashmir",
+        "occurrence_count": 99,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-013",
+              "s2b4b-cand-014"
+            ],
+            "human_pronunciation": "kush-meer",
+            "invalid_symbols": [],
+            "normalized_word": "kashmir",
+            "override_id": "stage2b-kashmir-a-v0",
+            "target_text": "Kashmir",
+            "variant_id": "Kashmir-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "K",
+              "A",
+              "SH",
+              "M",
+              "EE",
+              "R"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "kumar",
+        "occurrence_count": 183,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-005",
+              "s2b4b-cand-006"
+            ],
+            "human_pronunciation": "koo-maar",
+            "invalid_symbols": [],
+            "normalized_word": "kumar",
+            "override_id": "stage2b-kumar-a-v0",
+            "target_text": "Kumar",
+            "variant_id": "Kumar-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "K",
+              "UU",
+              "M",
+              "AA",
+              "R"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "mishra",
+        "occurrence_count": 45,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-015",
+              "s2b4b-cand-016"
+            ],
+            "human_pronunciation": "mish-ra",
+            "invalid_symbols": [],
+            "normalized_word": "mishra",
+            "override_id": "stage2b-mishra-a-v0",
+            "target_text": "Mishra",
+            "variant_id": "Mishra-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "M",
+              "I",
+              "SH",
+              "R",
+              "A"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "mumbai",
+        "occurrence_count": 162,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-011",
+              "s2b4b-cand-012"
+            ],
+            "human_pronunciation": "mum-bai",
+            "invalid_symbols": [],
+            "normalized_word": "mumbai",
+            "override_id": "stage2b-mumbai-a-v0",
+            "target_text": "Mumbai",
+            "variant_id": "Mumbai-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "M",
+              "A",
+              "M",
+              "B",
+              "AI"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "sensharma",
+        "occurrence_count": 3,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-020"
+            ],
+            "human_pronunciation": "sen shur-maa",
+            "invalid_symbols": [],
+            "normalized_word": "sensharma",
+            "override_id": "stage2b-sensharma-a-v0",
+            "target_text": "Sensharma",
+            "variant_id": "Sensharma-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "E",
+              "N",
+              "SH",
+              "A",
+              "R",
+              "M",
+              "AA"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "sharma",
+        "occurrence_count": 100,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-007",
+              "s2b4b-cand-008"
+            ],
+            "human_pronunciation": "shur-maa",
+            "invalid_symbols": [],
+            "normalized_word": "sharma",
+            "override_id": "stage2b-sharma-a-v0",
+            "target_text": "Sharma",
+            "variant_id": "Sharma-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "SH",
+              "A",
+              "R",
+              "M",
+              "AA"
+            ]
+          }
+        ]
+      },
+      {
+        "normalized_word": "singh",
+        "occurrence_count": 331,
+        "reason": "human_verified_curated_anchor",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-003"
+            ],
+            "human_pronunciation": "sing",
+            "invalid_symbols": [],
+            "normalized_word": "singh",
+            "override_id": "stage2b-singh-a-v0",
+            "target_text": "Singh",
+            "variant_id": "Singh-A",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "I",
+              "NG"
+            ]
+          },
+          {
+            "candidate_ids": [
+              "s2b4b-cand-004"
+            ],
+            "human_pronunciation": "sing-h",
+            "invalid_symbols": [],
+            "normalized_word": "singh",
+            "override_id": "stage2b-singh-b-v0",
+            "target_text": "Singh",
+            "variant_id": "Singh-B",
+            "verification_provenance": null,
+            "verification_status": "VERIFIED",
+            "verified_phone_sequence": [
+              "S",
+              "I",
+              "NG",
+              "H"
+            ]
+          }
+        ]
+      }
+    ],
+    "TIER_2_REVIEW_REQUIRED": [
+      {
+        "normalized_word": "nagar",
+        "occurrence_count": 49,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Nagar"
+      },
+      {
+        "normalized_word": "srinagar",
+        "occurrence_count": 41,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Srinagar"
+      },
+      {
+        "normalized_word": "hyderabad",
+        "occurrence_count": 30,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Hyderabad"
+      },
+      {
+        "normalized_word": "bengaluru",
+        "occurrence_count": 28,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Bengaluru"
+      },
+      {
+        "normalized_word": "chandigarh",
+        "occurrence_count": 24,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chandigarh"
+      },
+      {
+        "normalized_word": "chhattisgarh",
+        "occurrence_count": 19,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chhattisgarh"
+      },
+      {
+        "normalized_word": "banerjee",
+        "occurrence_count": 18,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Banerjee"
+      },
+      {
+        "normalized_word": "ahmedabad",
+        "occurrence_count": 12,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Ahmedabad"
+      },
+      {
+        "normalized_word": "jee",
+        "occurrence_count": 10,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jee"
+      },
+      {
+        "normalized_word": "nagpur",
+        "occurrence_count": 10,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Nagpur"
+      },
+      {
+        "normalized_word": "dimapur",
+        "occurrence_count": 9,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Dimapur"
+      },
+      {
+        "normalized_word": "jaipur",
+        "occurrence_count": 9,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jaipur"
+      },
+      {
+        "normalized_word": "manipur",
+        "occurrence_count": 8,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Manipur"
+      },
+      {
+        "normalized_word": "raipur",
+        "occurrence_count": 8,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Raipur"
+      },
+      {
+        "normalized_word": "chatterjee",
+        "occurrence_count": 7,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chatterjee"
+      },
+      {
+        "normalized_word": "gorakhpur",
+        "occurrence_count": 7,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Gorakhpur"
+      },
+      {
+        "normalized_word": "mukherjee",
+        "occurrence_count": 7,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Mukherjee"
+      },
+      {
+        "normalized_word": "sambalpur",
+        "occurrence_count": 7,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sambalpur"
+      },
+      {
+        "normalized_word": "aligarh",
+        "occurrence_count": 6,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Aligarh"
+      },
+      {
+        "normalized_word": "allahabad",
+        "occurrence_count": 6,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Allahabad"
+      },
+      {
+        "normalized_word": "jamshedpur",
+        "occurrence_count": 6,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jamshedpur"
+      },
+      {
+        "normalized_word": "udhampur",
+        "occurrence_count": 6,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Udhampur"
+      },
+      {
+        "normalized_word": "azamgarh",
+        "occurrence_count": 5,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Azamgarh"
+      },
+      {
+        "normalized_word": "sultanpur",
+        "occurrence_count": 5,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sultanpur"
+      },
+      {
+        "normalized_word": "bilaspur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Bilaspur"
+      },
+      {
+        "normalized_word": "durgapur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Durgapur"
+      },
+      {
+        "normalized_word": "faridabad",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Faridabad"
+      },
+      {
+        "normalized_word": "fatehgarh",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Fatehgarh"
+      },
+      {
+        "normalized_word": "gurdaspur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Gurdaspur"
+      },
+      {
+        "normalized_word": "jabalpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jabalpur"
+      },
+      {
+        "normalized_word": "kanpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kanpur"
+      },
+      {
+        "normalized_word": "kharagpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kharagpur"
+      },
+      {
+        "normalized_word": "lakhanpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Lakhanpur"
+      },
+      {
+        "normalized_word": "muzaffarpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Muzaffarpur"
+      },
+      {
+        "normalized_word": "rajkumar",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Rajkumar"
+      },
+      {
+        "normalized_word": "ramgarh",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Ramgarh"
+      },
+      {
+        "normalized_word": "rudraprayag",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Rudraprayag"
+      },
+      {
+        "normalized_word": "saharanpur",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Saharanpur"
+      },
+      {
+        "normalized_word": "shivakumar",
+        "occurrence_count": 4,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shivakumar"
+      },
+      {
+        "normalized_word": "ballarpur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Ballarpur"
+      },
+      {
+        "normalized_word": "bhatnagar",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Bhatnagar"
+      },
+      {
+        "normalized_word": "chandrapur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chandrapur"
+      },
+      {
+        "normalized_word": "chikkaballapur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chikkaballapur"
+      },
+      {
+        "normalized_word": "ferozepur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Ferozepur"
+      },
+      {
+        "normalized_word": "giltspur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Giltspur"
+      },
+      {
+        "normalized_word": "hoshiarpur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Hoshiarpur"
+      },
+      {
+        "normalized_word": "hotspur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Hotspur"
+      },
+      {
+        "normalized_word": "jajpur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jajpur"
+      },
+      {
+        "normalized_word": "jodhpur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jodhpur"
+      },
+      {
+        "normalized_word": "lumpur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Lumpur"
+      },
+      {
+        "normalized_word": "padmanabhanagar",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Padmanabhanagar"
+      },
+      {
+        "normalized_word": "secunderabad",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Secunderabad"
+      },
+      {
+        "normalized_word": "spur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "spur"
+      },
+      {
+        "normalized_word": "udaipur",
+        "occurrence_count": 3,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Udaipur"
+      },
+      {
+        "normalized_word": "aurangabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Aurangabad"
+      },
+      {
+        "normalized_word": "bahadurgarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Bahadurgarh"
+      },
+      {
+        "normalized_word": "bhattacharjee",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Bhattacharjee"
+      },
+      {
+        "normalized_word": "brahmakumar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Brahmakumar"
+      },
+      {
+        "normalized_word": "brahmapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Brahmapur"
+      },
+      {
+        "normalized_word": "chattisgarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chattisgarh"
+      },
+      {
+        "normalized_word": "chhatarpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chhatarpur"
+      },
+      {
+        "normalized_word": "chotanagpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Chotanagpur"
+      },
+      {
+        "normalized_word": "dharampur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Dharampur"
+      },
+      {
+        "normalized_word": "dibrugarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Dibrugarh"
+      },
+      {
+        "normalized_word": "farrukhabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Farrukhabad"
+      },
+      {
+        "normalized_word": "gandhinagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Gandhinagar"
+      },
+      {
+        "normalized_word": "garh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Garh"
+      },
+      {
+        "normalized_word": "jagatsinghpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jagatsinghpur"
+      },
+      {
+        "normalized_word": "jalalabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jalalabad"
+      },
+      {
+        "normalized_word": "jalalpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jalalpur"
+      },
+      {
+        "normalized_word": "jayanagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Jayanagar"
+      },
+      {
+        "normalized_word": "kapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kapur"
+      },
+      {
+        "normalized_word": "khanpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Khanpur"
+      },
+      {
+        "normalized_word": "kishangarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kishangarh"
+      },
+      {
+        "normalized_word": "kolhapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kolhapur"
+      },
+      {
+        "normalized_word": "kundapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Kundapur"
+      },
+      {
+        "normalized_word": "lakhimpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Lakhimpur"
+      },
+      {
+        "normalized_word": "mahbubnagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Mahbubnagar"
+      },
+      {
+        "normalized_word": "mahendragarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Mahendragarh"
+      },
+      {
+        "normalized_word": "mainpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Mainpur"
+      },
+      {
+        "normalized_word": "mirzapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Mirzapur"
+      },
+      {
+        "normalized_word": "muzaffarabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Muzaffarabad"
+      },
+      {
+        "normalized_word": "muzaffarnagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Muzaffarnagar"
+      },
+      {
+        "normalized_word": "nabarangpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Nabarangpur"
+      },
+      {
+        "normalized_word": "narayanpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Narayanpur"
+      },
+      {
+        "normalized_word": "nizamabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Nizamabad"
+      },
+      {
+        "normalized_word": "pithoragarh",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Pithoragarh"
+      },
+      {
+        "normalized_word": "rajgangpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Rajgangpur"
+      },
+      {
+        "normalized_word": "ramnagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Ramnagar"
+      },
+      {
+        "normalized_word": "rampur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Rampur"
+      },
+      {
+        "normalized_word": "shahjahanpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shahjahanpur"
+      },
+      {
+        "normalized_word": "shahpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shahpur"
+      },
+      {
+        "normalized_word": "shamshabad",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shamshabad"
+      },
+      {
+        "normalized_word": "shivajinagar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shivajinagar"
+      },
+      {
+        "normalized_word": "shivkumar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Shivkumar"
+      },
+      {
+        "normalized_word": "solapur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Solapur"
+      },
+      {
+        "normalized_word": "sonepur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sonepur"
+      },
+      {
+        "normalized_word": "sonitpur",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sonitpur"
+      },
+      {
+        "normalized_word": "sukumar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sukumar"
+      },
+      {
+        "normalized_word": "sushilkumar",
+        "occurrence_count": 2,
+        "reason": "pronunciation_interest_without_human_phone_label",
+        "status": "REVIEW_REQUIRED",
+        "word": "Sushilkumar"
+      }
+    ],
+    "TIER_3_PHONE_INVENTORY_GAP": [
+      {
+        "normalized_word": "agrawal",
+        "reason": "human_confirmed_variant_not_representable_by_v0",
+        "variants": [
+          {
+            "candidate_ids": [
+              "s2b4b-cand-002"
+            ],
+            "human_pronunciation": "uhh-gruh-waal",
+            "invalid_symbols": [],
+            "normalized_word": "agrawal",
+            "override_id": null,
+            "target_text": "Agrawal",
+            "variant_id": "Agrawal-B",
+            "verification_provenance": null,
+            "verification_status": "UNSUPPORTED_ALPHABET_VARIANT",
+            "verified_phone_sequence": null
+          }
+        ]
+      }
+    ]
+  }
+}
