@@ -59,3 +59,10 @@ evaluations/
 /stage2c1_local_masking_patch_v1.zip
 /stage2c2a_termination_trace_patch_v1/
 /stage2c2a_termination_trace_patch_v1.zip
+
+/experiments/neucodec_n1_v1/data/train_manifest.jsonl
+/experiments/neucodec_n1_v1/data/val_manifest.jsonl
+/experiments/swara_speech_poc_v1/data/alignment_manifest.jsonl
+/experiments/swara_speech_poc_v1/reports/*.json
+/experiments/swara_speech_poc_v1/reports/d3_rungs/*.json
+/research/rca/d3_rung267/listening_metrics.json
