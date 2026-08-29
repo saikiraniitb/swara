@@ -41,3 +41,21 @@ evaluations/
 *.tgz
 *.wav
 *.mp3
+
+# Generated Swara experiment artifacts; keep curated source and research files visible.
+/artifacts/stage2b/stage2b4b_pronunciation_v0/
+/artifacts/stage2b_reference/
+/artifacts/stage2c_reference/
+/stage2b4b_results/
+
+/stage2b4b_colab_bundle/
+/stage2b4b_colab_bundle_v2/
+/stage2b4b_colab_bundle_v2.zip
+
+/stage2b4b_cuda_patch/
+/stage2b4b_cuda_patch.zip
+/stage2b4b_runner_patch_v1/
+/stage2b4b_runner_patch_v1.zip
+/stage2c1_local_masking_patch_v1.zip
+/stage2c2a_termination_trace_patch_v1/
+/stage2c2a_termination_trace_patch_v1.zip
