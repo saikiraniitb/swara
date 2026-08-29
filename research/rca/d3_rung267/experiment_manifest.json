@@ -1,0 +1,39 @@
+{
+  "schema_version": "swara.d3.rung267.rca_manifest.v1",
+  "experiment_name": "Swara D3 rung-267 canonical Target-C",
+  "status": "failed_usable_tts",
+  "checkpoint_schema": "swara.d3.microbatch.v1",
+  "checkpoint_step": 200,
+  "train_rows": 267,
+  "val_rows": 8,
+  "model_class": "SwaraD2PhonemeModel",
+  "vocabulary_class": "PhonemeComposerVocabulary",
+  "phoneme_vocab_size": 49,
+  "target_representation": "canonical cached NeuCodec IDs -> generator.quantizer.get_output_from_indices -> fc_post_a",
+  "target_width": 1024,
+  "decoder": "decode_neucodec_latent -> generator(latent, vq=False) -> waveform",
+  "normalization_formula": "prediction = prediction_norm * (std + 1e-6) + mean",
+  "train_sample": {"utterance_id": "IISc_SPICORProject_EN_M_AGRI_1143", "frames": 319},
+  "validation_sample": {"utterance_id": "IISc_SPICORProject_EN_M_AGRI_116", "frames": 213},
+  "human_listening_verdict": "train and validation predicted WAVs were robotic / unintelligible",
+  "next_gate": "one_utterance_target_c_overfit_rca",
+  "drive_artifacts": {
+    "best_checkpoint": "swara/d3_canonical_targetc/267/run/best.pt",
+    "recovery_checkpoint": "swara/d3_canonical_targetc/267/run/recovery_latest.pt",
+    "train_prediction_wav": "swara/d3_canonical_targetc/267/listening/train_pred.wav",
+    "train_oracle_wav": "swara/d3_canonical_targetc/267/listening/train_oracle.wav",
+    "validation_prediction_wav": "swara/d3_canonical_targetc/267/listening/val_pred.wav",
+    "validation_oracle_wav": "swara/d3_canonical_targetc/267/listening/val_oracle.wav"
+  },
+  "source_references": [
+    "scripts/run_swara_d3_data_scaling.py",
+    "scripts/run_swara_d3_microbatch.py",
+    "scripts/run_swara_d2_phoneme_ablation.py",
+    "scripts/run_swara_c1_decoder_latent.py",
+    "scripts/run_swara_c0_decoder_latent.py",
+    "scripts/run_continuous_target_bakeoff.py",
+    "src/swara/models/d2_phoneme_ablation.py",
+    "src/swara/models/phoneme_composer.py"
+  ],
+  "git_binary_policy": "Checkpoint and WAV artifacts remain on Drive and are not added to Git. Existing .gitignore patterns cover .pt and .wav files."
+}

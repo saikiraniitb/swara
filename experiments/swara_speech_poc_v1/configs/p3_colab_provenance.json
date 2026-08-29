@@ -1,0 +1,18 @@
+{
+  "schema_version": "swara.speech_poc.p3.colab_provenance.v1",
+  "prepared_date": "2026-08-23",
+  "frozen_functional_baseline_sha": "54dc89ea81f65076e0591a86d629fd86e9a5d7b1",
+  "baseline_documentation_sha": "fe345104c8db09a628ea7dd7d449c7e0d2edf630",
+  "train_manifest_sha256": "68898a16cb1963d576142ebd9f4efa7e7cd39f4b40245de4fcd9384f35f6eb13",
+  "validation_manifest_sha256": "15d7cf4abb3983f18aaace5d845f4ff78112c04d5cba9ce3504361592744431a",
+  "alignment_manifest_sha256": "7e42ddacfb3e17bf5296a7f5a70e31024381ab523c58045ab80676f39f373c95",
+  "p3_config_sha256": "2c365f070046593fdaf3670cf0c9d1de05acb8a6b72f5dd70842fe1e38387816",
+  "neucodec_token_file_count": 312,
+  "neucodec_token_inventory_sha256": "d2e1939fd1a51c3f7a36db535fdd0cde912526fe1c06b5935b6479931e17ceb0",
+  "codec_model": "neuphonic/distill-neucodec",
+  "codec_revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+  "codec_frozen": true,
+  "model_parameters": 13393283,
+  "seed": 20260823,
+  "training_performed_during_preparation": false
+}

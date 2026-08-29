@@ -1,0 +1,21 @@
+{
+  "repo": "neuphonic/distill-neucodec",
+  "revision": "daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+  "source_snapshot": "/Users/saikiran/.cache/huggingface/hub/models--neuphonic--distill-neucodec/snapshots/daee7fd9989a62594084fd8e1a99e61beb5b0e85",
+  "files": {
+    "README.md": "58f88e1519ba9231d191d4322154af97ef445cfe8971175bcfba0d1a753d89cb",
+    "meta.yaml": "232631816b83ee6c8929b7f0b960aedb7b215caa73dd96f7a0e60946b2a1319b",
+    "pytorch_model.bin": "adace21f679b30f071c02e0cb3502d965ab08b50be936a5e81944674a5ae101e"
+  },
+  "offline_policy": "HF_HOME points to the packaged cache and HF_HUB_OFFLINE=1; local_files_only remains enabled",
+  "runtime_dependency": {
+    "repo": "ntu-spml/distilhubert",
+    "revision": "fa87d96265d6b7af66e112faff6ff44df419cec9",
+    "files": {
+      "config.json": "fa87d96265d6b7af66e112faff6ff44df419cec90427043d1c4c8d58298d205",
+      "model.safetensors": "77ad8f985c97750d8d27d6950c917800d80732a141370bf316058bded71a6cbe",
+      "pytorch_model.bin": "6d7fb982c1365c60aae4e1a7af329ec0bbe50aec47ffafa9647e17e375009de6",
+      "preprocessor_config.json": "7a8f0fc8ee1272ed28a8b468e183c56a19329a92babd3ca8d4d21ae02ba511cd"
+    }
+  }
+}
